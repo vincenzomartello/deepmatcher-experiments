@@ -11,9 +11,14 @@ def _save_grad(name):
         grads[name] = grad
     return hook
 
-def get_match_score(vec):
+
+def crossentropy_gradient(softmax_output,true_labels):
+    return (softmax_output-true_labels).data
+
+
+def get_probabilites(vec):
     probabilities = softmax(vec,dim=0)
-    return probabilities[1]
+    return probabilities
 
 
 def euclidean_distance_with_max_difference_dimension(v,q):
@@ -43,7 +48,8 @@ def calculate_closer_vector(pos_vector_list,neg_vector_list):
             max_dim = 0
             for batch in neg_vector_list:
                 for curr_negative in batch:
-                    curr_distance,dim_max = euclidean_distance_with_max_difference_dimension(curr_positive.data,curr_negative.data)
+                    curr_distance,dim_max = euclidean_distance_with_max_difference_dimension
+                    (curr_positive.data,curr_negative.data)
                     if(curr_distance<current_min):
                         current_min=curr_distance
                         closer_index = index
@@ -57,16 +63,22 @@ def calculate_closer_vector(pos_vector_list,neg_vector_list):
 def find_smallest_variation_to_change(layer,input_matrix, vector_index,attribute,class_to_reach):
     input_matrix_copy = input_matrix.clone()
     input_matrix_copy.register_hook(_save_grad('classifier'))
+    if class_to_reach == 1:
+        true_labels = Variable(torch.cuda.FloatTensor([1,0]))
+    else:
+        true_labels = Variable(torch.cuda.FloatTensor([0,1]))
     x0= input_matrix_copy[vector_index]
-    initial_class = round(get_match_score(layer.forward(input_matrix_copy)[vector_index]).data[0])
+    initial_class = round(get_probabilites(layer.forward(input_matrix_copy)[vector_index])[1].data[0])
     xi = x0
     sum_ri = Variable(torch.cuda.FloatTensor(1200).fill_(0))
     iteration = 0
-    while(round(get_match_score(layer.forward(input_matrix_copy)[vector_index]).data[0])==initial_class
+    while(round(get_probabilites(layer.forward(input_matrix_copy)[vector_index])[1].data[0])==initial_class
           or iteration>100):
         output = layer.forward(input_matrix_copy)
-        current_match_score = get_match_score(output[vector_index])
-        current_gradient = _gradient(output,vector_index,attribute,class_to_reach)
+        probabilities = get_probabilites(output)
+        current_match_score = probabilities[1]
+        gradient_loss = crossentropy_gradient(probabilities,true_labels)
+        current_gradient = _gradient(output,vector_index,attribute,gradient_loss)
         ri = (current_match_score/torch.norm(current_gradient)**2) * current_gradient
         xi = xi+ri
         input_matrix_copy[vector_index].data = input_matrix_copy[vector_index].data.copy_(xi.data)
@@ -77,8 +89,8 @@ def find_smallest_variation_to_change(layer,input_matrix, vector_index,attribute
     return iteration,sum_ri
 
 
-def _gradient(output,vector_index,attribute,class_to_reach):
-    output[vector_index,class_to_reach].backward(retain_graph=True)
+def _gradient(output,vector_index,attribute,gradient_loss):
+    output[vector_index].backward(gradient_loss,retain_graph=True)
     gradient = grads['classifier'][vector_index]
     start_index = attribute *150
     end_index = start_index+150
