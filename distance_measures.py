@@ -72,10 +72,11 @@ def find_smallest_variation_to_change(layer,input_matrix, vector_index,attribute
     xi = x0
     sum_ri = Variable(torch.cuda.FloatTensor(1200).fill_(0))
     iteration = 0
+    
     while(round(get_probabilites(layer.forward(input_matrix_copy)[vector_index])[1].data[0])==initial_class
-          or iteration>100):
+          and iteration<20):
         output = layer.forward(input_matrix_copy)
-        probabilities = get_probabilites(output)
+        probabilities = get_probabilites(output[vector_index])
         current_match_score = probabilities[1]
         gradient_loss = crossentropy_gradient(probabilities,true_labels)
         current_gradient = _gradient(output,vector_index,attribute,gradient_loss)
@@ -84,8 +85,9 @@ def find_smallest_variation_to_change(layer,input_matrix, vector_index,attribute
         input_matrix_copy[vector_index].data = input_matrix_copy[vector_index].data.copy_(xi.data)
         sum_ri += ri
         iteration+=1
-    if(iteration>100):
-        print('Can\'t converge')
+    if iteration>20:
+        print("can't converge ")
+        
     return iteration,sum_ri
 
 
