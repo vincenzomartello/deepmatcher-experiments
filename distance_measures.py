@@ -59,38 +59,6 @@ def calculate_closer_vector(pos_vector_list,neg_vector_list):
     return closer_vectors
 
 
-#calculate for a single sample and for a chosen attribute the required ri vector to change his prediction
-def find_smallest_variation_to_change(layer,input_matrix, vector_index,attribute,class_to_reach):
-    input_matrix_copy = input_matrix.clone()
-    input_matrix_copy.register_hook(_save_grad('classifier'))
-    if class_to_reach == 1:
-        true_labels = Variable(torch.cuda.FloatTensor([1,0]))
-    else:
-        true_labels = Variable(torch.cuda.FloatTensor([0,1]))
-    x0= input_matrix_copy[vector_index]
-    initial_class = round(get_probabilites(layer.forward(input_matrix_copy)[vector_index])[1].data[0])
-    xi = x0
-    sum_ri = Variable(torch.cuda.FloatTensor(1200).fill_(0))
-    iteration = 0
-    
-    while(round(get_probabilites(layer.forward(input_matrix_copy)[vector_index])[1].data[0])==initial_class
-          and iteration<20):
-        output = layer.forward(input_matrix_copy)
-        probabilities = get_probabilites(output[vector_index])
-        current_match_score = probabilities[1]
-        gradient_loss = crossentropy_gradient(probabilities,true_labels)
-        current_gradient = _gradient(output,vector_index,attribute,gradient_loss)
-        ri = (current_match_score/torch.norm(current_gradient)**2) * current_gradient
-        xi = xi+ri
-        input_matrix_copy[vector_index].data = input_matrix_copy[vector_index].data.copy_(xi.data)
-        sum_ri += ri
-        iteration+=1
-    if iteration>20:
-        print("can't converge ")
-        
-    return iteration,sum_ri
-
-
 def _gradient(output,vector_index,attribute,gradient_loss):
     output[vector_index].backward(gradient_loss,retain_graph=True)
     gradient = grads['classifier'][vector_index]
@@ -99,3 +67,43 @@ def _gradient(output,vector_index,attribute,gradient_loss):
     partial_derivative = Variable(torch.cuda.FloatTensor(1200).fill_(0))
     partial_derivative[start_index:end_index] = gradient[start_index:end_index]
     return partial_derivative
+
+
+#calculate for a sample the minimum vector ri to flip his prediction
+def find_smallest_variation_to_change(layer,input_matrix, vector_index,attribute,class_to_reach):
+    input_matrix_copy = input_matrix.clone()
+    input_matrix_copy.register_hook(_save_grad('classifier'))
+    if class_to_reach == 1:
+        true_labels = Variable(torch.cuda.FloatTensor([1,0]))
+    else:
+        true_labels = Variable(torch.cuda.FloatTensor([0,1]))
+    x0= input_matrix_copy[vector_index]
+    xi = x0
+    sum_ri = Variable(torch.cuda.FloatTensor(1200).fill_(0))
+    iteration = 0
+    
+    while(round(get_probabilites(layer.forward(input_matrix_copy)[vector_index])[1].data[0])!=class_to_reach
+          and iteration<20):
+        output = layer.forward(input_matrix_copy)
+        probabilities = get_probabilites(output[vector_index])
+        current_match_score = probabilities[1]
+        #gradient_loss = crossentropy_gradient(probabilities,true_labels)
+        if class_to_reach == 1:
+            gradient_loss = torch.cuda.FloatTensor([0,1])
+        else:
+            gradient_loss = torch.cuda.FloatTensor([1,0])
+        current_gradient = _gradient(output,vector_index,attribute,gradient_loss)
+        current_norm = torch.norm(current_gradient)
+        if (current_norm.data[0]<0.001):
+            #sum_ri = Variable(torch.cuda.FloatTensor(1200).fill_(0))
+            print("Moving in wrong direction")
+            break
+        ri = (current_match_score/(current_norm**2)) * current_gradient
+        xi = xi+ri
+        input_matrix_copy[vector_index].data = input_matrix_copy[vector_index].data.copy_(xi.data)
+        sum_ri += ri
+        iteration+=1
+    if iteration>=20:
+        print("can't converge ")
+        
+    return iteration,sum_ri
