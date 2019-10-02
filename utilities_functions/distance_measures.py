@@ -87,18 +87,23 @@ def find_smallest_variation_to_change(layer,input_matrix, vector_index,attribute
         output = layer.forward(input_matrix_copy)
         probabilities = get_probabilites(output[vector_index])
         current_match_score = probabilities[1]
-        #gradient_loss = crossentropy_gradient(probabilities,true_labels)
+        ##f(x) is the probability of the current state
         if class_to_reach == 1:
+            fx = 1 - current_match_score
             gradient_loss = torch.cuda.FloatTensor([0,1])
         else:
+            fx = current_match_score
             gradient_loss = torch.cuda.FloatTensor([1,0])
+    
+        #gradient_loss = crossentropy_gradient(probabilities,true_labels)
+        
         current_gradient = _gradient(output,vector_index,attribute,gradient_loss)
         current_norm = torch.norm(current_gradient)
         if (current_norm.data[0]<0.001):
             #sum_ri = Variable(torch.cuda.FloatTensor(1200).fill_(0))
             print("Moving in wrong direction")
             break
-        ri = (current_match_score/(current_norm**2)) * current_gradient
+        ri = (fx/(current_norm**2)) * current_gradient
         xi = xi+ri
         input_matrix_copy[vector_index].data = input_matrix_copy[vector_index].data.copy_(xi.data)
         sum_ri += ri
