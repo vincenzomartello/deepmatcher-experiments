@@ -4,5 +4,5 @@ numpy
 sklearn
 matplotlib
 torch==0.3.1
-torchtext=0.2.3
+torchtext==0.2.3
 deepmatcher
