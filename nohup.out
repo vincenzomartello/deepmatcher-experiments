@@ -12,3 +12,53 @@
     Copy/paste this URL into your browser when you connect for the first time,
     to login with a token:
         http://localhost:8853/?token=a1f23d5ac387b090d6ee8998bdf0d8e2950ef00e046c4bf7
+[I 15:38:14.573 NotebookApp] The port 8850 is already in use, trying another port.
+[I 15:38:14.608 NotebookApp] JupyterLab extension loaded from /home/nvidia/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 15:38:14.609 NotebookApp] JupyterLab application directory is /home/nvidia/anaconda3/share/jupyter/lab
+[I 15:38:14.612 NotebookApp] Serving notebooks from local directory: /home/nvidia/workspace/dbgroup/vmartello/deepmatcher-experiments
+[I 15:38:14.612 NotebookApp] The Jupyter Notebook is running at:
+[I 15:38:14.612 NotebookApp] http://localhost:8851/?token=e4f0c0f2dc7c19d560733a64c8167921556c7539f44b9e79
+[I 15:38:14.612 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 15:38:14.613 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8851/?token=e4f0c0f2dc7c19d560733a64c8167921556c7539f44b9e79
+[I 15:40:45.369 NotebookApp] The port 8850 is already in use, trying another port.
+[I 15:40:45.369 NotebookApp] The port 8851 is already in use, trying another port.
+[I 15:40:45.432 NotebookApp] JupyterLab extension loaded from /home/nvidia/anaconda3/envs/testenv/lib/python3.6/site-packages/jupyterlab
+[I 15:40:45.432 NotebookApp] JupyterLab application directory is /home/nvidia/anaconda3/envs/testenv/share/jupyter/lab
+[I 15:40:45.435 NotebookApp] Serving notebooks from local directory: /home/nvidia/workspace/dbgroup/vmartello/deepmatcher-experiments
+[I 15:40:45.436 NotebookApp] The Jupyter Notebook is running at:
+[I 15:40:45.436 NotebookApp] http://localhost:8852/?token=d1fc37a2d24e5725e7d9106d035b5c4b2e61cc6d03ba5930
+[I 15:40:45.436 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 15:40:45.444 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1001/jupyter/nbserver-63001-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8852/?token=d1fc37a2d24e5725e7d9106d035b5c4b2e61cc6d03ba5930
+[I 15:41:07.220 NotebookApp] 302 GET /?token=d1fc37a2d24e5725e7d9106d035b5c4b2e61cc6d03ba5930 (127.0.0.1) 4.83ms
+[W 15:41:07.328 NotebookApp] Clearing invalid/expired login cookie username-localhost-8852
+[W 15:41:07.364 NotebookApp] Clearing invalid/expired login cookie username-localhost-8852
+[I 15:41:07.382 NotebookApp] 302 GET /tree?token=d1fc37a2d24e5725e7d9106d035b5c4b2e61cc6d03ba5930 (127.0.0.1) 130.30ms
+[W 15:41:22.006 NotebookApp] 401 POST /login?next=%2Ftree%3Ftoken%3Dd1fc37a2d24e5725e7d9106d035b5c4b2e61cc6d03ba5930 (127.0.0.1) 8.57ms referer=http://localhost:8852/login?next=%2Ftree%3Ftoken%3Dd1fc37a2d24e5725e7d9106d035b5c4b2e61cc6d03ba5930
+[I 15:41:36.528 NotebookApp] 302 POST /login?next=%2Ftree%3Ftoken%3Dd1fc37a2d24e5725e7d9106d035b5c4b2e61cc6d03ba5930 (127.0.0.1) 3.56ms
+[W 15:41:42.666 NotebookApp] Notebook analyze_attribute_distributions.ipynb is not trusted
+[I 15:41:43.307 NotebookApp] Kernel started: bcefad4c-3a3f-4d60-9bad-f0306634b21d
+[I 15:41:43.775 NotebookApp] Adapting to protocol v5.1 for kernel bcefad4c-3a3f-4d60-9bad-f0306634b21d
+[I 15:43:43.290 NotebookApp] Saving file at /analyze_attribute_distributions.ipynb
+[W 15:43:43.291 NotebookApp] Notebook analyze_attribute_distributions.ipynb is not trusted
+[I 15:50:37.611 NotebookApp] Kernel started: a6358d3c-3b18-41c1-b36b-023dfd24b4ff
+[I 15:50:38.055 NotebookApp] Adapting to protocol v5.1 for kernel a6358d3c-3b18-41c1-b36b-023dfd24b4ff
+[I 15:52:37.771 NotebookApp] Saving file at /exp10.ipynb
+[I 15:58:34.727 NotebookApp] Kernel shutdown: bcefad4c-3a3f-4d60-9bad-f0306634b21d
+[I 15:58:35.078 NotebookApp] Kernel shutdown: a6358d3c-3b18-41c1-b36b-023dfd24b4ff
+[W 15:58:44.589 NotebookApp] Notebook beerAdvo/compute_ri.ipynb is not trusted
+[I 15:58:45.315 NotebookApp] Kernel started: 7f98064d-067a-41de-9291-3816c7ff5302
+[I 15:58:46.181 NotebookApp] Adapting to protocol v5.1 for kernel 7f98064d-067a-41de-9291-3816c7ff5302
+[I 16:00:45.368 NotebookApp] Saving file at /beerAdvo/compute_ri.ipynb
+[W 16:00:45.369 NotebookApp] Notebook beerAdvo/compute_ri.ipynb is not trusted
+[I 16:01:40.260 NotebookApp] Kernel shutdown: 7f98064d-067a-41de-9291-3816c7ff5302
+[I 16:04:02.675 NotebookApp] Shutting down on /api/shutdown request.
+[I 16:04:02.679 NotebookApp] Shutting down 0 kernels

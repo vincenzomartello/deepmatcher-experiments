@@ -69,7 +69,7 @@ def find_smallest_variation_to_change(layer,classifier_length,attribute_length,i
             sum_ri = Variable(torch.cuda.FloatTensor(classifier_length).fill_(0))
             print("Moving in wrong direction")
             break
-        ri = (fx/(current_norm)) * current_gradient
+        ri = (fx/(current_norm**2)) * current_gradient
         xi = xi+ri
         input_matrix_copy[vector_index].data = input_matrix_copy[vector_index].data.copy_(xi.data)
         sum_ri += ri
@@ -78,4 +78,4 @@ def find_smallest_variation_to_change(layer,classifier_length,attribute_length,i
         sum_ri = Variable(torch.cuda.FloatTensor(classifier_length).fill_(0))
         print("can't converge ")
         
-    return iteration,sum_ri
+    return sum_ri

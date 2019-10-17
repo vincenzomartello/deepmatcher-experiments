@@ -1,4 +1,6 @@
 import math
+from scipy.spatial.distance import euclidean,cosine
+
 
 def euclidean_distance_with_max_difference_dimension(v,q):
     distance = 0
@@ -36,3 +38,28 @@ def calculate_closer_vector(pos_vector_list,neg_vector_list):
                     index +=1
             closer_vectors.append((closer_index, current_min,dim_max))
     return closer_vectors
+
+
+def nearest_neighbour(v,batch_list,distance_type):
+    distances = []
+    for batch in batch_list:
+        for sample in batch:
+            if distance_type=='euclidean':
+                distances.append(euclidean(v.data,sample.data))
+            elif distance_type == 'cosine':
+                distances.append(cosine(v.data,sample.data))
+    closer = min(distances)
+    return distances.index(closer)
+
+def nearest_neighbour_onAttribute(v,batch_list,attribute_idx,attribute_lenght,distance_type):
+    distances = []
+    start_index = attribute_idx*attribute_lenght
+    end_index = start_index+attribute_lenght
+    for batch in batch_list:
+        for sample in batch:
+            if distance_type == 'cosine':
+                distances.append(cosine(v[start_index:end_index].data,sample[start_index:end_index].data))
+            elif distance_type == 'euclidean':
+                distances.append(euclidean(v[start_index:end_index].data,sample[start_index:end_index].data))
+    minimum = min(distances)
+    return distances.index(minimum)
