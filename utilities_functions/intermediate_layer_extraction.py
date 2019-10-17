@@ -54,5 +54,5 @@ def return_layer_input_output(dataset_dir,dataset_name,batch_size,model,layer):
         layer_inp,layer_out = return_layer_input_output_for_batch(model,hook,batch)
         layer_inputs.append(layer_inp)
         layer_outputs.append(layer_out)
-    return layer_inputs,layer_outputs,_flat_list(tupleids)
+    return layer_inputs,layer_outputs,list(map(int,_flat_list(tupleids)))
     
