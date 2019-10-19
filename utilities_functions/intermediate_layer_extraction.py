@@ -38,7 +38,7 @@ def return_layer_input_output_for_batch(model,hook,batch):
     return (hook.input,hook.output)
 
 def return_layer_input_output(dataset_dir,dataset_name,batch_size,model,layer):
-    dataset = dm.data.process(path = dataset_dir,train= dataset_name,
+    dataset = dm.data.process(path = dataset_dir,train= dataset_name+'.csv',
                             validation='validation.csv',left_prefix='ltable_',right_prefix='rtable_',cache=dataset_name+'.pth')
     hook = Hook(layer)
     batch_size = 32
