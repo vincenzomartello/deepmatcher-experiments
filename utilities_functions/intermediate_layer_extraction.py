@@ -3,6 +3,7 @@
 import torch
 import deepmatcher as dm
 from deepmatcher.data import MatchingIterator
+from torch.autograd import Variable
 
 # class to save intermediate layer output/input
 
@@ -59,6 +60,11 @@ def return_layer_input_output(dataset_dir,dataset_name,batch_size,model,layer):
     return layer_inputs,layer_outputs,list(map(int,_flat_list(tupleids)))
 
 
+def _return_input(module,module_input,module_output):
+    global current_layer_input
+    current_layer_input = Variable(module_input[0].data.cuda(),requires_grad=True)
+
+
 def return_layer_input(dataset_dir,dataset_name,batch_size,model,layer,device = 0):
     dataset = dm.data.process(path=dataset_dir,train=dataset_name+'.csv',left_prefix='ltable_',right_prefix='rtable_',cache=dataset_name+'.pth')
     hook = Hook(layer)
@@ -66,10 +72,12 @@ def return_layer_input(dataset_dir,dataset_name,batch_size,model,layer,device = 
     splits = MatchingIterator.splits(dataset_tuple,batch_size=batch_size, device = device)
     tupleids = []
     layer_inputs = []
+    hook = layer.register_forward_hook(_return_input)
     for batch in splits[0]:
         tupleids.append(batch.id)
-        layer_input = _return_layer_input_for_batch(model,hook,batch)
-        layer_inputs.append(layer_input[0])
+        model.forward(batch)
+        layer_inputs.append(current_layer_input)
+    hook.remove()
     return layer_inputs,list(map(int,_flat_list(tupleids)))
 
 

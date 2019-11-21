@@ -1,7 +1,8 @@
 import math 
 import torch
-from torch.nn.functional import softmax
+import torch.nn.functional as F
 from torch.autograd import Variable
+import numpy as np
 
 
 grads = {}
@@ -13,25 +14,10 @@ def _save_grad(name):
     return hook
 
 
-def crossentropy_gradient(softmax_output,true_labels,class_to_reach):
-    return (softmax_output-true_labels).data
- 
-
 
 def get_probabilites(vec):
-    probabilities = softmax(vec,dim=0)
+    probabilities = F.softmax(vec,dim=0)
     return probabilities
-
-
-def _gradient(output,classifier_length,attribute_length,vector_index,attributes,gradient_loss):
-    output[vector_index].backward(gradient_loss,retain_graph=True)
-    gradient = grads['classifier'][vector_index]
-    partial_derivative = Variable(torch.cuda.FloatTensor(classifier_length).fill_(0))
-    for att in attributes:
-        start_index = att * attribute_length
-        end_index = start_index+ attribute_length
-        partial_derivative[start_index:end_index] = gradient[start_index:end_index]
-    return partial_derivative
 
 
 #calculate for a sample the minimum vector ri to flip his prediction
@@ -40,42 +26,43 @@ def find_smallest_variation_to_change(layer,classifier_length,attribute_length,i
     input_matrix_copy = input_matrix.clone()
     input_matrix_copy.register_hook(_save_grad('classifier'))
     if class_to_reach == 1:
-        true_labels = Variable(torch.cuda.FloatTensor([0,1]))
+        desidered_labels = Variable(torch.cuda.LongTensor([1]*len(input_matrix)))
     else:
-        true_labels = Variable(torch.cuda.FloatTensor([1,0]))
+        desidered_labels = Variable(torch.cuda.LongTensor([0]*len(input_matrix)))
     x0= input_matrix_copy[vector_index]
     xi = x0
     sum_ri = Variable(torch.cuda.FloatTensor(classifier_length).fill_(0))
-    iteration = 0
-    
-    while(round(get_probabilites(layer.forward(input_matrix_copy)[vector_index])[1].data[0])!=class_to_reach
-          and iteration<50):
+    iterations = 0
+    continue_search = True
+    while(continue_search and iterations <50 and round(get_probabilites(layer.forward(input_matrix_copy)[vector_index])[1].data[0])!=class_to_reach):      
         output = layer.forward(input_matrix_copy)
         probabilities = get_probabilites(output[vector_index])
-        current_match_score = probabilities[1]
         ##f(x) is the probability of the current state
         if class_to_reach == 1:
-            fx = 1 - current_match_score
-            gradient_loss = torch.cuda.FloatTensor([0,1])
+            fx = 1 - probabilities[1]
         else:
-            fx = current_match_score
-            gradient_loss = torch.cuda.FloatTensor([1,0])
-    
-        ##gradient_loss = crossentropy_gradient(probabilities,true_labels,class_to_reach)
-        
-        current_gradient = _gradient(output,classifier_length,attribute_length,vector_index,attributes,gradient_loss)
-        current_norm = torch.norm(current_gradient)
-        if (current_norm.data[0]<0.001):
+            fx = probabilities[1]
+        loss = F.cross_entropy(F.softmax(output,dim=1),desidered_labels)
+        loss.backward()
+        current_gradient = grads['classifier'][vector_index]
+        partial_derivative = Variable(torch.cuda.FloatTensor(classifier_length).fill_(0))
+        for att in attributes:
+            start_index = att * attribute_length
+            end_index = start_index+ attribute_length
+            partial_derivative[start_index:end_index] = current_gradient[start_index:end_index]
+        current_norm = torch.norm(partial_derivative)
+        if current_norm.data[0] <=0.00001:
             sum_ri = Variable(torch.cuda.FloatTensor(classifier_length).fill_(0))
-            print("Moving in wrong direction")
-            break
-        ri = (fx/(current_norm**2)) * current_gradient
-        xi = xi+ri
-        input_matrix_copy[vector_index].data = input_matrix_copy[vector_index].data.copy_(xi.data)
-        sum_ri += ri
-        iteration+=1
-    if iteration>=50:
+            print(" Gradient is null")
+            continue_search = False
+        else:
+            ri = (fx/(current_norm**2)) * -(partial_derivative)
+            xi = xi+ri
+            input_matrix_copy[vector_index].data = input_matrix_copy[vector_index].data.copy_(xi.data)
+            sum_ri += ri
+            iterations +=1
+    if iterations>=50:
         sum_ri = Variable(torch.cuda.FloatTensor(classifier_length).fill_(0))
-        print("can't converge ")
+        print("can't converge in {} iterations".format(str(iterations)))
         
     return sum_ri
