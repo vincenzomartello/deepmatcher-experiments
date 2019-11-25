@@ -22,7 +22,8 @@ def get_probabilites(vec):
 
 #calculate for a sample the minimum vector ri to flip his prediction
 def find_smallest_variation_to_change(layer,classifier_length,attribute_length,input_matrix, 
-                                      vector_index,attributes,class_to_reach):
+                                      vector_index,attributes,class_to_reach,learning_rate):
+    max_iterations = 1000
     input_matrix_copy = input_matrix.clone()
     input_matrix_copy.register_hook(_save_grad('classifier'))
     if class_to_reach == 1:
@@ -32,9 +33,9 @@ def find_smallest_variation_to_change(layer,classifier_length,attribute_length,i
     x0= input_matrix_copy[vector_index]
     xi = x0
     sum_ri = Variable(torch.cuda.FloatTensor(classifier_length).fill_(0))
-    iterations = 0
+    iterations = 1
     continue_search = True
-    while(continue_search and iterations <50 and round(get_probabilites(layer.forward(input_matrix_copy)[vector_index])[1].data[0])!=class_to_reach):      
+    while(continue_search and iterations <1000 and round(get_probabilites(layer.forward(input_matrix_copy)[vector_index])[1].data[0])!=class_to_reach):      
         output = layer.forward(input_matrix_copy)
         probabilities = get_probabilites(output[vector_index])
         ##f(x) is the probability of the current state
@@ -42,6 +43,7 @@ def find_smallest_variation_to_change(layer,classifier_length,attribute_length,i
             fx = 1 - probabilities[1]
         else:
             fx = probabilities[1]
+        #- to move to the opposite direction of gradients
         loss = F.cross_entropy(F.softmax(output,dim=1),desidered_labels)
         loss.backward()
         current_gradient = grads['classifier'][vector_index]
@@ -56,12 +58,12 @@ def find_smallest_variation_to_change(layer,classifier_length,attribute_length,i
             print(" Gradient is null")
             continue_search = False
         else:
-            ri = (fx/(current_norm**2)) * -(partial_derivative)
+            ri = learning_rate*iterations *(-partial_derivative)
             xi = xi+ri
             input_matrix_copy[vector_index].data = input_matrix_copy[vector_index].data.copy_(xi.data)
             sum_ri += ri
             iterations +=1
-    if iterations>=50:
+    if iterations>=max_iterations:
         sum_ri = Variable(torch.cuda.FloatTensor(classifier_length).fill_(0))
         print("can't converge in {} iterations".format(str(iterations)))
         
