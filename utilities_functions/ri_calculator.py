@@ -3,6 +3,7 @@ import torch
 import torch.nn.functional as F
 from torch.autograd import Variable
 import numpy as np
+from math import exp
 
 
 grads = {}
@@ -22,7 +23,7 @@ def get_probabilites(vec):
 
 #calculate for a sample the minimum vector ri to flip his prediction
 def find_smallest_variation_to_change(layer,classifier_length,attribute_length,input_matrix, 
-                                      vector_index,attributes,class_to_reach,learning_rate):
+                                      vector_index,attributes,class_to_reach,lr0,decay):
     max_iterations = 1000
     input_matrix_copy = input_matrix.clone()
     input_matrix_copy.register_hook(_save_grad('classifier'))
@@ -58,7 +59,8 @@ def find_smallest_variation_to_change(layer,classifier_length,attribute_length,i
             print(" Gradient is null")
             continue_search = False
         else:
-            ri = learning_rate*iterations *(-partial_derivative)
+            lr = lr0 * exp(-decay*iterations)
+            ri = lr *(-partial_derivative)
             xi = xi+ri
             input_matrix_copy[vector_index].data = input_matrix_copy[vector_index].data.copy_(xi.data)
             sum_ri += ri
