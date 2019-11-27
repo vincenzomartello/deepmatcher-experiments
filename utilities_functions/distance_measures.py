@@ -1,5 +1,6 @@
 import math
-from scipy.spatial.distance import euclidean,cosine
+import torch.nn.functional as F
+from torch import unsqueeze
 
 
 def euclidean_distance_with_max_difference_dimension(v,q):
@@ -40,26 +41,30 @@ def calculate_closer_vector(pos_vector_list,neg_vector_list):
     return closer_vectors
 
 
-def nearest_neighbour(v,batch_list,distance_type):
+def nearest_neighbor(v,batch_list,distance_type):
     distances = []
     for batch in batch_list:
         for sample in batch:
             if distance_type=='euclidean':
-                distances.append(euclidean(v.data,sample.data))
+                distances.append(F.pairwise_distance(v,sample))
             elif distance_type == 'cosine':
-                distances.append(cosine(v.data,sample.data))
+                distances.append(F.cosine_similarity(v,sample))
     closer = min(distances)
     return distances.index(closer)
 
-def nearest_neighbour_onAttribute(v,batch_list,attribute_idx,attribute_lenght,distance_type):
+
+def nearest_neighbor_onAttribute(v,batch_list,attribute_idx,attribute_lenght,distance_type):
     distances = []
     start_index = attribute_idx*attribute_lenght
     end_index = start_index+attribute_lenght
     for batch in batch_list:
         for sample in batch:
             if distance_type == 'cosine':
-                distances.append(cosine(v[start_index:end_index].data,sample[start_index:end_index].data))
+                distances.append(1-F.cosine_similarity(v[start_index:end_index]
+                                                     ,sample[start_index:end_index],dim=0).data[0])
             elif distance_type == 'euclidean':
-                distances.append(euclidean(v[start_index:end_index].data,sample[start_index:end_index].data))
-    minimum = min(distances)
-    return distances.index(minimum)
+                distances.append(F.pairwise_distance(unsqueeze(v[start_index:end_index],0),
+                                                     unsqueeze(sample[start_index:end_index],0)).data[0][0])
+    
+    best = min(distances)
+    return distances.index(best)
