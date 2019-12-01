@@ -4,6 +4,7 @@ import torch.nn.functional as F
 from torch.autograd import Variable
 import numpy as np
 from math import exp
+from tqdm import tqdm
 
 
 grads = {}
@@ -119,3 +120,18 @@ def find_smallest_variation_to_change_v1(layer,classifier_length,attribute_lengt
         print("can't converge in {} iterations".format(str(iterations)))
         
     return sum_ri
+
+
+def computeRi(layer,attributes,dataset,attribute_length,class_to_reach):
+    #each column of this matrix is related to a specific attribute
+    layer_len = len(attributes)*attribute_length
+    ri = []
+    for batch in dataset:
+        for sample_idx in tqdm(range(len(batch))):
+            current_sample_ris = list(map(lambda att: find_smallest_variation_to_change_v1(layer,layer_len,
+                                                                                           attribute_length,batch,sample_idx,
+                                                                                           [attributes.index(att)],
+                                                                                           class_to_reach),attributes))
+            ri.append(current_sample_ris)
+    ri_norms = [[torch.norm(v).data[0] for v in ris] for ris in ri]
+    return ri,ri_norms

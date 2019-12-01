@@ -1,6 +1,10 @@
 import math
 import torch.nn.functional as F
 from torch import unsqueeze
+import torch
+import numpy as np
+from tqdm import tqdm
+import pandas as pd
 
 
 def euclidean_distance_with_max_difference_dimension(v,q):
@@ -53,18 +57,32 @@ def nearest_neighbor(v,batch_list,distance_type):
     return distances.index(closer)
 
 
-def nearest_neighbor_onAttribute(v,batch_list,attribute_idx,attribute_lenght,distance_type):
-    distances = []
-    start_index = attribute_idx*attribute_lenght
-    end_index = start_index+attribute_lenght
-    for batch in batch_list:
-        for sample in batch:
-            if distance_type == 'cosine':
-                distances.append(1-F.cosine_similarity(v[start_index:end_index]
-                                                     ,sample[start_index:end_index],dim=0).data[0])
-            elif distance_type == 'euclidean':
-                distances.append(F.pairwise_distance(unsqueeze(v[start_index:end_index],0),
-                                                     unsqueeze(sample[start_index:end_index],0)).data[0][0])
+def nearest_neighbor_onAttribute(v,batch_list,attribute_idx,attribute_length):
+    tensors = list(map(lambda b: b.data,batch_list))
+    all_tensors = torch.cat(tensors)
+    var = torch.autograd.Variable(all_tensors,requires_grad=True)
+    start_index = attribute_idx*attribute_length
+    end_index = start_index+attribute_length
+    distances = F.cosine_similarity(v[start_index:end_index],var[:,start_index:end_index],dim=-1).data.cpu().numpy()
+    best = max(distances)
+    return np.where(distances == best)[0][0]
+
+
+def calculate_nearest_neighbors_onAttributes(dataset,dataset_ids,perturbations,opposite_label_data,opposite_ids,attributes,
+                                           attribute_length):
+    #lista di tuple: vettore più vicino considerando tutti gli elementi e closer solo secondo un attributo
+    closer_vectors = []
+    i = 0
+    for batch in dataset:
+        for sample in tqdm(batch):
+            current_closer_vectors = list(map(lambda att: nearest_neighbor_onAttribute
+                                                 (sample+perturbations[i][attributes.index(att)]
+                                                                ,opposite_label_data,attributes.index(att),
+                                                                attribute_length),attributes))
+            closer_vectors.append(current_closer_vectors)
+            i += 1 
+    closer_vectors_df = pd.DataFrame(data = closer_vectors, columns = attributes)
+    closer_vectors_df = closer_vectors_df.applymap(lambda c:opposite_ids[c])
+    closer_vectors_df['SampleID'] = dataset_ids
+    return closer_vectors_df
     
-    best = min(distances)
-    return distances.index(best)

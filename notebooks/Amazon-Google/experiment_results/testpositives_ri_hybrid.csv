@@ -1,0 +1,2341 @@
+title,manufacturer,price
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 2.6458
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.0797
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.3526
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 4.1534
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.9178
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.2562
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 2.5575
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.1545
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.3251
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 3.4873
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.2790
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.5040
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 4.2802
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.3400
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.4610
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.4322
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.0952
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.4953
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0.6271
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.6271
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.6271
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.4500
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.2006
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.5499
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 2.5017
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.9013
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.1908
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.7185
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.0129
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.3767
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0.5924
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.5924
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.5924
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 3.5953
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.7422
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.9282
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 2.5635
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.3068
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.1217
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 5.1078
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.8162
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.0007
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.5128
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.2386
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.5923
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.3554
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.4915
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.4194
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 4.2018
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.9759
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.9707
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0.5702
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.5702
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.5702
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.3791
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.0129
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.4429
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 5.1362
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.9421
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.1164
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.7038
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.0484
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.3706
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 5.3393
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 6.0231
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.8449
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 2.6326
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.1427
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.3675
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.6054
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.4403
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.2128
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.5472
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.2752
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.1391
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 3.2564
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.7984
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.0214
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.4600
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.2027
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.5632
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.8321
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.3855
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.5760
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.6839
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.0513
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.3271
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.7462
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.0843
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.3997
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0.7129
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.2450
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.7129
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0.5283
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.5283
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.5283
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 3.1865
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.1994
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.9364
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0.6189
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.6189
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.6189
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0.6640
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.1748
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.6640
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.8008
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.2569
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.5217
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0.6231
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.6231
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.6231
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 3.4535
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.8648
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.0497
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.6429
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.9625
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.2736
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 6.1783
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 7.0402
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 6.8485
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 3.2116
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.1950
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.4532
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 3.2032
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.0626
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.3927
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 4.4972
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 6.7990
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.3930
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.5534
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.2982
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.1410
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 2.4207
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.8687
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.0926
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 4.3303
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.0996
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.3549
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.7652
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.1768
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.4592
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 2.6304
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.1884
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.4052
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0.8358
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.4807
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.4004
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 2.5905
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.9903
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.2811
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.7110
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.0827
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.3685
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.5089
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.2195
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.5883
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 4.3599
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.1339
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.9680
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 5.2645
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.8744
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.1650
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.5218
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.2089
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.0771
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.3455
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.9681
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.4077
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 5.0644
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 6.1786
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.3754
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 2.3400
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.2203
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.9941
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 5.3262
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 6.7440
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 6.0092
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.5960
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.3360
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.2041
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 4.3149
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.1346
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.9684
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 3.4462
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.1042
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.4300
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 2.5767
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.8845
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.2595
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 4.4229
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.3477
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.5148
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.6589
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.9840
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.3185
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 4.1729
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.1508
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.9682
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 3.2977
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.0914
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.9172
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0.5359
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.5359
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.5359
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0.5233
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.5233
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.5233
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0.6243
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.6243
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.6243
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.3506
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.9858
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.4013
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 4.4680
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 6.1383
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.8591
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 6.0776
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 8.6277
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 7.2349
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.4824
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.1604
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.5509
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 2.2088
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.0286
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.3515
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 2.4847
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.9966
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.2190
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 5.3707
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 6.8242
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 6.0644
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 3.6095
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.1352
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.3999
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 5.0577
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 6.9916
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 6.1066
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 2.7203
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.9409
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.0564
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 2.2304
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.0853
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.4124
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.6060
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.2978
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.1798
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.3160
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.3984
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.3663
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 2.3858
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.1544
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.0001
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 3.4225
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.1488
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.2846
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.4585
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.1421
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.5437
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 3.5135
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.9375
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.1237
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 4.3102
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.1513
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.3819
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.5657
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.8658
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.1751
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.6353
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.3410
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.2369
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0.5742
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.5742
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.5742
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 2.4222
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.9616
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.1649
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.5550
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.3176
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.1397
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 2.5536
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.9073
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.2395
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.3941
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.0486
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.4813
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0.5569
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.5569
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.5569
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 3.5965
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.0268
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.2893
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 4.1958
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.9854
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.2114
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 2.3514
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.1703
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.4938
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 2.6346
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.3723
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.4525
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 3.3095
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.8772
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.0796
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 3.5501
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.0771
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.2710
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.3484
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.9489
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.4005
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.6579
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.9839
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.3071
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.6759
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.4124
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.2845
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.3210
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.4450
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.3892
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0.5299
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.5299
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0.5299
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 2.4916
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.0005
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.2006
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 2.6409
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.0021
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.2791
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.3720
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.4544
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.4172
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.5305
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.2210
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 2.1077
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 3.3713
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.2856
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.0675
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 5.1688
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.8928
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.1185
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 3.3434
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.7802
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.0849
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 1.2820
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.3955
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 1.3376
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 4.3973
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.2429
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 5.0561
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 3.3642
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 4.3562
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 3.5682
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
+"Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+","Variable containing:
+ 0
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+"
