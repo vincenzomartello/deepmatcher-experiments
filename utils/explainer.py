@@ -1,19 +1,6 @@
 import pandas as pd
 import deepmatcher as dm
-from contextlib import contextmanager
-import sys, os
-
-
-## function to suppress output from deepmatcher processing
-@contextmanager
-def suppress_stdout():
-    with open(os.devnull, "w") as devnull:
-        old_stdout = sys.stdout
-        sys.stdout = devnull
-        try:  
-            yield
-        finally:
-            sys.stdout = old_stdout
+import os
 
             
 #explanation nr is the number of neighbors to consider
