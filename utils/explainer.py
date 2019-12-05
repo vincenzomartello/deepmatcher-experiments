@@ -35,7 +35,8 @@ def generateExplanations(nearest_neighbors,explanation_nr,threshold,opposite_lab
         else:
             true_positives_foraltered = altered_pred[altered_pred['match_score']<=0.5]
         if ((true_positives.shape[0]-true_positives_foraltered.shape[0])/true_positives.shape[0]) >= threshold:
-            critical_values.append((lval,rval))
+            ##append critical values and how much false negatives I have generated
+            critical_values.append((lval,rval,true_positives.shape[0]-true_positives_foraltered.shape[0]))
     return critical_values
 
 
@@ -57,3 +58,29 @@ def analyze_valueDistribution(dataset,value,attribute):
         return 0,posProvenanceDist[value]
     else:
         return 0,0
+
+    
+##Given a liste of attribute pairs return the true positives calculated from the model for each attribute pair
+## if the attribute pair is inserted in place of original values
+def testOscillation(model,testset_path,attribute,true_label,values_toTest):
+    standard_test = dm.data.process_unlabeled(testset_path,model,ignore_columns=['id','label'])
+    standard_pred = model.run_prediction(standard_test)
+    test_df = pd.read_csv(testset_path)
+    true_positives = []
+    if true_label == 1:
+        true_positives.append(('default Lprice','default Rprice',standard_pred[standard_pred.match_score>0.5].shape[0]))
+    else:
+        true_positives.append(('default Lprice','default Rprice',standard_pred[standard_pred.match_score<=0.5].shape[0]))
+    for values in values_toTest:
+        lval = values.split("|")[0]
+        rval = values.split("|")[1]
+        test_df['ltable_'+attribute] = lval
+        test_df['rtable_'+attribute] = rval
+        test_df.to_csv('temp/new_test.csv',index=False)
+        new_test = dm.data.process_unlabeled('temp/new_test.csv',model,ignore_columns=['id','label'])
+        new_pred = model.run_prediction(new_test,output_attributes=True)
+        if true_label ==1:
+            true_positives.append((lval,rval,new_pred[new_pred.match_score >0.5].shape[0]))
+        else:
+            true_positives.append((lval,rval,new_pred[new_pred.match_score <=0.5].shape[0]))
+    return true_positives

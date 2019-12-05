@@ -67,7 +67,6 @@ def _return_input(module,module_input,module_output):
 
 def return_layer_input(dataset_dir,dataset_name,batch_size,model,layer,device = 0):
     dataset = dm.data.process(path=dataset_dir,train=dataset_name+'.csv',left_prefix='ltable_',right_prefix='rtable_',cache=dataset_name+'.pth')
-    hook = Hook(layer)
     dataset_tuple = dataset,
     splits = MatchingIterator.splits(dataset_tuple,batch_size=batch_size, device = device)
     tupleids = []

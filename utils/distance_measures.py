@@ -65,7 +65,8 @@ def nearest_neighbor_onAttribute(v,batch_list,attribute_idx,attribute_length):
     end_index = start_index+attribute_length
     distances = F.cosine_similarity(v[start_index:end_index],var[:,start_index:end_index],dim=-1).data.cpu().numpy()
     best = max(distances)
-    return np.where(distances == best)[0][0]
+    ##for debugging
+    return (np.where(distances == best)[0][0])
 
 
 def calculate_nearest_neighbors_onAttributes(dataset,dataset_ids,perturbations,opposite_label_data,opposite_ids,attributes,
