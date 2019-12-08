@@ -2,42 +2,50 @@ import pandas as pd
 import deepmatcher as dm
 import os
 
+
+def findCommonTokens(s1,s2):
+    s1_l = list(map(lambda s:s.lower(),s1.split()))
+    s2_l = list(map(lambda s:s.lower(),s2.split()))
+    intersection = list(set(s1_l).intersection(set(s2_l)))
+    return " ".join(intersection)
+
             
 #explanation nr is the number of neighbors to consider
-def generateExplanations(nearest_neighbors,explanation_nr,threshold,opposite_label_df,
-                         attribute,model,testset_path,true_label,temp_path='temp'):
+def generateExplanations(nearest_neighbors,opposite_label_df,
+                         attribute,model,explanation_nr,threshold,testset_path,true_label,temp_path='temp',leftPrefix='ltable_',
+                        rightPrefix='rtable_'):
     
     nn_frequencies = nearest_neighbors[attribute].value_counts().rename_axis('unique_values').reset_index(name='counts')
     nearest_neighbors_values = pd.merge(nn_frequencies,opposite_label_df,left_on='unique_values',right_on='id')
-    selected_cols = nearest_neighbors_values[['ltable_'+attribute,'rtable_'+attribute]]
+    selected_cols = nearest_neighbors_values[[leftPrefix+attribute,rightPrefix+attribute]]
     if (explanation_nr >= selected_cols.shape[0]):
         explanation_nr = selected_cols.shape[0]
     testset = dm.data.process_unlabeled(testset_path,model,ignore_columns=['id','label'])
     standard_preds = model.run_prediction(testset)
     if (true_label == 1):
-        true_positives = standard_preds[standard_preds['match_score']>0.5]
+        original_false_negatives = standard_preds[standard_preds['match_score'] <= 0.5].shape[0]
     else:
-        true_positives = standard_preds[standard_preds['match_score']<=0.5]
+        original_false_negatives = standard_preds[standard_preds['match_score'] > 0.5].shape[0]
     most_frequent_values = selected_cols.head(explanation_nr)
-    critical_values = []
+    falseNegatives = []
     for i in range(explanation_nr):
         testset = pd.read_csv(testset_path)
-        lval = str(most_frequent_values.loc[i]['ltable_'+attribute])
-        rval = str(most_frequent_values.loc[i]['rtable_'+attribute])
-        testset['ltable_'+attribute] = lval
-        testset['rtable_'+attribute] = rval
+        lval = str(most_frequent_values.loc[i][leftPrefix+attribute])
+        rval = str(most_frequent_values.loc[i][rightPrefix+attribute])
+        testset[leftPrefix+attribute] = lval
+        testset[rightPrefix+attribute] = rval
         altered_testName = 'altered_test'+str(i)+'.csv'
         testset.to_csv(os.path.join(temp_path,altered_testName),index=False)
         altered_test = dm.data.process_unlabeled(os.path.join(temp_path,altered_testName),model,ignore_columns = ['id','label'])
-        altered_pred = model.run_prediction(altered_test)
+        altered_pred = model.run_prediction(altered_test,output_attributes=True)
         if (true_label == 1):
-            true_positives_foraltered = altered_pred[altered_pred['match_score'] >0.5]
+            false_negatives = altered_pred[altered_pred['match_score'] <=0.5]
         else:
-            true_positives_foraltered = altered_pred[altered_pred['match_score']<=0.5]
-        if ((true_positives.shape[0]-true_positives_foraltered.shape[0])/true_positives.shape[0]) >= threshold:
+            false_negatives = altered_pred[altered_pred['match_score'] > 0.5]
+        if ((false_negatives.shape[0]-original_false_negatives)/original_false_negatives) >=threshold:
             ##append critical values and how much false negatives I have generated
-            critical_values.append((lval,rval,true_positives.shape[0]-true_positives_foraltered.shape[0]))
-    return critical_values
+            falseNegatives.append(false_negatives)
+    return falseNegatives
 
 
 ## this function return occurrences in negatives and positives samples
@@ -62,25 +70,23 @@ def analyze_valueDistribution(dataset,value,attribute):
     
 ##Given a liste of attribute pairs return the true positives calculated from the model for each attribute pair
 ## if the attribute pair is inserted in place of original values
-def testOscillation(model,testset_path,attribute,true_label,values_toTest):
+def testOscillation(model,testset_path,attribute,true_label,substitute_values,temp_path='temp'):
     standard_test = dm.data.process_unlabeled(testset_path,model,ignore_columns=['id','label'])
     standard_pred = model.run_prediction(standard_test)
     test_df = pd.read_csv(testset_path)
-    true_positives = []
     if true_label == 1:
-        true_positives.append(('default Lprice','default Rprice',standard_pred[standard_pred.match_score>0.5].shape[0]))
+        original_true_pos = standard_pred[standard_pred.match_score>0.5].shape[0]
     else:
-        true_positives.append(('default Lprice','default Rprice',standard_pred[standard_pred.match_score<=0.5].shape[0]))
-    for values in values_toTest:
-        lval = values.split("|")[0]
-        rval = values.split("|")[1]
-        test_df['ltable_'+attribute] = lval
-        test_df['rtable_'+attribute] = rval
-        test_df.to_csv('temp/new_test.csv',index=False)
-        new_test = dm.data.process_unlabeled('temp/new_test.csv',model,ignore_columns=['id','label'])
-        new_pred = model.run_prediction(new_test,output_attributes=True)
-        if true_label ==1:
-            true_positives.append((lval,rval,new_pred[new_pred.match_score >0.5].shape[0]))
-        else:
-            true_positives.append((lval,rval,new_pred[new_pred.match_score <=0.5].shape[0]))
-    return true_positives
+        original_true_pos = standard_pred[standard_pred.match_score<=0.5].shape[0]
+    lval = substitute_values.split("|")[0]
+    rval = substitute_values.split("|")[1]
+    test_df['ltable_'+attribute] = lval
+    test_df['rtable_'+attribute] = rval
+    test_df.to_csv(os.path.join(temp_path,'new_test.csv'),index=False)
+    new_test = dm.data.process_unlabeled(os.path.join(temp_path,'new_test.csv'),model,ignore_columns=['id','label'])
+    new_pred = model.run_prediction(new_test,output_attributes=True)
+    if true_label ==1:
+        new_true_pos = new_pred[new_pred.match_score >0.5].shape[0]
+    else:
+        new_true_pos = new_pred[new_pred.match_score <=0.5].shape[0]
+    return original_true_pos,new_true_pos

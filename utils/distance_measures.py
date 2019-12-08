@@ -57,7 +57,7 @@ def nearest_neighbor(v,batch_list,distance_type):
     return distances.index(closer)
 
 
-def nearest_neighbor_onAttribute(v,batch_list,attribute_idx,attribute_length):
+def nearest_neighbor_onAttribute(v,batch_list,attribute_idx,attribute_length,min_similarity):
     tensors = list(map(lambda b: b.data,batch_list))
     all_tensors = torch.cat(tensors)
     var = torch.autograd.Variable(all_tensors,requires_grad=True)
@@ -65,12 +65,15 @@ def nearest_neighbor_onAttribute(v,batch_list,attribute_idx,attribute_length):
     end_index = start_index+attribute_length
     distances = F.cosine_similarity(v[start_index:end_index],var[:,start_index:end_index],dim=-1).data.cpu().numpy()
     best = max(distances)
-    ##for debugging
-    return (np.where(distances == best)[0][0])
+    ## to exclude neighbors too far we return not existing id
+    if best< min_similarity:
+        return -1
+    else:
+        return (np.where(distances == best)[0][0])
 
 
 def calculate_nearest_neighbors_onAttributes(dataset,dataset_ids,perturbations,opposite_label_data,opposite_ids,attributes,
-                                           attribute_length):
+                                           attribute_length,min_similarity=-1):
     #lista di tuple: vettore più vicino considerando tutti gli elementi e closer solo secondo un attributo
     closer_vectors = []
     i = 0
@@ -79,11 +82,11 @@ def calculate_nearest_neighbors_onAttributes(dataset,dataset_ids,perturbations,o
             current_closer_vectors = list(map(lambda att: nearest_neighbor_onAttribute
                                                  (sample+perturbations[i][attributes.index(att)]
                                                                 ,opposite_label_data,attributes.index(att),
-                                                                attribute_length),attributes))
+                                                                attribute_length,min_similarity),attributes))
             closer_vectors.append(current_closer_vectors)
             i += 1 
     closer_vectors_df = pd.DataFrame(data = closer_vectors, columns = attributes)
-    closer_vectors_df = closer_vectors_df.applymap(lambda c:opposite_ids[c])
+    closer_vectors_df = closer_vectors_df.applymap(lambda c:opposite_ids[c] if c>=0 else c)
     closer_vectors_df['SampleID'] = dataset_ids
     return closer_vectors_df
     

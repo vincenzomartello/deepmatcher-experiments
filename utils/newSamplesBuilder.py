@@ -16,3 +16,21 @@ def buildNewSamples(dataset,selectedAttr,newAttributeVal,newSamples_len,label,le
             selected_row[right_prefix+selectedAttr] = selected_row[right_prefix+selectedAttr]+" "+newAttributeVal[1]
         new_samples = new_samples.append(selected_row,ignore_index=True)
     return new_samples
+
+
+
+def buildNewSamplesForAttribute(critical_forPos,critical_forNeg,attribute,lenNewPositives,lenNewNegatives):
+    newSamples = []
+    for df in critical_forPos[attribute]:
+        if df.shape[0] < lenNewPositives:
+            newSamples.append(df)
+        else:
+            newSamples.append(df.sample(n= lenNewPositives))
+    for df in critical_forNeg[attribute]:
+        if df.shape[0] < lenNewNegatives:
+            newSamples.append(df)
+        else:
+            newSamples.append(df.sample(n= lenNewNegatives))
+    newSamples = pd.concat(newSamples)
+    newSamples = newSamples.drop(columns=['match_score'])
+    return newSamples
