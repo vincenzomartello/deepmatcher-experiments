@@ -21,12 +21,12 @@ def buildNewSamples(dataset,selectedAttr,newAttributeVal,newSamples_len,label,le
 
 def buildNewSamplesForAttribute(critical_forPos,critical_forNeg,attribute,lenNewPositives,lenNewNegatives):
     newSamples = []
-    for df in critical_forPos[attribute]:
+    for df,_,_ in critical_forPos[attribute]:
         if df.shape[0] < lenNewPositives:
             newSamples.append(df)
         else:
             newSamples.append(df.sample(n= lenNewPositives))
-    for df in critical_forNeg[attribute]:
+    for df,_,_ in critical_forNeg[attribute]:
         if df.shape[0] < lenNewNegatives:
             newSamples.append(df)
         else:
