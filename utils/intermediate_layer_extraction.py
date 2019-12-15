@@ -34,6 +34,7 @@ def _flat_list(l):
             flat_list.append(item)
     return flat_list
 
+
 def return_layer_input_output_for_batch(model,hook,batch):
     out = model(batch)
     return (hook.input,hook.output)

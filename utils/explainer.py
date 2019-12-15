@@ -68,7 +68,7 @@ def analyze_valueDistribution(dataset,value,attribute):
         return 0,0
 
     
-##Given a liste of attribute pairs return the true positives calculated from the model for each attribute pair
+##Given an attribute pair return the true positives calculated from the model for the attribute pair
 ## if the attribute pair is inserted in place of original values
 def testRobustness(model,testset_path,attribute,true_label,substitute_values,temp_path='temp'):
     standard_test = dm.data.process_unlabeled(testset_path,model,ignore_columns=['id','label'])
@@ -78,8 +78,8 @@ def testRobustness(model,testset_path,attribute,true_label,substitute_values,tem
         original_true_pos = standard_pred[standard_pred.match_score>0.5].shape[0]
     else:
         original_true_pos = standard_pred[standard_pred.match_score<=0.5].shape[0]
-    lval = substitute_values.split("|")[0]
-    rval = substitute_values.split("|")[1]
+    lval = substitute_values[0]
+    rval = substitute_values[1]
     test_df['ltable_'+attribute] = lval
     test_df['rtable_'+attribute] = rval
     test_df.to_csv(os.path.join(temp_path,'new_test.csv'),index=False)

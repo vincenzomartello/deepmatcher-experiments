@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 
 ##new attribute value is a couple of attributes
@@ -19,7 +20,8 @@ def buildNewSamples(dataset,selectedAttr,newAttributeVal,newSamples_len,label,le
 
 
 
-def buildNewSamplesForAttribute(critical_forPos,critical_forNeg,attribute,lenNewPositives,lenNewNegatives):
+def buildNewSamplesForAttribute(critical_forPos,critical_forNeg,attribute,lenNewPositives,lenNewNegatives,
+                               start_idx):
     newSamples = []
     for df,_,_ in critical_forPos[attribute]:
         if df.shape[0] < lenNewPositives:
@@ -33,4 +35,5 @@ def buildNewSamplesForAttribute(critical_forPos,critical_forNeg,attribute,lenNew
             newSamples.append(df.sample(n= lenNewNegatives))
     newSamples = pd.concat(newSamples)
     newSamples = newSamples.drop(columns=['match_score'])
+    newSamples['id'] = np.arange(start_idx,start_idx+newSamples.shape[0])
     return newSamples
