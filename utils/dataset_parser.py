@@ -1,6 +1,8 @@
 import pandas as pd
 import os
 import random
+import numpy as np
+
 
 def generate_train_valid_test(dataset_dir,left_prefix,right_prefix):
 	df_tableA = pd.read_csv(os.path.join(dataset_dir,'tableA.csv'))
@@ -63,3 +65,21 @@ def generate_pos_neg_datasets(dataset_dir,train_name,valid_name,test_name):
     positives_df = positives_df.append(test_positives,ignore_index=True)
     
     return (positives_df,negatives_df)
+
+
+def generate_unlabeled(dataset_dir,unlabeled_filename,left_prefix='ltable_',right_prefix='rtable_'):
+    df_tableA = pd.read_csv(os.path.join(dataset_dir,'tableA.csv'))
+    df_tableB = pd.read_csv(os.path.join(dataset_dir,'tableB.csv'))
+    unlabeled_ids = pd.read_csv(os.path.join(dataset_dir,unlabeled_filename))
+    left_columns = list(map(lambda s:left_prefix+s,list(df_tableA)))
+    right_columns = list(map(lambda s:right_prefix+s,list(df_tableB)))
+    df_tableA.columns = left_columns
+    df_tableB.columns = right_columns
+
+    #P sta per parziale
+    punlabeled = pd.merge(unlabeled_ids,df_tableA, how='inner')
+    unlabeled_df = pd.merge(punlabeled,df_tableB,how='inner')
+
+    unlabeled_df = unlabeled_df.drop(['ltable_id','rtable_id'],axis=1)
+    unlabeled_df['id'] = np.arange(unlabeled_df.shape[0])
+    return unlabeled_df
