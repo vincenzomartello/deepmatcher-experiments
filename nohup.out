@@ -1,0 +1,16 @@
+[I 15:38:23.407 NotebookApp] The port 9950 is already in use, trying another port.
+[I 15:38:23.408 NotebookApp] The port 9951 is already in use, trying another port.
+[I 15:38:23.408 NotebookApp] The port 9952 is already in use, trying another port.
+[I 15:38:23.408 NotebookApp] The port 9953 is already in use, trying another port.
+[I 15:38:23.408 NotebookApp] The port 9954 is already in use, trying another port.
+[I 15:38:23.439 NotebookApp] JupyterLab extension loaded from /home/nvidia/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 15:38:23.439 NotebookApp] JupyterLab application directory is /home/nvidia/anaconda3/share/jupyter/lab
+[I 15:38:23.442 NotebookApp] Serving notebooks from local directory: /home/nvidia/workspace/dbgroup/vmartello/deepmatcher-experiments
+[I 15:38:23.442 NotebookApp] The Jupyter Notebook is running at:
+[I 15:38:23.442 NotebookApp] http://localhost:9848/?token=cfdfb62c70208c138401332af7419881ee8e19a0c9f15e85
+[I 15:38:23.442 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 15:38:23.443 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:9848/?token=cfdfb62c70208c138401332af7419881ee8e19a0c9f15e85
