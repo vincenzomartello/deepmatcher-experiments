@@ -5,6 +5,7 @@ from torch.autograd import Variable
 import numpy as np
 from math import exp
 from tqdm import tqdm
+import pandas as pd
 
 
 def _saveCurrentGradient(grad):
@@ -92,7 +93,7 @@ def findCloserNaif(v,opposite_data,opposite_data_label,model,attribute_idx,attri
         predictions = model.forward(v_batch_var)
         i = 0
         for pred in predictions:
-            if (opposite_data_label ==1 and pred.data[1]>pred.data[0])or (opposite_data_label ==0 and pred.data[0] >pred.data[1]):
+            if (opposite_data_label ==1 and pred.data[1]>pred.data[0]) or (opposite_data_label ==0 and pred.data[0] >pred.data[1]):
                 ri = batch[i][start_idx:end_idx]-original_att_value
                 distances.append(torch.norm(ri).data[0])
                 perturbations.append(batch[i][start_idx:end_idx])
@@ -106,17 +107,19 @@ def findCloserNaif(v,opposite_data,opposite_data_label,model,attribute_idx,attri
         return Variable(torch.zeros(attribute_len))
     
 
-def computeRi(layer,attributes,dataset,attribute_length,class_to_reach):
-    #each column of this matrix is related to a specific attribute
-    layer_len = len(attributes)*attribute_length
-    ri = []
-    for batch in dataset:
-        for sample in tqdm(batch):
-            current_sample_ris = list(map(lambda att: findPerturbationToFlipPredict(sample,layer,layer_len,[attributes.index(att)],
-                                                                                           attribute_length,class_to_reach),attributes))
-            ri.append(current_sample_ris)
-    ri_norms = [[torch.norm(v).data[0] for v in ris] for ris in ri]
-    return ri,ri_norms
+def computeRi(layer,attributes,dataset,class_to_reach):
+    layer_len = len(list(dataset.values())[0])
+    attribute_len = int(layer_len/len(attributes))
+    ri = {}
+    i = 0
+    for sampleid in tqdm(dataset.keys()):
+        sample = dataset[sampleid]
+        current_sample_ris = list(map(lambda att: findPerturbationToFlipPredict(sample,layer,layer_len,[attributes.index(att)],
+                                                                                         attribute_len,class_to_reach),attributes))
+        ri[sampleid] = current_sample_ris
+    ri_norms = [[torch.norm(v).data[0] for v in ris] for ris in ri.values()]
+    rinorms_df = pd.DataFrame(data= ri_norms,columns=attributes)
+    return ri,rinorms_df
 
 
 def computeRiNaif(dataset,oppLabelData,oppLabel,layer,attributes,attribute_len):

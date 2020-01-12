@@ -4,28 +4,9 @@ import torch
 import deepmatcher as dm
 from deepmatcher.data import MatchingIterator
 from torch.autograd import Variable
+import torch
 
-# class to save intermediate layer output/input
-
-class Hook:
-
-    def __init__(self, module, backward=False):
-        if backward == False:
-            self.hook = module.register_forward_hook(self.hook_fn)
-        else:
-            self.hook = module.register_backward_hook(self.hook_fn)
-
-    def hook_fn(
-        self,
-        module,
-        input,
-        output,
-        ):
-        self.input = input
-        self.output = output
-
-    def close(self):
-        self.hook.remove()
+# methods to save intermediate layer output/input
 
 def _flat_list(l):
     flat_list = []
@@ -45,28 +26,44 @@ def _return_layer_input_for_batch(model,hook,batch):
     return hook.input
 
 
-def return_layer_input_output(dataset_dir,dataset_name,batch_size,model,layer):
-    dataset = dm.data.process(path = dataset_dir,train= dataset_name+'.csv',left_prefix='ltable_',right_prefix='rtable_',cache=dataset_name+'.pth')
-    hook = Hook(layer)
-    dataset_tuple = dataset,
-    splits = MatchingIterator.splits(dataset_tuple,batch_size=batch_size)
-    tupleids = []
-    layer_inputs = []
-    layer_outputs = []
-    for batch in splits[0]:
-        tupleids.append(batch.id)
-        layer_inp,layer_out = return_layer_input_output_for_batch(model,hook,batch)
-        layer_inputs.append(layer_inp[0])
-        layer_outputs.append(layer_out[0])
-    return layer_inputs,layer_outputs,list(map(int,_flat_list(tupleids)))
-
-
 def _return_input(module,module_input,module_output):
     global current_layer_input
     current_layer_input = Variable(module_input[0].data.cuda(),requires_grad=True)
 
 
-def return_layer_input(dataset_dir,dataset_name,batch_size,model,layer,device = 0):
+def _return_input_output(module,module_input,module_output):
+    global current_layer_input
+    global current_layer_output
+    current_layer_input = Variable(module_input[0].data.cuda(),requires_grad=True)
+    current_layer_output = Variable(module_output[0].data.cuda(),requires_grad=True)
+
+
+def return_layer_input_output(dataset_dir,dataset_name,batch_size,model,layer,device=0):
+    dataset = dm.data.process(path=dataset_dir,train=dataset_name+'.csv',left_prefix='ltable_',right_prefix='rtable_',cache=dataset_name+'.pth')
+    dataset_tuple = dataset,
+    splits = MatchingIterator.splits(dataset_tuple,batch_size=batch_size, device = device)
+    tupleids = []
+    layer_inputs = []
+    layer_outputs = []
+    hook = layer.register_forward_hook(_return_input_output)
+    for batch in splits[0]:
+        tupleids.append(batch.id)
+        model.forward(batch)
+        layer_inputs.append(current_layer_input)
+        layer_outputs.append(current_layer_output)
+    hook.remove()
+    id_flattened = list(map(int,_flat_list(tupleids)))
+    ##map in which for each sample id we have the corrisponde vector in intermediate layer
+    res = {}
+    j = 0
+    for batch1,batch2 in zip(layer_inputs,layer_outputs):
+        for inp,out in zip(batch1,batch2):
+            res[id_flattened[j]] = (inp,out)
+            j += 1
+    return res
+
+
+def return_layer_input(model,layer,dataset_dir,dataset_name,batch_size=32,device = 0):
     dataset = dm.data.process(path=dataset_dir,train=dataset_name+'.csv',left_prefix='ltable_',right_prefix='rtable_',cache=dataset_name+'.pth')
     dataset_tuple = dataset,
     splits = MatchingIterator.splits(dataset_tuple,batch_size=batch_size, device = device)
@@ -78,7 +75,15 @@ def return_layer_input(dataset_dir,dataset_name,batch_size,model,layer,device = 
         model.forward(batch)
         layer_inputs.append(current_layer_input)
     hook.remove()
-    return layer_inputs,list(map(int,_flat_list(tupleids)))
+    id_flattened = _flat_list(tupleids)
+    ##map in which for each sample id we have the corrisponde vector in intermediate layer
+    res = {}
+    j = 0
+    for batch in layer_inputs:
+        for sample in batch:
+            res[id_flattened[j]] = sample
+            j += 1
+    return res
 
 
 

@@ -1,16 +1,18 @@
 import pandas as pd
 import numpy as np
-
+import random as rd
 
 
 class SampleBuilder:
-    def __init__(self,comparator):
+    def __init__(self,comparator,leftPrefix='ltable_',rightPrefix='rtable_'):
         ##string comparator
-        self.comparator == comparator
+        self.comparator = comparator
+        self.leftPrefix = leftPrefix
+        self.rightPrefix = rightPrefix
 
 
     ##df1 and df2 are two sources of records, attributes are the attributes important for the prediction
-    def createPossibleMatchings(df1,df2,important_attributes,min_similarity,newsample_len):
+    def createPossibleMatchings(self,df1,df2,important_attributes,min_similarity,newsample_len):
         df1_index = list(df1.index)
         df2_index = list(df2.index)
         newSamples = []
@@ -25,8 +27,10 @@ class SampleBuilder:
             for idx in current_df.index:
                 newSamples.append((current_lrow['id'],current_df.at[idx,'id']))
         newSamples_ids = pd.DataFrame(data=newSamples,columns=['ltable_id','rtable_id'])
-        left_columns = list(map(lambda s:left_prefix+s,list(df1)))
-        right_columns = list(map(lambda s:right_prefix+s,list(df2)))
+        ##only temporary label
+        newSamples_ids['label'] = np.ones(newSamples_ids.shape[0])
+        left_columns = list(map(lambda s:self.leftPrefix+s,list(df1)))
+        right_columns = list(map(lambda s:self.rightPrefix+s,list(df2)))
         df1.columns = left_columns
         df2.columns = right_columns
 
@@ -36,11 +40,11 @@ class SampleBuilder:
 
         unlabeled_df = unlabeled_df.drop(['ltable_id','rtable_id'],axis=1)
         unlabeled_df['id'] = np.arange(unlabeled_df.shape[0])
-        return unlabeled_df
+        return unlabeled_df,newSamples_ids
 
 
     ##new attribute value is a couple of attributes
-    def buildNewSamples(dataset,selectedAttr,newAttributeVal,newSamples_len,label,left_prefix='ltable_',
+    def buildNewSamples(self,dataset,selectedAttr,newAttributeVal,newSamples_len,label,left_prefix='ltable_',
                        right_prefix='rtable_'):
 
         new_samples = pd.DataFrame(data = [], columns =list(dataset))
@@ -57,7 +61,7 @@ class SampleBuilder:
 
 
 
-    def buildNewSamplesForAttribute(critical_forPos,critical_forNeg,attribute,lenNewPositives,lenNewNegatives,
+    def buildNewSamplesForAttribute(self,critical_forPos,critical_forNeg,attribute,lenNewPositives,lenNewNegatives,
                                    start_idx):
         newSamples = []
         for df,_,_ in critical_forPos[attribute]:
