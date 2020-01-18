@@ -3,7 +3,6 @@
 import torch
 import deepmatcher as dm
 from deepmatcher.data import MatchingIterator
-from torch.autograd import Variable
 import torch
 
 # methods to save intermediate layer output/input
@@ -28,20 +27,29 @@ def _return_layer_input_for_batch(model,hook,batch):
 
 def _return_input(module,module_input,module_output):
     global current_layer_input
-    current_layer_input = Variable(module_input[0].data.cuda(),requires_grad=True)
+    if isinstance(module_input,tuple):
+        current_layer_input = (module_input[0].detach().requires_grad_())
+    else:
+        current_layer_input = (module_input[0].detach().requires_grad_())
 
 
 def _return_input_output(module,module_input,module_output):
     global current_layer_input
     global current_layer_output
-    current_layer_input = Variable(module_input[0].data.cuda(),requires_grad=True)
-    current_layer_output = Variable(module_output[0].data.cuda(),requires_grad=True)
+    if isinstance(module_input,tuple):
+        current_layer_input = (module_input[0].detach().requires_grad_())
+    else:
+        current_layer_input = (module_input[0].detach().requires_grad_())
+    if isinstance(module_output,tuple):
+        current_layer_output = (module_output[0].detach().requires_grad_())
+    else:
+        current_layer_output = (module_output.detach().requires_grad_())
 
 
-def return_layer_input_output(dataset_dir,dataset_name,batch_size,model,layer,device=0):
+def return_layer_input_output(dataset_dir,dataset_name,batch_size,model,layer,device='cuda'):
     dataset = dm.data.process(path=dataset_dir,train=dataset_name+'.csv',left_prefix='ltable_',right_prefix='rtable_',cache=dataset_name+'.pth')
     dataset_tuple = dataset,
-    splits = MatchingIterator.splits(dataset_tuple,batch_size=batch_size, device = device)
+    splits = MatchingIterator.splits(dataset_tuple,batch_size=batch_size, device = 'cuda')
     tupleids = []
     layer_inputs = []
     layer_outputs = []
@@ -63,7 +71,7 @@ def return_layer_input_output(dataset_dir,dataset_name,batch_size,model,layer,de
     return res
 
 
-def return_layer_input(model,layer,dataset_dir,dataset_name,batch_size=32,device = 0):
+def return_layer_input(model,layer,dataset_dir,dataset_name,batch_size=32,device ='cuda'):
     dataset = dm.data.process(path=dataset_dir,train=dataset_name+'.csv',left_prefix='ltable_',right_prefix='rtable_',cache=dataset_name+'.pth')
     dataset_tuple = dataset,
     splits = MatchingIterator.splits(dataset_tuple,batch_size=batch_size, device = device)

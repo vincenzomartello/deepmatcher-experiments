@@ -20,23 +20,22 @@ def get_probabilites(vec):
 
 def _getPrediction(layer,sample):
     pred = layer.forward(sample)
-    if pred.data[0][0] > pred.data[0][1]:
+    if pred[0][0].item() > pred[0][1].item():
         return 0
     else:
         return 1
 
 
-def findPerturbationToFlipPredict(sample,layer,classifier_length,attributes,attribute_length,class_to_reach):
-    max_iterations = 100
+def findPerturbationToFlipPredict(sample,layer,classifier_length,attributes,attribute_length,class_to_reach, max_iterations = 100):
     ##to not alter original starting sample
     sample_copy = torch.unsqueeze(sample.clone(),0)
     sample_copy.register_hook(_saveCurrentGradient)
     if class_to_reach == 1:
-        desidered_labels = Variable(torch.cuda.FloatTensor([[0,1]]))
+        desidered_labels = torch.tensor([[0.,1.]],device='cuda')
     else:
-        desidered_labels = Variable(torch.cuda.FloatTensor([[1,0]]))
+        desidered_labels = torch.tensor([[1.,0.]],device='cuda')
     xi = sample_copy
-    sum_ri = Variable(torch.cuda.FloatTensor(classifier_length).fill_(0))
+    sum_ri = torch.zeros(classifier_length,device='cuda')
     iterations = 1
     continue_search = True
     while(continue_search and iterations <max_iterations and _getPrediction(layer,xi)!=class_to_reach):      
@@ -51,23 +50,23 @@ def findPerturbationToFlipPredict(sample,layer,classifier_length,attributes,attr
         loss = F.binary_cross_entropy(F.softmax(output,dim=1),desidered_labels)
         loss.backward()
         current_gradient = currentGradient
-        partial_derivative = Variable(torch.cuda.FloatTensor(classifier_length).fill_(0))
+        partial_derivative = torch.zeros(classifier_length,device='cuda')
         for att in attributes:
             start_index = att * attribute_length
             end_index = start_index+ attribute_length
             partial_derivative[start_index:end_index] = current_gradient[:,start_index:end_index]
         current_norm = torch.norm(partial_derivative)
-        if current_norm.data[0] <=0.00001:
-            sum_ri = Variable(torch.cuda.FloatTensor(classifier_length).fill_(0))
+        if current_norm.item() <=0.00001:
+            sum_ri = torch.zeros(classifier_length,device='cuda')
             print(" Gradient is null")
             continue_search = False
         else:
             ri = -(fx/current_norm)*(partial_derivative)
-            xi = Variable(xi.data+ri.data,requires_grad=True)
+            xi = (xi+ri).clone().detach().requires_grad_()
             sum_ri += ri
             iterations +=1
     if iterations>=max_iterations:
-        sum_ri = Variable(torch.cuda.FloatTensor(classifier_length).fill_(0))
+        sum_ri = torch.zeros(classifier_length,device='cuda')
         print("can't converge in {} iterations".format(str(iterations)))
         
     return sum_ri
@@ -77,7 +76,7 @@ def findCloserNaif(v,opposite_data,opposite_data_label,model,attribute_idx,attri
     start_idx = attribute_idx*attribute_len
     end_idx = start_idx+attribute_len
     original_prediction = model.forward(torch.unsqueeze(v,0))
-    if original_prediction.data[0][0] > original_prediction.data[0][1]:
+    if original_prediction[0][0].item() > original_prediction[0][1].item():
         original_label = 0
     else:
         original_label = 1
@@ -117,7 +116,7 @@ def computeRi(layer,attributes,dataset,class_to_reach):
         current_sample_ris = list(map(lambda att: findPerturbationToFlipPredict(sample,layer,layer_len,[attributes.index(att)],
                                                                                          attribute_len,class_to_reach),attributes))
         ri[sampleid] = current_sample_ris
-    ri_norms = [[torch.norm(v).data[0] for v in ris] for ris in ri.values()]
+    ri_norms = [[torch.norm(v).item() for v in ris] for ris in ri.values()]
     rinorms_df = pd.DataFrame(data= ri_norms,columns=attributes)
     return ri,rinorms_df
 
