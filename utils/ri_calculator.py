@@ -6,6 +6,7 @@ import numpy as np
 from math import exp
 from tqdm import tqdm
 import pandas as pd
+import torch.nn as nn
 
 
 def _saveCurrentGradient(grad):
@@ -26,28 +27,24 @@ def _getPrediction(layer,sample):
         return 1
 
 
-def findPerturbationToFlipPredict(sample,layer,classifier_length,attributes,attribute_length,class_to_reach, max_iterations = 100):
+def findPerturbationToFlipPredict(sample,layer,classifier_length,attributes,attribute_length,true_label, max_iterations = 100):
     ##to not alter original starting sample
-    sample_copy = torch.unsqueeze(sample.clone(),0)
-    sample_copy.register_hook(_saveCurrentGradient)
-    if class_to_reach == 1:
-        desidered_labels = torch.tensor([[0.,1.]],device='cuda')
-    else:
-        desidered_labels = torch.tensor([[1.,0.]],device='cuda')
+    sample_copy = torch.unsqueeze(sample.clone().detach().requires_grad_(),0)
     xi = sample_copy
     sum_ri = torch.zeros(classifier_length,device='cuda')
     iterations = 1
     continue_search = True
-    while(continue_search and iterations <max_iterations and _getPrediction(layer,xi)!=class_to_reach):      
+    while(continue_search and iterations <max_iterations and _getPrediction(layer,xi)==true_label):      
         output = layer.forward(xi)
         probabilities = get_probabilites(output)
+        hook = xi.register_hook(_saveCurrentGradient)
         ##f(x) is the probability of the current state
-        if class_to_reach == 1:
+        if true_label == 0:
             fx = 1 - probabilities[0][1]
         else:
             fx = probabilities[0][1]
         #- to move to the opposite direction of gradients
-        loss = F.binary_cross_entropy(F.softmax(output,dim=1),desidered_labels)
+        loss = -nn.CrossEntropyLoss()(F.softmax(output,dim=1),torch.tensor([true_label],device='cuda:0'))
         loss.backward()
         current_gradient = currentGradient
         partial_derivative = torch.zeros(classifier_length,device='cuda')
@@ -65,11 +62,27 @@ def findPerturbationToFlipPredict(sample,layer,classifier_length,attributes,attr
             xi = (xi+ri).clone().detach().requires_grad_()
             sum_ri += ri
             iterations +=1
+            hook.remove()
     if iterations>=max_iterations:
         sum_ri = torch.zeros(classifier_length,device='cuda')
         print("can't converge in {} iterations".format(str(iterations)))
         
     return sum_ri
+
+
+def computeRi(layer,attributes,dataset,true_label):
+    layer_len = len(list(dataset.values())[0])
+    attribute_len = int(layer_len/len(attributes))
+    ri = {}
+    i = 0
+    for sampleid in tqdm(dataset.keys()):
+        sample = dataset[sampleid]
+        current_sample_ris = list(map(lambda att: findPerturbationToFlipPredict(sample,layer,layer_len,[attributes.index(att)],
+                                                                                         attribute_len,true_label),attributes))
+        ri[sampleid] = current_sample_ris
+    ri_norms = [[torch.norm(v).item() for v in ris] for ris in ri.values()]
+    rinorms_df = pd.DataFrame(data= ri_norms,columns=attributes)
+    return ri,rinorms_df
 
 
 def findCloserNaif(v,opposite_data,opposite_data_label,model,attribute_idx,attribute_len):
@@ -104,21 +117,6 @@ def findCloserNaif(v,opposite_data,opposite_data_label,model,attribute_idx,attri
     else:
         ##If we return 0 vector it means that we couldn't find any perturbation
         return Variable(torch.zeros(attribute_len))
-    
-
-def computeRi(layer,attributes,dataset,class_to_reach):
-    layer_len = len(list(dataset.values())[0])
-    attribute_len = int(layer_len/len(attributes))
-    ri = {}
-    i = 0
-    for sampleid in tqdm(dataset.keys()):
-        sample = dataset[sampleid]
-        current_sample_ris = list(map(lambda att: findPerturbationToFlipPredict(sample,layer,layer_len,[attributes.index(att)],
-                                                                                         attribute_len,class_to_reach),attributes))
-        ri[sampleid] = current_sample_ris
-    ri_norms = [[torch.norm(v).item() for v in ris] for ris in ri.values()]
-    rinorms_df = pd.DataFrame(data= ri_norms,columns=attributes)
-    return ri,rinorms_df
 
 
 def computeRiNaif(dataset,oppLabelData,oppLabel,layer,attributes,attribute_len):

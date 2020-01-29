@@ -5,31 +5,37 @@ import numpy as np
 import deepmatcher as dm
 import os
 import shutil
+from tqdm import tqdm
 
 
-def _wrapDm(test_df,model,ignore_columns=['id','label']):
+def _wrapDm(test_df,model,ignore_columns=['id','label'],outputAttributes=False):
     if not os.path.exists('temp'):
         os.mkdir('temp')
     test_df.to_csv('temp/test.csv',index=False)
     test = dm.data.process_unlabeled('temp/test.csv',model,ignore_columns=ignore_columns)
-    predictions = model.run_prediction(test)
-    prediction_matchscore = predictions['match_score']
-    predicted_labels = list(map(lambda p:round(p),prediction_matchscore))
-    return prediction_matchscore
+    predictions = model.run_prediction(test, output_attributes=outputAttributes)
+    return predictions
 
 
-def changeRandomCharacter(att,permittedPositions):
-    random_char = rd.choice(string.ascii_letters+string.digits+string.punctuation)
-    new_char_idx = rd.choice(permittedPositions)
-    res = att[:new_char_idx]+random_char+att[new_char_idx+1:]
+def changeRandomCharacters(att,editdist=1):
+    alreadyUsedPositions = []
+    res = att
+    if editdist >len(att):
+        editdist = len(att)
+    for i in range(editdist):
+        random_char = rd.choice(string.ascii_letters+string.digits+string.punctuation)
+        new_char_idx = rd.choice(np.arange(len(att)))
+        while new_char_idx in alreadyUsedPositions:
+            new_char_idx = rd.choice(np.arange(len(att)))
+        alreadyUsedPositions.append(new_char_idx)
+        res = res.replace(att[new_char_idx],random_char,1)
     return res
 
 
-def attackDataset(dataset,ignore_columns):
+def attackDatasetEditDist(dataset,ignore_columns,editdist=1):
     for col in list(dataset):
         if col not in ignore_columns:
-            dataset[col] = dataset[col].apply(lambda s: changeRandomCharacter(str(s),
-                                                                             np.arange(len(str(s)))))
+            dataset[col] = dataset[col].apply(lambda s: changeRandomCharacters(str(s),editdist))
     return dataset
 
 
@@ -37,18 +43,6 @@ def cleanString(string,filters = '!"#$%&()*+,-./:;<=>?@[\\]^_`{|}~\t\n'):
     for c in filters:
         string = string.replace(c,' ')
     return string
-
-
-def createDictionary(sentences):
-    wordDict = {}
-    for sentence in sentences:
-        for token in sentence.split():
-            token = token.lower()
-            if token in wordDict:
-                wordDict[token] += 1
-            else:
-                wordDict[token] = 1
-    return wordDict
 
 
 def getSentences(df,ignore_columns=['id','label']):
@@ -66,8 +60,15 @@ def getSentences(df,ignore_columns=['id','label']):
 
 def getDictionary(df_l):
     all_sentences = getSentences(pd.concat(df_l,ignore_index=True))
-    dictionary = createDictionary(all_sentences)
-    return dictionary
+    wordDict = {}
+    for sentence in all_sentences:
+        for token in sentence.split():
+            token = token.lower()
+            if token in wordDict:
+                wordDict[token] += 1
+            else:
+                wordDict[token] = 1
+    return wordDict
 
 
 def perturbAttribute(sample,attribute,tokenToReplace,closestWord):
@@ -79,6 +80,7 @@ def perturbAttribute(sample,attribute,tokenToReplace,closestWord):
 def changeCharactersInAttr(sample,attribute,tokenToAlter,editDist):
     alreadyUsedIdx = []
     alteredToken = tokenToAlter
+    rd.seed(2)
     for i in range(editDist):
         random_char = rd.choice(string.ascii_letters+string.digits+string.punctuation)
         new_char_idx = rd.choice(np.arange(len(tokenToAlter)))
@@ -90,13 +92,15 @@ def changeCharactersInAttr(sample,attribute,tokenToAlter,editDist):
     return sample
 
 
-def attackAttribute(dataset,sample_idx,attribute,model,closestWordsMap,notfound,stopwords):
-    attr = dataset.at[sample_idx,attribute]
+def attackAttribute(dataset,sample_idx,attribute,closestWordsMap,notfound,stopwords):
+    attr = dataset.iloc[sample_idx][attribute]
     cleanAttr = cleanString(str(attr))
     attackedTuples = []
     for token in cleanAttr.split():
         if (token.lower() not in stopwords) and (token.lower() not in notfound):
             closestWords = closestWordsMap[token.lower()]
+            if len(closestWords) > 5:
+                closestWords = closestWords[:5]
             for word,dist in closestWords:
                 attackedTuple = perturbAttribute(dataset.iloc[sample_idx].copy(),attribute,token,word)
                 attackedTuples.append(attackedTuple)
@@ -107,32 +111,68 @@ def attackAttribute(dataset,sample_idx,attribute,model,closestWordsMap,notfound,
     return attackedTestDf
 
 
-def _findIndex(idx,indexMap):
-    for key,val in indexMap.items():
-        if idx in val:
-            return key
-    return None
-
-
-def attackSample(dataset,sample_idx,attributes,model,closestWordsMap,notfound,stopwords):
-    originalPred = round(_wrapDm(dataset.iloc[[sample_idx]],model)[0])
+def attackSample(dataset,sample_idx,attributes,closestWordsMap,notfound,stopwords):
     attackedTuples = []
-    perturbationLen = {}
-    j = 0
-    attackSuccessfullForAttr = {}
+    alteredAttributes = []
     for att in attributes:
-        attackedTuplesOnAttribute = attackAttribute(dataset,sample_idx,att,model,closestWordsMap,
+        attackedTuplesOnAttribute = attackAttribute(dataset,sample_idx,att,closestWordsMap,
                                                    notfound,stopwords)
-        perturbationLen[att] = np.arange(j,j+len(attackedTuplesOnAttribute))
-        j += len(attackedTuplesOnAttribute)
-        attackSuccessfullForAttr[att] = False
+        alteredAttributes= alteredAttributes + ([att]*len(attackedTuplesOnAttribute))
         attackedTuples.append(attackedTuplesOnAttribute)
     allAttacks = pd.concat(attackedTuples)
-    predictions = _wrapDm(allAttacks,model)
+    allAttacks['altered_attribute'] = alteredAttributes
+    return allAttacks
+
+
+def _check(originalPred,attackedPredictions,attribute,attack_ids):
+    attackSuccessfull = {}
+    for att in attribute:
+        attackSuccessfull[att] = False
+    selectedRows = attackedPredictions[attack_ids[0]:attack_ids[-1]+1]
+    for i in range(len(selectedRows)):
+        if round(selectedRows.iloc[i]['match_score'])!= originalPred:
+            attackSuccessfull[selectedRows.iloc[i]['altered_attribute']] = True
+    return attackSuccessfull
+
+
+def attackDataset(dataset,model,attributes,closestWordsMap,notfound,stopwords):
+    attackedPairs = []
+    j = 0
+    ##for which tuple I save the mapping between tuple and its relative attacked records
+    pairAttackMapping = {}
+    for idx in tqdm(range(len(dataset))):
+        curr_attack = attackSample(dataset,idx,attributes,model,closestWordsMap,
+                                         notfound,stopwords)
+        pairAttackMapping[idx] = np.arange(j,j+len(curr_attack))
+        curr_attack['id'] = np.arange(j,j+len(curr_attack))
+        j += len(curr_attack)
+        attackedPairs.append(curr_attack)
+    attackedPairs_df = pd.concat(attackedPairs)
+    originalPreds = _wrapDm(dataset,model)
+    attackPredictions =_wrapDm(attackedPairs_df,model,ignore_columns=['id','label','altered_attribute'],outputAttributes=True)
+    attackSuccessfull = {}
+    for i in tqdm(range(len(originalPreds))):
+        originalPred = round(originalPreds.iloc[i]['match_score'])
+        correspondingAttackRows = pairAttackMapping[i]
+        attackSuccessfull[i] = _check(originalPred,attackPredictions,attributes,correspondingAttackRows)
+    attackStats_df = pd.DataFrame.from_dict(attackSuccessfull,orient='index')
     shutil.rmtree('temp')
-    ## boolean array
-    for i,pred in enumerate(predictions):
-        if round(pred) !=originalPred:
-            relatedAttribute = _findIndex(i,perturbationLen)
-            attackSuccessfullForAttr[relatedAttribute] = True
-    return attackSuccessfullForAttr
+    return attackStats_df
+
+
+def getAttackedDataset(dataset,attributes,closestWordsMap,notfound,stopwords):
+    attackedPairs = []
+    j = 0
+    ##for which tuple I save the mapping between tuple and its relative attacked records
+    pairAttackMapping = {}
+    pairPerturbedAttributes = {}
+    for idx in tqdm(range(len(dataset))):
+        curr_attack = attackSample(dataset,idx,attributes,closestWordsMap,
+                                         notfound,stopwords)
+        pairAttackMapping[dataset.iloc[idx]['id']] = np.arange(j,j+len(curr_attack))
+        pairPerturbedAttributes[dataset.iloc[idx]['id']] = curr_attack['altered_attribute']
+        curr_attack['id'] = np.arange(j,j+len(curr_attack))
+        j += len(curr_attack)
+        attackedPairs.append(curr_attack)
+    attackedPairs_df = pd.concat(attackedPairs)
+    return attackedPairs_df,pairAttackMapping,pairPerturbedAttributes

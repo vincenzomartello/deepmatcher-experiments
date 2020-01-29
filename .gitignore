@@ -6,4 +6,4 @@ __pycache__/
 temp/
 nohup.out
 glove.*
-counter-fitter.*
+counter-fitted-vectors.txt
