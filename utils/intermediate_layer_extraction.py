@@ -50,7 +50,7 @@ def _return_input_output(module,module_input,module_output):
 def return_layer_input_output(dataset_dir,dataset_name,batch_size,model,layer,device='cuda'):
     dataset = dm.data.process(path=dataset_dir,train=dataset_name+'.csv',left_prefix='ltable_',right_prefix='rtable_',cache=dataset_name+'.pth')
     dataset_tuple = dataset,
-    splits = MatchingIterator.splits(dataset_tuple,batch_size=batch_size, device = device)
+    splits = MatchingIterator.splits(dataset_tuple,batch_size=1, device = device)
     tupleids = []
     layer_inputs = []
     layer_outputs = []
@@ -72,17 +72,17 @@ def return_layer_input_output(dataset_dir,dataset_name,batch_size,model,layer,de
     return res
 
 
-def return_layer_input(model,layer,dataset_dir,dataset_name,batch_size=32,device ='cuda'):
-    dataset = dm.data.process(path=dataset_dir,train=dataset_name+'.csv',\
-                              left_prefix='ltable_',right_prefix='rtable_',cache=dataset_name+'.pth')
+def return_layer_input(model,layer,dataset_dir,dataset_name,batch_size=32,
+                       device ='cuda',ignore_columns=['label','id']):
+    dataset = dm.data.process_unlabeled(dataset_dir+dataset_name+'.csv',model,ignore_columns=ignore_columns)
     dataset_tuple = dataset,
-    splits = MatchingIterator.splits(dataset_tuple,batch_size=batch_size, device = device)
+    splits = MatchingIterator.splits(dataset_tuple,batch_size=1, device = device)
     tupleids = []
     layer_inputs = []
     hook = layer.register_forward_hook(_return_input)
     for batch in splits[0]:
         tupleids.append(batch.id)
-        model.forward(batch)
+        model(batch)
         layer_inputs.append(current_layer_input)
     hook.remove()
     id_flattened = _flat_list(tupleids)
@@ -103,13 +103,16 @@ def returnLayerInputUnlabeled(model,layer,dataset_dir,dataset_name,batch_size=32
     splits = MatchingIterator.splits(dataset_tuple,batch_size=batch_size, device = device)
     tupleids = []
     layer_inputs = []
-    model._reset_embeddings(dataset.vocabs)
+    model_c = copy.deepcopy(model)
+    ##layer_c = copy.deepcopy(layer)
+    model_c._reset_embeddings(dataset.vocabs)
     if device=='cuda':
-        model = model.cuda()
-    hook = layer.register_forward_hook(_return_input)
+        model_c = model_c.to('cuda')
+    layer_c = model_c.classifier
+    hook = layer_c.register_forward_hook(_return_input)
     for batch in splits[0]:
         tupleids.append(batch.id)
-        model.forward(batch)
+        model_c.forward(batch)
         layer_inputs.append(current_layer_input)
     hook.remove()
     id_flattened = _flat_list(tupleids)

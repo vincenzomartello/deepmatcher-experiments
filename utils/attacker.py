@@ -6,15 +6,7 @@ import deepmatcher as dm
 import os
 import shutil
 from tqdm import tqdm
-
-
-def _wrapDm(test_df,model,ignore_columns=['id','label'],outputAttributes=False):
-    if not os.path.exists('temp'):
-        os.mkdir('temp')
-    test_df.to_csv('temp/test.csv',index=False)
-    test = dm.data.process_unlabeled('temp/test.csv',model,ignore_columns=ignore_columns)
-    predictions = model.run_prediction(test, output_attributes=outputAttributes)
-    return predictions
+from utils.deepmatcher_utils import wrapDm
 
 
 def changeRandomCharacters(att,editdist=1):
@@ -148,8 +140,8 @@ def attackDataset(dataset,model,attributes,closestWordsMap,notfound,stopwords):
         j += len(curr_attack)
         attackedPairs.append(curr_attack)
     attackedPairs_df = pd.concat(attackedPairs)
-    originalPreds = _wrapDm(dataset,model)
-    attackPredictions =_wrapDm(attackedPairs_df,model,ignore_columns=['id','label','altered_attribute'],outputAttributes=True)
+    originalPreds = wrapDm(dataset,model)
+    attackPredictions = wrapDm(attackedPairs_df,model,ignore_columns=['id','label','altered_attribute'],outputAttributes=True)
     attackSuccessfull = {}
     for i in tqdm(range(len(originalPreds))):
         originalPred = round(originalPreds.iloc[i]['match_score'])
