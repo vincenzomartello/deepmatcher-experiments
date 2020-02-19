@@ -20,8 +20,8 @@ def generate_train_valid_test(dataset_dir,splitfiles,left_prefix,right_prefix,dr
     datasets = []
     #P sta per parziale
     for dataset_id in datasets_ids:
-        pdata = pd.merge(dataset_id,df_tableA, how='inner')
-        dataset = pd.merge(pdata,df_tableB,how='inner')
+        pdata = pd.merge(dataset_id,df_tableA, how='inner',left_on='ltable_id',right_on=left_prefix+'id')
+        dataset = pd.merge(pdata,df_tableB,how='inner',left_on='rtable_id','right_on=right_prefix+'id')
         datasets.append(dataset)
 
     train_lenght = datasets[0].shape[0]
