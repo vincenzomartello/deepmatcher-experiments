@@ -35,7 +35,7 @@ def findPerturbationToFlipPredict(sample,layer,classifier_length,attributes,attr
     iterations = 1
     continue_search = True
     while(continue_search and iterations <max_iterations and _getPrediction(layer,xi)==true_label):      
-        output = layer.forward(xi)
+        output = layer(xi)
         probabilities = get_probabilites(output)
         hook = xi.register_hook(_saveCurrentGradient)
         ##f(x) is the probability of the current state
@@ -66,23 +66,42 @@ def findPerturbationToFlipPredict(sample,layer,classifier_length,attributes,attr
     if iterations>=max_iterations:
         sum_ri = torch.zeros(classifier_length,device='cuda')
         print("can't converge in {} iterations".format(str(iterations)))
-        
     return sum_ri
 
 
-def computeRi(layer,attributes,dataset,true_label):
+def computeRi(layer,attributes,dataset,true_label,aggregation_type):
     layer_len = len(list(dataset.values())[0])
     attribute_len = int(layer_len/len(attributes))
-    ri = {}
+    ri_map = {}
     i = 0
     for sampleid in tqdm(dataset.keys()):
         sample = dataset[sampleid]
         current_sample_ris = list(map(lambda att: findPerturbationToFlipPredict(sample,layer,layer_len,[attributes.index(att)],
                                                                                          attribute_len,true_label),attributes))
-        ri[sampleid] = current_sample_ris
-    ri_norms = [[torch.norm(v).item() for v in ris] for ris in ri.values()]
-    rinorms_df = pd.DataFrame(data= ri_norms,columns=attributes)
-    return ri,rinorms_df
+        ri_map[sampleid] = current_sample_ris
+    aggregatedRi = aggregateRi(ri_map,dataset,attributes,aggregation_type)
+    return ri_map,aggregatedRi
+
+
+def aggregateRi(ri_map,samples,attributes,aggregation_type):
+    aggregation = []
+    attribute_len = int(len(list(samples.values())[0])/len(attributes))
+    for sample_id in samples.keys():
+        curr_aggregate = []
+        for idx,_ in enumerate(attributes):
+            start_idx = idx*attribute_len
+            end_idx = start_idx+attribute_len
+            curr_ri = ri_map[sample_id][idx]
+            if aggregation_type=='cosine':
+                perturbation_measure = F.cosine_similarity(samples[sample_id][start_idx:end_idx],\
+                                                           (samples[sample_id]+curr_ri)[start_idx:end_idx],dim=0)
+            elif aggregation_type=='euclidean':
+                perturbation_measure = torch.norm(curr_ri)
+            curr_aggregate.append(perturbation_measure.item())
+        aggregation.append(curr_aggregate)
+    df = pd.DataFrame(data=aggregation,columns=attributes)
+    df['sample_id'] = samples.keys()
+    return df
 
 
 def findCloserNaif(v,opposite_data,opposite_data_label,model,attribute_idx,attribute_len):
@@ -105,7 +124,8 @@ def findCloserNaif(v,opposite_data,opposite_data_label,model,attribute_idx,attri
         predictions = model.forward(v_batch_var)
         i = 0
         for pred in predictions:
-            if (opposite_data_label ==1 and pred.data[1]>pred.data[0]) or (opposite_data_label ==0 and pred.data[0] >pred.data[1]):
+            if (opposite_data_label ==1 and pred.data[1]>pred.data[0]) or (opposite_data_label ==0 \
+                                                                           and pred.data[0] >pred.data[1]):
                 ri = batch[i][start_idx:end_idx]-original_att_value
                 distances.append(torch.norm(ri).data[0])
                 perturbations.append(batch[i][start_idx:end_idx])

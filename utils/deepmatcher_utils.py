@@ -1,26 +1,27 @@
 import deepmatcher as dm
 import numpy as np
 import contextlib
-import os
 import pandas as pd
-import shutil
 from tqdm import tqdm
+import random 
+import os
+import string
 from sklearn.metrics import f1_score,precision_score,recall_score
 
 
 def wrapDm(test_df,model,ignore_columns=['id','label'],outputAttributes=False,batch_size=32):
-    if not os.path.exists('temp'):
-        os.mkdir('temp')
-    test_df.to_csv('temp/test.csv',index=False)
+    data = test_df.copy()
+    tmp_name = "./{}.csv".format("".join([random.choice(string.ascii_lowercase) for _ in range(10)]))
+    data.to_csv(tmp_name,index=False)
     with open(os.devnull, 'w') as devnull:
         with contextlib.redirect_stdout(devnull):
-            data_processed = dm.data.process_unlabeled('temp/test.csv', trained_model = model,\
+            data_processed = dm.data.process_unlabeled(tmp_name, trained_model = model,\
                                                        ignore_columns=ignore_columns)
             predictions = model.run_prediction(data_processed, output_attributes = outputAttributes,\
                                               batch_size=batch_size)
-            out_proba = predictions['match_score'].values
+            out_proba = predictions['match_score'].values.reshape(-1)
     multi_proba = np.dstack((1-out_proba, out_proba)).squeeze()
-    shutil.rmtree('temp')
+    os.remove(tmp_name)
     if outputAttributes:
         return predictions
     else:

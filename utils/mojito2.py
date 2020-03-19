@@ -3,6 +3,7 @@ import deepmatcher as dm
 from itertools import chain, combinations
 import numpy as np
 import random as rd
+import math
 from tqdm import tqdm
 from utils.deepmatcher_utils import wrapDm
 from utils.sampleBuilder import buildNegativeFromSample
@@ -12,15 +13,15 @@ from strsimpy.jaccard import Jaccard
 
 
 ##maxLenAttributes is the maximum number of perturbed attributes we want to consider
-def aggregateRankings(ranking_l,positive,maxLenAttributes):
+def aggregateRankings(ranking_l,positive,maxLenAttributes,lenTriangles):
     allRank = {}
     for rank in ranking_l:
         for key in rank.keys():
             if len(key) <= maxLenAttributes:
                 if key in allRank:
-                    allRank[key] += 1
+                    allRank[key] += 1/lenTriangles
                 else:
-                    allRank[key] = 1
+                    allRank[key] = 1/lenTriangles
     alteredAttr = list(map(lambda t:"/".join(t),list(allRank.keys())))
     rankForHistogram = {'attributes':alteredAttr,'flipped':list(allRank.values())}
     fig_height = len(alteredAttr)
@@ -39,75 +40,51 @@ def _renameColumnsWithPrefix(prefix,df):
             newcol.append(prefix+col)
         df.columns = newcol
 
-
-def createOriginalTriple(r1,r2,r3):
-        r1 = r1.reset_index(drop=True)
-        r2 = r2.reset_index(drop=True)
-        r3 = r3.reset_index(drop=True)
-        r2_copy = r2.copy()
-        renameColumnsWithPrefix('ltable_',r1)
-        renameColumnsWithPrefix('rtable_',r2)
-        renameColumnsWithPrefix('ltable_',r2_copy)
-        renameColumnsWithPrefix('rtable_',r3)
-        r1r2 = pd.concat([r1,r2],axis=1,sort=False)
-        r2r3 = pd.concat([r2_copy,r3],axis=1,sort=False)
-        r1r3 = pd.concat([r1,r3],axis=1,sort=False)
-        result = pd.concat([r1r2,r2r3,r1r3])
-        result['id'] = [0,1,2]
-        return result
-
     
 def _powerset(xs,minlen,maxlen):
     return [subset for i in range(minlen,maxlen+1)
             for subset in combinations(xs, i)]
 
-
-def createPositiveTriangle(r1,r2,r3,attributes,maxLenAttributeSet):
-        allAttributesSubsets = list(_powerset(attributes,1,maxLenAttributeSet))
-        perturbations = []
-        perturbedAttributes = []
-        for subset in allAttributesSubsets:
-            perturbedAttributes.append(subset)
-            newRow = r2.copy()
-            for att in subset:
-                newRow[att] = r3[att]
-            perturbations.append(newRow)
-        perturbations_df = pd.DataFrame(perturbations)
-        return perturbations_df,perturbedAttributes
     
 
-def createNegativeTriangle(r1,r2,r3,attributes,maxLenAttributeSet):
+def createPerturbationsFromTriangle(triangle,attributes,maxLenAttributeSet,originalClass):
     allAttributesSubsets = list(_powerset(attributes,1,maxLenAttributeSet))
     perturbations = []
     perturbedAttributes = []
     for subset in allAttributesSubsets:
         perturbedAttributes.append(subset)
-        newRow = r3.copy()
-        for att in subset:
-            newRow[att] = r2[att]
-        perturbations.append(newRow)
-    perturbations_df = pd.DataFrame(perturbations)
-    return perturbations_df,perturbedAttributes
+        if originalClass==1:
+            newRow = triangle[1].copy()
+            for att in subset:
+                newRow[att] = triangle[2][att]
+            perturbations.append(newRow)
+        else:
+            newRow = triangle[2].copy()
+            for att in subset:
+                newRow[att] = triangle[1][att]
+            perturbations.append(newRow)
+    perturbations_df = pd.DataFrame(perturbations,index = np.arange(len(perturbations)))
+    r1 = triangle[0]
+    r1_copy = [r1]*len(perturbations_df)
+    r1_df = pd.DataFrame(r1_copy, index=np.arange(len(perturbations)))
+    _renameColumnsWithPrefix('ltable_',r1_df)
+    _renameColumnsWithPrefix('rtable_',perturbations_df)
+    allPerturbations = pd.concat([r1_df,perturbations_df], axis=1)
+    allPerturbations['id'] = np.arange(len(allPerturbations))
+    allPerturbations['alteredAttributes'] = perturbedAttributes
+    return allPerturbations,perturbedAttributes
 
-
-def _occurrInNegative(sampleid,id_list,labels):
-        occurrences = 0
-        for i,sample_id in enumerate(id_list):
-            if labels[i] == 0 and sample_id == sampleid:
-                occurrences += 1
-        return occurrences
 
     
 def generateNewNegatives(df,source1,source2,newNegativesToBuild):
     allNewNegatives = []
     jaccard = Jaccard(3)
     positives = df[df.label==1]
-    newNegativesPerSample = round(newNegativesToBuild/len(positives))
+    negatives = df[df.label==0]
+    newNegativesPerSample = math.ceil(newNegativesToBuild/len(positives))
     for i in range(len(positives)):
-        locc = _occurrInNegative(positives.iloc[i]['ltable_id'],
-                                 df['ltable_id'].values,df['label'].values)
-        rocc = _occurrInNegative(positives.iloc[i]['rtable_id'],df['rtable_id'].values,
-                                 df['label'].values)
+        locc = np.count_nonzero(negatives.ltable_id.values==positives.iloc[i]['ltable_id'])
+        rocc = np.count_nonzero(negatives.rtable_id.values == positives.iloc[i]['rtable_id'])
         if locc==0 and rocc == 0:
             permittedIds = [sampleid for sampleid in df['rtable_id'].values if sampleid!= df.iloc[i]['rtable_id']]
             newNegatives_l = buildNegativeFromSample(positives.iloc[i]['ltable_id'],permittedIds,\
@@ -121,7 +98,6 @@ def generateNewNegatives(df,source1,source2,newNegativesToBuild):
 def prepareDataset(dataset,source1,source2,newNegativesToBuild,left_prefix='ltable_',right_prefix='rtable_'):
     colForDrop = [col for col in list(dataset) if col not in ['id','ltable_id','rtable_id','label']]
     dataset = dataset.drop_duplicates(colForDrop)
-    ##positives = dataset[dataset.label==1]
     newNegatives = generateNewNegatives(dataset,source1,source2,newNegativesToBuild)
     left_columns = []
     right_columns = []
@@ -142,18 +118,18 @@ def prepareDataset(dataset,source1,source2,newNegativesToBuild,left_prefix='ltab
 
 
 ## for now we suppose to have only two sources
-def getPositiveCandidates(dataset,sources):
+def getMixedTriangles(dataset,sources):
         triangles = []
         positives = dataset[dataset.label==1]
         negatives = dataset[dataset.label==0]
         l_pos_ids = positives.ltable_id.values
         r_pos_ids = positives.rtable_id.values
-        for lid,rid in zip(l_pos_ids,r_pos_ids):         
-            if _occurrInNegative(rid,dataset.rtable_id.values,dataset.label.values)>=1:
+        for lid,rid in zip(l_pos_ids,r_pos_ids):
+            if np.count_nonzero(negatives.rtable_id.values==rid) >=1:
                 relatedTuples = negatives[negatives.rtable_id == rid]
                 for curr_lid in relatedTuples.ltable_id.values:
                     triangles.append((sources[0].iloc[lid],sources[1].iloc[rid],sources[0].iloc[curr_lid]))
-            if _occurrInNegative(lid,dataset.ltable_id.values,dataset.label.values)>=1:
+            if np.count_nonzero(negatives.ltable_id.values==lid)>=1:
                 relatedTuples = negatives[negatives.ltable_id==lid]
                 for curr_rid in relatedTuples.rtable_id.values:
                     triangles.append((sources[1].iloc[rid],sources[0].iloc[lid],sources[1].iloc[curr_rid]))
@@ -161,63 +137,67 @@ def getPositiveCandidates(dataset,sources):
     
 
 ## not used for now
-def getNegativeCandidates(dataset,sources):
+def getNegativeTriangles(dataset,sources):
         triangles = []
         negatives = dataset[dataset.label==0]
         l_neg_ids = negatives.ltable_id.values
         r_neg_ids = negatives.rtable_id.values
-        lr_ids = np.dstack((l_neg_ids,r_neg_ids)).squeeze()
-        for lid,rid in lr_ids:
-            if _occurrInNegative(rid,dataset.rtable_id.values,dataset.label.values)>=2:
+        for lid,rid in zip(l_neg_ids,r_neg_ids):
+            if np.count_nonzero(r_neg_ids==rid)>=2:
                 relatedTuples = negatives[negatives.rtable_id == rid]
                 for curr_lid in relatedTuples.ltable_id.values:
                     if curr_lid!= lid:
                         triangles.append((sources[0].iloc[lid],sources[1].iloc[rid],sources[0].iloc[curr_lid]))
-            if _occurrInNegative(lid,dataset.ltable_id.values,dataset.label.values)>=2:
+            if np.count_nonzero(l_neg_ids == lid) >=2:
                 relatedTuples = negatives[negatives.ltable_id == lid]
                 for curr_rid in relatedTuples.rtable_id.values:
                     if curr_rid != rid:
                         triangles.append((sources[1].iloc[rid],sources[0].iloc[lid],sources[1].iloc[curr_rid]))
         return triangles
+    
 
+def getPositiveTriangles(dataset,sources):
+        triangles = []
+        positives = dataset[dataset.label==1]
+        l_pos_ids = positives.ltable_id.values
+        r_pos_ids = positives.rtable_id.values
+        for lid,rid in zip(l_pos_ids,r_pos_ids):
+            if np.count_nonzero(l_pos_ids==rid)>=2:
+                relatedTuples = positives[positives.rtable_id == rid]
+                for curr_lid in relatedTuples.ltable_id.values:
+                    if curr_lid!= lid:
+                        triangles.append((sources[0].iloc[lid],sources[1].iloc[rid],sources[0].iloc[curr_lid]))
+            if np.count_nonzero(l_pos_ids == lid) >=2:
+                relatedTuples = positives[positives.ltable_id == lid]
+                for curr_rid in relatedTuples.rtable_id.values:
+                    if curr_rid != rid:
+                        triangles.append((sources[1].iloc[rid],sources[0].iloc[lid],sources[1].iloc[curr_rid]))
+        return triangles
 
+    
 def explainSamples(dataset,sources,model,originalClass,maxLenAttributeSet):
         ## we suppose that the sample is always on the left source
         attributes = [col for col in list(sources[0]) if col not in ['id']]
-        allTriangles = getPositiveCandidates(dataset,sources)
+        allTriangles = getMixedTriangles(dataset,sources)
         rankings = []
         triangleIds = []
         flippedPredictions = []
         notFlipped = []
         for triangle in tqdm(allTriangles):
             triangleIds.append((triangle[0].id,triangle[1].id,triangle[2].id))
-            if originalClass == 1:
-                currentPerturbations,currPerturbedAttr = createPositiveTriangle(triangle[0],triangle[1],triangle[2],\
-                                                                                attributes,maxLenAttributeSet)
-            else:
-                currentPerturbations,currPerturbedAttr = createNegativeTriangle(triangle[0],triangle[1],triangle[2],\
-                                                                                attributes,maxLenAttributeSet)
-            perturbations_df = currentPerturbations.reset_index(drop=True)
-            r1 = triangle[0]
-            r1_copy = [r1]*len(perturbations_df)
-            r1_df = pd.DataFrame(r1_copy)
-            r1_df = r1_df.reset_index(drop=True)
-            _renameColumnsWithPrefix('ltable_',r1_df)
-            _renameColumnsWithPrefix('rtable_',perturbations_df)
-            allPerturbations = pd.concat([r1_df,perturbations_df], axis=1, sort=False)
-            allPerturbations['id'] = np.arange(len(allPerturbations))
-            allPerturbations['alteredAttribute'] = currPerturbedAttr
-            predictions = wrapDm(allPerturbations,model,\
-                                  ignore_columns=['ltable_id','rtable_id','alteredAttribute'],batch_size=1)
-            curr_flippedPredictions = allPerturbations[(predictions[:,originalClass] <0.5)]
-            currNotFlipped = allPerturbations[(predictions[:,originalClass] >0.5)]
+            currentPerturbations,currPerturbedAttr = createPerturbationsFromTriangle(triangle,attributes\
+                                                                            ,maxLenAttributeSet,originalClass)
+            predictions = wrapDm(currentPerturbations,model,\
+                                  ignore_columns=['ltable_id','rtable_id','alteredAttributes'],batch_size=1)
+            curr_flippedPredictions = currentPerturbations[(predictions[:,originalClass] <0.5)]
+            currNotFlipped = currentPerturbations[(predictions[:,originalClass] >0.5)]
             notFlipped.append(currNotFlipped)
             flippedPredictions.append(curr_flippedPredictions)
             ranking = getAttributeRanking(predictions,currPerturbedAttr,originalClass)
             rankings.append(ranking)
         flippedPredictions_df = pd.concat(flippedPredictions,ignore_index=True)
         notFlipped_df = pd.concat(notFlipped,ignore_index=True)
-        return rankings,triangleIds,flippedPredictions_df
+        return rankings,triangleIds,flippedPredictions_df,notFlipped_df
 
     
 ##check if s1 is not superset of one element in s2list 
