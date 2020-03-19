@@ -47,9 +47,9 @@ def generate_train_valid_test(dataset_dir,splitfiles,left_prefix,right_prefix,dr
 
 
 def generateDataset(dataset_dir,source1,source2,pairs_ids,lprefix,rprefix):
-    source1_df = pd.read_csv(os.path.join(dataset_dir,source1))
-    source2_df = pd.read_csv(os.path.join(dataset_dir,source2))
-    pairs_ids_df = pd.read_csv(os.path.join(dataset_dir,pairs_ids))
+    source1_df = pd.read_csv(os.path.join(dataset_dir,source1),dtype=str)
+    source2_df = pd.read_csv(os.path.join(dataset_dir,source2),dtype=str)
+    pairs_ids_df = pd.read_csv(os.path.join(dataset_dir,pairs_ids),dtype=str)
     ##to avoid duplicate columns
     pairs_ids_df.columns = ['id1','id2','label']
     lcolumns,rcolumns = ([],[])
@@ -60,8 +60,8 @@ def generateDataset(dataset_dir,source1,source2,pairs_ids,lprefix,rprefix):
     source2_df.columns = rcolumns
     pdata = pd.merge(pairs_ids_df,source1_df, how='inner',left_on='id1',right_on=lprefix+'id')
     dataset = pd.merge(pdata,source2_df,how='inner',left_on='id2',right_on=rprefix+'id')
-    dataset = dataset.drop(['id1','id2'],axis=1)
-    dataset['id'] = np.arange(len(dataset))
+    dataset['id'] = dataset[lprefix+'id']+"#"+dataset[rprefix+'id']
+    dataset = dataset.drop(['id1','id2',lprefix+'id',rprefix+'id'],axis=1)
     return dataset
 
 
@@ -109,3 +109,4 @@ def dropTokens(attr,tokensL):
         if tok not in tokensL:
             filtered_tokens.append(tok)
     return " ".join(filtered_tokens)
+
