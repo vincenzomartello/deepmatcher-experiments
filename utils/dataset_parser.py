@@ -4,52 +4,17 @@ import random
 import numpy as np
 
 
-def generate_train_valid_test(dataset_dir,splitfiles,left_prefix,right_prefix,drop_lrid=True):
-    df_tableA = pd.read_csv(os.path.join(dataset_dir,'tableA.csv'))
-    df_tableB = pd.read_csv(os.path.join(dataset_dir,'tableB.csv'))
-    datasets_ids = []
-    for splitname in splitfiles:
-        datasets_ids.append(pd.read_csv(os.path.join(dataset_dir,splitname)))
-    left_columns = []
-    right_columns = []
-    for lcol,rcol in zip(list(df_tableA),list(df_tableB)):
-        left_columns.append(left_prefix+lcol)
-        right_columns.append(right_prefix+rcol)
-    df_tableA.columns = left_columns
-    df_tableB.columns = right_columns
+def generate_train_valid_test(dataset_dir,source1,source2,splitfiles,lprefix,rprefix):
     datasets = []
-    #P sta per parziale
-    for dataset_id in datasets_ids:
-        pdata = pd.merge(dataset_id,df_tableA, how='inner',left_on='ltable_id',right_on=left_prefix+'id')
-        dataset = pd.merge(pdata,df_tableB,how='inner',left_on='rtable_id',right_on=right_prefix+'id')
-        datasets.append(dataset)
-
-    train_lenght = datasets[0].shape[0]
-    valid_lenght = datasets[1].shape[0]
-    test_lenght = datasets[2].shape[0]
-
-    train_ids = np.arange(0,train_lenght)
-    valid_ids = np.arange(train_lenght,train_lenght+valid_lenght)
-    test_ids = np.arange(train_lenght+valid_lenght,train_lenght+valid_lenght+test_lenght)
-    if drop_lrid:
-        train = datasets[0].drop(['ltable_id','rtable_id'],axis=1)
-        valid = datasets[1].drop(['ltable_id','rtable_id'],axis=1)
-        test = datasets[2].drop(['ltable_id','rtable_id'],axis=1)
-    else:
-        train = datasets[0]
-        valid = datasets[1]
-        test = datasets[2]
-    train['id'] = train_ids
-    valid['id'] = valid_ids
-    test['id'] = test_ids
-    return train,valid,test
-
+    for split in splitfiles:
+        datasets.append(generateDataset(dataset_dir,source1,source2,split,lprefix,rprefix))
+    return datasets[0],datasets[1],datasets[2]
 
 
 def generateDataset(dataset_dir,source1,source2,pairs_ids,lprefix,rprefix):
-    source1_df = pd.read_csv(os.path.join(dataset_dir,source1),dtype=str)
-    source2_df = pd.read_csv(os.path.join(dataset_dir,source2),dtype=str)
-    pairs_ids_df = pd.read_csv(os.path.join(dataset_dir,pairs_ids),dtype=str)
+    source1_df = pd.read_csv(os.path.join(dataset_dir,source1))
+    source2_df = pd.read_csv(os.path.join(dataset_dir,source2))
+    pairs_ids_df = pd.read_csv(os.path.join(dataset_dir,pairs_ids))
     ##to avoid duplicate columns
     pairs_ids_df.columns = ['id1','id2','label']
     lcolumns,rcolumns = ([],[])
@@ -60,6 +25,8 @@ def generateDataset(dataset_dir,source1,source2,pairs_ids,lprefix,rprefix):
     source2_df.columns = rcolumns
     pdata = pd.merge(pairs_ids_df,source1_df, how='inner',left_on='id1',right_on=lprefix+'id')
     dataset = pd.merge(pdata,source2_df,how='inner',left_on='id2',right_on=rprefix+'id')
+    dataset[lprefix+'id'] = dataset[lprefix+'id'].astype(str)
+    dataset[rprefix+'id'] = dataset[rprefix+'id'].astype(str)
     dataset['id'] = dataset[lprefix+'id']+"#"+dataset[rprefix+'id']
     dataset = dataset.drop(['id1','id2',lprefix+'id',rprefix+'id'],axis=1)
     return dataset
