@@ -9,9 +9,10 @@ import string
 from sklearn.metrics import f1_score,precision_score,recall_score
 
 
-def wrapDm(test_df,model,ignore_columns=['id','label'],outputAttributes=False,batch_size=32):
+def wrapDm(test_df,model,ignore_columns=['label'],outputAttributes=False,batch_size=32):
     data = test_df.copy().drop([c for c in ignore_columns if c in test_df.columns],axis=1)
-    data['id'] = np.arange(len(test_df))
+    if not('id' in data.columns):
+        data['id'] = np.arange(len(data))
     tmp_name = "./{}.csv".format("".join([random.choice(string.ascii_lowercase) for _ in range(10)]))
     data.to_csv(tmp_name,index=False)
     with open(os.devnull, 'w') as devnull:

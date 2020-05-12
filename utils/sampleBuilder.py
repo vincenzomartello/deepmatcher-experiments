@@ -1,12 +1,16 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 import pandas as pd
+import os
 import numpy as np
 import random as rd
 import nltk
 from nltk.corpus import stopwords
 import string
-
+from strsimpy.jaccard import Jaccard
+import math
+from tqdm import tqdm
+from .dataset_parser import generateDataset
 
 # #df1 and df2 are two sources of records, attributes are the attributes important for the prediction
 def createPossibleMatchings(
@@ -126,7 +130,7 @@ def buildNegativeFromSample(
     stop_words = set(stopwords.words('english'))
     punctuation = set(string.punctuation)
     attributes = [att for att in list(source1) if att not in ['id']]
-    r1 = source1.iloc[sampleid]
+    r1 = source1[source1.id==sampleid].iloc[0]
     if nsamplestobuild > len(permittedIds):
         nsamplestobuild = len(permittedIds)
     r2_ids = set()
@@ -136,7 +140,7 @@ def buildNegativeFromSample(
         while (r2_id in alreadyConsideredIds):
             r2_id = rd.choice(permittedIds)
         alreadyConsideredIds.append(r2_id)
-        r2 = source2.iloc[r2_id]
+        r2 = source2[source2.id==r2_id].iloc[0]
         avg_similarity = 0
         for attr in attributes:
             r1_attr_tokens = nltk.word_tokenize(str(r1[attr]))
@@ -153,3 +157,41 @@ def buildNegativeFromSample(
     for r2_id in r2_ids:
         negativePairs.append((r1['id'],r2_id,0))
     return negativePairs
+
+
+def generateNewNegatives(df,source1,source2,newNegativesToBuild):
+    allNewNegatives = []
+    jaccard = Jaccard(3)
+    df_c = df.copy()
+    df_c['ltable_id'] = list(map(lambda lrid:lrid.split("#")[0],df_c.id.values))
+    df_c['rtable_id'] = list(map(lambda lrid:lrid.split("#")[1],df_c.id.values))
+    positives = df_c[df_c.label==1]
+    negatives = df_c[df_c.label==0]
+    newNegativesPerSample = math.ceil(newNegativesToBuild/len(positives))
+    for i in tqdm(range(len(positives))):
+        locc = np.count_nonzero(negatives.ltable_id.values==positives.iloc[i]['ltable_id'])
+        rocc = np.count_nonzero(negatives.rtable_id.values == positives.iloc[i]['rtable_id'])
+        if locc==0 and rocc == 0:
+            permittedIds = [sampleid for sampleid in df_c['rtable_id'].values if sampleid!= df_c.iloc[i]['rtable_id']]
+            newNegatives_l = buildNegativeFromSample(positives.iloc[i]['ltable_id'],permittedIds,\
+                                                     newNegativesPerSample,source1,source2,jaccard,0.5)
+            newNegatives_df = pd.DataFrame(data=newNegatives_l,columns=['ltable_id','rtable_id','label'])
+            allNewNegatives.append(newNegatives_df)
+    allNewNegatives_df = pd.concat(allNewNegatives)
+    return allNewNegatives_df
+
+
+def extendDatasetWithNegatives(dataset_dir,dataset_filename,source1,source2,newNegativesToBuild,lprefix='ltable_',rprefix='rtable_'):
+    dataset = pd.read_csv(os.path.join(dataset_dir,dataset_filename))
+    colForDrop = [col for col in list(dataset) if col not in ['id','label']]
+    dataset = dataset.drop_duplicates(colForDrop)
+    
+    source1_df = pd.read_csv(os.path.join(dataset_dir,source1),dtype=str)
+    source2_df = pd.read_csv(os.path.join(dataset_dir,source2),dtype=str)
+    newNegatives_ids = generateNewNegatives(dataset,source1_df,source2_df,newNegativesToBuild)
+    tmp_name = "./{}.csv".format("".join([rd.choice(string.ascii_lowercase) for _ in range(10)]))
+    newNegatives_ids.to_csv(os.path.join(dataset_dir,tmp_name),index=False)
+    newNegatives_df = generateDataset(dataset_dir,source1,source2,tmp_name,lprefix,rprefix)
+    augmentedData = pd.concat([dataset,newNegatives_df],ignore_index=True)
+    os.remove(os.path.join(dataset_dir,tmp_name))
+    return augmentedData

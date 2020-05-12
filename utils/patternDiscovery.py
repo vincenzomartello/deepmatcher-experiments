@@ -1,6 +1,6 @@
 import pandas as pd
 from mlxtend.preprocessing import TransactionEncoder
-from mlxtend.frequent_patterns import fpgrowth,association_rules
+from mlxtend.frequent_patterns import fpgrowth,fpmax,association_rules
 
 
 def _appendPrefix(attribute,prefix):
@@ -35,3 +35,18 @@ def mineRules(nn_df,oppositeLabelData,attribute,min_confidence,min_support):
 	return important_rules
 
 
+def getMaxFrequentPatterns(df,columns,lprefix='ltable_',rprefix='rtable_',min_support=0.2,k=15):
+    transactions = []
+    for i in range(len(df)):
+        currentTokens = []
+        for attr in columns:
+            if attr.startswith(lprefix):
+                currentTokens += list(map(lambda token:'L_'+token,str(df.iloc[i][attr]).split()))
+            elif attr.startswith(rprefix):
+                currentTokens += list(map(lambda token:'R_'+token,str(df.iloc[i][attr]).split()))
+        transactions.append(currentTokens)
+    te = TransactionEncoder()
+    te_ary = te.fit(transactions).transform(transactions)
+    df = pd.DataFrame(te_ary, columns=te.columns_)
+    frequent_itemsets = fpmax(df, min_support=min_support,use_colnames=True)
+    return frequent_itemsets.head(k)

@@ -40,20 +40,18 @@ def get_pos_neg_datasets(splits):
 
 
 def generate_unlabeled(dataset_dir,unlabeled_filename,lprefix='ltable_',rprefix='rtable_'):
-    df_tableA = pd.read_csv(os.path.join(dataset_dir,'tableA.csv'))
-    df_tableB = pd.read_csv(os.path.join(dataset_dir,'tableB.csv'))
-    unlabeled_ids = pd.read_csv(os.path.join(dataset_dir,unlabeled_filename))
+    df_tableA = pd.read_csv(os.path.join(dataset_dir,'tableA.csv'),dtype=str)
+    df_tableB = pd.read_csv(os.path.join(dataset_dir,'tableB.csv'),dtype=str)
+    unlabeled_ids = pd.read_csv(os.path.join(dataset_dir,unlabeled_filename),dtype=str)
     left_columns = list(map(lambda s:lprefix+s,list(df_tableA)))
     right_columns = list(map(lambda s:rprefix+s,list(df_tableB)))
     df_tableA.columns = left_columns
     df_tableB.columns = right_columns
 
-    #P sta per parziale
-    punlabeled = pd.merge(unlabeled_ids,df_tableA, how='inner',left_on=lprefix+'id',right_on='ltable_id')
-    unlabeled_df = pd.merge(punlabeled,df_tableB,how='inner',left_on='rtable_id',right_on=rprefix+'id')
-
+    unlabeled_df = unlabeled_ids.merge(df_tableA, how='inner',left_on=lprefix+'id',\
+                                     right_on='ltable_id').merge(df_tableB,how='inner',left_on='rtable_id',right_on=rprefix+'id')
+    unlabeled_df['id'] = unlabeled_df[lprefix+'id']+"#"+unlabeled_df[rprefix+'id']
     unlabeled_df = unlabeled_df.drop(['ltable_id','rtable_id'],axis=1)
-    unlabeled_df['id'] = np.arange(unlabeled_df.shape[0])
     return unlabeled_df
 
 

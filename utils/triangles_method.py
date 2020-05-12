@@ -39,8 +39,8 @@ def getMixedTriangles(dataset,sources):
         dataset_c = dataset.copy()
         dataset_c['ltable_id'] = list(map(lambda lrid:lrid.split("#")[0],dataset_c.id.values))
         dataset_c['rtable_id'] = list(map(lambda lrid:lrid.split("#")[1],dataset_c.id.values))
-        positives = dataset_c[dataset.label==1]
-        negatives = dataset_c[dataset.label==0]
+        positives = dataset_c[dataset_c.label==1]
+        negatives = dataset_c[dataset_c.label==0]
         l_pos_ids = positives.ltable_id.values
         r_pos_ids = positives.rtable_id.values
         for lid,rid in zip(l_pos_ids,r_pos_ids):
@@ -132,29 +132,30 @@ def createPerturbationsFromTriangle(triangle,attributes,maxLenAttributeSet,origi
     allPerturbations = pd.concat([r1_df,perturbations_df], axis=1)
     allPerturbations = allPerturbations.drop([lprefix+'id',rprefix+'id'],axis=1)
     allPerturbations['alteredAttributes'] = perturbedAttributes
-    return allPerturbations,perturbedAttributes
+    return allPerturbations
 
     
     
-def explainSamples(dataset,sources,model,predict_fn,originalClass,maxLenAttributeSet):
+def explainSamples(dataset:pd.DataFrame,sources:list,model,predict_fn:callable,
+                   class_to_explain:int,maxLenAttributeSet:int):
         # we suppose that the sample is always on the left source
-        correctPreds = __getCorrectPredictions(dataset,model,predict_fn)
         attributes = [col for col in list(sources[0]) if col not in ['id']]
-        allTriangles = getMixedTriangles(correctPreds,sources)
+        allTriangles = getMixedTriangles(dataset,sources)
         rankings = []
         flippedPredictions = []
         #notFlipped = []
         for triangle in tqdm(allTriangles):
-            currentPerturbations,currPerturbedAttr = createPerturbationsFromTriangle(triangle,attributes\
-                                                                            ,maxLenAttributeSet,originalClass)
+            currentPerturbations = createPerturbationsFromTriangle(triangle,attributes\
+                                                                            ,maxLenAttributeSet,class_to_explain)
+            currPerturbedAttr = currentPerturbations.alteredAttributes.values
             predictions = predict_fn(currentPerturbations,model,['alteredAttributes'])
-            curr_flippedPredictions = currentPerturbations[(predictions[:,originalClass] <0.5)]
+            curr_flippedPredictions = currentPerturbations[(predictions[:,class_to_explain] <0.5)]
             '''
             currNotFlipped = currentPerturbations[(predictions[:,originalClass]>0.5)]
             notFlipped.append(currNotFlipped)
             '''
             flippedPredictions.append(curr_flippedPredictions)
-            ranking = getAttributeRanking(predictions,currPerturbedAttr,originalClass)
+            ranking = getAttributeRanking(predictions,currPerturbedAttr,class_to_explain)
             rankings.append(ranking)
         flippedPredictions_df = pd.concat(flippedPredictions,ignore_index=True)
         #notFlipped_df = pd.concat(notFlipped,ignore_index=True)
@@ -170,7 +171,7 @@ def _isNotSuperset(s1,s2_list):
     return True
 
 
-def getAttributeRanking(proba,alteredAttributes,originalClass):
+def getAttributeRanking(proba:np.ndarray,alteredAttributes:list,originalClass:int):
     attributeRanking = {k:0 for k in alteredAttributes}
     for i,prob in enumerate(proba):
         if prob[originalClass] <0.5:
@@ -179,7 +180,7 @@ def getAttributeRanking(proba,alteredAttributes,originalClass):
 
 
 #MaxLenAttributeSet is the max len of perturbed attributes we want to consider
-def aggregateRankings(ranking_l,lenTriangles,maxLenAttributeSet):
+def aggregateRankings(ranking_l:list,lenTriangles:int,maxLenAttributeSet:int):
     aggregateRanking = defaultdict(int)
     for ranking in ranking_l:
         for altered_attr in ranking.keys():
