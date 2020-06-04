@@ -35,18 +35,26 @@ def mineRules(nn_df,oppositeLabelData,attribute,min_confidence,min_support):
 	return important_rules
 
 
-def getMaxFrequentPatterns(df,columns,lprefix='ltable_',rprefix='rtable_',min_support=0.2,k=15):
+def getMaxFrequentPatterns(df,columns,class_to_explain,lprefix='ltable_',rprefix='rtable_',min_support=0.2,k=15):
     transactions = []
     for i in range(len(df)):
-        currentTokens = []
+        leftValues,rightValues = [],[]
         for attr in columns:
             if attr.startswith(lprefix):
-                currentTokens += list(map(lambda token:'L_'+token,str(df.iloc[i][attr]).split()))
+                leftValues += str(df.iloc[i][attr]).split()
             elif attr.startswith(rprefix):
-                currentTokens += list(map(lambda token:'R_'+token,str(df.iloc[i][attr]).split()))
-        transactions.append(currentTokens)
+                rightValues += str(df.iloc[i][attr]).split()
+        if class_to_explain == 0:
+            selectedRightValues = set(leftValues).intersection(set(rightValues))
+            selectedLeftValues = selectedRightValues.copy()
+        else:
+            selectedLeftValues = set(leftValues).difference(set(rightValues))
+            selectedRightValues = set(rightValues).difference(set(leftValues))
+        leftValuesPrefixed = list(map(lambda val:'L_'+val,selectedLeftValues))
+        rightValuesPrefixed = list(map(lambda val:'R_'+val,selectedRightValues))
+        transactions.append(leftValuesPrefixed+rightValuesPrefixed)
     te = TransactionEncoder()
     te_ary = te.fit(transactions).transform(transactions)
     df = pd.DataFrame(te_ary, columns=te.columns_)
     frequent_itemsets = fpmax(df, min_support=min_support,use_colnames=True)
-    return frequent_itemsets.head(k)
+    return frequent_itemsets

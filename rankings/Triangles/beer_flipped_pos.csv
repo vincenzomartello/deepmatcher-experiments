@@ -1,0 +1,260 @@
+ltable_Beer_Name,ltable_Brew_Factory_Name,ltable_Style,ltable_ABV,rtable_Beer_Name,rtable_Brew_Factory_Name,rtable_Style,rtable_ABV,alteredAttributes,originalRightId
+Rude Hippo Honey Basil Amber,18th Street Brewery,Amber Ale,7.40 %,Honey Basil Amber,Tighthead Brewing Company,Barley Wine,10.30 %,"('Beer_Name',)",1@2425
+Rude Hippo Honey Basil Amber,18th Street Brewery,Amber Ale,7.40 %,Honey Basil Amber,Rude Hippo Brewing Company,Barley Wine,10.30 %,"('Beer_Name', 'Brew_Factory_Name')",1@2425
+Rude Hippo Honey Basil Amber,18th Street Brewery,Amber Ale,7.40 %,Honey Basil Amber,Tighthead Brewing Company,American Amber / Red Ale,10.30 %,"('Beer_Name', 'Style')",1@2425
+Rude Hippo Honey Basil Amber,18th Street Brewery,Amber Ale,7.40 %,Honey Basil Amber,Tighthead Brewing Company,Barley Wine,7.40 %,"('Beer_Name', 'ABV')",1@2425
+Rude Hippo Honey Basil Amber,18th Street Brewery,Amber Ale,7.40 %,Honey Basil Amber,Rude Hippo Brewing Company,American Amber / Red Ale,10.30 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@2425
+Rude Hippo Honey Basil Amber,18th Street Brewery,Amber Ale,7.40 %,Honey Basil Amber,Rude Hippo Brewing Company,Barley Wine,7.40 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@2425
+Rude Hippo Honey Basil Amber,18th Street Brewery,Amber Ale,7.40 %,Honey Basil Amber,Tighthead Brewing Company,American Amber / Red Ale,7.40 %,"('Beer_Name', 'Style', 'ABV')",1@2425
+Rude Hippo Honey Basil Amber,18th Street Brewery,Amber Ale,7.40 %,Honey Basil Amber,Big Texan Brewery,Amber Ale,4.50 %,"('Beer_Name',)",1@419
+Rude Hippo Honey Basil Amber,18th Street Brewery,Amber Ale,7.40 %,Honey Basil Amber,Rude Hippo Brewing Company,Amber Ale,4.50 %,"('Beer_Name', 'Brew_Factory_Name')",1@419
+Rude Hippo Honey Basil Amber,18th Street Brewery,Amber Ale,7.40 %,Honey Basil Amber,Big Texan Brewery,American Amber / Red Ale,4.50 %,"('Beer_Name', 'Style')",1@419
+Rude Hippo Honey Basil Amber,18th Street Brewery,Amber Ale,7.40 %,Honey Basil Amber,Big Texan Brewery,Amber Ale,7.40 %,"('Beer_Name', 'ABV')",1@419
+Rude Hippo Honey Basil Amber,18th Street Brewery,Amber Ale,7.40 %,Honey Basil Amber,Rude Hippo Brewing Company,American Amber / Red Ale,4.50 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@419
+Rude Hippo Honey Basil Amber,18th Street Brewery,Amber Ale,7.40 %,Honey Basil Amber,Rude Hippo Brewing Company,Amber Ale,7.40 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@419
+Rude Hippo Honey Basil Amber,18th Street Brewery,Amber Ale,7.40 %,Honey Basil Amber,Big Texan Brewery,American Amber / Red Ale,7.40 %,"('Beer_Name', 'Style', 'ABV')",1@419
+Mammoth Real McCoy Amber Ale,Mammoth Brewing Company,Altbier,4.50 %,Real McCoy Amber Ale,Mammoth Brewing Company,American Strong Ale,13 %,"('Beer_Name', 'Brew_Factory_Name')",1@1428
+Mammoth Real McCoy Amber Ale,Mammoth Brewing Company,Altbier,4.50 %,Real McCoy Amber Ale,Kettle House Brewing Company,American Strong Ale,4.50 %,"('Beer_Name', 'ABV')",1@1428
+Mammoth Real McCoy Amber Ale,Mammoth Brewing Company,Altbier,4.50 %,Real McCoy Amber Ale,Mammoth Brewing Company,American Amber / Red Ale,13 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@1428
+Mammoth Real McCoy Amber Ale,Mammoth Brewing Company,Altbier,4.50 %,Real McCoy Amber Ale,Mammoth Brewing Company,American Strong Ale,4.50 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@1428
+Mammoth Real McCoy Amber Ale,Mammoth Brewing Company,Altbier,4.50 %,Real McCoy Amber Ale,Kettle House Brewing Company,American Amber / Red Ale,4.50 %,"('Beer_Name', 'Style', 'ABV')",1@1428
+Mammoth Real McCoy Amber Ale,Mammoth Brewing Company,Altbier,4.50 %,Real McCoy Amber Ale,Mammoth Brewing Company,American Strong Ale,9.30 %,"('Beer_Name', 'Brew_Factory_Name')",1@1496
+Mammoth Real McCoy Amber Ale,Mammoth Brewing Company,Altbier,4.50 %,Real McCoy Amber Ale,Mammoth Brewing Company,American Amber / Red Ale,9.30 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@1496
+Mammoth Real McCoy Amber Ale,Mammoth Brewing Company,Altbier,4.50 %,Real McCoy Amber Ale,Mammoth Brewing Company,American Strong Ale,4.50 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@1496
+Mammoth Real McCoy Amber Ale,Mammoth Brewing Company,Altbier,4.50 %,Real McCoy Amber Ale,Mammoth Brewing Company,Amber Ale,8.50 %,"('Beer_Name', 'Brew_Factory_Name')",1@812
+Mammoth Real McCoy Amber Ale,Mammoth Brewing Company,Altbier,4.50 %,Real McCoy Amber Ale,Big Bear Lake Brewing Company,Amber Ale,4.50 %,"('Beer_Name', 'ABV')",1@812
+Mammoth Real McCoy Amber Ale,Mammoth Brewing Company,Altbier,4.50 %,Real McCoy Amber Ale,Mammoth Brewing Company,American Amber / Red Ale,8.50 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@812
+Mammoth Real McCoy Amber Ale,Mammoth Brewing Company,Altbier,4.50 %,Real McCoy Amber Ale,Mammoth Brewing Company,Amber Ale,4.50 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@812
+Mammoth Real McCoy Amber Ale,Mammoth Brewing Company,Altbier,4.50 %,Real McCoy Amber Ale,Mammoth Brewing Company,Imperial IPA,8.50 %,"('Beer_Name', 'Brew_Factory_Name')",1@2300
+Mammoth Real McCoy Amber Ale,Mammoth Brewing Company,Altbier,4.50 %,Real McCoy Amber Ale,18th Street Brewery,Imperial IPA,4.50 %,"('Beer_Name', 'ABV')",1@2300
+Mammoth Real McCoy Amber Ale,Mammoth Brewing Company,Altbier,4.50 %,Real McCoy Amber Ale,Mammoth Brewing Company,American Amber / Red Ale,8.50 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@2300
+Mammoth Real McCoy Amber Ale,Mammoth Brewing Company,Altbier,4.50 %,Real McCoy Amber Ale,Mammoth Brewing Company,Imperial IPA,4.50 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@2300
+Jazz Beer Tarraco Amber,Ca l_Arenys - Cervezas Guineu,Amber Ale,6.90 %,Jazz Beer Tarraco Amber,Tarraco Beer,Amber Ale,8.50 %,"('Beer_Name', 'Brew_Factory_Name')",1@812
+Jazz Beer Tarraco Amber,Ca l_Arenys - Cervezas Guineu,Amber Ale,6.90 %,Jazz Beer Tarraco Amber,Big Bear Lake Brewing Company,Amber Ale,6.90 %,"('Beer_Name', 'ABV')",1@812
+Jazz Beer Tarraco Amber,Ca l_Arenys - Cervezas Guineu,Amber Ale,6.90 %,Jazz Beer Tarraco Amber,Tarraco Beer,American Amber / Red Ale,8.50 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@812
+Jazz Beer Tarraco Amber,Ca l_Arenys - Cervezas Guineu,Amber Ale,6.90 %,Jazz Beer Tarraco Amber,Tarraco Beer,Amber Ale,6.90 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@812
+Jazz Beer Tarraco Amber,Ca l_Arenys - Cervezas Guineu,Amber Ale,6.90 %,Jazz Beer Tarraco Amber,Big Bear Lake Brewing Company,American Amber / Red Ale,6.90 %,"('Beer_Name', 'Style', 'ABV')",1@812
+Jazz Beer Tarraco Amber,Ca l_Arenys - Cervezas Guineu,Amber Ale,6.90 %,Jazz Beer Tarraco Amber,Tarraco Beer,Amber Ale,4.60 %,"('Beer_Name', 'Brew_Factory_Name')",1@548
+Jazz Beer Tarraco Amber,Ca l_Arenys - Cervezas Guineu,Amber Ale,6.90 %,Jazz Beer Tarraco Amber,Third Base Sports Bar & Brewery,Amber Ale,6.90 %,"('Beer_Name', 'ABV')",1@548
+Jazz Beer Tarraco Amber,Ca l_Arenys - Cervezas Guineu,Amber Ale,6.90 %,Jazz Beer Tarraco Amber,Tarraco Beer,American Amber / Red Ale,4.60 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@548
+Jazz Beer Tarraco Amber,Ca l_Arenys - Cervezas Guineu,Amber Ale,6.90 %,Jazz Beer Tarraco Amber,Tarraco Beer,Amber Ale,6.90 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@548
+Jazz Beer Tarraco Amber,Ca l_Arenys - Cervezas Guineu,Amber Ale,6.90 %,Jazz Beer Tarraco Amber,Third Base Sports Bar & Brewery,American Amber / Red Ale,6.90 %,"('Beer_Name', 'Style', 'ABV')",1@548
+Jazz Beer Tarraco Amber,Ca l_Arenys - Cervezas Guineu,Amber Ale,6.90 %,Jazz Beer Tarraco Amber,Tarraco Beer,India Pale Ale &#40; IPA &#41;,7.80 %,"('Beer_Name', 'Brew_Factory_Name')",1@216
+Jazz Beer Tarraco Amber,Ca l_Arenys - Cervezas Guineu,Amber Ale,6.90 %,Jazz Beer Tarraco Amber,Good People Brewing Company,India Pale Ale &#40; IPA &#41;,6.90 %,"('Beer_Name', 'ABV')",1@216
+Jazz Beer Tarraco Amber,Ca l_Arenys - Cervezas Guineu,Amber Ale,6.90 %,Jazz Beer Tarraco Amber,Tarraco Beer,American Amber / Red Ale,7.80 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@216
+Jazz Beer Tarraco Amber,Ca l_Arenys - Cervezas Guineu,Amber Ale,6.90 %,Jazz Beer Tarraco Amber,Tarraco Beer,India Pale Ale &#40; IPA &#41;,6.90 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@216
+Jazz Beer Tarraco Amber,Ca l_Arenys - Cervezas Guineu,Amber Ale,6.90 %,Jazz Beer Tarraco Amber,Good People Brewing Company,American Amber / Red Ale,6.90 %,"('Beer_Name', 'Style', 'ABV')",1@216
+Jazz Beer Tarraco Amber,Ca l_Arenys - Cervezas Guineu,Amber Ale,6.90 %,Jazz Beer Tarraco Amber,Tarraco Beer,Amber Ale,6 %,"('Beer_Name', 'Brew_Factory_Name')",1@737
+Jazz Beer Tarraco Amber,Ca l_Arenys - Cervezas Guineu,Amber Ale,6.90 %,Jazz Beer Tarraco Amber,La Quinta Brewing Co. .,Amber Ale,6.90 %,"('Beer_Name', 'ABV')",1@737
+Jazz Beer Tarraco Amber,Ca l_Arenys - Cervezas Guineu,Amber Ale,6.90 %,Jazz Beer Tarraco Amber,Tarraco Beer,American Amber / Red Ale,6 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@737
+Jazz Beer Tarraco Amber,Ca l_Arenys - Cervezas Guineu,Amber Ale,6.90 %,Jazz Beer Tarraco Amber,Tarraco Beer,Amber Ale,6.90 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@737
+Jazz Beer Tarraco Amber,Ca l_Arenys - Cervezas Guineu,Amber Ale,6.90 %,Jazz Beer Tarraco Amber,La Quinta Brewing Co. .,American Amber / Red Ale,6.90 %,"('Beer_Name', 'Style', 'ABV')",1@737
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,23rd Street Brewery,Specialty Grain,-,"('Beer_Name',)",1@2071
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Bainbridge Island Brewing Company,Specialty Grain,-,"('Beer_Name', 'Brew_Factory_Name')",1@2071
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,23rd Street Brewery,American Amber / Red Ale,-,"('Beer_Name', 'Style')",1@2071
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,23rd Street Brewery,Specialty Grain,5.40 %,"('Beer_Name', 'ABV')",1@2071
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Bainbridge Island Brewing Company,American Amber / Red Ale,-,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@2071
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Bainbridge Island Brewing Company,Specialty Grain,5.40 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@2071
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,23rd Street Brewery,American Amber / Red Ale,5.40 %,"('Beer_Name', 'Style', 'ABV')",1@2071
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Heavy Seas Brewing Company,Amber Ale,4.90 %,"('Beer_Name',)",1@716
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,4.90 %,"('Beer_Name', 'Brew_Factory_Name')",1@716
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Heavy Seas Brewing Company,American Amber / Red Ale,4.90 %,"('Beer_Name', 'Style')",1@716
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Heavy Seas Brewing Company,Amber Ale,5.40 %,"('Beer_Name', 'ABV')",1@716
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Bainbridge Island Brewing Company,American Amber / Red Ale,4.90 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@716
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@716
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Heavy Seas Brewing Company,American Amber / Red Ale,5.40 %,"('Beer_Name', 'Style', 'ABV')",1@716
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Cigar City Brewing,Irish Ale,5 %,"('Beer_Name',)",1@838
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Bainbridge Island Brewing Company,Irish Ale,5 %,"('Beer_Name', 'Brew_Factory_Name')",1@838
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Cigar City Brewing,American Amber / Red Ale,5 %,"('Beer_Name', 'Style')",1@838
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Cigar City Brewing,Irish Ale,5.40 %,"('Beer_Name', 'ABV')",1@838
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Bainbridge Island Brewing Company,American Amber / Red Ale,5 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@838
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Bainbridge Island Brewing Company,Irish Ale,5.40 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@838
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Cigar City Brewing,American Amber / Red Ale,5.40 %,"('Beer_Name', 'Style', 'ABV')",1@838
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Lompoc Brewing,Amber Ale,6.40 %,"('Beer_Name',)",1@1825
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,6.40 %,"('Beer_Name', 'Brew_Factory_Name')",1@1825
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Lompoc Brewing,American Amber / Red Ale,6.40 %,"('Beer_Name', 'Style')",1@1825
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Lompoc Brewing,Amber Ale,5.40 %,"('Beer_Name', 'ABV')",1@1825
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Bainbridge Island Brewing Company,American Amber / Red Ale,6.40 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@1825
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@1825
+Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,Arrow Point Amber,Lompoc Brewing,American Amber / Red Ale,5.40 %,"('Beer_Name', 'Style', 'ABV')",1@1825
+Amber Waves Ale,Capitol City Brewing,American Amber / Red Ale,5.40 %,Heatwave Red Ale,Capitol City Brewing Company,American Amber / Red Ale,6.00 %,"('Brew_Factory_Name',)",0@1842
+Amber Waves Ale,Capitol City Brewing,American Amber / Red Ale,5.40 %,Capitol City Amber Waves Ale,Capitol City Brewing Company,American Amber / Red Ale,6.00 %,"('Beer_Name', 'Brew_Factory_Name')",0@1842
+Amber Waves Ale,Capitol City Brewing,American Amber / Red Ale,5.40 %,Heatwave Red Ale,Capitol City Brewing Company,Amber Ale,6.00 %,"('Brew_Factory_Name', 'Style')",0@1842
+Amber Waves Ale,Capitol City Brewing,American Amber / Red Ale,5.40 %,Heatwave Red Ale,Capitol City Brewing Company,American Amber / Red Ale,5.60 %,"('Brew_Factory_Name', 'ABV')",0@1842
+Amber Waves Ale,Capitol City Brewing,American Amber / Red Ale,5.40 %,Heatwave Red Ale,La Quinta Brewing Co. .,Amber Ale,5.60 %,"('Style', 'ABV')",0@1842
+Amber Waves Ale,Capitol City Brewing,American Amber / Red Ale,5.40 %,Capitol City Amber Waves Ale,Capitol City Brewing Company,Amber Ale,6.00 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",0@1842
+Amber Waves Ale,Capitol City Brewing,American Amber / Red Ale,5.40 %,Capitol City Amber Waves Ale,Capitol City Brewing Company,American Amber / Red Ale,5.60 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",0@1842
+Amber Waves Ale,Capitol City Brewing,American Amber / Red Ale,5.40 %,Heatwave Red Ale,Capitol City Brewing Company,Amber Ale,5.60 %,"('Brew_Factory_Name', 'Style', 'ABV')",0@1842
+Amber Waves Ale,Capitol City Brewing,American Amber / Red Ale,5.40 %,Big Red Balls,Capitol City Brewing Company,American Amber / Red Ale,8.00 %,"('Brew_Factory_Name',)",0@2242
+Amber Waves Ale,Capitol City Brewing,American Amber / Red Ale,5.40 %,Big Red Balls,Hillcrest Brewing Company,Amber Ale,8.00 %,"('Style',)",0@2242
+Amber Waves Ale,Capitol City Brewing,American Amber / Red Ale,5.40 %,Big Red Balls,Hillcrest Brewing Company,American Amber / Red Ale,5.60 %,"('ABV',)",0@2242
+Amber Waves Ale,Capitol City Brewing,American Amber / Red Ale,5.40 %,Capitol City Amber Waves Ale,Capitol City Brewing Company,American Amber / Red Ale,8.00 %,"('Beer_Name', 'Brew_Factory_Name')",0@2242
+Amber Waves Ale,Capitol City Brewing,American Amber / Red Ale,5.40 %,Big Red Balls,Capitol City Brewing Company,Amber Ale,8.00 %,"('Brew_Factory_Name', 'Style')",0@2242
+Amber Waves Ale,Capitol City Brewing,American Amber / Red Ale,5.40 %,Big Red Balls,Capitol City Brewing Company,American Amber / Red Ale,5.60 %,"('Brew_Factory_Name', 'ABV')",0@2242
+Amber Waves Ale,Capitol City Brewing,American Amber / Red Ale,5.40 %,Big Red Balls,Hillcrest Brewing Company,Amber Ale,5.60 %,"('Style', 'ABV')",0@2242
+Amber Waves Ale,Capitol City Brewing,American Amber / Red Ale,5.40 %,Capitol City Amber Waves Ale,Capitol City Brewing Company,Amber Ale,8.00 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",0@2242
+Amber Waves Ale,Capitol City Brewing,American Amber / Red Ale,5.40 %,Capitol City Amber Waves Ale,Capitol City Brewing Company,American Amber / Red Ale,5.60 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",0@2242
+Amber Waves Ale,Capitol City Brewing,American Amber / Red Ale,5.40 %,Capitol City Amber Waves Ale,Hillcrest Brewing Company,Amber Ale,5.60 %,"('Beer_Name', 'Style', 'ABV')",0@2242
+Amber Waves Ale,Capitol City Brewing,American Amber / Red Ale,5.40 %,Big Red Balls,Capitol City Brewing Company,Amber Ale,5.60 %,"('Brew_Factory_Name', 'Style', 'ABV')",0@2242
+Capitol City Amber Waves Ale,Capitol City Brewing Company,Amber Ale,5.60 %,Amber Waves Ale,Capitol City Brewing,Amber Ale,6 %,"('Beer_Name', 'Brew_Factory_Name')",1@348
+Capitol City Amber Waves Ale,Capitol City Brewing Company,Amber Ale,5.60 %,Amber Waves Ale,Capitol City Brewing,American Amber / Red Ale,6 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@348
+Capitol City Amber Waves Ale,Capitol City Brewing Company,Amber Ale,5.60 %,Amber Waves Ale,Capitol City Brewing,Amber Ale,5.40 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@348
+Capitol City Amber Waves Ale,Capitol City Brewing Company,Amber Ale,5.60 %,Amber Waves Ale,Hopworks Urban Brewery,Barley Wine,9.50 %,"('Beer_Name',)",1@2381
+Capitol City Amber Waves Ale,Capitol City Brewing Company,Amber Ale,5.60 %,Amber Waves Ale,Capitol City Brewing,Barley Wine,9.50 %,"('Beer_Name', 'Brew_Factory_Name')",1@2381
+Capitol City Amber Waves Ale,Capitol City Brewing Company,Amber Ale,5.60 %,Amber Waves Ale,Hopworks Urban Brewery,American Amber / Red Ale,9.50 %,"('Beer_Name', 'Style')",1@2381
+Capitol City Amber Waves Ale,Capitol City Brewing Company,Amber Ale,5.60 %,Amber Waves Ale,Hopworks Urban Brewery,Barley Wine,5.40 %,"('Beer_Name', 'ABV')",1@2381
+Capitol City Amber Waves Ale,Capitol City Brewing Company,Amber Ale,5.60 %,Amber Waves Ale,Capitol City Brewing,American Amber / Red Ale,9.50 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@2381
+Capitol City Amber Waves Ale,Capitol City Brewing Company,Amber Ale,5.60 %,Amber Waves Ale,Capitol City Brewing,Barley Wine,5.40 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@2381
+Capitol City Amber Waves Ale,Capitol City Brewing Company,Amber Ale,5.60 %,Amber Waves Ale,Hopworks Urban Brewery,American Amber / Red Ale,5.40 %,"('Beer_Name', 'Style', 'ABV')",1@2381
+Capitol City Amber Waves Ale,Capitol City Brewing Company,Amber Ale,5.60 %,Amber Waves Ale,Capitol City Brewing,Amber Ale,7.80 %,"('Beer_Name', 'Brew_Factory_Name')",1@1163
+Capitol City Amber Waves Ale,Capitol City Brewing Company,Amber Ale,5.60 %,Amber Waves Ale,Capitol City Brewing,American Amber / Red Ale,7.80 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@1163
+Capitol City Amber Waves Ale,Capitol City Brewing Company,Amber Ale,5.60 %,Amber Waves Ale,Capitol City Brewing,Amber Ale,5.40 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@1163
+Granite Falls Bushfire American Red Ale,Granite Falls Brewing Company,Amber Ale,5 %,Bushfire American Red,18th Street Brewery,Imperial IPA,8.50 %,"('Beer_Name',)",1@2300
+Granite Falls Bushfire American Red Ale,Granite Falls Brewing Company,Amber Ale,5 %,Bushfire American Red,Granite Falls Brewing Co. .,Imperial IPA,8.50 %,"('Beer_Name', 'Brew_Factory_Name')",1@2300
+Granite Falls Bushfire American Red Ale,Granite Falls Brewing Company,Amber Ale,5 %,Bushfire American Red,18th Street Brewery,American Amber / Red Ale,8.50 %,"('Beer_Name', 'Style')",1@2300
+Granite Falls Bushfire American Red Ale,Granite Falls Brewing Company,Amber Ale,5 %,Bushfire American Red,18th Street Brewery,Imperial IPA,5.00 %,"('Beer_Name', 'ABV')",1@2300
+Granite Falls Bushfire American Red Ale,Granite Falls Brewing Company,Amber Ale,5 %,Bushfire American Red,Granite Falls Brewing Co. .,American Amber / Red Ale,8.50 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@2300
+Granite Falls Bushfire American Red Ale,Granite Falls Brewing Company,Amber Ale,5 %,Bushfire American Red,Granite Falls Brewing Co. .,Imperial IPA,5.00 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@2300
+Granite Falls Bushfire American Red Ale,Granite Falls Brewing Company,Amber Ale,5 %,Bushfire American Red,18th Street Brewery,American Amber / Red Ale,5.00 %,"('Beer_Name', 'Style', 'ABV')",1@2300
+Granite Falls Bushfire American Red Ale,Granite Falls Brewing Company,Amber Ale,5 %,Bushfire American Red,Heavy Seas Brewing Company,Amber Ale,4.90 %,"('Beer_Name',)",1@716
+Granite Falls Bushfire American Red Ale,Granite Falls Brewing Company,Amber Ale,5 %,Bushfire American Red,Granite Falls Brewing Co. .,Amber Ale,4.90 %,"('Beer_Name', 'Brew_Factory_Name')",1@716
+Granite Falls Bushfire American Red Ale,Granite Falls Brewing Company,Amber Ale,5 %,Bushfire American Red,Heavy Seas Brewing Company,American Amber / Red Ale,4.90 %,"('Beer_Name', 'Style')",1@716
+Granite Falls Bushfire American Red Ale,Granite Falls Brewing Company,Amber Ale,5 %,Bushfire American Red,Heavy Seas Brewing Company,Amber Ale,5.00 %,"('Beer_Name', 'ABV')",1@716
+Granite Falls Bushfire American Red Ale,Granite Falls Brewing Company,Amber Ale,5 %,Bushfire American Red,Granite Falls Brewing Co. .,American Amber / Red Ale,4.90 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@716
+Granite Falls Bushfire American Red Ale,Granite Falls Brewing Company,Amber Ale,5 %,Bushfire American Red,Granite Falls Brewing Co. .,Amber Ale,5.00 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@716
+Granite Falls Bushfire American Red Ale,Granite Falls Brewing Company,Amber Ale,5 %,Bushfire American Red,Heavy Seas Brewing Company,American Amber / Red Ale,5.00 %,"('Beer_Name', 'Style', 'ABV')",1@716
+Granite Falls Bushfire American Red Ale,Granite Falls Brewing Company,Amber Ale,5 %,Bushfire American Red,Thorn Street Brewery,Amber Ale,6.20 %,"('Beer_Name',)",1@333
+Granite Falls Bushfire American Red Ale,Granite Falls Brewing Company,Amber Ale,5 %,Bushfire American Red,Granite Falls Brewing Co. .,Amber Ale,6.20 %,"('Beer_Name', 'Brew_Factory_Name')",1@333
+Granite Falls Bushfire American Red Ale,Granite Falls Brewing Company,Amber Ale,5 %,Bushfire American Red,Thorn Street Brewery,American Amber / Red Ale,6.20 %,"('Beer_Name', 'Style')",1@333
+Granite Falls Bushfire American Red Ale,Granite Falls Brewing Company,Amber Ale,5 %,Bushfire American Red,Thorn Street Brewery,Amber Ale,5.00 %,"('Beer_Name', 'ABV')",1@333
+Granite Falls Bushfire American Red Ale,Granite Falls Brewing Company,Amber Ale,5 %,Bushfire American Red,Granite Falls Brewing Co. .,American Amber / Red Ale,6.20 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@333
+Granite Falls Bushfire American Red Ale,Granite Falls Brewing Company,Amber Ale,5 %,Bushfire American Red,Granite Falls Brewing Co. .,Amber Ale,5.00 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@333
+Granite Falls Bushfire American Red Ale,Granite Falls Brewing Company,Amber Ale,5 %,Bushfire American Red,Thorn Street Brewery,American Amber / Red Ale,5.00 %,"('Beer_Name', 'Style', 'ABV')",1@333
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Third Base Sports Bar & Brewery,Amber Ale,4.60 %,"('Beer_Name',)",1@548
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Hockley Valley Brewing Co. .,Amber Ale,4.60 %,"('Beer_Name', 'Brew_Factory_Name')",1@548
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Third Base Sports Bar & Brewery,American Amber / Red Ale,4.60 %,"('Beer_Name', 'Style')",1@548
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Third Base Sports Bar & Brewery,Amber Ale,5.00 %,"('Beer_Name', 'ABV')",1@548
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Hockley Valley Brewing Co. .,American Amber / Red Ale,4.60 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@548
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Hockley Valley Brewing Co. .,Amber Ale,5.00 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@548
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Third Base Sports Bar & Brewery,American Amber / Red Ale,5.00 %,"('Beer_Name', 'Style', 'ABV')",1@548
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Cigar City Brewing,Irish Ale,5 %,"('Beer_Name',)",1@838
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Hockley Valley Brewing Co. .,Irish Ale,5 %,"('Beer_Name', 'Brew_Factory_Name')",1@838
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Cigar City Brewing,American Amber / Red Ale,5 %,"('Beer_Name', 'Style')",1@838
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Cigar City Brewing,Irish Ale,5.00 %,"('Beer_Name', 'ABV')",1@838
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Hockley Valley Brewing Co. .,American Amber / Red Ale,5 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@838
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Hockley Valley Brewing Co. .,Irish Ale,5.00 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@838
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Cigar City Brewing,American Amber / Red Ale,5.00 %,"('Beer_Name', 'Style', 'ABV')",1@838
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Laurelwood Public House & Brewery,American Strong Ale,8.60 %,"('Beer_Name',)",1@411
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Hockley Valley Brewing Co. .,American Strong Ale,8.60 %,"('Beer_Name', 'Brew_Factory_Name')",1@411
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Laurelwood Public House & Brewery,American Amber / Red Ale,8.60 %,"('Beer_Name', 'Style')",1@411
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Laurelwood Public House & Brewery,American Strong Ale,5.00 %,"('Beer_Name', 'ABV')",1@411
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Hockley Valley Brewing Co. .,American Amber / Red Ale,8.60 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@411
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Hockley Valley Brewing Co. .,American Strong Ale,5.00 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@411
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Laurelwood Public House & Brewery,American Amber / Red Ale,5.00 %,"('Beer_Name', 'Style', 'ABV')",1@411
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Scuttlebutt Brewing Co. .,American Strong Ale,7.10 %,"('Beer_Name',)",1@1635
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Hockley Valley Brewing Co. .,American Strong Ale,7.10 %,"('Beer_Name', 'Brew_Factory_Name')",1@1635
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Scuttlebutt Brewing Co. .,American Amber / Red Ale,7.10 %,"('Beer_Name', 'Style')",1@1635
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Scuttlebutt Brewing Co. .,American Strong Ale,5.00 %,"('Beer_Name', 'ABV')",1@1635
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Hockley Valley Brewing Co. .,American Amber / Red Ale,7.10 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@1635
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Hockley Valley Brewing Co. .,American Strong Ale,5.00 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@1635
+Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,Legends Of The Bay Giant 's Tomb,Scuttlebutt Brewing Co. .,American Amber / Red Ale,5.00 %,"('Beer_Name', 'Style', 'ABV')",1@1635
+Willoughby American Amber Ale,Willoughby Brewing Co. .,Amber Ale,5.50 %,Willoughby American Amber Ale,Willoughby Brewing,Amber Ale,5.60 %,"('Beer_Name', 'Brew_Factory_Name')",1@2565
+Willoughby American Amber Ale,Willoughby Brewing Co. .,Amber Ale,5.50 %,Willoughby American Amber Ale,Willoughby Brewing,American Amber / Red Ale,5.60 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@2565
+Willoughby American Amber Ale,Willoughby Brewing Co. .,Amber Ale,5.50 %,Willoughby American Amber Ale,Willoughby Brewing,Amber Ale,4.90 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@2565
+Willoughby American Amber Ale,Willoughby Brewing Co. .,Amber Ale,5.50 %,Willoughby American Amber Ale,Willoughby Brewing,Irish Ale,-,"('Beer_Name', 'Brew_Factory_Name')",1@2681
+Willoughby American Amber Ale,Willoughby Brewing Co. .,Amber Ale,5.50 %,Willoughby American Amber Ale,Willoughby Brewing,American Amber / Red Ale,-,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@2681
+Willoughby American Amber Ale,Willoughby Brewing Co. .,Amber Ale,5.50 %,Willoughby American Amber Ale,Willoughby Brewing,Irish Ale,4.90 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@2681
+Willoughby American Amber Ale,Willoughby Brewing Co. .,Amber Ale,5.50 %,Willoughby American Amber Ale,Willoughby Brewing,Amber Ale,5.10 %,"('Beer_Name', 'Brew_Factory_Name')",1@1348
+Willoughby American Amber Ale,Willoughby Brewing Co. .,Amber Ale,5.50 %,Willoughby American Amber Ale,Willoughby Brewing,American Amber / Red Ale,5.10 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@1348
+Willoughby American Amber Ale,Willoughby Brewing Co. .,Amber Ale,5.50 %,Willoughby American Amber Ale,Willoughby Brewing,Amber Ale,4.90 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@1348
+Willoughby American Amber Ale,Willoughby Brewing Co. .,Amber Ale,5.50 %,Willoughby American Amber Ale,Bristol Brewing Company,Barley Wine,11.25 %,"('Beer_Name',)",1@2374
+Willoughby American Amber Ale,Willoughby Brewing Co. .,Amber Ale,5.50 %,Willoughby American Amber Ale,Willoughby Brewing,Barley Wine,11.25 %,"('Beer_Name', 'Brew_Factory_Name')",1@2374
+Willoughby American Amber Ale,Willoughby Brewing Co. .,Amber Ale,5.50 %,Willoughby American Amber Ale,Bristol Brewing Company,American Amber / Red Ale,11.25 %,"('Beer_Name', 'Style')",1@2374
+Willoughby American Amber Ale,Willoughby Brewing Co. .,Amber Ale,5.50 %,Willoughby American Amber Ale,Bristol Brewing Company,Barley Wine,4.90 %,"('Beer_Name', 'ABV')",1@2374
+Willoughby American Amber Ale,Willoughby Brewing Co. .,Amber Ale,5.50 %,Willoughby American Amber Ale,Willoughby Brewing,American Amber / Red Ale,11.25 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@2374
+Willoughby American Amber Ale,Willoughby Brewing Co. .,Amber Ale,5.50 %,Willoughby American Amber Ale,Willoughby Brewing,Barley Wine,4.90 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@2374
+Willoughby American Amber Ale,Willoughby Brewing Co. .,Amber Ale,5.50 %,Willoughby American Amber Ale,Bristol Brewing Company,American Amber / Red Ale,4.90 %,"('Beer_Name', 'Style', 'ABV')",1@2374
+Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,10 %,Thomas Hooker Old Marley Barleywine,21st Amendment Brewery,Barley Wine,9.50 %,"('Beer_Name',)",1@2510
+Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,10 %,Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,9.50 %,"('Beer_Name', 'Brew_Factory_Name')",1@2510
+Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,10 %,Thomas Hooker Old Marley Barleywine,21st Amendment Brewery,American Barleywine,9.50 %,"('Beer_Name', 'Style')",1@2510
+Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,10 %,Thomas Hooker Old Marley Barleywine,21st Amendment Brewery,Barley Wine,10.00 %,"('Beer_Name', 'ABV')",1@2510
+Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,10 %,Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,American Barleywine,9.50 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@2510
+Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,10 %,Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,10.00 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@2510
+Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,10 %,Thomas Hooker Old Marley Barleywine,21st Amendment Brewery,American Barleywine,10.00 %,"('Beer_Name', 'Style', 'ABV')",1@2510
+Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,10 %,Thomas Hooker Old Marley Barleywine,Sick N Twisted Brewing Company,Amber Ale,5.50 %,"('Beer_Name',)",1@1563
+Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,10 %,Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Amber Ale,5.50 %,"('Beer_Name', 'Brew_Factory_Name')",1@1563
+Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,10 %,Thomas Hooker Old Marley Barleywine,Sick N Twisted Brewing Company,American Barleywine,5.50 %,"('Beer_Name', 'Style')",1@1563
+Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,10 %,Thomas Hooker Old Marley Barleywine,Sick N Twisted Brewing Company,Amber Ale,10.00 %,"('Beer_Name', 'ABV')",1@1563
+Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,10 %,Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,American Barleywine,5.50 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@1563
+Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,10 %,Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Amber Ale,10.00 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@1563
+Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,10 %,Thomas Hooker Old Marley Barleywine,Sick N Twisted Brewing Company,American Barleywine,10.00 %,"('Beer_Name', 'Style', 'ABV')",1@1563
+Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,10 %,Thomas Hooker Old Marley Barleywine,Rock Bottom Orland Park,American Strong Ale,7.60 %,"('Beer_Name',)",1@1889
+Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,10 %,Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,American Strong Ale,7.60 %,"('Beer_Name', 'Brew_Factory_Name')",1@1889
+Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,10 %,Thomas Hooker Old Marley Barleywine,Rock Bottom Orland Park,American Barleywine,7.60 %,"('Beer_Name', 'Style')",1@1889
+Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,10 %,Thomas Hooker Old Marley Barleywine,Rock Bottom Orland Park,American Strong Ale,10.00 %,"('Beer_Name', 'ABV')",1@1889
+Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,10 %,Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,American Barleywine,7.60 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@1889
+Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,10 %,Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,American Strong Ale,10.00 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@1889
+Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,10 %,Thomas Hooker Old Marley Barleywine,Rock Bottom Orland Park,American Barleywine,10.00 %,"('Beer_Name', 'Style', 'ABV')",1@1889
+Golden City Centurion Barleywine Ale,Golden City Brewery,Barley Wine,11.20 %,Centurion Barleywine Ale,Golden City Brewery,Amber Ale,5.50 %,"('Beer_Name', 'Brew_Factory_Name')",1@2124
+Golden City Centurion Barleywine Ale,Golden City Brewery,Barley Wine,11.20 %,Centurion Barleywine Ale,Golden City Brewery,American Barleywine,5.50 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@2124
+Golden City Centurion Barleywine Ale,Golden City Brewery,Barley Wine,11.20 %,Centurion Barleywine Ale,Golden City Brewery,Amber Ale,-,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@2124
+Golden City Centurion Barleywine Ale,Golden City Brewery,Barley Wine,11.20 %,Centurion Barleywine Ale,Golden City Brewery,Amber Ale,5.20 %,"('Beer_Name', 'Brew_Factory_Name')",1@2601
+Golden City Centurion Barleywine Ale,Golden City Brewery,Barley Wine,11.20 %,Centurion Barleywine Ale,Golden City Brewery,American Barleywine,5.20 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@2601
+Golden City Centurion Barleywine Ale,Golden City Brewery,Barley Wine,11.20 %,Centurion Barleywine Ale,Golden City Brewery,Amber Ale,-,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@2601
+Golden City Centurion Barleywine Ale,Golden City Brewery,Barley Wine,11.20 %,Centurion Barleywine Ale,Golden City Brewery,Amber Ale,6 %,"('Beer_Name', 'Brew_Factory_Name')",1@2906
+Golden City Centurion Barleywine Ale,Golden City Brewery,Barley Wine,11.20 %,Centurion Barleywine Ale,Golden City Brewery,American Barleywine,6 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@2906
+Golden City Centurion Barleywine Ale,Golden City Brewery,Barley Wine,11.20 %,Centurion Barleywine Ale,Golden City Brewery,Amber Ale,-,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@2906
+Golden City Centurion Barleywine Ale,Golden City Brewery,Barley Wine,11.20 %,Centurion Barleywine Ale,Golden City Brewery,India Pale Ale &#40; IPA &#41;,6 %,"('Beer_Name', 'Brew_Factory_Name')",1@2972
+Golden City Centurion Barleywine Ale,Golden City Brewery,Barley Wine,11.20 %,Centurion Barleywine Ale,Golden City Brewery,American Barleywine,6 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@2972
+Golden City Centurion Barleywine Ale,Golden City Brewery,Barley Wine,11.20 %,Centurion Barleywine Ale,Golden City Brewery,India Pale Ale &#40; IPA &#41;,-,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@2972
+Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,American Amber / Red Ale,6.00 %,Amazon Beer Priprioca Red Ale,Golden City Brewery,American Barleywine,-,"('Beer_Name',)",0@4161
+Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,American Amber / Red Ale,6.00 %,Centurion Barleywine Ale,Amazon Beer,American Barleywine,-,"('Brew_Factory_Name',)",0@4161
+Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,American Amber / Red Ale,6.00 %,Centurion Barleywine Ale,Golden City Brewery,Amber Ale,-,"('Style',)",0@4161
+Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,American Amber / Red Ale,6.00 %,Centurion Barleywine Ale,Golden City Brewery,American Barleywine,6 %,"('ABV',)",0@4161
+Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,American Amber / Red Ale,6.00 %,Amazon Beer Priprioca Red Ale,Amazon Beer,American Barleywine,-,"('Beer_Name', 'Brew_Factory_Name')",0@4161
+Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,American Amber / Red Ale,6.00 %,Amazon Beer Priprioca Red Ale,Golden City Brewery,Amber Ale,-,"('Beer_Name', 'Style')",0@4161
+Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,American Amber / Red Ale,6.00 %,Amazon Beer Priprioca Red Ale,Golden City Brewery,American Barleywine,6 %,"('Beer_Name', 'ABV')",0@4161
+Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,American Amber / Red Ale,6.00 %,Centurion Barleywine Ale,Amazon Beer,Amber Ale,-,"('Brew_Factory_Name', 'Style')",0@4161
+Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,American Amber / Red Ale,6.00 %,Centurion Barleywine Ale,Amazon Beer,American Barleywine,6 %,"('Brew_Factory_Name', 'ABV')",0@4161
+Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,American Amber / Red Ale,6.00 %,Centurion Barleywine Ale,Golden City Brewery,Amber Ale,6 %,"('Style', 'ABV')",0@4161
+Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,American Amber / Red Ale,6.00 %,Amazon Beer Priprioca Red Ale,Amazon Beer,Amber Ale,-,"('Beer_Name', 'Brew_Factory_Name', 'Style')",0@4161
+Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,American Amber / Red Ale,6.00 %,Amazon Beer Priprioca Red Ale,Amazon Beer,American Barleywine,6 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",0@4161
+Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,American Amber / Red Ale,6.00 %,Amazon Beer Priprioca Red Ale,Golden City Brewery,Amber Ale,6 %,"('Beer_Name', 'Style', 'ABV')",0@4161
+Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,American Amber / Red Ale,6.00 %,Centurion Barleywine Ale,Amazon Beer,Amber Ale,6 %,"('Brew_Factory_Name', 'Style', 'ABV')",0@4161
+Amazon Beer Priprioca Red Ale,Amazon Beer,Amber Ale,6 %,Red Ale Priprioca,23rd Street Brewery,Specialty Grain,-,"('Beer_Name',)",1@2071
+Amazon Beer Priprioca Red Ale,Amazon Beer,Amber Ale,6 %,Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,Specialty Grain,-,"('Beer_Name', 'Brew_Factory_Name')",1@2071
+Amazon Beer Priprioca Red Ale,Amazon Beer,Amber Ale,6 %,Red Ale Priprioca,23rd Street Brewery,American Amber / Red Ale,-,"('Beer_Name', 'Style')",1@2071
+Amazon Beer Priprioca Red Ale,Amazon Beer,Amber Ale,6 %,Red Ale Priprioca,23rd Street Brewery,Specialty Grain,6.00 %,"('Beer_Name', 'ABV')",1@2071
+Amazon Beer Priprioca Red Ale,Amazon Beer,Amber Ale,6 %,Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,American Amber / Red Ale,-,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@2071
+Amazon Beer Priprioca Red Ale,Amazon Beer,Amber Ale,6 %,Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,Specialty Grain,6.00 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@2071
+Amazon Beer Priprioca Red Ale,Amazon Beer,Amber Ale,6 %,Red Ale Priprioca,23rd Street Brewery,American Amber / Red Ale,6.00 %,"('Beer_Name', 'Style', 'ABV')",1@2071
+Amazon Beer Priprioca Red Ale,Amazon Beer,Amber Ale,6 %,Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,American Strong Ale,7.60 %,"('Beer_Name', 'Brew_Factory_Name')",1@1889
+Amazon Beer Priprioca Red Ale,Amazon Beer,Amber Ale,6 %,Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,American Amber / Red Ale,7.60 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@1889
+Amazon Beer Priprioca Red Ale,Amazon Beer,Amber Ale,6 %,Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,American Strong Ale,6.00 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@1889
+Amazon Beer Priprioca Red Ale,Amazon Beer,Amber Ale,6 %,Red Ale Priprioca,Rock Bottom Orland Park,American Amber / Red Ale,6.00 %,"('Beer_Name', 'Style', 'ABV')",1@1889
+Amazon Beer Priprioca Red Ale,Amazon Beer,Amber Ale,6 %,Red Ale Priprioca,Lakefront Brewery,Amber Ale,5.50 %,"('Beer_Name',)",1@1165
+Amazon Beer Priprioca Red Ale,Amazon Beer,Amber Ale,6 %,Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,Amber Ale,5.50 %,"('Beer_Name', 'Brew_Factory_Name')",1@1165
+Amazon Beer Priprioca Red Ale,Amazon Beer,Amber Ale,6 %,Red Ale Priprioca,Lakefront Brewery,Amber Ale,6.00 %,"('Beer_Name', 'ABV')",1@1165
+Amazon Beer Priprioca Red Ale,Amazon Beer,Amber Ale,6 %,Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,American Amber / Red Ale,5.50 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@1165
+Amazon Beer Priprioca Red Ale,Amazon Beer,Amber Ale,6 %,Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,Amber Ale,6.00 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@1165
+Hillcrest Big Red Balls,Hillcrest Brewing Company,Imperial IPA,8 %,Big Red Balls,Capitol City Brewing Company,Amber Ale,5.60 %,"('Beer_Name',)",1@1177
+Hillcrest Big Red Balls,Hillcrest Brewing Company,Imperial IPA,8 %,Big Red Balls,Hillcrest Brewing Company,Amber Ale,5.60 %,"('Beer_Name', 'Brew_Factory_Name')",1@1177
+Hillcrest Big Red Balls,Hillcrest Brewing Company,Imperial IPA,8 %,Big Red Balls,Capitol City Brewing Company,American Amber / Red Ale,5.60 %,"('Beer_Name', 'Style')",1@1177
+Hillcrest Big Red Balls,Hillcrest Brewing Company,Imperial IPA,8 %,Big Red Balls,Capitol City Brewing Company,Amber Ale,8.00 %,"('Beer_Name', 'ABV')",1@1177
+Hillcrest Big Red Balls,Hillcrest Brewing Company,Imperial IPA,8 %,Big Red Balls,Hillcrest Brewing Company,American Amber / Red Ale,5.60 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@1177
+Hillcrest Big Red Balls,Hillcrest Brewing Company,Imperial IPA,8 %,Big Red Balls,Hillcrest Brewing Company,Amber Ale,8.00 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@1177
+Hillcrest Big Red Balls,Hillcrest Brewing Company,Imperial IPA,8 %,Big Red Balls,Capitol City Brewing Company,American Amber / Red Ale,8.00 %,"('Beer_Name', 'Style', 'ABV')",1@1177
+Hillcrest Big Red Balls,Hillcrest Brewing Company,Imperial IPA,8 %,Big Red Balls,Salty Nut Brewery,Amber Ale,5.50 %,"('Beer_Name',)",1@2124
+Hillcrest Big Red Balls,Hillcrest Brewing Company,Imperial IPA,8 %,Big Red Balls,Hillcrest Brewing Company,Amber Ale,5.50 %,"('Beer_Name', 'Brew_Factory_Name')",1@2124
+Hillcrest Big Red Balls,Hillcrest Brewing Company,Imperial IPA,8 %,Big Red Balls,Salty Nut Brewery,American Amber / Red Ale,5.50 %,"('Beer_Name', 'Style')",1@2124
+Hillcrest Big Red Balls,Hillcrest Brewing Company,Imperial IPA,8 %,Big Red Balls,Salty Nut Brewery,Amber Ale,8.00 %,"('Beer_Name', 'ABV')",1@2124
+Hillcrest Big Red Balls,Hillcrest Brewing Company,Imperial IPA,8 %,Big Red Balls,Hillcrest Brewing Company,American Amber / Red Ale,5.50 %,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@2124
+Hillcrest Big Red Balls,Hillcrest Brewing Company,Imperial IPA,8 %,Big Red Balls,Hillcrest Brewing Company,Amber Ale,8.00 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@2124
+Hillcrest Big Red Balls,Hillcrest Brewing Company,Imperial IPA,8 %,Big Red Balls,Salty Nut Brewery,American Amber / Red Ale,8.00 %,"('Beer_Name', 'Style', 'ABV')",1@2124
+Hillcrest Big Red Balls,Hillcrest Brewing Company,Imperial IPA,8 %,Big Red Balls,Iron Horse Brewery,American Strong Ale,-,"('Beer_Name',)",1@641
+Hillcrest Big Red Balls,Hillcrest Brewing Company,Imperial IPA,8 %,Big Red Balls,Hillcrest Brewing Company,American Strong Ale,-,"('Beer_Name', 'Brew_Factory_Name')",1@641
+Hillcrest Big Red Balls,Hillcrest Brewing Company,Imperial IPA,8 %,Big Red Balls,Iron Horse Brewery,American Amber / Red Ale,-,"('Beer_Name', 'Style')",1@641
+Hillcrest Big Red Balls,Hillcrest Brewing Company,Imperial IPA,8 %,Big Red Balls,Iron Horse Brewery,American Strong Ale,8.00 %,"('Beer_Name', 'ABV')",1@641
+Hillcrest Big Red Balls,Hillcrest Brewing Company,Imperial IPA,8 %,Big Red Balls,Hillcrest Brewing Company,American Amber / Red Ale,-,"('Beer_Name', 'Brew_Factory_Name', 'Style')",1@641
+Hillcrest Big Red Balls,Hillcrest Brewing Company,Imperial IPA,8 %,Big Red Balls,Hillcrest Brewing Company,American Strong Ale,8.00 %,"('Beer_Name', 'Brew_Factory_Name', 'ABV')",1@641
+Hillcrest Big Red Balls,Hillcrest Brewing Company,Imperial IPA,8 %,Big Red Balls,Iron Horse Brewery,American Amber / Red Ale,8.00 %,"('Beer_Name', 'Style', 'ABV')",1@641

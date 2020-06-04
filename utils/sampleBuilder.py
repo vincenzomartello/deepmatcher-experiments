@@ -172,8 +172,9 @@ def generateNewNegatives(df,source1,source2,newNegativesToBuild):
         locc = np.count_nonzero(negatives.ltable_id.values==positives.iloc[i]['ltable_id'])
         rocc = np.count_nonzero(negatives.rtable_id.values == positives.iloc[i]['rtable_id'])
         if locc==0 and rocc == 0:
-            permittedIds = [sampleid for sampleid in df_c['rtable_id'].values if sampleid!= df_c.iloc[i]['rtable_id']]
-            newNegatives_l = buildNegativeFromSample(positives.iloc[i]['ltable_id'],permittedIds,\
+            permittedIds_source = [sampleid for sampleid in df_c['rtable_id'].values if sampleid!= df_c.iloc[i]['rtable_id']]
+            permittedIds = list(map(lambda sid:sid.split("@")[1],permittedIds_source))
+            newNegatives_l = buildNegativeFromSample(positives.iloc[i]['ltable_id'].split("@")[1],permittedIds,\
                                                      newNegativesPerSample,source1,source2,jaccard,0.5)
             newNegatives_df = pd.DataFrame(data=newNegatives_l,columns=['ltable_id','rtable_id','label'])
             allNewNegatives.append(newNegatives_df)

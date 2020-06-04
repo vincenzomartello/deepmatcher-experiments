@@ -1,0 +1,451 @@
+label,ltable_Beer_Name,ltable_Brew_Factory_Name,ltable_Style,ltable_ABV,rtable_Beer_Name,rtable_Brew_Factory_Name,rtable_Style,rtable_ABV,id
+0,C N Red Imperial Red Ale,Redwood Lodge,American Amber / Red Ale,8.10 %,Kinetic Infrared Imperial Red Ale,Kinetic Brewing Company,American Strong Ale,9.30 %,0@2082#1@1496
+0,Mountain Series : Love Rhino ( Imperial Red Ale ),Breckenridge Brewery,American Amber / Red Ale,8.90 %,Kinetic Infrared Imperial Red Ale,Kinetic Brewing Company,American Strong Ale,9.30 %,0@2433#1@1496
+0,Arthur 's Imperial Red Ale,Otto 's Pub and Brewery,American Amber / Red Ale,6.90 %,Kinetic Infrared Imperial Red Ale,Kinetic Brewing Company,American Strong Ale,9.30 %,0@1587#1@1496
+0,Deranger Imperial Red Ale,Laurelwood Public House & Brewery,American Amber / Red Ale,8.60 %,Kinetic Infrared Imperial Red Ale,Kinetic Brewing Company,American Strong Ale,9.30 %,0@1458#1@1496
+0,Red Shedman 's Imperial Amber Ale,57 Brew Pub & Bistro,American Amber / Red Ale,7.60 %,Kinetic Infrared Imperial Red Ale,Kinetic Brewing Company,American Strong Ale,9.30 %,0@3402#1@1496
+0,C N Red Imperial Red Ale,Redwood Lodge,American Amber / Red Ale,8.10 %,Ballast Point Tongue Buckler Imperial Red Ale,Ballast Point Brewing Company,American Strong Ale,10 %,0@2082#1@1638
+0,Double Dread Imperial Red Ale,Mad River Brewing Company,American Amber / Red Ale,8.60 %,Ballast Point Tongue Buckler Imperial Red Ale,Ballast Point Brewing Company,American Strong Ale,10 %,0@138#1@1638
+0,West Sixth / Country Boy Country Western ( Volume 3 Imperial Red Ale ),West Sixth Brewing Company,American Amber / Red Ale,13.00 %,Ballast Point Tongue Buckler Imperial Red Ale,Ballast Point Brewing Company,American Strong Ale,10 %,0@491#1@1638
+0,C N Red Imperial Red Ale,Redwood Lodge,American Amber / Red Ale,8.10 %,Tumbledown Imp Imperial Red Ale,Tumbledown Brewing LLC,American Strong Ale,7.80 %,0@2082#1@1103
+0,Roundabout Imperial Red Ale,Bonfire Brewing Co. .,American Amber / Red Ale,8.80 %,Tumbledown Imp Imperial Red Ale,Tumbledown Brewing LLC,American Strong Ale,7.80 %,0@3325#1@1103
+0,Merry Prankster Imperial Red Ale,Rock Bottom Restaurant & Brewery,American Amber / Red Ale,4.56 %,Tumbledown Imp Imperial Red Ale,Tumbledown Brewing LLC,American Strong Ale,7.80 %,0@2047#1@1103
+0,Mountain Series : Love Rhino ( Imperial Red Ale ),Breckenridge Brewery,American Amber / Red Ale,8.90 %,Tumbledown Imp Imperial Red Ale,Tumbledown Brewing LLC,American Strong Ale,7.80 %,0@2433#1@1103
+0,6th Anniversary Ale ( Dirty Hippie Imperial Red Ale ),Kern River Brewing Company,American Amber / Red Ale,8.00 %,Tumbledown Imp Imperial Red Ale,Tumbledown Brewing LLC,American Strong Ale,7.80 %,0@178#1@1103
+0,Ale Mania Imperial Red Ale,Ale-Mania,American Amber / Red Ale,9.50 %,Tumbledown Imp Imperial Red Ale,Tumbledown Brewing LLC,American Strong Ale,7.80 %,0@2934#1@1103
+1,Sanibel Red Island Ale,Point Ybel Brewing Company,American Amber / Red Ale,5.60 %,Point Ybel Sanibel Red Island Ale,Point Ybel Brewing Company,Irish Ale,5.60 %,0@982#1@2999
+0,Kniksen India Red Ale,7 Fjell Bryggeri,American Amber / Red Ale,6.80 %,Boneyard Skunkape India Red Ale,Boneyard Beer Company,India Pale Ale &#40; IPA &#41;,6.50 %,0@3715#1@2562
+0,Kniksen India Red Ale,7 Fjell Bryggeri,American Amber / Red Ale,6.80 %,Good People Stepchild Belgian India Red Ale,Good People Brewing Company,India Pale Ale &#40; IPA &#41;,7.80 %,0@3715#1@216
+0,Street Cred India Rye Red Ale,Roaring Fork Beer Company,American Amber / Red Ale,7.20 %,Good People Stepchild Belgian India Red Ale,Good People Brewing Company,India Pale Ale &#40; IPA &#41;,7.80 %,0@2979#1@216
+0,Buffalo Trace Bourbon Barrel Aged Amber Ale,Wolf Hills Brewing Company,American Amber / Red Ale,-,Ballast Point Calico Amber Ale - Rum Barrel Aged,Ballast Point Brewing Company,Amber Ale,5 %,0@3246#1@284
+0,Barrel Aged Red Ale,BearWaters Brewing Co. .,American Amber / Red Ale,6.70 %,Ballast Point Calico Amber Ale - Rum Barrel Aged,Ballast Point Brewing Company,Amber Ale,5 %,0@1524#1@284
+0,Buffalo Trace Bourbon Barrel Aged Amber Ale,Wolf Hills Brewing Company,American Amber / Red Ale,-,Barley_s Barrel Aged Ulysses Imperial Red Ale,Barley_s Brewing Company,American Strong Ale,8.60 %,0@3246#1@1682
+0,Barrel Aged Red Ale,BearWaters Brewing Co. .,American Amber / Red Ale,6.70 %,Barley_s Barrel Aged Ulysses Imperial Red Ale,Barley_s Brewing Company,American Strong Ale,8.60 %,0@1524#1@1682
+0,Buffalo Trace Bourbon Barrel Aged Amber Ale,Wolf Hills Brewing Company,American Amber / Red Ale,-,Barrel Trolley Amber Ale,Genesee Brewing Company &#40; North American Breweries &#41;,Amber Ale,-,0@3246#1@2019
+1,Poor Richard 's Ale,Dry Dock Brewing Co. .,American Amber / Red Ale,6.50 %,21st Amendment Poor Richards Ale,21st Amendment Brewery,Traditional Ale,7 %,0@1931#1@810
+0,Redeemer Imperial Red Ale,Boston Beer Works - Canal Street,American Amber / Red Ale,8.20 %,Laurelwood Organic Deranger Imperial Red Ale,Laurelwood Public House & Brewery,American Strong Ale,8.60 %,0@704#1@411
+0,Barrel Aged Imperial Red Ale,Boone Valley Brewing,American Amber / Red Ale,9.99 %,Laurelwood Organic Deranger Imperial Red Ale,Laurelwood Public House & Brewery,American Strong Ale,8.60 %,0@2526#1@411
+0,Big Axe Red Ale,Big Axe Brewing Company,American Amber / Red Ale,6.80 %,Big Spruce Ready Yer Knot ... Regatta Red Ale,Big Spruce Brewing,Amber Ale,-,0@1880#1@872
+0,Roundabout Imperial Red Ale,Bonfire Brewing Co. .,American Amber / Red Ale,8.80 %,Anacapa Riptide Imperial Red Ale,Anacapa Brewing Company,American Strong Ale,8 %,0@3325#1@2266
+0,Sledgehammer Imperial Red Ale,Cambridge Brewing Company,American Amber / Red Ale,7.75 %,Anacapa Riptide Imperial Red Ale,Anacapa Brewing Company,American Strong Ale,8 %,0@3185#1@2266
+0,Roundabout Imperial Red Ale,Bonfire Brewing Co. .,American Amber / Red Ale,8.80 %,AleSmith YuleSmith &#40; Winter &#41; Imperial Red Ale,AleSmith Brewing Company,American Strong Ale,8.50 %,0@3325#1@1973
+0,Stupiphany Imperial Red Ale,Rusty Truck Brewing Company / Roadhouse 101,American Amber / Red Ale,8.00 %,AleSmith YuleSmith &#40; Winter &#41; Imperial Red Ale,AleSmith Brewing Company,American Strong Ale,8.50 %,0@1794#1@1973
+0,Roundabout Imperial Red Ale,Bonfire Brewing Co. .,American Amber / Red Ale,8.80 %,Marble Imperial Red Ale,Marble Brewery,American Strong Ale,9 %,0@3325#1@63
+0,Merry Prankster Imperial Red Ale,Rock Bottom Restaurant & Brewery,American Amber / Red Ale,4.56 %,Marble Imperial Red Ale,Marble Brewery,American Strong Ale,9 %,0@2047#1@63
+0,Roundabout Imperial Red Ale,Bonfire Brewing Co. .,American Amber / Red Ale,8.80 %,Peter Bs Sum Of Hours Imperial Red Ale,Peter Bs Brewpub,American Strong Ale,9.50 %,0@3325#1@1119
+0,Red-oric - Beer Camp # 65 ( Best Of Beer Camp : Imperial Red Ale ),Sierra Nevada Brewing Co. .,American Amber / Red Ale,8.00 %,Peter Bs Sum Of Hours Imperial Red Ale,Peter Bs Brewpub,American Strong Ale,9.50 %,0@44#1@1119
+0,Double Mongrel Imperial India Red Ale,Aspetuck Brew Lab,American Amber / Red Ale,9.00 %,Peter Bs Sum Of Hours Imperial Red Ale,Peter Bs Brewpub,American Strong Ale,9.50 %,0@3478#1@1119
+0,Extra Special Red Ale,Alpha Brewing Company,American Amber / Red Ale,5.00 %,Ecliptic Phobos Extra Red Ale,Ecliptic Brewing,Amber Ale,5.20 %,0@2718#1@2787
+0,Aorta Ale ( Double Red Ale ),Short 's Brewing Company,American Amber / Red Ale,8.30 %,Destihl Barrel Aged Deadhead Double Red Ale,Destihl Brewery,American Strong Ale,-,0@141#1@2672
+0,Double Red Hot Ale,Midnight Sun Brewing Co. .,American Amber / Red Ale,7.57 %,Destihl Barrel Aged Deadhead Double Red Ale,Destihl Brewery,American Strong Ale,-,0@3661#1@2672
+0,Aorta Ale ( Double Red Ale ),Short 's Brewing Company,American Amber / Red Ale,8.30 %,Wildcard Double Down Imperial Red Ale,Wildcard Brewing Company,American Strong Ale,7.50 %,0@141#1@2991
+0,Dread Double Red Ale,Bullfrog Brewery,American Amber / Red Ale,7.80 %,Wildcard Double Down Imperial Red Ale,Wildcard Brewing Company,American Strong Ale,7.50 %,0@1185#1@2991
+0,Double Dragon Imperial Red Ale,Phillips Brewing Company,American Amber / Red Ale,8.20 %,Wildcard Double Down Imperial Red Ale,Wildcard Brewing Company,American Strong Ale,7.50 %,0@492#1@2991
+0,Three Sheets Barleywine ( Barrel Aged ),Ballast Point Brewing Company,American Barleywine,9.00 %,&#40; 512 &#41; Cabernet Barrel Aged Three,&#40; 512 &#41; Brewing Company,Abbey Tripel,9.50 %,0@4138#1@823
+1,Peak Organic The Maple Collaboration,Peak Organic Brewing Company,American Amber / Red Ale,7.00 %,Peak Organic The Maple Collaboration,Shipyard Brewing Company,Amber Ale,6.70 %,0@190#1@805
+0,Bourbon Barrel Red Oak Ale,Tornado Brewing Company,American Amber / Red Ale,-,Ballast Point Tongue Buckler Imperial Red Ale - Bourbon Barrel Aged,Ballast Point Brewing Company,American Strong Ale,10 %,0@2277#1@1255
+0,Broadhead Bourbon Barrel Aged Red,Bainbridge Island Brewing Company,American Amber / Red Ale,8.50 %,Ballast Point Tongue Buckler Imperial Red Ale - Bourbon Barrel Aged,Ballast Point Brewing Company,American Strong Ale,10 %,0@2602#1@1255
+0,Red Dirt Imperial Red Ale,Wiley Roots Brewing Co,American Amber / Red Ale,8.20 %,Ballast Point Tongue Buckler Imperial Red Ale - Bourbon Barrel Aged,Ballast Point Brewing Company,American Strong Ale,10 %,0@2156#1@1255
+0,Double Dread Imperial Red Ale,Mad River Brewing Company,American Amber / Red Ale,8.60 %,Ballast Point Tongue Buckler Imperial Red Ale - Bourbon Barrel Aged,Ballast Point Brewing Company,American Strong Ale,10 %,0@138#1@1255
+0,Ro Shampo Imperial Red Ale,Figure 8 Brewing,American Amber / Red Ale,7.50 %,Ballast Point Tongue Buckler Imperial Red Ale - Bourbon Barrel Aged,Ballast Point Brewing Company,American Strong Ale,10 %,0@295#1@1255
+0,Ulysses Imperial Red Ale,Barley 's Brewing Company,American Amber / Red Ale,-,Ballast Point Tongue Buckler Imperial Red Ale - Bourbon Barrel Aged,Ballast Point Brewing Company,American Strong Ale,10 %,0@3130#1@1255
+0,John Barleycorn - Bourbon Barrel Aged,Mad River Brewing Company,American Barleywine,12.50 %,AleSmith Old Numbskull - Bourbon Barrel Aged,AleSmith Brewing Company,Barley Wine,11 %,0@4162#1@2313
+0,Bourbon Barrel Aged Panama Red Ale,Flossmoor Station Restaurant & Brewery,American Amber / Red Ale,7.00 %,AleSmith Old Numbskull - Bourbon Barrel Aged,AleSmith Brewing Company,Barley Wine,11 %,0@1649#1@2313
+1,Royal Amber Ale,Hops Grillhouse & Brewery,American Amber / Red Ale,4.50 %,Kalamazoo Royal Amber Ale,Bells Brewery,Amber Ale,-,0@1850#1@742
+1,The Gentle Mongoose,Holy City Brewing,American Amber / Red Ale,6.90 %,Holy City The Gentle Mongoose,Holy City Brewing,Amber Ale,6.90 %,0@2909#1@1529
+0,Hop Around Imperial Red Ale,Big Bay Brewing Co. .,American Amber / Red Ale,9.00 %,ShuBrew Heart and Sole Imperial Red Ale,ShuBrew,American Strong Ale,6.80 %,0@3963#1@1026
+0,Lavery Imperial Red Ale,Lavery Brewing Company,American Amber / Red Ale,8.20 %,ShuBrew Heart and Sole Imperial Red Ale,ShuBrew,American Strong Ale,6.80 %,0@285#1@1026
+0,Photobomb Imperial Red Ale,Crooked Ladder Brewing Company,American Amber / Red Ale,8.50 %,ShuBrew Heart and Sole Imperial Red Ale,ShuBrew,American Strong Ale,6.80 %,0@3813#1@1026
+0,Tongue Buckler - Imperial Red Ale,Ballast Point Brewing Company,American Amber / Red Ale,10.00 %,ShuBrew Heart and Sole Imperial Red Ale,ShuBrew,American Strong Ale,6.80 %,0@29#1@1026
+0,Imperial Red Ale,Epic Brewing Company,American Amber / Red Ale,7.70 %,ShuBrew Heart and Sole Imperial Red Ale,ShuBrew,American Strong Ale,6.80 %,0@171#1@1026
+0,Hop Around Imperial Red Ale,Big Bay Brewing Co. .,American Amber / Red Ale,9.00 %,Austin Beerworks Battle Axe Imperial Red Ale,Austin Beerworks,American Strong Ale,8 %,0@3963#1@2334
+0,Hop Around Imperial Red Ale,Big Bay Brewing Co. .,American Amber / Red Ale,9.00 %,Speakeasy Wet Hop Prohibition Red Ale,Speakeasy Ales and Lagers,Amber Ale,6.10 %,0@3963#1@1863
+0,Hop Around Imperial Red Ale,Big Bay Brewing Co. .,American Amber / Red Ale,9.00 %,Ale Mania Imperial Red Ale,Ale Mania &#40; Fritz Ale &#41;,American Strong Ale,9.50 %,0@3963#1@1551
+0,Batch 200 _ `` Olympus Mons Imperial Red Ale,Due South Brewing Co. .,American Amber / Red Ale,9.20 %,Ale Mania Imperial Red Ale,Ale Mania &#40; Fritz Ale &#41;,American Strong Ale,9.50 %,0@1755#1@1551
+0,Eruption Imperial Red Ale,Worthy Brewing Co. .,American Amber / Red Ale,8.00 %,Ale Mania Imperial Red Ale,Ale Mania &#40; Fritz Ale &#41;,American Strong Ale,9.50 %,0@486#1@1551
+0,Deranger Imperial Red Ale,Laurelwood Public House & Brewery,American Amber / Red Ale,8.60 %,Ale Mania Imperial Red Ale,Ale Mania &#40; Fritz Ale &#41;,American Strong Ale,9.50 %,0@1458#1@1551
+0,Hop Around Imperial Red Ale,Big Bay Brewing Co. .,American Amber / Red Ale,9.00 %,Laguna Beach Grateful Red Imperial Red Ale,Laguna Beach Brewing,American Strong Ale,11 %,0@3963#1@124
+0,Red Dirt Imperial Red Ale,Wiley Roots Brewing Co,American Amber / Red Ale,8.20 %,Laguna Beach Grateful Red Imperial Red Ale,Laguna Beach Brewing,American Strong Ale,11 %,0@2156#1@124
+0,Hop Around Imperial Red Ale,Big Bay Brewing Co. .,American Amber / Red Ale,9.00 %,Wynwood Fox Imperial Red Ale,Wynwood Brewing Company,American Strong Ale,7.70 %,0@3963#1@64
+0,Arsenal Imperial Red Ale,Great River Brewery,American Amber / Red Ale,9.00 %,Wynwood Fox Imperial Red Ale,Wynwood Brewing Company,American Strong Ale,7.70 %,0@2272#1@64
+0,3 Sisters American Red Ale,Wild Ride Brewing Co. .,American Amber / Red Ale,6.00 %,Saimaan Brewer_s Special American Red Ale,Saimaan Juomatehdas,Amber Ale,4.70 %,0@2480#1@558
+0,All American Red Ale,Centennial Beer Co. .,American Amber / Red Ale,5.00 %,Saimaan Brewer_s Special American Red Ale,Saimaan Juomatehdas,Amber Ale,4.70 %,0@1207#1@558
+0,3 Sisters American Red Ale,Wild Ride Brewing Co. .,American Amber / Red Ale,6.00 %,Black Shirt American India Red Ale,Black Shirt Brewing Company,American Strong Ale,7.09 %,0@2480#1@2621
+0,3 Sisters American Red Ale,Wild Ride Brewing Co. .,American Amber / Red Ale,6.00 %,Stadin American Red Ale,Stadin Panimo,Amber Ale,4.50 %,0@2480#1@1604
+0,All American Red Ale,Centennial Beer Co. .,American Amber / Red Ale,5.00 %,Stadin American Red Ale,Stadin Panimo,Amber Ale,4.50 %,0@1207#1@1604
+0,3 Sisters American Red Ale,Wild Ride Brewing Co. .,American Amber / Red Ale,6.00 %,Radiant Pig Gangster Duck American Red Ale,Radiant Pig Beer Company,Amber Ale,6.20 %,0@2480#1@2602
+0,Mountain Series : Love Rhino ( Imperial Red Ale ),Breckenridge Brewery,American Amber / Red Ale,8.90 %,Madhouse Venture Series Oak Aged Imperial Red,Madhouse Brewing Company,American Strong Ale,8.50 %,0@2433#1@2722
+0,Mountain Series : Love Rhino ( Imperial Red Ale ),Breckenridge Brewery,American Amber / Red Ale,8.90 %,Two Brothers Revelry Imperial Red Ale,Two Brothers Brewing Company,American Strong Ale,9.50 %,0@2433#1@1534
+0,6th Anniversary Ale ( Dirty Hippie Imperial Red Ale ),Kern River Brewing Company,American Amber / Red Ale,8.00 %,Two Brothers Revelry Imperial Red Ale,Two Brothers Brewing Company,American Strong Ale,9.50 %,0@178#1@1534
+0,Lavery Imperial Red Ale,Lavery Brewing Company,American Amber / Red Ale,8.20 %,Two Brothers Revelry Imperial Red Ale,Two Brothers Brewing Company,American Strong Ale,9.50 %,0@285#1@1534
+0,Arthur 's Imperial Red Ale,Otto 's Pub and Brewery,American Amber / Red Ale,6.90 %,Two Brothers Revelry Imperial Red Ale,Two Brothers Brewing Company,American Strong Ale,9.50 %,0@1587#1@1534
+0,Smuttynose Kindest Find Imperial Red Ale,Smuttynose Brewing Company,American Amber / Red Ale,8.50 %,Two Brothers Revelry Imperial Red Ale,Two Brothers Brewing Company,American Strong Ale,9.50 %,0@184#1@1534
+0,Red-oric - Beer Camp # 65 ( Best Of Beer Camp : Imperial Red Ale ),Sierra Nevada Brewing Co. .,American Amber / Red Ale,8.00 %,Two Brothers Revelry Imperial Red Ale,Two Brothers Brewing Company,American Strong Ale,9.50 %,0@44#1@1534
+0,Mountain Series : Love Rhino ( Imperial Red Ale ),Breckenridge Brewery,American Amber / Red Ale,8.90 %,Cigar City Cold Brew Series - Red Ale,Cigar City Brewing,Amber Ale,7.20 %,0@2433#1@349
+1,Cow Catcher Red,Mountain Town Station Brewing Co. & Steakhouse,American Amber / Red Ale,-,Mountain Town Cow Catcher Red Ale,Mountain Town Brewing Company,Amber Ale,5.80 %,0@2175#1@996
+0,Texas Red Amber Ale,Big Texan Brewery,American Amber / Red Ale,4.50 %,William Street Red Sky Amber Ale,William Street Beer Co. .,Amber Ale,5 %,0@1466#1@972
+0,6th Anniversary Ale ( Dirty Hippie Imperial Red Ale ),Kern River Brewing Company,American Amber / Red Ale,8.00 %,Brew Bus Detour Series : Rollin Dirty Red Ale - Wood Aged,Cigar City Brewing,Irish Ale,5 %,0@178#1@838
+0,Mermaid 's Red Ale - Bourbon Oak Aged,Coronado Brewing Company,American Amber / Red Ale,-,Brew Bus Detour Series : Rollin Dirty Red Ale - Wood Aged,Cigar City Brewing,Irish Ale,5 %,0@2811#1@838
+0,Saint Gleason Imperial Red Ale,Abita Brewing Co. .,American Amber / Red Ale,-,Mission Carrack Imperial Red Ale,Mission Brewery,American Strong Ale,10.20 %,0@732#1@621
+0,Three Beavers Imperial Red Ale,Howe Sound Inn & Brewing Company,American Amber / Red Ale,7.50 %,Mission Carrack Imperial Red Ale,Mission Brewery,American Strong Ale,10.20 %,0@487#1@621
+0,Bourbon Barrel Ro Shampo Imperial Red Ale,Figure 8 Brewing,American Amber / Red Ale,-,Sick N Twisted Naughty Redhead Imperial Red Ale,Sick N Twisted Brewing Company,Amber Ale,8 %,0@2423#1@881
+0,Lagunitas Imperial Red Ale,Lagunitas Brewing Company,American Amber / Red Ale,7.80 %,Sick N Twisted Naughty Redhead Imperial Red Ale,Sick N Twisted Brewing Company,Amber Ale,8 %,0@9#1@881
+0,Stupiphany Imperial Red Ale,Rusty Truck Brewing Company / Roadhouse 101,American Amber / Red Ale,8.00 %,Sick N Twisted Naughty Redhead Imperial Red Ale,Sick N Twisted Brewing Company,Amber Ale,8 %,0@1794#1@881
+0,Bourbon Barrel Ro Shampo Imperial Red Ale,Figure 8 Brewing,American Amber / Red Ale,-,Spring House Atomic Raygun Imperial Red Ale,Spring House Brewing Company,American Strong Ale,8.30 %,0@2423#1@1934
+0,Deputation Imperial Red Ale,Brannon 's Pub and Brewery,American Amber / Red Ale,8.00 %,Spring House Atomic Raygun Imperial Red Ale,Spring House Brewing Company,American Strong Ale,8.30 %,0@3126#1@1934
+0,Double Mongrel Imperial India Red Ale,Aspetuck Brew Lab,American Amber / Red Ale,9.00 %,Spring House Atomic Raygun Imperial Red Ale,Spring House Brewing Company,American Strong Ale,8.30 %,0@3478#1@1934
+0,Bourbon Barrel Ro Shampo Imperial Red Ale,Figure 8 Brewing,American Amber / Red Ale,-,Cape Cod Bourbon Barrel Red,Cape Cod Beer,Amber Ale,5.50 %,0@2423#1@465
+0,Bourbon Barrel Ro Shampo Imperial Red Ale,Figure 8 Brewing,American Amber / Red Ale,-,Lavery Imperial Red Ale &#40; IRA &#41;,Lavery Brewing Company,American Strong Ale,8.20 %,0@2423#1@1519
+0,Ruby River Ruby Red Ale,Ruby River Steakhouse & Brewery,American Amber / Red Ale,4.00 %,Pokertree Red Earl Ruby Ale,Pokertree,Amber Ale,5.50 %,0@1857#1@1860
+0,Ruby River Ruby Red Ale,Ruby River Steakhouse & Brewery,American Amber / Red Ale,4.00 %,Pine Creek River Valley Red Ale,Big Rock Brewery,Amber Ale,5 %,0@1857#1@545
+0,Stone Liberty Station Outbreak Series : Red Ale,Stone Brewing Co. .,American Amber / Red Ale,7.00 %,Liberty High Point Rocket_s Red Ale,Liberty Brewery & Grill - High Point,Irish Ale,-,0@3388#1@99
+0,Channary Imperial Red Ale,Narrows Brewing Co. .,American Amber / Red Ale,9.40 %,Fulton The Libertine Imperial Red Ale - Heaven Hill Rye Whiskey Barrel Aged,Fulton Beer Company,American Strong Ale,8.50 %,0@2125#1@22
+0,Climax Noel - Imperial Red Ale,Eel River Brewing Co. .,American Amber / Red Ale,9.20 %,Fulton The Libertine Imperial Red Ale - Heaven Hill Rye Whiskey Barrel Aged,Fulton Beer Company,American Strong Ale,8.50 %,0@354#1@22
+0,Barrel Aged Moustache Ride Red,Flat 12 Bierwerks,American Amber / Red Ale,6.10 %,Fulton The Libertine Imperial Red Ale - Heaven Hill Rye Whiskey Barrel Aged,Fulton Beer Company,American Strong Ale,8.50 %,0@773#1@22
+0,Photobomb Imperial Red Ale,Crooked Ladder Brewing Company,American Amber / Red Ale,8.50 %,Fulton The Libertine Imperial Red Ale - Heaven Hill Rye Whiskey Barrel Aged,Fulton Beer Company,American Strong Ale,8.50 %,0@3813#1@22
+0,Buffalo Soul Jah Imperial Red Ale,Three Heads Brewing,American Amber / Red Ale,9.20 %,Fulton The Libertine Imperial Red Ale - Heaven Hill Rye Whiskey Barrel Aged,Fulton Beer Company,American Strong Ale,8.50 %,0@833#1@22
+0,Old Guardian Barley Wine Style Ale - Red Wine Barrel Aged,Stone Brewing Co. .,American Barleywine,11.20 %,Fulton The Libertine Imperial Red Ale - Heaven Hill Rye Whiskey Barrel Aged,Fulton Beer Company,American Strong Ale,8.50 %,0@4117#1@22
+0,BJ 's Imperial Red Ale,BJ 's Restaurant & Brewhouse,American Amber / Red Ale,9.00 %,Fulton The Libertine Imperial Red Ale - Heaven Hill Rye Whiskey Barrel Aged,Fulton Beer Company,American Strong Ale,8.50 %,0@696#1@22
+0,Constanza _ ™ s Hoppy Red Ale,Bomber Brewing,American Amber / Red Ale,6.20 %,Spiteful Angry Adam Hoppy Red Ale,Spiteful Brewing,Amber Ale,6 %,0@3605#1@521
+0,Arsenal Imperial Red Ale,Great River Brewery,American Amber / Red Ale,9.00 %,Kern River Dirty Hippie Imperial Red Ale,Kern River Brewing,American Strong Ale,8 %,0@2272#1@980
+0,Tst Brw 01 - Imperial Red Ale,Brouwerij De Koninck NV,American Amber / Red Ale,7.80 %,Kern River Dirty Hippie Imperial Red Ale,Kern River Brewing,American Strong Ale,8 %,0@2319#1@980
+0,Ro Shampo Imperial Red Ale,Figure 8 Brewing,American Amber / Red Ale,7.50 %,Kern River Dirty Hippie Imperial Red Ale,Kern River Brewing,American Strong Ale,8 %,0@295#1@980
+0,Double Dragon Imperial Red Ale,Phillips Brewing Company,American Amber / Red Ale,8.20 %,Edge Imperial Red Ale &#40; Spring Seasonal &#41;,Edge Brewing Company,American Strong Ale,8.50 %,0@492#1@1661
+0,Batch 200 _ `` Olympus Mons Imperial Red Ale,Due South Brewing Co. .,American Amber / Red Ale,9.20 %,Edge Imperial Red Ale &#40; Spring Seasonal &#41;,Edge Brewing Company,American Strong Ale,8.50 %,0@1755#1@1661
+0,Sledgehammer Imperial Red Ale,Cambridge Brewing Company,American Amber / Red Ale,7.75 %,Edge Imperial Red Ale &#40; Spring Seasonal &#41;,Edge Brewing Company,American Strong Ale,8.50 %,0@3185#1@1661
+0,Bourbon Barrel Aged Auld Bitch,Tahoe Mountain Brewing Co. .,American Barleywine,11.00 %,Aspen Bourbon Barrel Aged Conundrum Red Ale,Aspen Brewing Company,Amber Ale,6.50 %,0@4200#1@469
+0,Bourbon Barrel Aged Redrum,Trinity Brewhouse,American Amber / Red Ale,9.50 %,Aspen Bourbon Barrel Aged Conundrum Red Ale,Aspen Brewing Company,Amber Ale,6.50 %,0@2365#1@469
+0,Bourbon Barrel Aged Auld Bitch,Tahoe Mountain Brewing Co. .,American Barleywine,11.00 %,Lompoc Bourbon Barrel Aged Proletariat Red Ale,Lompoc Brewing,Amber Ale,6.40 %,0@4200#1@1825
+1,Kuhnhenn Extraneous Ale,Kuhnhenn Brewing Company,American Barleywine,17.00 %,Kuhnhenn Extraneous Ale,Kuhnhenn Brewing,Barley Wine,17.50 %,0@4101#1@2360
+0,Lavery Imperial Red Ale,Lavery Brewing Company,American Amber / Red Ale,8.20 %,Oak Creek King Crimson Imperial Red Ale,Oak Creek Brewing Co. .,American Strong Ale,9.50 %,0@285#1@623
+0,Lavery Imperial Red Ale,Lavery Brewing Company,American Amber / Red Ale,8.20 %,Lagunitas Imperial Red Ale,Lagunitas Brewing Company &#40; Heineken &#41;,American Strong Ale,7.80 %,0@285#1@90
+0,Double Dread Imperial Red Ale,Mad River Brewing Company,American Amber / Red Ale,8.60 %,Lagunitas Imperial Red Ale,Lagunitas Brewing Company &#40; Heineken &#41;,American Strong Ale,7.80 %,0@138#1@90
+0,Rhino Chaser Imperial Red Ale,Pizza Port Solana Beach,American Amber / Red Ale,9.50 %,Lagunitas Imperial Red Ale,Lagunitas Brewing Company &#40; Heineken &#41;,American Strong Ale,7.80 %,0@655#1@90
+0,Broadhead Bourbon Barrel Aged Red,Bainbridge Island Brewing Company,American Amber / Red Ale,8.50 %,Flat 12 Barrel Aged Moustache Ride Red,Flat 12 Bierwerks,Amber Ale,-,0@2602#1@1955
+0,Broadhead Bourbon Barrel Aged Red,Bainbridge Island Brewing Company,American Amber / Red Ale,8.50 %,MadTree Bourbon Barrel Aged Happy Amber,MadTree Brewing Company,Amber Ale,6 %,0@2602#1@730
+0,Bulleit Bourbon Barrel Aged G'Knight,Oskar Blues Grill & Brew,American Amber / Red Ale,8.70 %,MadTree Bourbon Barrel Aged Happy Amber,MadTree Brewing Company,Amber Ale,6 %,0@1219#1@730
+0,Frost Quake Bourbon Barrel Aged Barley Wine,Wellington County Brewery,American Barleywine,9.80 %,MadTree Bourbon Barrel Aged Happy Amber,MadTree Brewing Company,Amber Ale,6 %,0@4256#1@730
+0,Noggin Floggin ( Bourbon Barrel Aged ),Hopworks Urban Brewery,American Barleywine,9.60 %,MadTree Bourbon Barrel Aged Happy Amber,MadTree Brewing Company,Amber Ale,6 %,0@4216#1@730
+1,Ballistic Brewing Co. - Gorgon Red Ale,Indian Wells Brewing Company,American Amber / Red Ale,5.50 %,Ballistic Brewing Gorgon Red Ale,Indian Wells Brewing,Amber Ale,5.50 %,0@890#1@2580
+0,Ballistic Brewing Co. - Gorgon Red Ale,Indian Wells Brewing Company,American Amber / Red Ale,5.50 %,Red Horn Coffee House and Brewing Company Red Horn Drink Well Red Ale,Red Horn Coffee House and Brewing Company,Amber Ale,5.50 %,0@890#1@615
+1,Hearthstone Red Rye Ale,Hearthstone Brewery,American Amber / Red Ale,5.00 %,Hearthstone Red Rye Ale,Hearthstone Brewery,Specialty Grain,5 %,0@2689#1@1373
+1,River Otter Ale,Union Station Brewery,American Amber / Red Ale,5.10 %,Sacramento River Otter Ale,Sacramento Brewing Company,English Pale Ale,5.50 %,0@1672#1@590
+0,Deputation Imperial Red Ale,Brannon 's Pub and Brewery,American Amber / Red Ale,8.00 %,Yukon You Only Live Once Imperial Red Ale,Yukon Brewing Company,Amber Ale,7.50 %,0@3126#1@461
+0,Red 88 Imperial Amber Ale,River City Brewing Co. .,American Amber / Red Ale,8.00 %,Yukon You Only Live Once Imperial Red Ale,Yukon Brewing Company,Amber Ale,7.50 %,0@3090#1@461
+0,Batch 200 _ `` Olympus Mons Imperial Red Ale,Due South Brewing Co. .,American Amber / Red Ale,9.20 %,Three Heads Buffalo Soul Jah Imperial Red Ale,Custom Brewcrafters,American Strong Ale,9.20 %,0@1755#1@2883
+0,Lagunitas Imperial Red Ale,Lagunitas Brewing Company,American Amber / Red Ale,7.80 %,Three Heads Buffalo Soul Jah Imperial Red Ale,Custom Brewcrafters,American Strong Ale,9.20 %,0@9#1@2883
+0,Eruption Imperial Red Ale,Worthy Brewing Co. .,American Amber / Red Ale,8.00 %,Three Heads Buffalo Soul Jah Imperial Red Ale,Custom Brewcrafters,American Strong Ale,9.20 %,0@486#1@2883
+0,Imperial Moustache Red Ale,Salty Nut Brewery,American Amber / Red Ale,6.00 %,Three Heads Buffalo Soul Jah Imperial Red Ale,Custom Brewcrafters,American Strong Ale,9.20 %,0@2972#1@2883
+0,Old Cascade Amber Ale,Roosterfish Brewing Co. .,American Amber / Red Ale,5.50 %,Central Coast Old Mission Amber Ale,Central Coast Brewing,Amber Ale,5.50 %,0@2086#1@490
+0,Single Hop # 3 Amber Ale W / Citra,Three Palms Brewing Co. .,American Amber / Red Ale,6.80 %,Lancaster Hop Buggy Amber Ale,Lancaster Brewing Co. .,Amber Ale,5.60 %,0@2089#1@1038
+0,Single Hop # 3 Amber Ale W / Citra,Three Palms Brewing Co. .,American Amber / Red Ale,6.80 %,Hill Farmstead Amarillo Single Hop Pale Ale,Hill Farmstead Brewery,American Pale Ale,5.20 %,0@2089#1@845
+0,Red Dirt Imperial Red Ale,Wiley Roots Brewing Co,American Amber / Red Ale,8.20 %,Rock Bottom Orland Park King of Hearts Imperial Red Ale,Rock Bottom Orland Park,American Strong Ale,7.60 %,0@2156#1@1889
+0,Red-oric - Beer Camp # 65 ( Best Of Beer Camp : Imperial Red Ale ),Sierra Nevada Brewing Co. .,American Amber / Red Ale,8.00 %,Rock Bottom Orland Park King of Hearts Imperial Red Ale,Rock Bottom Orland Park,American Strong Ale,7.60 %,0@44#1@1889
+0,Brewmaster 's Reserve Imperial Red Ale,BJ 's Chicago Pizza & Brewery Inc. .,American Amber / Red Ale,9.20 %,Rock Bottom Orland Park King of Hearts Imperial Red Ale,Rock Bottom Orland Park,American Strong Ale,7.60 %,0@1178#1@1889
+1,Freedom Soho Red,Freedom Brewery Ltd,American Amber / Red Ale,4.70 %,Freedom Soho Red,Freedom,Amber Lager/Vienna,4.70 %,0@3210#1@1737
+1,Heavyweight Ticklefight Champion Of The World,Solemn Oath Brewery,American Barleywine,12.00 %,Solemn Oath Heavyweight Ticklefight Champion of the World,Solemn Oath Brewery,Barley Wine,12 %,0@4286#1@2362
+1,Neudorf Red Ale,Brasserie Bendorf,American Amber / Red Ale,-,Bendorf Neudorf Red Ale,Bendorf,Irish Ale,6 %,0@3758#1@2120
+0,Arthur 's Imperial Red Ale,Otto 's Pub and Brewery,American Amber / Red Ale,6.90 %,Proof Abandoned Planet Imperial Red Ale,Proof Brewing Company,Amber Ale,7.50 %,0@1587#1@1911
+0,Red Hopper ( Imperial Red Ale ),Black Acre Brewing Co. .,American Amber / Red Ale,6.20 %,Proof Abandoned Planet Imperial Red Ale,Proof Brewing Company,Amber Ale,7.50 %,0@2026#1@1911
+0,Ale Mania Imperial Red Ale,Ale-Mania,American Amber / Red Ale,9.50 %,Proof Abandoned Planet Imperial Red Ale,Proof Brewing Company,Amber Ale,7.50 %,0@2934#1@1911
+0,Red Dragon Imperial Red Ale,Dead Frog Brewing,American Amber / Red Ale,8.00 %,Proof Abandoned Planet Imperial Red Ale,Proof Brewing Company,Amber Ale,7.50 %,0@1226#1@1911
+0,Three Beavers Imperial Red Ale,Howe Sound Inn & Brewing Company,American Amber / Red Ale,7.50 %,406 Imperial Red Ale,406 Brewing Company,American Strong Ale,9.20 %,0@487#1@646
+0,Double Dread Imperial Red Ale,Mad River Brewing Company,American Amber / Red Ale,8.60 %,406 Imperial Red Ale,406 Brewing Company,American Strong Ale,9.20 %,0@138#1@646
+0,Deranger Imperial Red Ale,Laurelwood Public House & Brewery,American Amber / Red Ale,8.60 %,406 Imperial Red Ale,406 Brewing Company,American Strong Ale,9.20 %,0@1458#1@646
+0,Three Beavers Imperial Red Ale,Howe Sound Inn & Brewing Company,American Amber / Red Ale,7.50 %,Renegade Scarlett Letter Imperial Red Ale,Renegade Brewing Company,American Strong Ale,8.50 %,0@487#1@1414
+0,Deranger Imperial Red Ale,Laurelwood Public House & Brewery,American Amber / Red Ale,8.60 %,Renegade Scarlett Letter Imperial Red Ale,Renegade Brewing Company,American Strong Ale,8.50 %,0@1458#1@1414
+0,Brewmaster 's Reserve Imperial Red Ale,BJ 's Chicago Pizza & Brewery Inc. .,American Amber / Red Ale,9.20 %,Renegade Scarlett Letter Imperial Red Ale,Renegade Brewing Company,American Strong Ale,8.50 %,0@1178#1@1414
+0,Three Beavers Imperial Red Ale,Howe Sound Inn & Brewing Company,American Amber / Red Ale,7.50 %,Scuttlebutt Mateo Loco Imperial Red Ale,Scuttlebutt Brewing Co. .,American Strong Ale,7.10 %,0@487#1@1635
+0,Double Dread Imperial Red Ale,Mad River Brewing Company,American Amber / Red Ale,8.60 %,Scuttlebutt Mateo Loco Imperial Red Ale,Scuttlebutt Brewing Co. .,American Strong Ale,7.10 %,0@138#1@1635
+0,Red Dragon Smoked Amber Ale,Hoppy Brewing Co. .,American Amber / Red Ale,5.50 %,Baird Smoked Amber Ale,Baird Brewing Co. .,Smoked,-,0@1898#1@2085
+0,Red Dragon Smoked Amber Ale,Hoppy Brewing Co. .,American Amber / Red Ale,5.50 %,Kilted Dragon Bonnie Heather Amber Ale,Kilted Dragon Brewing Company,Amber Ale,5 %,0@1898#1@1408
+0,Mr. Grain Jeans Organic Amber Ale,Outpost Natural Foods,American Amber / Red Ale,5.50 %,Squatters Respect Your Mother Organic Amber Ale,Squatters Craft Beers,Amber Ale,4 %,0@2401#1@179
+0,Smuttynose Kindest Find Imperial Red Ale,Smuttynose Brewing Company,American Amber / Red Ale,8.50 %,Kettle House Bourbon Barrel Road Rash Imperial Red Ale,Kettle House Brewing Company,American Strong Ale,13 %,0@184#1@1428
+0,Road Rash Red,Tandem Brewing Company,American Amber / Red Ale,6.00 %,Kettle House Bourbon Barrel Road Rash Imperial Red Ale,Kettle House Brewing Company,American Strong Ale,13 %,0@2770#1@1428
+0,Pizza Orgasmica Amber Ale,Devil 's Canyon Brewing Company,American Amber / Red Ale,6.50 %,Pizza Port Acacia Amber Ale,Pizza Port &#40; Solana Beach &#41;,Belgian Ale,-,0@3417#1@1983
+0,Iron Mike 's Amber Ale,Jacob Leinenkugel Brewing Company,American Amber / Red Ale,-,Railway City Iron Spike Amber Ale,Railway City Brewing Company,Amber Ale,4.60 %,0@1118#1@2812
+0,Lagunitas Imperial Red Ale,Lagunitas Brewing Company,American Amber / Red Ale,7.80 %,Pizza Port Rhino Chaser Imperial Red Ale,Pizza Port &#40; Ocean Beach &#41;,American Strong Ale,9.50 %,0@9#1@2728
+0,Port Chester Red Ale,Greenpoint Beerworks / Kelso of Brooklyn,American Amber / Red Ale,5.50 %,Pizza Port Rhino Chaser Imperial Red Ale,Pizza Port &#40; Ocean Beach &#41;,American Strong Ale,9.50 %,0@2209#1@2728
+0,Starlord 's Mixtape / Groot Drank Imperial Red Ale,Charging Hippo Brewing Co. .,American Amber / Red Ale,8.20 %,Pizza Port Rhino Chaser Imperial Red Ale,Pizza Port &#40; Ocean Beach &#41;,American Strong Ale,9.50 %,0@3626#1@2728
+0,Photobomb Imperial Red Ale,Crooked Ladder Brewing Company,American Amber / Red Ale,8.50 %,Howe Sound Three Beavers Imperial Red Ale,Howe Sound Brewing,American Strong Ale,7.50 %,0@3813#1@2583
+0,Red Rocket Amber Ale,Third Base Sports Bar & Brewery,American Amber / Red Ale,6.40 %,Blue Cat Red Toad Amber Ale,Blue Cat Brew Pub,Premium Bitter/ESB,5.70 %,0@1621#1@1853
+0,Red Rocket Amber Ale,Third Base Sports Bar & Brewery,American Amber / Red Ale,6.40 %,Red Duck Amber Ale,Purrumbete Brewing,Amber Ale,4.80 %,0@1621#1@12
+0,Eruption Imperial Red Ale,Worthy Brewing Co. .,American Amber / Red Ale,8.00 %,De Koninck TSTBRW 01 Imperial Red Ale,Brouwerij De Koninck &#40; Duvel-Moortgat &#41;,American Strong Ale,7.80 %,0@486#1@1106
+0,The `` Ginger '' A Red Ale,Elk Street Brewery & Tap Room,American Amber / Red Ale,6.80 %,The Beer Company Wyatt Earp Red Ale,The Beer Company,Irish Ale,7 %,0@3248#1@1298
+0,North 45 Amber Ale,Petoskey Brewing Company,American Amber / Red Ale,5.80 %,Thirsty Pagan North Coast Amber Ale,Thirsty Pagan Brewing,Amber Ale,-,0@736#1@316
+1,Red 's On Vacation,Barley John 's Brew Pub,American Amber / Red Ale,5.44 %,Barley Johns Reds on Vacation,Barley Johns Brew Pub,Amber Ale,5.44 %,0@4003#1@2284
+1,Old Cellar Dweller,Driftwood Brewery,American Barleywine,11.60 %,Driftwood Old Cellar Dweller Barleywine,Driftwood Brewery &#40; Canada &#41;,Barley Wine,14 %,0@4088#1@2351
+0,Red Hopper ( Imperial Red Ale ),Black Acre Brewing Co. .,American Amber / Red Ale,6.20 %,Worthy Eruption Imperial Red Ale,Worthy Brewing Company,American Strong Ale,8 %,0@2026#1@2582
+0,Starfish Imperial Red Ale,Fish Brewing Company / Fishbowl Brewpub,American Amber / Red Ale,7.50 %,Worthy Eruption Imperial Red Ale,Worthy Brewing Company,American Strong Ale,8 %,0@403#1@2582
+1,Sons Of Anarchy Amber Ale,Sudwerk Brewing Company,American Amber / Red Ale,4.70 %,Sudwerk Sons Of Anarchy Amber Ale,Sudwerk Brewing Company,Amber Ale,4.70 %,0@2606#1@1320
+1,Eldred Rock Amber,Haines Brewing Company,American Amber / Red Ale,5.00 %,Haines Eldred Rock Amber,Haines Brewing Co. .,Amber Ale,5 %,0@1460#1@412
+0,Blood On The Blade Red IPA,Backpocket Brewing,American Amber / Red Ale,7.00 %,Bacchus / Burrow Bloodhound Blood Red IPA,Bacchus Brewing Company &#40; Australia &#41;,India Pale Ale &#40; IPA &#41;,6 %,0@1281#1@704
+1,My Hoppy Valentine,Excel Brewing Company,American Amber / Red Ale,6.50 %,Excel My Hoppy Valentine,Excel Brewing Company,Amber Ale,6.50 %,0@2362#1@1136
+0,Deranger Imperial Red Ale,Laurelwood Public House & Brewery,American Amber / Red Ale,8.60 %,Brannon_s Deputation Imperial Red Ale,Brannon_s Pub and Brewery,American Strong Ale,8.79 %,0@1458#1@1679
+0,Bulleit Bourbon Barrel Aged G'Knight,Oskar Blues Grill & Brew,American Amber / Red Ale,8.70 %,Lompoc Bourbon Barrel Aged Old Tavern Rat,Lompoc Brewing,Barley Wine,9.70 %,0@1219#1@2463
+0,Big V Amber Ale,FreeWheel Brewing Company,American Amber / Red Ale,4.00 %,Big Texan Texas Red Amber Ale,Big Texan Brewery,Amber Ale,4.50 %,0@1725#1@419
+0,Big Horn Buttface Amber Ale,C.B. & Potts,American Amber / Red Ale,-,Big Texan Texas Red Amber Ale,Big Texan Brewery,Amber Ale,4.50 %,0@906#1@419
+0,Big V Amber Ale,FreeWheel Brewing Company,American Amber / Red Ale,4.00 %,Heinzelmannchen Big Amber Gnome Ale,Heinzelmannchen Brewery,Amber Ale,8 %,0@1725#1@1376
+0,Big V Amber Ale,FreeWheel Brewing Company,American Amber / Red Ale,4.00 %,Big Axe Maple Wheat Amber Ale,Big Axe Brewery and B & B,Amber Ale,5 %,0@1725#1@2244
+0,5 Star Amber Ale,The Civil Life Brewing Company,American Amber / Red Ale,5.00 %,Blue Star Apache Amber Ale,Blue Star Brewing Co. .,Amber Ale,-,0@2491#1@1260
+0,Barrel Aged Imperial Red,Hale 's Ales Brewery & Pub,American Amber / Red Ale,9.00 %,Imperial Oak Barrel Aged Odin_s Beard,Imperial Oak Brewing,American Strong Ale,9 %,0@1661#1@351
+0,Mountian Goat Rare Breed India Red Ale,Mountain Goat Beer Pty Ltd,American Amber / Red Ale,6.60 %,Hammond River Red Coat India Red Ale,Hammond River Brewing,Amber Ale,6.50 %,0@1436#1@1069
+1,Belle Gueule Rousse,Brasseurs R.J.,American Amber / Red Ale,5.20 %,Belle Gueule Rousse,Brasseurs RJ,Amber Lager/Vienna,5.20 %,0@386#1@2204
+0,Red Rock Amber Ale,OPA-OPA Steakhouse & Brewery,American Amber / Red Ale,6.00 %,Slanted Rock Iron Butt Red Ale,Slanted Rock Brewing Company,Amber Ale,5.80 %,0@167#1@635
+1,Ise Kadoya Amber Ale,Nikenjayamochi Kadoya Honten Co. / Ise Kadoya Brewery,American Amber / Red Ale,4.50 %,Ise Kadoya Amarillo Amber Ale,Ise Kadoya,Amber Ale,-,0@2992#1@1590
+0,Molly American Red Ale,New Helvetia Brewing Company,American Amber / Red Ale,5.00 %,Big Time Lift Ticket American Red Ale,Big Time Brewery,India Pale Ale &#40; IPA &#41;,7 %,0@1433#1@1261
+0,Molly American Red Ale,New Helvetia Brewing Company,American Amber / Red Ale,5.00 %,Genesee Brew House American Red Ale,Genesee Brewing Company &#40; North American Breweries &#41;,Amber Ale,5 %,0@1433#1@418
+1,Barbarian Red Ale,CervecerÃa Barbarian,American Amber / Red Ale,6.50 %,Barbarian Red Ale,CervecerÃa Barbarian,Amber Ale,6.50 %,0@1456#1@409
+0,Barrel Aged Series : Barley Wine,Parallel 49 Brewing Company,American Barleywine,11.80 %,Elevator Barrel Aged Barley Wine,Elevator Brewing Company,Barley Wine,-,0@4329#1@2416
+0,Barrel Aged Series : Barley Wine,Parallel 49 Brewing Company,American Barleywine,11.80 %,Hangar 24 Barrel Roll No. 04 : Hammerhead - Barrel Aged Barley Wine,Hangar 24 Craft Brewery,Barley Wine,11.20 %,0@4329#1@2314
+0,West Sixth / Country Boy Country Western ( Volume 3 Imperial Red Ale ),West Sixth Brewing Company,American Amber / Red Ale,13.00 %,Figueroa Mountain / Pizza Port Shark Lips Imperial Red Ale,Figueroa Mountain Brewing,American Strong Ale,8 %,0@491#1@1120
+0,Shark Attack Double Red Ale,Port Brewing,American Amber / Red Ale,9.00 %,Midnight Sun Unite Double Red Hot Ale &#40; 2015 &#41;,Midnight Sun Brewing Company,Amber Ale,7.50 %,0@34#1@2048
+0,Double Red Ale,The Seven Barrel Brewery,American Amber / Red Ale,8.20 %,Midnight Sun Unite Double Red Hot Ale &#40; 2015 &#41;,Midnight Sun Brewing Company,Amber Ale,7.50 %,0@1926#1@2048
+0,Barrel Aged Riverside Red,Intuition Ale Works,American Amber / Red Ale,7.80 %,Blue Pants Big & Tall # 2 : Barrel Aged Belgian Red,Blue Pants Brewery,Amber Ale,9 %,0@2399#1@144
+1,Oatmeal Amber Ale,Ornery Beer Company Public House,American Amber / Red Ale,5.70 %,John Harvards Oatmeal Amber Ale,John Harvard_s Brewhouse &#40; Corporate Office &#41;,Amber Ale,6.50 %,0@3802#1@2149
+1,Vital Infrared Imperial Red,Vital Brewing,American Amber / Red Ale,9.40 %,Vital Infrared Imperial Red,Vital Brewing,American Strong Ale,9.40 %,0@3800#1@2146
+1,Rip Saw Red,Pints Brewing Co. .,American Amber / Red Ale,6.50 %,Pints Rip Saw Red,Pints Brewing Company,Amber Ale,5.90 %,0@1648#1@571
+0,Panama Limited Red Ale,Flossmoor Station Restaurant & Brewery,American Amber / Red Ale,-,Flossmoor Station Barrel Aged Panama Limited Red Ale,Flossmoor Station Restaurant & Brewery,Amber Ale,6.50 %,0@260#1@1174
+0,Buffalo Soul Jah Imperial Red Ale,Three Heads Brewing,American Amber / Red Ale,9.20 %,Iron Horse Fresh Hop Imperial Red Ale,Iron Horse Brewery,American Strong Ale,-,0@833#1@641
+0,Starlord 's Mixtape / Groot Drank Imperial Red Ale,Charging Hippo Brewing Co. .,American Amber / Red Ale,8.20 %,Iron Horse Fresh Hop Imperial Red Ale,Iron Horse Brewery,American Strong Ale,-,0@3626#1@641
+0,Phobos Single Hop Red Ale,Ecliptic Brewing,American Amber / Red Ale,7.40 %,Iron Horse Fresh Hop Imperial Red Ale,Iron Horse Brewery,American Strong Ale,-,0@3134#1@641
+1,American Red Ale,Rock Art Brewery,American Amber / Red Ale,4.80 %,Americas American Red Ale,Americas Brewpub,Amber Ale,-,0@120#1@213
+0,Morrisons American Red Ale,Titanic Brewery,American Amber / Red Ale,4.50 %,Americas American Red Ale,Americas Brewpub,Amber Ale,-,0@1604#1@213
+0,Big Bully Amber Ale,Edge Brewing,American Amber / Red Ale,5.00 %,Big Time Atlas Amber Ale,Big Time Brewery,Amber Ale,5.40 %,0@3852#1@2875
+0,Sequoia American Amber Ale,Wig And Pen,American Amber / Red Ale,5.90 %,Aarhus Cains Triple A American Amber Ale,Aarhus Bryghus,Amber Ale,5.50 %,0@2960#1@287
+0,Sequoia American Amber Ale,Wig And Pen,American Amber / Red Ale,5.90 %,Canal Park General Sterling Price American Amber Ale - Centennial,Canal Park Brewing Company,Amber Ale,4.80 %,0@2960#1@1275
+0,Weekender American Amber Ale,Stilt House Brewery,American Amber / Red Ale,5.20 %,Canal Park General Sterling Price American Amber Ale - Centennial,Canal Park Brewing Company,Amber Ale,4.80 %,0@3632#1@1275
+0,Mad Anthony Muddy River Amber Ale,Mad Anthony Brewing Company,American Amber / Red Ale,-,Mad River Jamaica Red Ale,Mad River Brewery,Amber Ale,6.50 %,0@1289#1@2622
+0,Simeon Jones River Valley Amber Ale,Picaroons Brewing Co. .,American Amber / Red Ale,4.50 %,Piney River McKinney Eddy Amber Ale,Piney River Brewing Company,Amber Ale,-,0@429#1@2636
+0,Wasatch 50th Park City Golden Anniversary Ale,Utah Brewers Cooperative,American Amber / Red Ale,4.00 %,Golden City Centurion Barleywine Ale,Golden City Brewery,Barley Wine,11.20 %,0@1647#1@2409
+1,Regimental 80 Scottish Ale,Crooked Eye Brewery,American Amber / Red Ale,4.70 %,Crooked Eye Regimental 80 Scottish Ale,Crooked Eye Brewery,Scottish Ale,4.70 %,0@3035#1@1620
+1,Dream Of The 90 's,Prohibition Pig,American Amber / Red Ale,6.10 %,Prohibition Pig Dream of the 90s,Prohibition Pig,Amber Ale,-,0@1914#1@793
+1,Fullers Traitors ' Gate,Fuller Smith & Turner PLC,American Amber / Red Ale,4.50 %,Fuller_s Traitor_s Gate,Fuller_s,Bitter,4.50 %,0@2463#1@1206
+1,Blarney Rock Irish Ale,Rockyard Brewing,American Amber / Red Ale,6.00 %,Rockyard Blarney Rock Irish Ale,Rockyard Brewing Company,Irish Ale,-,0@2289#1@1085
+0,Aiken American Red Pale Ale,Aiken Brewing Company,American Amber / Red Ale,-,Blue Heron Corey_s American Pale Ale &#40; C.A.P.A. &#41;,Blue Heron Brewpub,American Pale Ale,6.20 %,0@2724#1@1886
+0,Aiken American Red Pale Ale,Aiken Brewing Company,American Amber / Red Ale,-,Wild Ride 3 Sisters American Red Ale,Wild Ride Brewing,Amber Ale,6 %,0@2724#1@1221
+0,Big Bear Amber Ale,Stewart 's Brewing Co. .,American Amber / Red Ale,5.60 %,Big Horn Buttface Amber Ale,Big Horn Brewing Company &#40; Ram International &#41;,Amber Ale,5.80 %,0@1501#1@2750
+0,Great Lakes Independence Ale,Great Lakes Brewing Co. .,American Amber / Red Ale,6.00 %,Amsterdam X Sawdust City X Great Lakes X Indie Ale Barley Wine &#40; Oak &#41;,Amsterdam Brewing Company,Barley Wine,10 %,0@284#1@2517
+1,Shirt Tail Amber,Iron Hill Brewery & Restaurant,American Amber / Red Ale,4.40 %,Iron Hill Shirt Tail Amber,Iron Hill Maple Shade,Amber Ale,4.40 %,0@2506#1@1242
+0,Desert Island Series : American Honey Amber Ale,Heavy Seas Beer,American Amber / Red Ale,4.90 %,Granville Island Gastown Amber Ale,Granville Island &#40; Brewery - MolsonCoors &#41;,Amber Ale,5.50 %,0@1815#1@2654
+0,Hurricane Alley Amber Ale,Florida Beer Company,American Amber / Red Ale,-,Charleville Tornado Alley Amber Ale,Charleville Vineyard & Microbrewery,Amber Ale,-,0@2780#1@1594
+0,Brewmaster 's Reserve Imperial Red Ale,BJ 's Chicago Pizza & Brewery Inc. .,American Amber / Red Ale,9.20 %,Rusty Truck Stupiphany Imperial Red Ale,Rusty Truck Brewing / Roadhouse 101,American Strong Ale,8 %,0@1178#1@698
+0,Red Headed Slut Amber Ale,Twisted K-8 Brewing Company,American Amber / Red Ale,6.50 %,Baird Red Rose Amber Ale,Baird Brewing Co. .,California Common,5.40 %,0@3842#1@1281
+0,Red Headed Slut Amber Ale,Twisted K-8 Brewing Company,American Amber / Red Ale,6.50 %,Trailhead Red Amber Ale,Trailhead Brewing Co. .,Amber Ale,-,0@3842#1@2546
+0,Frost Quake Bourbon Barrel Aged Barley Wine,Wellington County Brewery,American Barleywine,9.80 %,Hangar 24 Barrel Roll No. 04 : Hammerhead - Bourbon Barrel Aged with Chai Tea,Hangar 24 Craft Brewery,Barley Wine,13.90 %,0@4256#1@2491
+0,Bourbon Barrel Aged Horus Imperial Red,Elevator Brewery & Draught Haus,American Amber / Red Ale,12.00 %,Legacy Bourbon Barrel Hedonism Red,Legacy Brewing,American Strong Ale,7.10 %,0@1218#1@2618
+0,Rocky Mountain Red Ale,Grand Lake Brewing Company,American Amber / Red Ale,-,Crazy Mountain Boohai Red Ale &#40; Kura Koa &#41;,Crazy Mountain Brewing Company,Amber Ale,6 %,0@589#1@1586
+1,Boohai Red Ale,Crazy Mountain Brewing Company,American Amber / Red Ale,6.00 %,Crazy Mountain Boohai Red Ale &#40; Kura Koa &#41;,Crazy Mountain Brewing Company,Amber Ale,6 %,0@294#1@1586
+0,Alaskan Barley Wine ( Pilot Series ),Alaskan Brewing Co. .,American Barleywine,10.70 %,Hermit Thrush Abbey Series # 1 - Jolly Abbot Barley Wine,Hermit Thrush Brewery,Barley Wine,13 %,0@4030#1@2508
+0,Double Mongrel Imperial India Red Ale,Aspetuck Brew Lab,American Amber / Red Ale,9.00 %,Boxing Cat Firecracker Imperial Red Ale,Boxing Cat Brewery,Amber Ale,6.60 %,0@3478#1@1096
+1,Fisherman 's Tea Party,Cape Ann Brewing Company,American Barleywine,9.00 %,Cape Ann Fisherman_s Tea Party,Cape Ann Brewing Company,Barley Wine,9 %,0@4157#1@2405
+0,Kingpin Double Red Ale,BridgePort Brewing Co. / Brewpub,American Amber / Red Ale,7.50 %,Out of Bounds Relentless Double Red Ale,Out of Bounds Brewing Company,American Strong Ale,8.20 %,0@42#1@1025
+0,Harold The Red Ale,Black Husky Brewing,American Amber / Red Ale,-,Off the Rail Raybuck Red Ale,Off the Rail Brewing,Amber Ale,6.40 %,0@543#1@2232
+1,Insane Mane Red Ale,White Lion Brewing Company,American Amber / Red Ale,5.10 %,White Lion Insane Mane Red Ale,Ipswich Ale Brewery,Amber Ale,-,0@1157#1@155
+0,Willoughby American Amber Ale,Willoughby Brewing,American Amber / Red Ale,4.90 %,Maldita Old Continent American Amber Ale,Faustino Microcervejeira,Amber Ale,6 %,0@3381#1@2275
+0,Old Guardian Barley Wine Style Ale - Bourbon Barrel Aged,Stone Brewing Co. .,American Barleywine,11.20 %,Revolution Barrel Aged Institutionalized Barley Wine,Revolution Brewing Company,Barley Wine,13 %,0@4083#1@2424
+0,Pioneer American Red Ale,Pioneer Beer Company,American Amber / Red Ale,5.70 %,Fat Bottom Ruby Red American Ale,Fat Bottom Brewery,Amber Ale,4.60 %,0@3992#1@1681
+0,Clifford The Big Red Ale,Books & Brews,American Amber / Red Ale,6.80 %,Big Choice Disconnected Red Ale,Big Choice Brewing,Amber Ale,6.70 %,0@1375#1@2610
+1,Barrel Aged Chessie,Union Craft Brewing Company,American Barleywine,9.80 %,Union Craft Chessie Barleywine Barrel Aged,Union Craft Brewing Company,Barley Wine,9.80 %,0@4237#1@2466
+1,Trail Ridge Red,Grand Lake Brewing Company,American Amber / Red Ale,7.50 %,Estes Park Trail Ridge Red,Estes Park Brewery,Bitter,4.50 %,0@781#1@2835
+0,Alaskan Imperial Red Ale ( Pilot Series ),Alaskan Brewing Co. .,American Amber / Red Ale,8.50 %,Swamp Head Sciaenhops Imperial Red Ale,Swamp Head Brewery,American Strong Ale,8.30 %,0@99#1@1698
+0,Alaskan Imperial Red Ale ( Pilot Series ),Alaskan Brewing Co. .,American Amber / Red Ale,8.50 %,BottleTree Imperial Red Ale,Thomas Creek Brewery,American Strong Ale,7.50 %,0@99#1@2139
+1,Summer Session Ale,Elk Creek Cafe + Aleworks,American Amber / Red Ale,4.20 %,Aqula Summer Session Ale,Aqula,English Pale Ale,4.50 %,0@2722#1@1393
+0,Jurassic Duck Amber Ale ( dry Hopped With Mosaic ),The Dodging Duck Brewhaus,American Amber / Red Ale,-,Nighthawk 16-Hour Dry Hopped Amber,Nighthawk Brewery,Amber Ale,6.70 %,0@2925#1@2208
+0,O'Connor 's Irish Red Ale,Wormtown Brewery,American Amber / Red Ale,5.00 %,Loose Shoe SlÃ ¡ inte Irish Red Ale,Loose Shoe Brewing Company,Irish Ale,5.50 %,0@654#1@1892
+0,Winter Seasonal Amber Ale,Dead Frog Brewing,American Amber / Red Ale,5.00 %,Brewsters Winter WARMer Amber Ale,Brewsters Brewing Co. - Alberta,Amber Ale,6 %,0@3445#1@369
+0,Hawai'i Nui Sunset Amber Ale,Hawai'i Nui Brewing / Mehana Brewing Company,American Amber / Red Ale,5.45 %,Grand Canyon Sunset Amber Ale,Grand Canyon Brewing Company,Amber Ale,5 %,0@512#1@1356
+1,Copperhead Amber Ale,Yalobusha Brewing Company,American Amber / Red Ale,5.65 %,Yalobusha Copperhead Amber Ale,Yalobusha Brewing Company,Amber Ale,5.60 %,0@480#1@2576
+1,Dark Horse Amber Ale,Dark Horse Brewing Company,American Amber / Red Ale,5.50 %,Dark Horse Amber Ale,Dark Horse Brewing Company,Amber Ale,5.50 %,0@61#1@2710
+0,Red Emperor Amber Ale,Fish Rock Brewery,American Amber / Red Ale,4.50 %,Fox and Hound Red Fox Amber Ale,Anheuser-Busch InBev,Amber Ale,5.10 %,0@1664#1@1348
+1,Strada S. Felice,Grado Plato,American Amber / Red Ale,8.00 %,Grado Plato Strada S. Felice,Birrificio Grado Plato,Spice/Herb/Vegetable,8 %,0@418#1@2441
+0,Sea Spray Amber Ale,Bowen Island Brewing Co. Ltd. .,American Amber / Red Ale,5.00 %,Swashbuckler Red Sea Amber Ale,Swashbuckler Brewing Company,Amber Ale,-,0@1599#1@2975
+0,Red Rose Amber Ale,Baird Brewing Company / Fishmarket Taproom,American Amber / Red Ale,5.40 %,Swashbuckler Red Sea Amber Ale,Swashbuckler Brewing Company,Amber Ale,-,0@252#1@2975
+0,Beer Of The Dragon,Beachwood BBQ & Brewing,American Amber / Red Ale,9.10 %,Anderson Valley Barrel Aged Horn of the Beer Barley Wine,Anderson Valley Brewing Company,Barley Wine,8.60 %,0@613#1@2429
+0,Isle Of Pines Barley Wine,Flying Goose Brew Pub & Grille,American Barleywine,11.00 %,Anderson Valley Barrel Aged Horn of the Beer Barley Wine,Anderson Valley Brewing Company,Barley Wine,8.60 %,0@4304#1@2429
+0,Frog Island Amber Ale,Frog Island Brewing Company,American Amber / Red Ale,6.00 %,Heavy Seas Desert Island Series American Honey Amber Ale,Heavy Seas Brewing Company,Amber Ale,4.90 %,0@1515#1@716
+0,Olde Richmond Batch No. 9 Red Ale,Olde Richmond Beer Company,American Amber / Red Ale,-,Engine House No. 9 Rowdy Dick Amber Ale,Engine House No. 9 Restaurant and Brewery,Amber Ale,5.30 %,0@1022#1@2839
+1,Unite Red Rye Ale,The Pike Brewing Company,American Amber / Red Ale,4.60 %,Pike Unite Red Rye Ale,Pike Brewing Company,Amber Ale,4.60 %,0@3079#1@1650
+0,Fresh Hop Red,Liquid Mechanics Brewing Co. .,American Amber / Red Ale,7.40 %,Ice Harbor Double Red Ale - Fresh Hop,Ice Harbor Brewing Company,Amber Ale,7 %,0@3251#1@997
+0,Mountain Goat Fancy Pants Amber Ale,Mountain Goat Beer Pty Ltd,American Amber / Red Ale,5.40 %,Breckenridge Mountain Series : Hoppy Amber Ale,Breckenridge Brewery,Amber Ale,6.10 %,0@496#1@1535
+0,Alpine Mountain Amber Ale,Beer By Design,American Amber / Red Ale,5.90 %,Breckenridge Mountain Series : Hoppy Amber Ale,Breckenridge Brewery,Amber Ale,6.10 %,0@3818#1@1535
+0,Hoppy Amber Ale ( Mountain Series ),Breckenridge Brewery,American Amber / Red Ale,6.10 %,Colorado Mountain Ole 59er Amber Ale,Colorado Mountain Brewery,Amber Ale,5.20 %,0@2915#1@77
+0,Hoppy Face Amber Ale,Hoppy Brewing Co. .,American Amber / Red Ale,6.10 %,2nd Story Hoppy New Year Amber Ale,2nd Story Brewing Company,Amber Ale,5.70 %,0@319#1@692
+0,Bonehead Red Bourbon Barrel Aged Imperial Red,Four Peaks Brewing Company - 8th Street Brewery,American Amber / Red Ale,8.00 %,Andersonville Bourbon Barrel Aged Sour Gangster,Andersonville Brewing Company,Sour Red/Brown,5.50 %,0@3170#1@602
+0,Red Rose Amber Ale,Baird Brewing Company / Fishmarket Taproom,American Amber / Red Ale,5.40 %,Upland Rad Red Amber Ale,Upland Brewing Company,Amber Ale,5.60 %,0@252#1@1073
+0,Freedom Bridge Amber Ale,Barley Brothers Brewery & Grill,American Amber / Red Ale,-,Bridge Ambleside Amber Ale - Pomegranate & Galena Hops,Bridge Brewing Company,Amber Ale,5.30 %,0@2246#1@2249
+1,Buckleys Original Ale,Buckley 's Beers,American Amber / Red Ale,4.50 %,Buckleys Original Ale,Yarra Flats Brewery,English Pale Ale,4.90 %,0@3622#1@2020
+0,Barrel Aged Red Ale,BearWaters Brewing Co. .,American Amber / Red Ale,6.70 %,Riverbend Barrel Aged Right Said Red,Riverbend Brewing & Sports Pub,American Strong Ale,9.20 %,0@1524#1@1445
+0,Double Dread Imperial Red Ale,Mad River Brewing Company,American Amber / Red Ale,8.60 %,Kinetic Infrared Imperial Red Ale,Kinetic Brewing Company,American Strong Ale,9.30 %,0@138#1@1496
+0,Double Dragon Imperial Red Ale,Phillips Brewing Company,American Amber / Red Ale,8.20 %,Yukon You Only Live Once Imperial Red Ale,Yukon Brewing Company,Amber Ale,7.50 %,0@492#1@461
+0,Saint Gleason Imperial Red Ale,Abita Brewing Co. .,American Amber / Red Ale,-,Yukon You Only Live Once Imperial Red Ale,Yukon Brewing Company,Amber Ale,7.50 %,0@732#1@461
+1,Indian Red Head,Catawba Brewing Co. .,American Amber / Red Ale,5.00 %,Catawba Valley Indian Head Red,Catawba Valley Brewing Company,Amber Ale,5 %,0@1004#1@20
+0,Saint Gleason Imperial Red Ale,Abita Brewing Co. .,American Amber / Red Ale,-,Renegade Scarlett Letter Imperial Red Ale,Renegade Brewing Company,American Strong Ale,8.50 %,0@732#1@1414
+0,Bourbon Barrel Ro Shampo Imperial Red Ale,Figure 8 Brewing,American Amber / Red Ale,-,Renegade Scarlett Letter Imperial Red Ale,Renegade Brewing Company,American Strong Ale,8.50 %,0@2423#1@1414
+0,Old Detroit Amber Ale,Frankenmuth Brewery,American Amber / Red Ale,5.60 %,Maldita Old Continent American Amber Ale,Faustino Microcervejeira,Amber Ale,6 %,0@928#1@2275
+0,Ale Mania Imperial Red Ale,Ale-Mania,American Amber / Red Ale,9.50 %,Kern River Dirty Hippie Imperial Red Ale,Kern River Brewing,American Strong Ale,8 %,0@2934#1@980
+0,Ale Mania Imperial Red Ale,Ale-Mania,American Amber / Red Ale,9.50 %,Worthy Eruption Imperial Red Ale,Worthy Brewing Company,American Strong Ale,8 %,0@2934#1@2582
+0,Three Beavers Imperial Red Ale,Howe Sound Inn & Brewing Company,American Amber / Red Ale,7.50 %,Worthy Eruption Imperial Red Ale,Worthy Brewing Company,American Strong Ale,8 %,0@487#1@2582
+1,Radeau Red Ale,Cooper 's Cave Ale Company,American Amber / Red Ale,5.50 %,Coopers Cave Radeau Red Ale,Coopers Cave Ale Company,Irish Ale,-,0@1522#1@467
+0,Monkey King Amber Ale,Moonzen Brewery,American Amber / Red Ale,5.00 %,RJ King Wingwalker Amber Ale,Genesee Brewing Company &#40; North American Breweries &#41;,Oktoberfest/M Ã $ rzen,4.50 %,0@3748#1@1626
+0,Big Red Hoppy Barn,Westfield River Brewing Company,American Amber / Red Ale,9.50 %,21st Amendment Big Hoppy Red Bird,21st Amendment Brewery,Amber Ale,7.10 %,0@2930#1@628
+0,Big V Amber Ale,FreeWheel Brewing Company,American Amber / Red Ale,4.00 %,Big Bear Mountain Orange Blossom Amber Ale,Big Bear Mountain Brewery,Fruit Beer,4.50 %,0@1725#1@447
+0,Hop Around Imperial Red Ale,Big Bay Brewing Co. .,American Amber / Red Ale,9.00 %,Oak Creek King Crimson Imperial Red Ale,Oak Creek Brewing Co. .,American Strong Ale,9.50 %,0@3963#1@623
+0,Hop Around Imperial Red Ale,Big Bay Brewing Co. .,American Amber / Red Ale,9.00 %,Figueroa Mountain / Pizza Port Shark Lips Imperial Red Ale,Figueroa Mountain Brewing,American Strong Ale,8 %,0@3963#1@1120
+0,Channary Imperial Red Ale,Narrows Brewing Co. .,American Amber / Red Ale,9.40 %,Two Brothers Revelry Imperial Red Ale,Two Brothers Brewing Company,American Strong Ale,9.50 %,0@2125#1@1534
+0,Double Red Hot Ale,Midnight Sun Brewing Co. .,American Amber / Red Ale,7.57 %,Below Grade Super Duty Double Red Ale,Below Grade Brewing LLC,American Strong Ale,7.70 %,0@3661#1@1090
+0,Crater Lake Amber Ale,Klamath Basin Brewing Co. - The Creamery Brew Pub And Grill,American Amber / Red Ale,6.00 %,Flathead Lake Dock Start Amber Ale,Flathead Lake Brewing Company,Amber Ale,5.60 %,0@1237#1@1862
+0,American India Red Ale,Black Shirt Brewing Co. .,American Amber / Red Ale,7.18 %,Lofty Zeb_s American Red Ale,Lofty Brewing Company,Amber Ale,5.40 %,0@519#1@2070
+0,Fresh Hop Red,Liquid Mechanics Brewing Co. .,American Amber / Red Ale,7.40 %,Laurelwood Fresh Hop Free Range Red &#40; Amarillo &#41;,Laurelwood Public House & Brewery,Amber Ale,6.10 %,0@3251#1@572
+0,Escanaba River Amber Ale,Dead Bear Brewing Co. .,American Amber / Red Ale,5.76 %,Piney River McKinney Eddy Amber Ale,Piney River Brewing Company,Amber Ale,-,0@3593#1@2636
+1,5 Star Amber Ale,The Civil Life Brewing Company,American Amber / Red Ale,5.00 %,The Civil Life Stevie_s 5 Star Amber Ale,The Civil Life Brewing Company,Amber Ale,5 %,0@2491#1@1230
+0,46 Star Oklahoma Amber Ale,Bricktown Brewery,American Amber / Red Ale,-,The Civil Life Stevie_s 5 Star Amber Ale,The Civil Life Brewing Company,Amber Ale,5 %,0@1060#1@1230
+0,The Unforgiven Amber Ale,Rush River Brewing Company,American Amber / Red Ale,5.80 %,The Civil Life Stevie_s 5 Star Amber Ale,The Civil Life Brewing Company,Amber Ale,5 %,0@128#1@1230
+0,Boundary Bay Amber Ale,Boundary Bay Brewery & Bistro,American Amber / Red Ale,-,Half Moon Bay Mavericks Amber Ale,Half Moon Bay Brewing Company,Amber Ale,4.80 %,0@674#1@2615
+0,Killer Red Fresh Hop India Red Ale,Double Mountain Brewery & Taproom,American Amber / Red Ale,7.20 %,Central City Red Racer India Style Red Ale,Central City Brewers + Distillers,Irish Ale,5.50 %,0@2614#1@2627
+0,Killer Red Fresh Hop India Red Ale,Double Mountain Brewery & Taproom,American Amber / Red Ale,7.20 %,8 Wired Tall Poppy India Red Ale,Renaissance Brewing,Amber Ale,7 %,0@2614#1@1645
+0,Buffalo Soul Jah Imperial Red Ale,Three Heads Brewing,American Amber / Red Ale,9.20 %,Lagunitas Imperial Red Ale,Lagunitas Brewing Company &#40; Heineken &#41;,American Strong Ale,7.80 %,0@833#1@90
+0,Alaskan Imperial Red Ale ( Pilot Series ),Alaskan Brewing Co. .,American Amber / Red Ale,8.50 %,Lagunitas Imperial Red Ale,Lagunitas Brewing Company &#40; Heineken &#41;,American Strong Ale,7.80 %,0@99#1@90
+0,Big Axe Red Ale,Big Axe Brewing Company,American Amber / Red Ale,6.80 %,Big Island Red Giant Ale,Big Island Brewhaus,American Strong Ale,6.50 %,0@1880#1@2948
+0,The Live Bait Amber Ale,Mudhook Brewing Company,American Amber / Red Ale,6.00 %,BNS The Hills Have Eyes Amber Ale,BNS Brewing & Distilling,Amber Ale,5.20 %,0@1322#1@1308
+1,Rock Steady Red,The Rock Wood Fire Pizza & Brewery,American Amber / Red Ale,5.00 %,Acoustic Rock Steady Red Cider,Acoustic Brewing Company,Cider,6 %,0@1748#1@652
+0,Bourbon Barrel Ro Shampo Imperial Red Ale,Figure 8 Brewing,American Amber / Red Ale,-,Fulton The Libertine Imperial Red Ale - Heaven Hill Rye Whiskey Barrel Aged,Fulton Beer Company,American Strong Ale,8.50 %,0@2423#1@22
+0,Bourbon Barrel Ro Shampo Imperial Red Ale,Figure 8 Brewing,American Amber / Red Ale,-,Legacy Bourbon Barrel Hedonism Red,Legacy Brewing,American Strong Ale,7.10 %,0@2423#1@2618
+0,Red 's Heaven 15th Anniversary Imperial Red Ale,Flying Bison Brewing Company,American Amber / Red Ale,8.30 %,Austin Beerworks Battle Axe Imperial Red Ale,Austin Beerworks,American Strong Ale,8 %,0@1743#1@2334
+0,Red 's Heaven 15th Anniversary Imperial Red Ale,Flying Bison Brewing Company,American Amber / Red Ale,8.30 %,Knee Deep McCarthy_s Bane Imperial Red Ale,Knee Deep Brewing Company,American Strong Ale,8 %,0@1743#1@600
+0,Simeon Jones River Valley Amber Ale,Picaroons Brewing Co. .,American Amber / Red Ale,4.50 %,Metolius River Ales Rusty Spinner Amber Ale,Genesee Brewing Company &#40; North American Breweries &#41;,Amber Ale,5.10 %,0@429#1@2805
+0,Red Shedman 's Imperial Amber Ale,57 Brew Pub & Bistro,American Amber / Red Ale,7.60 %,Boxing Cat Firecracker Imperial Red Ale,Boxing Cat Brewery,Amber Ale,6.60 %,0@3402#1@1096
+0,Spencer Creek Amber Ale,Mia & Pia 's Pizzeria And Brewhouse,American Amber / Red Ale,5.50 %,Ruby Mountain Angel Creek Amber Ale,Ruby Mountain Brewing Company,Amber Ale,-,0@2751#1@2550
+0,Rock River Red Ale,Berghoff Brewery,American Amber / Red Ale,-,Boxing Rock Temptation Red Ale,Boxing Rock Brewing Company,Amber Ale,6 %,0@2975#1@2899
+0,AmEn ! Barleywine - Barrel Aged,Cahoots Brewing,American Barleywine,11.10 %,Tighthead Barrel Aged Old Kaya Dog Barleywine,Tighthead Brewing Company,Barley Wine,10.30 %,0@4173#1@2425
+1,British Knight Scotch Red Ale,Oskar Blues Grill & Brew,American Amber / Red Ale,7.40 %,Oskar Blues British Knight Scotch Red Ale,Oskar Blues Brewery,Scottish Ale,7.40 %,0@2700#1@1380
+0,Climax Noel - Imperial Red Ale,Eel River Brewing Co. .,American Amber / Red Ale,9.20 %,Edge Imperial Red Ale &#40; Spring Seasonal &#41;,Edge Brewing Company,American Strong Ale,8.50 %,0@354#1@1661
+0,Rhino Chaser Imperial Red Ale,Pizza Port Solana Beach,American Amber / Red Ale,9.50 %,Edge Imperial Red Ale &#40; Spring Seasonal &#41;,Edge Brewing Company,American Strong Ale,8.50 %,0@655#1@1661
+0,Climax Noel - Imperial Red Ale,Eel River Brewing Co. .,American Amber / Red Ale,9.20 %,Rusty Truck Stupiphany Imperial Red Ale,Rusty Truck Brewing / Roadhouse 101,American Strong Ale,8 %,0@354#1@698
+0,Deputation Imperial Red Ale,Brannon 's Pub and Brewery,American Amber / Red Ale,8.00 %,Rock Bottom Orland Park King of Hearts Imperial Red Ale,Rock Bottom Orland Park,American Strong Ale,7.60 %,0@3126#1@1889
+1,Red RYEding Hood,Chapman 's Brewing Company,American Amber / Red Ale,10.00 %,Chapman_s Red RYEding Hood,Chapman_s Brewing Company,Specialty Grain,10 %,0@3468#1@1921
+0,Stone Liberty Station Outbreak Series : Red Ale,Stone Brewing Co. .,American Amber / Red Ale,7.00 %,Brew Bus Detour Series : Rollin Dirty Red Ale - Wood Aged,Cigar City Brewing,Irish Ale,5 %,0@3388#1@838
+0,San Marcos Red Amber Ale,San Marcos Brewery & Grill,American Amber / Red Ale,5.90 %,Fish Rock Red Emperor Amber Ale,Australian Independent Brewers,Amber Ale,4.50 %,0@1249#1@583
+0,Flying Monkey Amber Ale,Flying Monkey Brewing Company,American Amber / Red Ale,4.60 %,Flying Monkeys Amber Ale,Flying Monkeys Craft Brewery,Amber Ale,5 %,0@287#1@2581
+0,Oak-Aged Backburner ( Imperial Barley Wine Style Ale ),Southern Tier Brewing Company,American Barleywine,9.60 %,Amsterdam X Sawdust City X Great Lakes X Indie Ale Barley Wine &#40; Oak &#41;,Amsterdam Brewing Company,Barley Wine,10 %,0@4050#1@2517
+0,Kickin ' Chicken Bourbon Barrel Barley Wine,Santa Fe Brewing Company,American Barleywine,12.00 %,Elevator Barrel Aged Barley Wine,Elevator Brewing Company,Barley Wine,-,0@4104#1@2416
+0,JT Schmid 's Emil 's Amber Ale,JT Schmid 's Restaurant & Brewery,American Amber / Red Ale,5.20 %,JT Schmids Emils Amber Ale,JT Schmids Brewhouse & Eatery,Amber Ale,5.20 %,0@977#1@1601
+0,Ole ' Redbeard Barleywine ( Bourbon Barrel Aged ),Fitger 's Brewhouse,American Barleywine,-,Columbus Bourbon Barrel Aged Uncle Rusty,Columbus Brewing Company,American Strong Ale,-,0@4323#1@2378
+0,Old Guardian Barley Wine Style Ale - Bourbon Barrel Aged,Stone Brewing Co. .,American Barleywine,11.20 %,Columbus Bourbon Barrel Aged Uncle Rusty,Columbus Brewing Company,American Strong Ale,-,0@4083#1@2378
+0,Wobbly Red Ale,Dirty Hands Brewing Company,American Amber / Red Ale,5.90 %,Crannog Wobbly Toddler Red Milk Ale,Crannog Ales,English Strong Ale,7.50 %,0@3533#1@1962
+1,Revenuers Red Ale,Catawba Brewing Co. .,American Amber / Red Ale,5.20 %,Catawba Valley Revenuers Red Ale,Catawba Valley Brewing Company,Irish Ale,5.20 %,0@1474#1@427
+1,Sierra Amber Ale,Silver Peak Restaurant & Brewery,American Amber / Red Ale,4.50 %,Chy_e Sierra Amber Ale,Zamecky Pivovar Chy_e,Amber Ale,5.30 %,0@1030#1@43
+0,Redeemer Imperial Red Ale,Boston Beer Works - Canal Street,American Amber / Red Ale,8.20 %,Laguna Beach Grateful Red Imperial Red Ale,Laguna Beach Brewing,American Strong Ale,11 %,0@704#1@124
+0,Red Toad Amber Ale,Blue Cat Brew Pub,American Amber / Red Ale,5.70 %,Trailhead Red Amber Ale,Trailhead Brewing Co. .,Amber Ale,-,0@3372#1@2546
+0,S : t Eriks Unite Red Ale,S : t Eriks Bryggeri,American Amber / Red Ale,4.60 %,Daytona Beach FL Wildflower Unite Red Ale,Daytona Beach Brewing Company,Amber Ale,5.90 %,0@1972#1@2091
+0,Creeper Trail Amber Ale,Wolf Hills Brewing Company,American Amber / Red Ale,4.80 %,Black Diamond Steep Trail Amber Ale,Black Diamond Brewing Company,Amber Ale,5.70 %,0@925#1@2564
+0,Alexander Keith 's Red Amber Ale,Alexander Keith 's,American Amber / Red Ale,5.00 %,Swashbuckler Red Sea Amber Ale,Swashbuckler Brewing Company,Amber Ale,-,0@113#1@2975
+1,MovAmber Moustache Ale,Bull City Burger And Brewery,American Amber / Red Ale,-,Bull City Movamber Moustache Ale,Bull City Burger and Brewery,Amber Ale,-,0@3073#1@1647
+1,Hooligan Amber Ale,Bentley Brewing Company / Dark Horse Tavern,American Amber / Red Ale,6.00 %,Bentley Hooligan Amber Ale,Bentley Brewing Co. / Dark Horse Tavern,Amber Ale,6 %,0@1394#1@358
+0,Commander Clifford _ ™ s Imperial Red Ale,The Wrecking Bar Brewpub,American Amber / Red Ale,9.00 %,Proof Abandoned Planet Imperial Red Ale,Proof Brewing Company,Amber Ale,7.50 %,0@3652#1@1911
+0,Bourbon Barrel Aged Behemoth With Cherries,3 Floyds Brewing Co. .,American Barleywine,12.50 %,Lompoc Bourbon Barrel Aged Old Tavern Rat,Lompoc Brewing,Barley Wine,9.70 %,0@4152#1@2463
+0,John Barleycorn - Bourbon Barrel Aged,Mad River Brewing Company,American Barleywine,12.50 %,Actual Bourbon Barrel Aged Elektron,Actual Brewing Company,Amber Ale,7.30 %,0@4162#1@2936
+1,Bitter Orange Blossom,I & I Brewing,American Amber / Red Ale,5.30 %,I & I Bitter Orange Blossom,I & I Brewing,Amber Ale,5.30 %,0@2163#1@985
+0,Red Rock Amber Ale,OPA-OPA Steakhouse & Brewery,American Amber / Red Ale,6.00 %,Elk Mountain Rock Slide Amber Ale,Elk Mountain Brewing Company,Amber Ale,5.50 %,0@167#1@1367
+0,Fire Brew Red Ale,Minhas Craft Brewery,American Amber / Red Ale,5.50 %,Conshohocken Hale Fire Red Ale,Conshohocken Brewing Co. .,Amber Ale,6.60 %,0@2320#1@524
+1,Willimantic Riverfest Red,Willimantic Brewing Co. .,American Amber / Red Ale,5.20 %,Willimantic Riverfest Red Ale,Willimantic Brewing Company,Amber Ale,5.20 %,0@2764#1@1423
+0,Buffalo Trace Bourbon Barrel Aged Amber Ale,Wolf Hills Brewing Company,American Amber / Red Ale,-,Bull & Barrel Session Style - Amber Ale,Bull & Barrel Brew Pub,Amber Ale,4.70 %,0@3246#1@709
+0,Fresh Hopped Harvest Ale,Big Al Brewing,American Amber / Red Ale,-,10 Barrel Crosby Farms Harvest Fresh Hop Ale,10 Barrel Brewing &#40; AB InBev &#41;,India Pale Ale &#40; IPA &#41;,5.50 %,0@1491#1@865
+0,Oatmeal Raisin Cookie Ale,Bluebird Microcreamery & Brewery,American Amber / Red Ale,5.90 %,Aftershock Oatmeal Raisin Cookie Ale,Aftershock Brewing Company,Golden Ale/Blond Ale,5.50 %,0@2777#1@1166
+0,Premium Red Ale,Uehara Shuzou Co. Ltd. / Echigo Beer Pub,American Amber / Red Ale,6.00 %,Ranga Premium Red Ale,Southern Bay Brewing Company,Amber Ale,4.50 %,0@355#1@373
+1,Red Curry Ale,Hideout Brewing Company,American Amber / Red Ale,5.50 %,Hideout Red Curry Ale,The Hideout Brewing Company,Amber Ale,-,0@2867#1@1493
+0,Rabbit Punch Irish Red Ale,Ram Restaurant & Brewery,American Amber / Red Ale,5.70 %,300 Suns Rabbit Mountain Red Ale,300 Suns Brewing,Amber Ale,6 %,0@1713#1@549
+0,Old Blarney Barleywine - Bourbon Barrel Aged,Moylan 's Brewery,American Barleywine,10.00 %,21st Amendment Bourbon Barrel Lower da Boom Barleywine,21st Amendment Brewery,Barley Wine,9.50 %,0@4336#1@2510
+0,Sledgehammer Imperial Red Ale,Cambridge Brewing Company,American Amber / Red Ale,7.75 %,Laurelwood Organic Deranger Imperial Red Ale,Laurelwood Public House & Brewery,American Strong Ale,8.60 %,0@3185#1@411
+0,Legends Of The Bay Giant 's Tomb,Hockley Valley Brewing Co. .,American Amber / Red Ale,5.00 %,Legends of the Bay Ghosts of Hope Island,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,0@1042#1@1403
+0,Bulleit Bourbon Barrel Aged G'Knight,Oskar Blues Grill & Brew,American Amber / Red Ale,8.70 %,Figure Eight Bourbon Barrel Aged Jumbo Love,Figure Eight Brewing,Barley Wine,-,0@1219#1@2470
+0,Double Dragon Imperial Red Ale,Phillips Brewing Company,American Amber / Red Ale,8.20 %,Scuttlebutt Mateo Loco Imperial Red Ale,Scuttlebutt Brewing Co. .,American Strong Ale,7.10 %,0@492#1@1635
+0,Batch 200 _ `` Olympus Mons Imperial Red Ale,Due South Brewing Co. .,American Amber / Red Ale,9.20 %,Scuttlebutt Mateo Loco Imperial Red Ale,Scuttlebutt Brewing Co. .,American Strong Ale,7.10 %,0@1755#1@1635
+1,Honey Basil Amber,Rude Hippo Brewing Company,American Amber / Red Ale,7.40 %,Rude Hippo Honey Basil Amber,18th Street Brewery,Amber Ale,7.40 %,0@3917#1@2224
+0,Clifford 's Big Red Ale,Funky Buddha Brewery,American Amber / Red Ale,9.70 %,Big Island Red Giant Ale,Big Island Brewhaus,American Strong Ale,6.50 %,0@2155#1@2948
+0,Clifford 's Big Red Ale,Funky Buddha Brewery,American Amber / Red Ale,9.70 %,Big Time Lift Ticket American Red Ale,Big Time Brewery,India Pale Ale &#40; IPA &#41;,7 %,0@2155#1@1261
+1,Real McCoy Amber Ale,Mammoth Brewing Company,American Amber / Red Ale,4.50 %,Mammoth Real McCoy Amber Ale,Mammoth Brewing Company,Altbier,4.50 %,0@271#1@1410
+0,Aqula American Amber Ale,Bier Kaffee Aqula,American Amber / Red Ale,4.50 %,Heavy Seas Desert Island Series American Honey Amber Ale,Heavy Seas Brewing Company,Amber Ale,4.90 %,0@3309#1@716
+0,Honey Amber Ale,RJ Rockers Brewing Company,American Amber / Red Ale,5.80 %,Heavy Seas Desert Island Series American Honey Amber Ale,Heavy Seas Brewing Company,Amber Ale,4.90 %,0@507#1@716
+0,Rocket City Red,Straight To Ale,American Amber / Red Ale,5.00 %,Sawdust City Red Rocket Coffee Spiced Stout,Sawdust City Brewing Company,Spice/Herb/Vegetable,5.20 %,0@1024#1@37
+1,Jazz Beer Tarraco Amber,Tarraco Beer,American Amber / Red Ale,6.90 %,Jazz Beer Tarraco Amber,Ca l_Arenys - Cervezas Guineu,Amber Ale,6.90 %,0@1780#1@685
+0,Twisted Stick Amber Ale,Portneuf Valley Brewing,American Amber / Red Ale,-,Sick N Twisted Pleasure Victim Amber Ale,Sick N Twisted Brewing Company,Amber Ale,5.50 %,0@1479#1@1563
+0,Red Hopper ( Imperial Red Ale ),Black Acre Brewing Co. .,American Amber / Red Ale,6.20 %,Brannon_s Deputation Imperial Red Ale,Brannon_s Pub and Brewery,American Strong Ale,8.79 %,0@2026#1@1679
+0,Smuttynose Kindest Find Imperial Red Ale,Smuttynose Brewing Company,American Amber / Red Ale,8.50 %,Brannon_s Deputation Imperial Red Ale,Brannon_s Pub and Brewery,American Strong Ale,8.79 %,0@184#1@1679
+0,Red Hopper ( Imperial Red Ale ),Black Acre Brewing Co. .,American Amber / Red Ale,6.20 %,Kinetic Infrared Imperial Red Ale,Kinetic Brewing Company,American Strong Ale,9.30 %,0@2026#1@1496
+0,BJ 's Imperial Red Ale,BJ 's Restaurant & Brewhouse,American Amber / Red Ale,9.00 %,Kinetic Infrared Imperial Red Ale,Kinetic Brewing Company,American Strong Ale,9.30 %,0@696#1@1496
+0,Red Racer India Style Red Ale,Central City Brewers + Distillers,American Amber / Red Ale,5.60 %,Heist American Style Red Ale,Heist Brewery,Amber Ale,4.50 %,0@525#1@433
+0,Red Racer India Style Red Ale,Central City Brewers + Distillers,American Amber / Red Ale,5.60 %,GoodLife Redside India Red Ale,GoodLife Brewing Company,India Pale Ale &#40; IPA &#41;,6 %,0@525#1@2972
+0,Green Flash Hop Head Red Ale,Green Flash Brewing Co. .,American Amber / Red Ale,8.10 %,Iron Horse Fresh Hop Imperial Red Ale,Iron Horse Brewery,American Strong Ale,-,0@3#1@641
+0,Green Flash Hop Head Red Ale,Green Flash Brewing Co. .,American Amber / Red Ale,8.10 %,Bagby Hop Crop Red Ale,Bagby Beer Company,Amber Ale,5.90 %,0@3#1@439
+0,Pike Old Bawdy Barley Wine,The Pike Brewing Company,American Barleywine,9.90 %,Bristol Old No. 23 Barley Wine,Bristol Brewing Company,Barley Wine,11.25 %,0@4068#1@2374
+0,Three Sheets Barleywine ( Syrah Barrel Aged ),Ballast Point Brewing Company,American Barleywine,9.00 %,Tighthead Barrel Aged Old Kaya Dog Barleywine,Tighthead Brewing Company,Barley Wine,10.30 %,0@4203#1@2425
+0,Red Rock Opie Red Ale,Red Rock Brewing Company,American Amber / Red Ale,4.00 %,Council Rock Sleeping Lion Red Ale,Council Rock Brewery,Irish Ale,6 %,0@2572#1@221
+0,Ruby Red American Ale,Fat Bottom Brewing,American Amber / Red Ale,6.10 %,Black Shirt American India Red Ale,Black Shirt Brewing Company,American Strong Ale,7.09 %,0@309#1@2621
+0,Ruby Red American Ale,Fat Bottom Brewing,American Amber / Red Ale,6.10 %,Genesee Brew House American Red Ale,Genesee Brewing Company &#40; North American Breweries &#41;,Amber Ale,5 %,0@309#1@418
+0,Rock Bottom Red Ale,Rock Bottom Restaurant & Brewery,American Amber / Red Ale,5.60 %,Rock Bottom La Jolla Ragtop Red Ale,Rock Bottom La Jolla,Amber Ale,5.40 %,0@200#1@559
+0,Hop Around Imperial Red Ale,Big Bay Brewing Co. .,American Amber / Red Ale,9.00 %,Marble Imperial Red Ale,Marble Brewery,American Strong Ale,9 %,0@3963#1@63
+0,Hop Around Imperial Red Ale,Big Bay Brewing Co. .,American Amber / Red Ale,9.00 %,Kern River Dirty Hippie Imperial Red Ale,Kern River Brewing,American Strong Ale,8 %,0@3963#1@980
+0,Blue Bridge Amber Dry Hopped,Galveston Island Brewing Company,American Amber / Red Ale,6.00 %,Winthrop Double Dry Hopped Amber,Winthrop Brewing Company,Amber Ale,-,0@2633#1@2143
+1,Arrow Point Amber,Bainbridge Island Brewing Company,American Amber / Red Ale,5.40 %,Bainbridge Island Arrow Point Amber,Bainbridge Island Brewing Company,Amber Ale,5.40 %,0@2558#1@1284
+0,Bourbon Barrel Aged Horus Imperial Red,Elevator Brewery & Draught Haus,American Amber / Red Ale,12.00 %,Lompoc Bourbon Barrel Aged Old Tavern Rat,Lompoc Brewing,Barley Wine,9.70 %,0@1218#1@2463
+0,Bourbon Barrel Aged Horus Imperial Red,Elevator Brewery & Draught Haus,American Amber / Red Ale,12.00 %,Riverbend Barrel Aged Right Said Red,Riverbend Brewing & Sports Pub,American Strong Ale,9.20 %,0@1218#1@1445
+0,Lavery Imperial Red Ale,Lavery Brewing Company,American Amber / Red Ale,8.20 %,Laurelwood Organic Deranger Imperial Red Ale,Laurelwood Public House & Brewery,American Strong Ale,8.60 %,0@285#1@411
+0,Lavery Imperial Red Ale,Lavery Brewing Company,American Amber / Red Ale,8.20 %,Ale Mania Imperial Red Ale,Ale Mania &#40; Fritz Ale &#41;,American Strong Ale,9.50 %,0@285#1@1551
+0,Sledgehammer Imperial Red Ale,Cambridge Brewing Company,American Amber / Red Ale,7.75 %,Ale Mania Imperial Red Ale,Ale Mania &#40; Fritz Ale &#41;,American Strong Ale,9.50 %,0@3185#1@1551
+0,Smuttynose Kindest Find Imperial Red Ale,Smuttynose Brewing Company,American Amber / Red Ale,8.50 %,Rock Bottom Orland Park King of Hearts Imperial Red Ale,Rock Bottom Orland Park,American Strong Ale,7.60 %,0@184#1@1889
+0,Red Shedman 's Imperial Amber Ale,57 Brew Pub & Bistro,American Amber / Red Ale,7.60 %,Rock Bottom Orland Park King of Hearts Imperial Red Ale,Rock Bottom Orland Park,American Strong Ale,7.60 %,0@3402#1@1889
+0,Smuttynose Kindest Find Imperial Red Ale,Smuttynose Brewing Company,American Amber / Red Ale,8.50 %,Ballast Point Tongue Buckler Imperial Red Ale - Bourbon Barrel Aged,Ballast Point Brewing Company,American Strong Ale,10 %,0@184#1@1255
+0,Brewmaster 's Reserve Imperial Red Ale,BJ 's Chicago Pizza & Brewery Inc. .,American Amber / Red Ale,9.20 %,Ballast Point Tongue Buckler Imperial Red Ale - Bourbon Barrel Aged,Ballast Point Brewing Company,American Strong Ale,10 %,0@1178#1@1255
+0,Good Medicine Strong Red Ale,Great Northern Brewing Co. / Black Star Draught House,American Amber / Red Ale,7.50 %,Good People Stepchild Belgian India Red Ale,Good People Brewing Company,India Pale Ale &#40; IPA &#41;,7.80 %,0@501#1@216
+0,Tongue Buckler - Imperial Red Ale,Ballast Point Brewing Company,American Amber / Red Ale,10.00 %,Three Heads Buffalo Soul Jah Imperial Red Ale,Custom Brewcrafters,American Strong Ale,9.20 %,0@29#1@2883
+0,Tongue Buckler - Imperial Red Ale,Ballast Point Brewing Company,American Amber / Red Ale,10.00 %,Worthy Eruption Imperial Red Ale,Worthy Brewing Company,American Strong Ale,8 %,0@29#1@2582
+1,Amber Waves Ale,Capitol City Brewing,American Amber / Red Ale,5.40 %,Capitol City Amber Waves Ale,Capitol City Brewing Company,Amber Ale,5.60 %,0@563#1@1177
+0,Rocky Point Red Ale,Revival Brewing Co. .,American Amber / Red Ale,5.50 %,Alley Kat Rocky Mountain Red Ale &#40; The Cheesecake Cafe &#41;,Alley Kat Brewing Company,Irish Ale,-,0@1904#1@2681
+0,Big Red Ale,Red Car Brewery and Restaurant,American Amber / Red Ale,5.70 %,Big Bear Lake Sidewinder Red Ale,Big Bear Lake Brewing Company,Amber Ale,8.50 %,0@1251#1@812
+0,Alexander Keith 's Red Amber Ale,Alexander Keith 's,American Amber / Red Ale,5.00 %,Hollywood Beach Red Tide Amber Ale,Hollywood Beach Brewing Company,Amber Ale,5.20 %,0@113#1@475
+0,Brass Ale Honey Amber,Great Storm Brewing Co. .,American Amber / Red Ale,5.30 %,Salty Nut Bee Transfixed Honey Amber Ale,Salty Nut Brewery,Amber Ale,5.50 %,0@2596#1@2124
+0,Tongue Buckler ( Bourbon Barrel Aged ),Ballast Point Brewing Company,American Amber / Red Ale,10.00 %,23rd Street Pumpkin Ale Bourbon Barrel Aged,23rd Street Brewery,Specialty Grain,-,0@406#1@2071
+0,Main Street Amber Ale,Fifty West Brewing Co,American Amber / Red Ale,4.60 %,Thorn Street Smugglers Cove Agave Amber Ale,Thorn Street Brewery,Amber Ale,6.20 %,0@1900#1@333
+0,Inception Series - Runnin ' With The Devil,Nebraska Brewing Company,American Barleywine,11.90 %,18th Street Deal With the Devil Pale Ale,18th Street Brewery,Imperial IPA,8.50 %,0@4181#1@2300
+0,Sanibel Red Island Ale,Point Ybel Brewing Company,American Amber / Red Ale,5.60 %,Baranof Island Redoubt Red Ale,Baranof Island Brewing Company,Amber Ale,6 %,0@982#1@348
+1,Red Rocket Amber Ale,Third Base Sports Bar & Brewery,American Amber / Red Ale,6.40 %,Third Base Red Rocket Amber Ale,Third Base Sports Bar & Brewery,Amber Ale,4.60 %,0@1621#1@548
+0,Red Rocket Amber Ale,Third Base Sports Bar & Brewery,American Amber / Red Ale,6.40 %,Liberty Street Red Glare Amber Ale,Liberty Street Brewing Company,Amber Ale,5.20 %,0@1621#1@2601
+0,Three Beavers Imperial Red Ale,Howe Sound Inn & Brewing Company,American Amber / Red Ale,7.50 %,Lavery Imperial Red Ale &#40; IRA &#41;,Lavery Brewing Company,American Strong Ale,8.20 %,0@487#1@1519
+0,Elevator Barrel Aged Barley Wine ( Bar Bar ),Elevator Brewery & Draught Haus,American Barleywine,11.00 %,Hopworks Bourbon Aged Noggin Floggin Barley Wine,Hopworks Urban Brewery,Barley Wine,9.50 %,0@4168#1@2381
+1,Bushfire American Red,Granite Falls Brewing Co. .,American Amber / Red Ale,5.00 %,Granite Falls Bushfire American Red Ale,Granite Falls Brewing Company,Amber Ale,5 %,0@2007#1@203
+0,Buffalo Soul Jah Imperial Red Ale,Three Heads Brewing,American Amber / Red Ale,9.20 %,Pizza Port Rhino Chaser Imperial Red Ale,Pizza Port &#40; Ocean Beach &#41;,American Strong Ale,9.50 %,0@833#1@2728
+0,Red Headed Slut Amber Ale,Twisted K-8 Brewing Company,American Amber / Red Ale,6.50 %,Blue Cat Red Toad Amber Ale,Blue Cat Brew Pub,Premium Bitter/ESB,5.70 %,0@3842#1@1853
+0,Sierra Amber Ale,Silver Peak Restaurant & Brewery,American Amber / Red Ale,4.50 %,Sierra Andina Alpamayo Amber Ale,Sierra Andina,Amber Ale,5.80 %,0@1030#1@679
+0,Buck And Ball Double Amber Ale,Natty Greene 's Pub & Brewing Co. .,American Amber / Red Ale,6.80 %,Fox and Hound Red Fox Amber Ale,Anheuser-Busch InBev,Amber Ale,5.10 %,0@2444#1@1348
+0,Green Lakes Organic Ale,Deschutes Brewery,American Amber / Red Ale,5.20 %,Deschutes Green Lakes Non-Organic Ale,Deschutes Brewery,Amber Ale,6.40 %,0@76#1@2831
+0,Starlord 's Mixtape / Groot Drank Imperial Red Ale,Charging Hippo Brewing Co. .,American Amber / Red Ale,8.20 %,406 Imperial Red Ale,406 Brewing Company,American Strong Ale,9.20 %,0@3626#1@646
+0,Starlord 's Mixtape / Groot Drank Imperial Red Ale,Charging Hippo Brewing Co. .,American Amber / Red Ale,8.20 %,Lagunitas Imperial Red Ale,Lagunitas Brewing Company &#40; Heineken &#41;,American Strong Ale,7.80 %,0@3626#1@90
+0,Rabbit Mountain Red Ale,300 Suns Brewing,American Amber / Red Ale,6.80 %,Figueroa Mountain / Pizza Port Shark Lips Imperial Red Ale,Figueroa Mountain Brewing,American Strong Ale,8 %,0@2215#1@1120
+0,Easy Amber Ale,Scottsdale Beer Company,American Amber / Red Ale,5.70 %,Upland Easy Chair Amber Ale,Upland Brewing Company,Amber Ale,5.60 %,0@2494#1@2565
+1,Legends Of The Bay Giant 's Tomb,Hockley Valley Brewing Co. .,American Amber / Red Ale,5.00 %,Legends of the Bay Giant_s Tomb,Hockley Valley Brewing & Malting Company,Amber Ale,5 %,0@1042#1@55
+0,Barrel Aged Imperial Red,Hale 's Ales Brewery & Pub,American Amber / Red Ale,9.00 %,Intuition Barrel Aged Riverside Red,Intuition Ale Works,Amber Ale,7.80 %,0@1661#1@1163
+0,Barrel Aged Imperial Red,Hale 's Ales Brewery & Pub,American Amber / Red Ale,9.00 %,Kettle House Bourbon Barrel Road Rash Imperial Red Ale,Kettle House Brewing Company,American Strong Ale,13 %,0@1661#1@1428
+0,Lower De Boom Barleywine,21st Amendment Brewery,American Barleywine,11.50 %,21st Amendment Bourbon Barrel Lower da Boom Barleywine,21st Amendment Brewery,Barley Wine,9.50 %,0@4027#1@2510
+0,Ulysses Imperial Red Ale,Barley 's Brewing Company,American Amber / Red Ale,-,Renegade Scarlett Letter Imperial Red Ale,Renegade Brewing Company,American Strong Ale,8.50 %,0@3130#1@1414
+0,Amber Ale With Spanish Orange,Dangerous Man Brewing,American Amber / Red Ale,6.00 %,Big Bear Mountain Orange Blossom Amber Ale,Big Bear Mountain Brewery,Fruit Beer,4.50 %,0@3959#1@447
+0,Brew Kahuna NW Red Ale,Sky High Brewing,American Amber / Red Ale,5.20 %,Brew Bus Detour Series : Rollin Dirty Red Ale - Wood Aged,Cigar City Brewing,Irish Ale,5 %,0@2316#1@838
+0,Old Guardian Barley Wine Style Ale - Red Wine Barrel Aged,Stone Brewing Co. .,American Barleywine,11.20 %,Brew Bus Detour Series : Rollin Dirty Red Ale - Wood Aged,Cigar City Brewing,Irish Ale,5 %,0@4117#1@838
+1,Willoughby American Amber Ale,Willoughby Brewing,American Amber / Red Ale,4.90 %,Willoughby American Amber Ale,Willoughby Brewing Co. .,Amber Ale,5.50 %,0@3381#1@1859
+0,Frost Quake Bourbon Barrel Aged Barley Wine,Wellington County Brewery,American Barleywine,9.80 %,Lompoc Bourbon Barrel Aged Proletariat Red Ale,Lompoc Brewing,Amber Ale,6.40 %,0@4256#1@1825
+0,Ambleside Amber Ale,Bridge Brewing Company,American Amber / Red Ale,5.30 %,Bridge Ambleside Amber Ale - Pomegranate & Galena Hops,Bridge Brewing Company,Amber Ale,5.30 %,0@3956#1@2249
+0,Mountain City Amber Ale,Tommyknocker Brewery,American Amber / Red Ale,5.40 %,Fin City Jackspot Amber Ale,Fin City Brewing Company,Amber Ale,5.80 %,0@2115#1@2673
+0,Mountain City Amber Ale,Tommyknocker Brewery,American Amber / Red Ale,5.40 %,Colorado Mountain Ole 59er Amber Ale,Colorado Mountain Brewery,Amber Ale,5.20 %,0@2115#1@77
+0,Imperial Red Ale ( Spring Seasonal ),Edge Brewing Company,American Amber / Red Ale,8.50 %,Ballast Point Tongue Buckler Imperial Red Ale,Ballast Point Brewing Company,American Strong Ale,10 %,0@3098#1@1638
+1,Heatwave Red Ale,La Quinta Brewing Co. .,American Amber / Red Ale,6.00 %,La Quinta Brewing Co. . Heatwave Red Ale,La Quinta Brewing Co. .,Amber Ale,6 %,0@1842#1@737
+0,Unite Red Rye Ale,The Pike Brewing Company,American Amber / Red Ale,4.60 %,Midnight Sun Unite Double Red Hot Ale &#40; 2015 &#41;,Midnight Sun Brewing Company,Amber Ale,7.50 %,0@3079#1@2048
+0,Red Dread Imperial Red Ale,Bitter Root Brewing,American Amber / Red Ale,8.24 %,Two Brothers Revelry Imperial Red Ale,Two Brothers Brewing Company,American Strong Ale,9.50 %,0@652#1@1534
+0,Red Toad Amber Ale,Blue Cat Brew Pub,American Amber / Red Ale,5.70 %,Baird Red Rose Amber Ale,Baird Brewing Co. .,California Common,5.40 %,0@3372#1@1281
+0,Red Dirt Imperial Red Ale,Wiley Roots Brewing Co,American Amber / Red Ale,8.20 %,AleSmith YuleSmith &#40; Winter &#41; Imperial Red Ale,AleSmith Brewing Company,American Strong Ale,8.50 %,0@2156#1@1973
+0,Red Fox Amber Ale,Rogue Ales,American Amber / Red Ale,-,Big Texan Texas Red Amber Ale,Big Texan Brewery,Amber Ale,4.50 %,0@262#1@419
+0,Mount Washington Organic Amber Ale,Peak Organic Brewing Company,American Amber / Red Ale,-,Outpost Mr. Grain Jeans Organic Amber Ale,Lakefront Brewery,Amber Ale,5.50 %,0@1471#1@1165
+0,Imperial Moustache Red Ale,Salty Nut Brewery,American Amber / Red Ale,6.00 %,Phillips Double Dragon Imperial Red Ale,Phillips Brewing Co. .,American Strong Ale,8.20 %,0@2972#1@218
+1,Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,American Barleywine,10.00 %,Thomas Hooker Old Marley Barleywine,Thomas Hooker Brewing Company,Barley Wine,10 %,0@4063#1@2331
+1,Centurion Barleywine Ale,Golden City Brewery,American Barleywine,-,Golden City Centurion Barleywine Ale,Golden City Brewery,Barley Wine,11.20 %,0@4161#1@2409
+1,Red Ale Priprioca,Cervejaria AmazÃ ´ nia Ltda .,American Amber / Red Ale,6.00 %,Amazon Beer Priprioca Red Ale,Amazon Beer,Amber Ale,6 %,0@862#1@2906
+1,Big Red Balls,Hillcrest Brewing Company,American Amber / Red Ale,8.00 %,Hillcrest Big Red Balls,Hillcrest Brewing Company,Imperial IPA,8 %,0@2242#1@1048

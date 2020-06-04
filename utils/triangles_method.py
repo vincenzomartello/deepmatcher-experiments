@@ -35,8 +35,12 @@ def _powerset(xs,minlen,maxlen):
 ## for now the code works only on binary sources
 def getMixedTriangles(dataset,sources):
         triangles = []
-        ##to not alter original dataset
+        #to not alter original dataset
         dataset_c = dataset.copy()
+        sourcesmap = {}
+        #the id is so composed: lsourceid@id#rsourceid@id
+        for i in range(len(sources)):
+            sourcesmap[i] = sources[i]
         dataset_c['ltable_id'] = list(map(lambda lrid:lrid.split("#")[0],dataset_c.id.values))
         dataset_c['rtable_id'] = list(map(lambda lrid:lrid.split("#")[1],dataset_c.id.values))
         positives = dataset_c[dataset_c.label==1]
@@ -47,16 +51,12 @@ def getMixedTriangles(dataset,sources):
             if np.count_nonzero(negatives.rtable_id.values==rid) >=1:
                 relatedTuples = negatives[negatives.rtable_id == rid]
                 for curr_lid in relatedTuples.ltable_id.values:
-                    triangles.append((sources[0][sources[0].id==lid].iloc[0],\
-                                      sources[1][sources[1].id==rid].iloc[0],\
-                                      sources[0][sources[0].id==curr_lid].iloc[0],'L-R-L'))
+                    triangles.append((lid,rid,curr_lid))
             if np.count_nonzero(negatives.ltable_id.values==lid)>=1:
                 relatedTuples = negatives[negatives.ltable_id==lid]
                 for curr_rid in relatedTuples.rtable_id.values:
-                    triangles.append((sources[1][sources[1].id==rid].iloc[0],\
-                                      sources[0][sources[0].id==lid].iloc[0],\
-                                      sources[1][sources[1].id==curr_rid].iloc[0],'R-L-R'))
-        return triangles
+                    triangles.append((rid,lid,curr_rid))
+        return triangles,sourcesmap
     
 
     
@@ -106,25 +106,37 @@ def getPositiveTriangles(dataset,sources):
 
     
     
-def createPerturbationsFromTriangle(triangle,attributes,maxLenAttributeSet,originalClass,
+def __getRecords(sourcesMap,triangleIds):
+    triangle = []
+    for sourceid_recordid in triangleIds:
+        currentSource = sourcesMap[int(sourceid_recordid.split("@")[0])]
+        currentRecordId = sourceid_recordid.split("@")[1]
+        currentRecord = currentSource[currentSource.id==currentRecordId].iloc[0]
+        triangle.append(currentRecord)
+    return triangle
+    
+def createPerturbationsFromTriangle(triangleIds,sourcesMap,attributes,maxLenAttributeSet,classToExplain,
                                    lprefix='ltable_',rprefix='rtable_'):
     allAttributesSubsets = list(_powerset(attributes,1,maxLenAttributeSet))
+    triangle = __getRecords(sourcesMap,triangleIds)
     perturbations = []
     perturbedAttributes = []
     for subset in allAttributesSubsets:
         perturbedAttributes.append(subset)
-        if originalClass==1:
-            newRow = triangle[1].copy()
+        if classToExplain==1:
+            newRecord = triangle[1].copy()
+            rightRecordId = triangleIds[1]
             for att in subset:
-                newRow[att] = triangle[2][att]
-            perturbations.append(newRow)
+                newRecord[att] = triangle[2][att]
+            perturbations.append(newRecord)
         else:
-            newRow = triangle[2].copy()
+            newRecord = triangle[2].copy()
+            rightRecordId = triangleIds[2]
             for att in subset:
-                newRow[att] = triangle[1][att]
-            perturbations.append(newRow)
+                newRecord[att] = triangle[1][att]
+            perturbations.append(newRecord)
     perturbations_df = pd.DataFrame(perturbations,index = np.arange(len(perturbations)))
-    r1 = triangle[0]
+    r1 = triangle[0].copy()
     r1_copy = [r1]*len(perturbations_df)
     r1_df = pd.DataFrame(r1_copy, index=np.arange(len(perturbations)))
     _renameColumnsWithPrefix(lprefix,r1_df)
@@ -132,6 +144,7 @@ def createPerturbationsFromTriangle(triangle,attributes,maxLenAttributeSet,origi
     allPerturbations = pd.concat([r1_df,perturbations_df], axis=1)
     allPerturbations = allPerturbations.drop([lprefix+'id',rprefix+'id'],axis=1)
     allPerturbations['alteredAttributes'] = perturbedAttributes
+    allPerturbations['originalRightId'] = rightRecordId
     return allPerturbations
 
     
@@ -140,15 +153,15 @@ def explainSamples(dataset:pd.DataFrame,sources:list,model,predict_fn:callable,
                    class_to_explain:int,maxLenAttributeSet:int):
         # we suppose that the sample is always on the left source
         attributes = [col for col in list(sources[0]) if col not in ['id']]
-        allTriangles = getMixedTriangles(dataset,sources)
+        allTriangles,sourcesMap = getMixedTriangles(dataset,sources)
         rankings = []
         flippedPredictions = []
         #notFlipped = []
         for triangle in tqdm(allTriangles):
-            currentPerturbations = createPerturbationsFromTriangle(triangle,attributes\
+            currentPerturbations = createPerturbationsFromTriangle(triangle,sourcesMap,attributes\
                                                                             ,maxLenAttributeSet,class_to_explain)
             currPerturbedAttr = currentPerturbations.alteredAttributes.values
-            predictions = predict_fn(currentPerturbations,model,['alteredAttributes'])
+            predictions = predict_fn(currentPerturbations,model,['alteredAttributes','originalRightId'])
             curr_flippedPredictions = currentPerturbations[(predictions[:,class_to_explain] <0.5)]
             '''
             currNotFlipped = currentPerturbations[(predictions[:,originalClass]>0.5)]

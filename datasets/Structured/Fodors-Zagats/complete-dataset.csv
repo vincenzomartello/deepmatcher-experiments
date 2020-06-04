@@ -1,0 +1,947 @@
+label,ltable_name,ltable_addr,ltable_city,ltable_phone,ltable_res_type,ltable_class,rtable_name,rtable_addr,rtable_city,rtable_phone,rtable_res_type,rtable_class,id
+0,toulouse,' b peachtree rd. ',atlanta,404/351 -9533,french,92,` white house restaurant ',' 3172 peachtree rd. ne ',atlanta,404-237-7601,diners,719,0@92#1@184
+0,` luna si ',' 1931 peachtree rd. ',atlanta,404/355 -5993,continental,405,` white house restaurant ',' 3172 peachtree rd. ne ',atlanta,404-237-7601,diners,719,0@405#1@184
+0,` dining room ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,international,90,` white house restaurant ',' 3172 peachtree rd. ne ',atlanta,404-237-7601,diners,719,0@90#1@184
+0,` dante \ 's down the hatch buckhead ',' 3380 peachtree rd. ',atlanta,404/266 -1600,continental,393,` white house restaurant ',' 3172 peachtree rd. ne ',atlanta,404-237-7601,diners,719,0@393#1@184
+0,tomtom,' 3393 peachtree rd. ',atlanta,404/264 -1163,continental,422,` white house restaurant ',' 3172 peachtree rd. ne ',atlanta,404-237-7601,diners,719,0@422#1@184
+0,toulouse,' b peachtree rd. ',atlanta,404/351 -9533,french,92,` original pancake house ( at ) ',' 4330 peachtree rd. ',atlanta,404-237-4116,american,708,0@92#1@174
+0,` luna si ',' 1931 peachtree rd. ',atlanta,404/355 -5993,continental,405,` original pancake house ( at ) ',' 4330 peachtree rd. ',atlanta,404-237-4116,american,708,0@405#1@174
+0,` dining room ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,international,90,` original pancake house ( at ) ',' 4330 peachtree rd. ',atlanta,404-237-4116,american,708,0@90#1@174
+0,tomtom,' 3393 peachtree rd. ',atlanta,404/264 -1163,continental,422,` original pancake house ( at ) ',' 4330 peachtree rd. ',atlanta,404-237-4116,american,708,0@422#1@174
+0,palisades,' 1829 peachtree rd. ',atlanta,404/350 -6755,continental,410,` original pancake house ( at ) ',' 4330 peachtree rd. ',atlanta,404-237-4116,american,708,0@410#1@174
+0,toulouse,' b peachtree rd. ',atlanta,404/351 -9533,french,92,abruzzi,' 2355 peachtree rd. ne ',atlanta,404-261-8186,italian,74,0@92#1@292
+0,` dining room ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,international,90,abruzzi,' 2355 peachtree rd. ne ',atlanta,404-261-8186,italian,74,0@90#1@292
+0,` dante \ 's down the hatch buckhead ',' 3380 peachtree rd. ',atlanta,404/266 -1600,continental,393,abruzzi,' 2355 peachtree rd. ne ',atlanta,404-261-8186,italian,74,0@393#1@292
+0,palisades,' 1829 peachtree rd. ',atlanta,404/350 -6755,continental,410,abruzzi,' 2355 peachtree rd. ne ',atlanta,404-261-8186,italian,74,0@410#1@292
+0,toulouse,' b peachtree rd. ',atlanta,404/351 -9533,french,92,` ritz-carlton cafe ( buckhead ) ',' 3434 peachtree rd. ne ',atlanta,404-237-2700,` american ( new ) ',89,0@92#1@307
+0,` luna si ',' 1931 peachtree rd. ',atlanta,404/355 -5993,continental,405,` ritz-carlton cafe ( buckhead ) ',' 3434 peachtree rd. ne ',atlanta,404-237-2700,` american ( new ) ',89,0@405#1@307
+0,` dining room ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,international,90,` ritz-carlton cafe ( buckhead ) ',' 3434 peachtree rd. ne ',atlanta,404-237-2700,` american ( new ) ',89,0@90#1@307
+0,` dante \ 's down the hatch buckhead ',' 3380 peachtree rd. ',atlanta,404/266 -1600,continental,393,` ritz-carlton cafe ( buckhead ) ',' 3434 peachtree rd. ne ',atlanta,404-237-2700,` american ( new ) ',89,0@393#1@307
+0,tomtom,' 3393 peachtree rd. ',atlanta,404/264 -1163,continental,422,` ritz-carlton cafe ( buckhead ) ',' 3434 peachtree rd. ne ',atlanta,404-237-2700,` american ( new ) ',89,0@422#1@307
+1,` cafe ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,` ext 6108 international ',89,` ritz-carlton cafe ( buckhead ) ',' 3434 peachtree rd. ne ',atlanta,404-237-2700,` american ( new ) ',89,0@89#1@307
+0,palisades,' 1829 peachtree rd. ',atlanta,404/350 -6755,continental,410,` ritz-carlton cafe ( buckhead ) ',' 3434 peachtree rd. ne ',atlanta,404-237-2700,` american ( new ) ',89,0@410#1@307
+1,toulouse,' b peachtree rd. ',atlanta,404/351 -9533,french,92,toulouse,' 293-b peachtree rd. ',atlanta,404-351-9533,` french ( new ) ',92,0@92#1@310
+0,` luna si ',' 1931 peachtree rd. ',atlanta,404/355 -5993,continental,405,toulouse,' 293-b peachtree rd. ',atlanta,404-351-9533,` french ( new ) ',92,0@405#1@310
+0,tomtom,' 3393 peachtree rd. ',atlanta,404/264 -1163,continental,422,toulouse,' 293-b peachtree rd. ',atlanta,404-351-9533,` french ( new ) ',92,0@422#1@310
+0,` cafe ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,` ext 6108 international ',89,toulouse,' 293-b peachtree rd. ',atlanta,404-351-9533,` french ( new ) ',92,0@89#1@310
+0,toulouse,' b peachtree rd. ',atlanta,404/351 -9533,french,92,` la grotta ',' 2637 peachtree rd. ne ',atlanta,404-231-1368,italian,85,0@92#1@303
+0,` luna si ',' 1931 peachtree rd. ',atlanta,404/355 -5993,continental,405,` la grotta ',' 2637 peachtree rd. ne ',atlanta,404-231-1368,italian,85,0@405#1@303
+0,` dining room ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,international,90,` la grotta ',' 2637 peachtree rd. ne ',atlanta,404-231-1368,italian,85,0@90#1@303
+0,` dante \ 's down the hatch buckhead ',' 3380 peachtree rd. ',atlanta,404/266 -1600,continental,393,` la grotta ',' 2637 peachtree rd. ne ',atlanta,404-231-1368,italian,85,0@393#1@303
+0,tomtom,' 3393 peachtree rd. ',atlanta,404/264 -1163,continental,422,` la grotta ',' 2637 peachtree rd. ne ',atlanta,404-231-1368,italian,85,0@422#1@303
+1,` la grotta ',' 2637 peachtree rd. . peachtree house condominium ',atlanta,404/231 -1368,italian,85,` la grotta ',' 2637 peachtree rd. ne ',atlanta,404-231-1368,italian,85,0@85#1@303
+0,` cafe ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,` ext 6108 international ',89,` la grotta ',' 2637 peachtree rd. ne ',atlanta,404-231-1368,italian,85,0@89#1@303
+0,toulouse,' b peachtree rd. ',atlanta,404/351 -9533,french,92,nava,' 3060 peachtree rd. ',atlanta,404-240-1984,southwestern,706,0@92#1@172
+0,` dining room ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,international,90,nava,' 3060 peachtree rd. ',atlanta,404-240-1984,southwestern,706,0@90#1@172
+0,tomtom,' 3393 peachtree rd. ',atlanta,404/264 -1163,continental,422,nava,' 3060 peachtree rd. ',atlanta,404-240-1984,southwestern,706,0@422#1@172
+0,` cafe ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,` ext 6108 international ',89,nava,' 3060 peachtree rd. ',atlanta,404-240-1984,southwestern,706,0@89#1@172
+0,palisades,' 1829 peachtree rd. ',atlanta,404/350 -6755,continental,410,nava,' 3060 peachtree rd. ',atlanta,404-240-1984,southwestern,706,0@410#1@172
+0,toulouse,' b peachtree rd. ',atlanta,404/351 -9533,french,92,` palm the ( atlanta ) ',' 3391 peachtree rd. ne ',atlanta,404-814-1955,steakhouses,709,0@92#1@175
+0,` luna si ',' 1931 peachtree rd. ',atlanta,404/355 -5993,continental,405,` palm the ( atlanta ) ',' 3391 peachtree rd. ne ',atlanta,404-814-1955,steakhouses,709,0@405#1@175
+0,` dining room ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,international,90,` palm the ( atlanta ) ',' 3391 peachtree rd. ne ',atlanta,404-814-1955,steakhouses,709,0@90#1@175
+0,tomtom,' 3393 peachtree rd. ',atlanta,404/264 -1163,continental,422,` palm the ( atlanta ) ',' 3391 peachtree rd. ne ',atlanta,404-814-1955,steakhouses,709,0@422#1@175
+0,palisades,' 1829 peachtree rd. ',atlanta,404/350 -6755,continental,410,` palm the ( atlanta ) ',' 3391 peachtree rd. ne ',atlanta,404-814-1955,steakhouses,709,0@410#1@175
+0,` gallagher \ 's ',' 228 w. 52nd st. ',` new york ',212/245 -5336,american,254,` la grenouille ',' 3 e. 52nd st. ',` new york city ',212-752-1495,` french ( classic ) ',623,0@256#1@89
+0,` fleur de jour ',' 348 e. 62nd st. ',` new york ',212/355 -2020,` coffee bar ',245,` la grenouille ',' 3 e. 52nd st. ',` new york city ',212-752-1495,` french ( classic ) ',623,0@247#1@89
+0,bolo,'23 e. 22nd st. ',` new york ',212/228 -2200,mediterranean,191,` la grenouille ',' 3 e. 52nd st. ',` new york city ',212-752-1495,` french ( classic ) ',623,0@112#1@89
+0,'21 club ','21 w. 52nd st. ',` new york ',212/582 -7200,american,23,` la grenouille ',' 3 e. 52nd st. ',` new york city ',212-752-1495,` french ( classic ) ',623,0@23#1@89
+0,` four seasons grill room ','99 e. 52nd st. ',` new york ',212/754 -9494,american,34,` la grenouille ',' 3 e. 52nd st. ',` new york city ',212-752-1495,` french ( classic ) ',623,0@34#1@89
+0,'em pire korea ',' 6 e. 32nd st. ',` new york ',212/725 -1333,asian,233,` la grenouille ',' 3 e. 52nd st. ',` new york city ',212-752-1495,` french ( classic ) ',623,0@235#1@89
+0,` gallagher \ 's ',' 228 w. 52nd st. ',` new york ',212/245 -5336,american,254,` edison cafe ',' 228 w. 47th st. ',` new york city ',212-840-5000,diners,611,0@256#1@77
+0,` hard rock cafe ',' 221 w. 57th st. ',` new york ',212/489 -6565,american,261,` edison cafe ',' 228 w. 47th st. ',` new york city ',212-840-5000,diners,611,0@263#1@77
+0,` two two two ',' 222 w. 79th st. ',` new york ',212/799 -0400,american,368,` edison cafe ',' 228 w. 47th st. ',` new york city ',212-840-5000,diners,611,0@368#1@77
+0,` gallagher \ 's ',' 228 w. 52nd st. ',` new york ',212/245 -5336,american,254,'21 club ','21 w. 52nd st. ',` new york city ',212-582-7200,` american ( new ) ',23,0@256#1@241
+0,` victor \ 's cafe ','52 236 w. 52nd st. ',` new york ',212/586 -7714,` latin american ',371,'21 club ','21 w. 52nd st. ',` new york city ',212-582-7200,` american ( new ) ',23,0@371#1@241
+1,'21 club ','21 w. 52nd st. ',` new york ',212/582 -7200,american,23,'21 club ','21 w. 52nd st. ',` new york city ',212-582-7200,` american ( new ) ',23,0@23#1@241
+0,` four seasons grill room ','99 e. 52nd st. ',` new york ',212/754 -9494,american,34,'21 club ','21 w. 52nd st. ',` new york city ',212-582-7200,` american ( new ) ',23,0@34#1@241
+0,` judson grill ',' 152 w. 52nd st. ',` new york ',212/582 -5252,american,276,'21 club ','21 w. 52nd st. ',` new york city ',212-582-7200,` american ( new ) ',23,0@277#1@241
+0,` center stage plaza hotel ',' 1 main st. ',` las vegas ',702/386 -2512,american,436,` chinois on main ',' 2709 main st. ',` santa monica ',310-392-9025,` pacific new wave ',5,0@436#1@223
+0,` gilliland \ 's ',' 2424 main st. ',` santa monica ',310/392 -3901,american,135,` chinois on main ',' 2709 main st. ',` santa monica ',310-392-9025,` pacific new wave ',5,0@138#1@223
+0,` sa tsu ki ',' 3043 buford hwy . ',atlanta,404/325 -5285,asian,415,` havana sandwich shop ',' 2905 buford hwy . ',atlanta,404-636-4094,cuban,695,0@415#1@161
+0,` pinot bistro ',' 12969 ventura blvd. ',` los angeles ',818/990 -0500,french,18,` mulberry st. ',' 17040 ventura blvd. ',encino,818-906-8881,pizza,580,0@18#1@46
+0,` art \ 's delicatessen ',' 12224 ventura blvd. ',` studio city ',818/762 -1221,american,1,` mulberry st. ',' 17040 ventura blvd. ',encino,818-906-8881,pizza,580,0@1#1@46
+0,` pinot bistro ',' 12969 ventura blvd. ',` los angeles ',818/990 -0500,french,18,` rubin \ 's red hots ',' 15322 ventura blvd. ',encino,818-905-6515,` hot dogs ',590,0@18#1@56
+0,posto,' 14928 ventura blvd. ',` sherman oaks ',818/784 -4400,italian,156,` rubin \ 's red hots ',' 15322 ventura blvd. ',encino,818-905-6515,` hot dogs ',590,0@159#1@56
+0,` pinot bistro ',' 12969 ventura blvd. ',` los angeles ',818/990 -0500,french,18,` sushi nozawa ',' 11288 ventura blvd. ',` studio city ',818-508-7017,japanese,595,0@18#1@61
+0,posto,' 14928 ventura blvd. ',` sherman oaks ',818/784 -4400,italian,156,` sushi nozawa ',' 11288 ventura blvd. ',` studio city ',818-508-7017,japanese,595,0@159#1@61
+0,` cafe bizou ',' 14016 ventura blvd. ',` sherman oaks ',818/788 -3536,french,3,` sushi nozawa ',' 11288 ventura blvd. ',` studio city ',818-508-7017,japanese,595,0@3#1@61
+0,` pinot bistro ',' 12969 ventura blvd. ',` los angeles ',818/990 -0500,french,18,` cafe bizou ',' 14016 ventura blvd. ',` sherman oaks ',818-788-3536,` french bistro ',3,0@18#1@221
+0,posto,' 14928 ventura blvd. ',` sherman oaks ',818/784 -4400,italian,156,` cafe bizou ',' 14016 ventura blvd. ',` sherman oaks ',818-788-3536,` french bistro ',3,0@159#1@221
+1,` cafe bizou ',' 14016 ventura blvd. ',` sherman oaks ',818/788 -3536,french,3,` cafe bizou ',' 14016 ventura blvd. ',` sherman oaks ',818-788-3536,` french bistro ',3,0@3#1@221
+0,` art \ 's delicatessen ',' 12224 ventura blvd. ',` studio city ',818/762 -1221,american,1,` cafe bizou ',' 14016 ventura blvd. ',` sherman oaks ',818-788-3536,` french bistro ',3,0@1#1@221
+0,` china grill ','60 w. 53rd st. ',` new york ',212/333 -7788,american,219,seryna,'11 e. 53rd st. ',` new york city ',212-980-9393,japanese,59,0@221#1@277
+1,seryna,'11 e. 53rd st. ',` new york ',212/980 -9393,asian,59,seryna,'11 e. 53rd st. ',` new york city ',212-980-9393,japanese,59,0@59#1@277
+0,` il nido ',' 251 e. 53rd st. ',` new york ',212/753 -8450,italian,267,seryna,'11 e. 53rd st. ',` new york city ',212-980-9393,japanese,59,0@113#1@277
+0,` china grill ','60 w. 53rd st. ',` new york ',212/333 -7788,american,219,` la cote basque ','60 w. 55th st. ',` new york city ',212-688-6525,` french ( classic ) ',40,0@221#1@258
+0,lespinasse,' 2 e. 55th st. ',` new york ',212/339 -6719,american,43,` la cote basque ','60 w. 55th st. ',` new york city ',212-688-6525,` french ( classic ) ',40,0@43#1@258
+0,` tang pavillion ','65 w. 55th st. ',` new york ',212/956 -6888,asian,356,` la cote basque ','60 w. 55th st. ',` new york city ',212-688-6525,` french ( classic ) ',40,0@356#1@258
+1,` la cote basque ','60 w. 55th st. between 5th and 6th ave. ',` new york ',212/688 -6525,french,40,` la cote basque ','60 w. 55th st. ',` new york city ',212-688-6525,` french ( classic ) ',40,0@40#1@258
+0,lespinasse,' 2 e. 55th st. ',` new york ',212/339 -6719,american,43,` la caravelle ','33 w. 55th st. ',` new york city ',212-586-4252,` french ( classic ) ',39,0@43#1@257
+0,lespinasse,' 2 e. 55th st. ',` new york ',212/339 -6719,american,43,felidia,' 243 e. 58th st. ',` new york city ',212-758-1479,italian,33,0@43#1@251
+0,petrossian,' 182 w. 58th st. ',` new york ',212/245 -2214,french,52,felidia,' 243 e. 58th st. ',` new york city ',212-758-1479,italian,33,0@52#1@251
+1,felidia,' 243 e. 58th st. ',` new york ',212/758 -1479,italian,33,felidia,' 243 e. 58th st. ',` new york city ',212-758-1479,italian,33,0@33#1@251
+0,lespinasse,' 2 e. 55th st. ',` new york ',212/339 -6719,american,43,` shun lee palace ',' 155 e. 55th st. ',` new york city ',212-371-8844,chinese,60,0@43#1@278
+0,march,' 405 e. 58th st. ',` new york ',212/754 -6272,american,46,` shun lee palace ',' 155 e. 55th st. ',` new york city ',212-371-8844,chinese,60,0@46#1@278
+0,` le chantilly ',' 106 e. 57th st. ',` new york ',212/751 -2931,french,285,` shun lee palace ',' 155 e. 55th st. ',` new york city ',212-371-8844,chinese,60,0@286#1@278
+0,` le colonial ',' 149 e. 57th st. ',` new york ',' 212 / 752-0808 ',asian,286,` shun lee palace ',' 155 e. 55th st. ',` new york city ',212-371-8844,chinese,60,0@287#1@278
+1,lespinasse,' 2 e. 55th st. ',` new york ',212/339 -6719,american,43,` lespinasse ( new york city ) ',' 2 e. 55th st. ',` new york city ',212-339-6719,asian,43,0@43#1@261
+0,lutece,' 249 e. 50th st. ',` new york ',212/752 -2225,french,44,` lespinasse ( new york city ) ',' 2 e. 55th st. ',` new york city ',212-339-6719,asian,43,0@44#1@261
+0,felidia,' 243 e. 58th st. ',` new york ',212/758 -1479,italian,33,` lespinasse ( new york city ) ',' 2 e. 55th st. ',` new york city ',212-339-6719,asian,43,0@33#1@261
+0,` cafe pierre ',' 2 e. 61st st. ',` new york ',212/940 -8185,french,203,` lespinasse ( new york city ) ',' 2 e. 55th st. ',` new york city ',212-339-6719,asian,43,0@205#1@261
+0,lespinasse,' 2 e. 55th st. ',` new york ',212/339 -6719,american,43,lutece,' 249 e. 50th st. ',` new york city ',212-752-2225,` french ( classic ) ',44,0@43#1@262
+0,bruno,' 240 e. 58th st. ',` new york ',212/688 -4190,italian,195,lutece,' 249 e. 50th st. ',` new york city ',212-752-2225,` french ( classic ) ',44,0@197#1@262
+0,dawat,' 210 e. 58th st. ',` new york ',212/355 -7555,asian,32,lutece,' 249 e. 50th st. ',` new york city ',212-752-2225,` french ( classic ) ',44,0@32#1@262
+0,vong,' 200 e. 54th st. ',` new york ',212/486 -9592,american,373,lutece,' 249 e. 50th st. ',` new york city ',212-752-2225,` french ( classic ) ',44,0@373#1@262
+1,lutece,' 249 e. 50th st. ',` new york ',212/752 -2225,french,44,lutece,' 249 e. 50th st. ',` new york city ',212-752-2225,` french ( classic ) ',44,0@44#1@262
+0,` water club ',' 500 e. 30th st. ',` new york ',212/683 -3333,american,374,lutece,' 249 e. 50th st. ',` new york city ',212-752-2225,` french ( classic ) ',44,0@374#1@262
+0,felidia,' 243 e. 58th st. ',` new york ',212/758 -1479,italian,33,lutece,' 249 e. 50th st. ',` new york city ',212-752-2225,` french ( classic ) ',44,0@33#1@262
+0,` le colonial ',' 149 e. 57th st. ',` new york ',' 212 / 752-0808 ',asian,286,lutece,' 249 e. 50th st. ',` new york city ',212-752-2225,` french ( classic ) ',44,0@287#1@262
+0,lespinasse,' 2 e. 55th st. ',` new york ',212/339 -6719,american,43,dawat,' 210 e. 58th st. ',` new york city ',212-355-7555,indian,32,0@43#1@250
+1,dawat,' 210 e. 58th st. ',` new york ',212/355 -7555,asian,32,dawat,' 210 e. 58th st. ',` new york city ',212-355-7555,indian,32,0@32#1@250
+0,vong,' 200 e. 54th st. ',` new york ',212/486 -9592,american,373,dawat,' 210 e. 58th st. ',` new york city ',212-355-7555,indian,32,0@373#1@250
+0,petrossian,' 182 w. 58th st. ',` new york ',212/245 -2214,french,52,dawat,' 210 e. 58th st. ',` new york city ',212-355-7555,indian,32,0@52#1@250
+0,chiam,' 160 e. 48th st. ',` new york ',212/371 -2323,asian,218,dawat,' 210 e. 58th st. ',` new york city ',212-355-7555,indian,32,0@220#1@250
+0,` tang pavillion ','65 w. 55th st. ',` new york ',212/956 -6888,asian,356,menchanko-tei,'39 w. 55th st. ',` new york city ',212-247-1585,japanese,627,0@356#1@93
+0,` la caravelle ','33 w. 55th st. ',` new york ',212/586 -4252,french,39,menchanko-tei,'39 w. 55th st. ',` new york city ',212-247-1585,japanese,627,0@39#1@93
+0,aquavit,'13 w. 54th st. ',` new york ',212/307 -7311,continental,24,oceana,'55 e. 54th st. ',` new york city ',212-759-5941,seafood,50,0@24#1@268
+0,` fifty seven fifty seven ','57 e. 57th st. ',` new york ',212/758 -5757,american,239,oceana,'55 e. 54th st. ',` new york city ',212-759-5941,seafood,50,0@241#1@268
+0,vong,' 200 e. 54th st. ',` new york ',212/486 -9592,american,373,oceana,'55 e. 54th st. ',` new york city ',212-759-5941,seafood,50,0@373#1@268
+1,oceana,'55 e. 54th st. ',` new york ',212/759 -5941,seafood,50,oceana,'55 e. 54th st. ',` new york city ',212-759-5941,seafood,50,0@50#1@268
+0,` san pietro ','18 e. 54th st. ',` new york ',212/753 -9015,italian,342,oceana,'55 e. 54th st. ',` new york city ',212-759-5941,seafood,50,0@342#1@268
+0,` monkey bar ','60 e. 54th st. ',` new york ',212/838 -2600,american,308,oceana,'55 e. 54th st. ',` new york city ',212-759-5941,seafood,50,0@309#1@268
+1,aquavit,'13 w. 54th st. ',` new york ',212/307 -7311,continental,24,aquavit,'13 w. 54th st. ',` new york city ',212-307-7311,scandinavian,24,0@24#1@242
+0,` monkey bar ','60 e. 54th st. ',` new york ',212/838 -2600,american,308,aquavit,'13 w. 54th st. ',` new york city ',212-307-7311,scandinavian,24,0@309#1@242
+0,` la caravelle ','33 w. 55th st. ',` new york ',212/586 -4252,french,39,aquavit,'13 w. 54th st. ',` new york city ',212-307-7311,scandinavian,24,0@39#1@242
+0,abbey,' 163 ponce de leon ave. ',atlanta,404/876 -8532,international,379,eats,' 600 ponce de leon ave. ',atlanta,404-888-9149,italian,690,0@379#1@156
+0,abbey,' 163 ponce de leon ave. ',atlanta,404/876 -8532,international,379,tortillas,' 774 ponce de leon ave. ne ',atlanta,404-892-0193,tex-mex,716,0@379#1@181
+0,` mary mac \ 's tea room ',' 224 ponce de leon ave. ',atlanta,404/876 -1800,southern,86,tortillas,' 774 ponce de leon ave. ne ',atlanta,404-892-0193,tex-mex,716,0@86#1@181
+0,abbey,' 163 ponce de leon ave. ',atlanta,404/876 -8532,international,379,majestic,' 1031 ponce de leon ave. ',atlanta,404-875-0276,diners,703,0@379#1@169
+0,` mary mac \ 's tea room ',' 224 ponce de leon ave. ',atlanta,404/876 -1800,southern,86,majestic,' 1031 ponce de leon ave. ',atlanta,404-875-0276,diners,703,0@86#1@169
+0,` fifty seven fifty seven ','57 e. 57th st. ',` new york ',212/758 -5757,american,239,` manhattan ocean club ','57 w. 58th st. ',` new york city ',212-371-7777,seafood,45,0@241#1@263
+0,` jean lafitte ','68 w. 58th st. ',` new york ',212/751 -2323,french,272,` manhattan ocean club ','57 w. 58th st. ',` new york city ',212-371-7777,seafood,45,0@273#1@263
+0,` manhattan cafe ',' 1161 1st ave. between 63rd and 64th sts . ',` new york ',212/888 -6556,american,300,` manhattan ocean club ','57 w. 58th st. ',` new york city ',212-371-7777,seafood,45,0@301#1@263
+0,shaan,'57 w. 48th st. ',` new york ',' 212 / 977-8400 ',asian,349,` manhattan ocean club ','57 w. 58th st. ',` new york city ',212-371-7777,seafood,45,0@349#1@263
+0,` grand cafe hotel monaco ',' 501 geary st. ',` san francisco ',415/292 -0101,american,473,` mel \ 's drive-in ',' 3355 geary st. ',` san francisco ',415-387-2244,hamburgers,739,0@473#1@204
+0,` horseradish grill ',' 4320 powers ferry rd. ',atlanta,404/255 -7277,southern,398,` carey \ 's corner ',' 1215 powers ferry rd. ',marietta,770-933-0909,hamburgers,686,0@398#1@152
+0,` luna si ',' 1931 peachtree rd. ',atlanta,404/355 -5993,continental,405,` brookhaven cafe ',' 4274 peachtree rd. ',atlanta,404-231-5907,vegetarian,682,0@405#1@148
+0,` dante \ 's down the hatch buckhead ',' 3380 peachtree rd. ',atlanta,404/266 -1600,continental,393,` brookhaven cafe ',' 4274 peachtree rd. ',atlanta,404-231-5907,vegetarian,682,0@393#1@148
+0,` cafe ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,` ext 6108 international ',89,` brookhaven cafe ',' 4274 peachtree rd. ',atlanta,404-231-5907,vegetarian,682,0@89#1@148
+0,palisades,' 1829 peachtree rd. ',atlanta,404/350 -6755,continental,410,` brookhaven cafe ',' 4274 peachtree rd. ',atlanta,404-231-5907,vegetarian,682,0@410#1@148
+0,` luna si ',' 1931 peachtree rd. ',atlanta,404/355 -5993,continental,405,` ritz-carlton restaurant ',' 181 peachtree st. ',atlanta,404-659-0400,` french ( classic ) ',91,0@405#1@309
+0,` ritz-carlton restaurant and dining room ',' 600 stockton st. ',` san francisco ',415/296 -7465,american,110,` ritz-carlton restaurant ',' 181 peachtree st. ',atlanta,404-659-0400,` french ( classic ) ',91,0@110#1@309
+0,` taste of new orleans ',' 889 w. peachtree st. ',atlanta,404/874 -5535,southern,421,` ritz-carlton restaurant ',' 181 peachtree st. ',atlanta,404-659-0400,` french ( classic ) ',91,0@421#1@309
+0,bistango,' 1100 peachtree st. ',atlanta,404/724 -0901,mediterranean,386,` ritz-carlton restaurant ',' 181 peachtree st. ',atlanta,404-659-0400,` french ( classic ) ',91,0@386#1@309
+0,` french quarter food shop ',' 923 peachtree st. at 8th st. ',atlanta,404/875 -2489,southern,396,` ritz-carlton restaurant ',' 181 peachtree st. ',atlanta,404-659-0400,` french ( classic ) ',91,0@396#1@309
+0,bruno,' 240 e. 58th st. ',` new york ',212/688 -4190,italian,195,` les celebrites ',' 155 w. 58th st. ',` new york city ',212-484-5113,` french ( classic ) ',42,0@197#1@260
+0,petrossian,' 182 w. 58th st. ',` new york ',212/245 -2214,french,52,` les celebrites ',' 155 w. 58th st. ',` new york city ',212-484-5113,` french ( classic ) ',42,0@52#1@260
+0,` le marais ',' 150 w. 46th st. ',` new york ',212/869 -0900,american,290,` les celebrites ',' 155 w. 58th st. ',` new york city ',212-484-5113,` french ( classic ) ',42,0@291#1@260
+0,` virgil \ 's ',' 152 w. 44th st. ',` new york ',' 212 / 921-9494 ',american,66,` les celebrites ',' 155 w. 58th st. ',` new york city ',212-484-5113,` french ( classic ) ',42,0@66#1@260
+0,` manhattan ocean club ','57 w. 58th st. ',` new york ',' 212 / 371-7777 ',seafood,45,` les celebrites ',' 155 w. 58th st. ',` new york city ',212-484-5113,` french ( classic ) ',42,0@45#1@260
+0,` planet hollywood ',' 140 w. 57th st. ',` new york ',212/333 -7827,american,328,` les celebrites ',' 155 w. 58th st. ',` new york city ',212-484-5113,` french ( classic ) ',42,0@329#1@260
+0,` le madri ',' 168 w. 18th st. ',` new york ',212/727 -8022,italian,289,` les celebrites ',' 155 w. 58th st. ',` new york city ',212-484-5113,` french ( classic ) ',42,0@290#1@260
+0,bruno,' 240 e. 58th st. ',` new york ',212/688 -4190,italian,195,march,' 405 e. 58th st. ',` new york city ',212-754-6272,` american ( new ) ',46,0@197#1@264
+0,petrossian,' 182 w. 58th st. ',` new york ',212/245 -2214,french,52,march,' 405 e. 58th st. ',` new york city ',212-754-6272,` american ( new ) ',46,0@52#1@264
+1,march,' 405 e. 58th st. ',` new york ',212/754 -6272,american,46,march,' 405 e. 58th st. ',` new york city ',212-754-6272,` american ( new ) ',46,0@46#1@264
+0,felidia,' 243 e. 58th st. ',` new york ',212/758 -1479,italian,33,march,' 405 e. 58th st. ',` new york city ',212-754-6272,` american ( new ) ',46,0@33#1@264
+0,` le perigord ',' 405 e. 52nd st. ',` new york ',212/755 -6244,french,291,march,' 405 e. 58th st. ',` new york city ',212-754-6272,` american ( new ) ',46,0@292#1@264
+0,` pen & pencil ',' 205 e. 45th st. ',` new york ',212/682 -8660,american,325,march,' 405 e. 58th st. ',` new york city ',212-754-6272,` american ( new ) ',46,0@326#1@264
+0,bruno,' 240 e. 58th st. ',` new york ',212/688 -4190,italian,195,` sparks steak house ',' 210 e. 46th st. ',` new york city ',212-687-4855,steakhouses,641,0@197#1@107
+0,dawat,' 210 e. 58th st. ',` new york ',212/355 -7555,asian,32,` sparks steak house ',' 210 e. 46th st. ',` new york city ',212-687-4855,steakhouses,641,0@32#1@107
+0,vong,' 200 e. 54th st. ',` new york ',212/486 -9592,american,373,` sparks steak house ',' 210 e. 46th st. ',` new york city ',212-687-4855,steakhouses,641,0@373#1@107
+0,` smith & wollensky ',' 201 e. 49th st. ',` new york ',212/753 -1530,american,62,` sparks steak house ',' 210 e. 46th st. ',` new york city ',212-687-4855,steakhouses,641,0@62#1@107
+0,` le marais ',' 150 w. 46th st. ',` new york ',212/869 -0900,american,290,` sparks steak house ',' 210 e. 46th st. ',` new york city ',212-687-4855,steakhouses,641,0@291#1@107
+0,orso,' 322 w. 46th st. ',` new york ',212/489 -7212,italian,316,` sparks steak house ',' 210 e. 46th st. ',` new york city ',212-687-4855,steakhouses,641,0@317#1@107
+0,eclipse,' 8800 melrose ave. ',` los angeles ',310/724 -5959,californian,132,` mo better meatty meat ',' 7261 melrose ave. ',la,213-935-5280,hamburgers,579,0@135#1@45
+0,` tommy tang \ 's ',' 7313 melrose ave. ',` los angeles ',213/937 -5733,asian,167,` mo better meatty meat ',' 7261 melrose ave. ',la,213-935-5280,hamburgers,579,0@170#1@45
+0,patina,' 5955 melrose ave. ',` los angeles ',213/467 -1108,californian,16,` mo better meatty meat ',' 7261 melrose ave. ',la,213-935-5280,hamburgers,579,0@16#1@45
+0,` le chardonnay ',' 8284 melrose ave. ',` los angeles ',213/655 -8880,french,12,` mo better meatty meat ',' 7261 melrose ave. ',la,213-935-5280,hamburgers,579,0@12#1@45
+0,` tavola calda ',' 7371 melrose ave. ',` los angeles ',213/658 -6340,italian,165,` mo better meatty meat ',' 7261 melrose ave. ',la,213-935-5280,hamburgers,579,0@168#1@45
+0,citrus,' 6703 melrose ave. ',` los angeles ',213/857 -0034,californian,6,` mo better meatty meat ',' 7261 melrose ave. ',la,213-935-5280,hamburgers,579,0@6#1@45
+0,eclipse,' 8800 melrose ave. ',` los angeles ',310/724 -5959,californian,132,` sweet lady jane ',' 8360 melrose ave. ',la,213-653-7145,desserts,596,0@135#1@62
+0,` tavola calda ',' 7371 melrose ave. ',` los angeles ',213/658 -6340,italian,165,` sweet lady jane ',' 8360 melrose ave. ',la,213-653-7145,desserts,596,0@168#1@62
+0,eclipse,' 8800 melrose ave. ',` los angeles ',310/724 -5959,californian,132,` johnny rockets ( la ) ',' 7507 melrose ave. ',la,213-651-3361,american,564,0@135#1@30
+0,patina,' 5955 melrose ave. ',` los angeles ',213/467 -1108,californian,16,` johnny rockets ( la ) ',' 7507 melrose ave. ',la,213-651-3361,american,564,0@16#1@30
+0,` le chardonnay ',' 8284 melrose ave. ',` los angeles ',213/655 -8880,french,12,` johnny rockets ( la ) ',' 7507 melrose ave. ',la,213-651-3361,american,564,0@12#1@30
+0,` morton \ 's ',' 8764 melrose ave. ',` los angeles ',310/276 -5205,american,148,` johnny rockets ( la ) ',' 7507 melrose ave. ',la,213-651-3361,american,564,0@151#1@30
+0,` tavola calda ',' 7371 melrose ave. ',` los angeles ',213/658 -6340,italian,165,` johnny rockets ( la ) ',' 7507 melrose ave. ',la,213-651-3361,american,564,0@168#1@30
+0,citrus,' 6703 melrose ave. ',` los angeles ',213/857 -0034,californian,6,` johnny rockets ( la ) ',' 7507 melrose ave. ',la,213-651-3361,american,564,0@6#1@30
+0,eclipse,' 8800 melrose ave. ',` los angeles ',310/724 -5959,californian,132,patina,' 5955 melrose ave. ',` los angeles ',213-467-1108,californian,16,0@135#1@234
+0,` tommy tang \ 's ',' 7313 melrose ave. ',` los angeles ',213/937 -5733,asian,167,patina,' 5955 melrose ave. ',` los angeles ',213-467-1108,californian,16,0@170#1@234
+1,patina,' 5955 melrose ave. ',` los angeles ',213/467 -1108,californian,16,patina,' 5955 melrose ave. ',` los angeles ',213-467-1108,californian,16,0@16#1@234
+0,` le chardonnay ',' 8284 melrose ave. ',` los angeles ',213/655 -8880,french,12,patina,' 5955 melrose ave. ',` los angeles ',213-467-1108,californian,16,0@12#1@234
+0,` morton \ 's ',' 8764 melrose ave. ',` los angeles ',310/276 -5205,american,148,patina,' 5955 melrose ave. ',` los angeles ',213-467-1108,californian,16,0@151#1@234
+0,citrus,' 6703 melrose ave. ',` los angeles ',213/857 -0034,californian,6,patina,' 5955 melrose ave. ',` los angeles ',213-467-1108,californian,16,0@6#1@234
+0,eclipse,' 8800 melrose ave. ',` los angeles ',310/724 -5959,californian,132,citrus,' 6703 melrose ave. ',` los angeles ',213-857-0034,californian,6,0@135#1@224
+0,` le chardonnay ',' 8284 melrose ave. ',` los angeles ',213/655 -8880,french,12,citrus,' 6703 melrose ave. ',` los angeles ',213-857-0034,californian,6,0@12#1@224
+0,` morton \ 's ',' 8764 melrose ave. ',` los angeles ',310/276 -5205,american,148,citrus,' 6703 melrose ave. ',` los angeles ',213-857-0034,californian,6,0@151#1@224
+1,citrus,' 6703 melrose ave. ',` los angeles ',213/857 -0034,californian,6,citrus,' 6703 melrose ave. ',` los angeles ',213-857-0034,californian,6,0@6#1@224
+0,` pacific dining car ',' 6th st. ',` los angeles ',213/483 -6000,american,153,` andre \ 's french restaurant ',' 401 s. 6th st. ',` las vegas ',702-385-5016,` french ( classic ) ',656,0@156#1@122
+0,` border grill ',' 4th st. ',` los angeles ',310/451 -1655,mexican,116,` andre \ 's french restaurant ',' 401 s. 6th st. ',` las vegas ',702-385-5016,` french ( classic ) ',656,0@119#1@122
+0,` pacific dining car ',' 6th st. ',` los angeles ',213/483 -6000,american,153,` ti couz ',' 3108 16th st. ',` san francisco ',415-252-7373,french,748,0@156#1@213
+1,` rainbow room ','30 rockefeller plaza ',` new york ',212/632 -5000,` or 212/632 -5100 american ',55,` rainbow room ','30 rockefeller plaza ',` new york city ',212-632-5000,` american ( new ) ',55,0@55#1@273
+1,` cafe claude ',' 7 claude la . ',` san francisco ',415/392 -3505,french,97,` cafe claude ',' 7 claude ln . ',` san francisco ',415-392-3505,` french bistro ',97,0@97#1@315
+0,` yolie \ 's ',' 3900 paradise rd. ',` las vegas ',702/794 -0700,` steak houses ',452,` nicky blair \ 's ',' 3925 paradise rd. ',` las vegas ',702-792-9900,italian,668,0@452#1@134
+0,` le montrachet ',' 3000 w. paradise rd. ',` las vegas ',702/732 -5111,continental,69,` nicky blair \ 's ',' 3925 paradise rd. ',` las vegas ',702-792-9900,italian,668,0@69#1@134
+0,` yolie \ 's ',' 3900 paradise rd. ',` las vegas ',702/794 -0700,` steak houses ',452,` le montrachet bistro ',' 3000 paradise rd. ',` las vegas ',702-732-5651,` french bistro ',69,0@452#1@287
+1,` le montrachet ',' 3000 w. paradise rd. ',` las vegas ',702/732 -5111,continental,69,` le montrachet bistro ',' 3000 paradise rd. ',` las vegas ',702-732-5651,` french bistro ',69,0@69#1@287
+0,` yolie \ 's ',' 3900 paradise rd. ',` las vegas ',702/794 -0700,` steak houses ',452,` rae \ 's ',' 2901 pico blvd. ',` santa monica ',310-828-7937,diners,589,0@452#1@55
+0,valentino,' 3115 pico blvd. ',` santa monica ',310/829 -4313,italian,21,` rae \ 's ',' 2901 pico blvd. ',` santa monica ',310-828-7937,diners,589,0@21#1@55
+0,` bone \ 's ',' 3130 piedmont road ',atlanta,404/237 -2663,american,76,` rae \ 's ',' 2901 pico blvd. ',` santa monica ',310-828-7937,diners,589,0@76#1@55
+0,` ernie \ 's ',' 2150 broadway between 75th and 76th sts . ',` new york ',212/496 -1588,american,234,` rae \ 's ',' 2901 pico blvd. ',` santa monica ',310-828-7937,diners,589,0@236#1@55
+0,` yolie \ 's ',' 3900 paradise rd. ',` las vegas ',702/794 -0700,` steak houses ',452,` joe \ 's ',' 1023 abbot kinney blvd. ',venice,310-399-5811,` american ( new ) ',560,0@452#1@26
+0,` jack \ 's ',' 615 sacramento st. ',` san francisco ',415/986 -9854,` old san francisco ',485,` joe \ 's ',' 1023 abbot kinney blvd. ',venice,310-399-5811,` american ( new ) ',560,0@485#1@26
+0,` ernie \ 's ',' 2150 broadway between 75th and 76th sts . ',` new york ',212/496 -1588,american,234,` joe \ 's ',' 1023 abbot kinney blvd. ',venice,310-399-5811,` american ( new ) ',560,0@236#1@26
+0,` moose \ 's ',' 1652 stockton st. ',` san francisco ',415/989 -7800,mediterranean,498,` joe \ 's ',' 1023 abbot kinney blvd. ',venice,310-399-5811,` american ( new ) ',560,0@498#1@26
+0,` heera of india ',' 595 piedmont ave. rio shopping mall ',atlanta,404/876 -4408,asian,83,` rose of india ',' 308 e. sixth st. ',` new york city ',212-533-5011,indian,638,0@83#1@104
+0,` l \ ` osteria del forno ',' 519 columbus ave. ',` san francisco ',415/982 -1124,italian,490,` campo santo ',' 240 columbus ave. ',` san francisco ',415-433-9623,mexican,724,0@490#1@189
+0,` bertolini \ 's ',' 3570 las vegas blvd. s ',` las vegas ',702/735 -4663,italian,427,moongate,' 3400 las vegas blvd. s. ',` las vegas ',702-791-7352,chinese,666,0@427#1@132
+0,` the bacchanal ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7525,` only in las vegas ',449,moongate,' 3400 las vegas blvd. s. ',` las vegas ',702-791-7352,chinese,666,0@449#1@132
+0,` margarita \ 's mexican cantina ',' 3120 las vegas blvd. s ',` las vegas ',702/794 -8200,mexican,444,moongate,' 3400 las vegas blvd. s. ',` las vegas ',702-791-7352,chinese,666,0@444#1@132
+0,` ralph \ 's diner ',' 3000 las vegas blvd. s ',` las vegas ',702/732 -6330,` coffee shops/diners ',448,moongate,' 3400 las vegas blvd. s. ',` las vegas ',702-791-7352,chinese,666,0@448#1@132
+0,bistro,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,continental,429,moongate,' 3400 las vegas blvd. s. ',` las vegas ',702-791-7352,chinese,666,0@429#1@132
+0,'em press court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7888,asian,438,moongate,' 3400 las vegas blvd. s. ',` las vegas ',702-791-7352,chinese,666,0@438#1@132
+0,` chin \ 's ',' 3200 las vegas blvd. s ',` las vegas ',702/733 -8899,asian,67,moongate,' 3400 las vegas blvd. s. ',` las vegas ',702-791-7352,chinese,666,0@67#1@132
+0,` cafe roma ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,` coffee shops/diners ',433,moongate,' 3400 las vegas blvd. s. ',` las vegas ',702-791-7352,chinese,666,0@433#1@132
+0,` coyote cafe ',' 3799 las vegas blvd. s ',` las vegas ',702/891 -7349,southwestern,68,moongate,' 3400 las vegas blvd. s. ',` las vegas ',702-791-7352,chinese,666,0@68#1@132
+0,` bally \ 's big kitchen ',' 3645 las vegas blvd. s ',` las vegas ',702/739 -4111,buffets,424,moongate,' 3400 las vegas blvd. s. ',` las vegas ',702-791-7352,chinese,666,0@424#1@132
+0,` palace court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,continental,70,moongate,' 3400 las vegas blvd. s. ',` las vegas ',702-791-7352,chinese,666,0@70#1@132
+0,` bertolini \ 's ',' 3570 las vegas blvd. s ',` las vegas ',702/735 -4663,italian,427,` sterling brunch ',' 3645 las vegas blvd. s. ',` las vegas ',702-739-4651,eclectic,673,0@427#1@139
+0,` the bacchanal ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7525,` only in las vegas ',449,` sterling brunch ',' 3645 las vegas blvd. s. ',` las vegas ',702-739-4651,eclectic,673,0@449#1@139
+0,` circus circus ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,buffets,437,` sterling brunch ',' 3645 las vegas blvd. s. ',` las vegas ',702-739-4651,eclectic,673,0@437#1@139
+0,` margarita \ 's mexican cantina ',' 3120 las vegas blvd. s ',` las vegas ',702/794 -8200,mexican,444,` sterling brunch ',' 3645 las vegas blvd. s. ',` las vegas ',702-739-4651,eclectic,673,0@444#1@139
+0,` ralph \ 's diner ',' 3000 las vegas blvd. s ',` las vegas ',702/732 -6330,` coffee shops/diners ',448,` sterling brunch ',' 3645 las vegas blvd. s. ',` las vegas ',702-739-4651,eclectic,673,0@448#1@139
+0,mikado,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,asian,446,` sterling brunch ',' 3645 las vegas blvd. s. ',` las vegas ',702-739-4651,eclectic,673,0@446#1@139
+0,bistro,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,continental,429,` sterling brunch ',' 3645 las vegas blvd. s. ',` las vegas ',702-739-4651,eclectic,673,0@429#1@139
+0,` chin \ 's ',' 3200 las vegas blvd. s ',` las vegas ',702/733 -8899,asian,67,` sterling brunch ',' 3645 las vegas blvd. s. ',` las vegas ',702-739-4651,eclectic,673,0@67#1@139
+0,` steak house ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,` steak houses ',72,` sterling brunch ',' 3645 las vegas blvd. s. ',` las vegas ',702-739-4651,eclectic,673,0@72#1@139
+0,` bally \ 's big kitchen ',' 3645 las vegas blvd. s ',` las vegas ',702/739 -4111,buffets,424,` sterling brunch ',' 3645 las vegas blvd. s. ',` las vegas ',702-739-4651,eclectic,673,0@424#1@139
+0,` bertolini \ 's ',' 3570 las vegas blvd. s ',` las vegas ',702/735 -4663,italian,427,` michael \ 's ( las vegas ) ',' 3595 las vegas blvd. s. ',` las vegas ',702-737-7111,continental,664,0@427#1@130
+0,` ralph \ 's diner ',' 3000 las vegas blvd. s ',` las vegas ',702/732 -6330,` coffee shops/diners ',448,` michael \ 's ( las vegas ) ',' 3595 las vegas blvd. s. ',` las vegas ',702-737-7111,continental,664,0@448#1@130
+0,mikado,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,asian,446,` michael \ 's ( las vegas ) ',' 3595 las vegas blvd. s. ',` las vegas ',702-737-7111,continental,664,0@446#1@130
+0,bistro,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,continental,429,` michael \ 's ( las vegas ) ',' 3595 las vegas blvd. s. ',` las vegas ',702-737-7111,continental,664,0@429#1@130
+0,'em press court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7888,asian,438,` michael \ 's ( las vegas ) ',' 3595 las vegas blvd. s. ',` las vegas ',702-737-7111,continental,664,0@438#1@130
+0,` chin \ 's ',' 3200 las vegas blvd. s ',` las vegas ',702/733 -8899,asian,67,` michael \ 's ( las vegas ) ',' 3595 las vegas blvd. s. ',` las vegas ',702-737-7111,continental,664,0@67#1@130
+0,` steak house ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,` steak houses ',72,` michael \ 's ( las vegas ) ',' 3595 las vegas blvd. s. ',` las vegas ',702-737-7111,continental,664,0@72#1@130
+0,` coyote cafe ',' 3799 las vegas blvd. s ',` las vegas ',702/891 -7349,southwestern,68,` michael \ 's ( las vegas ) ',' 3595 las vegas blvd. s. ',` las vegas ',702-737-7111,continental,664,0@68#1@130
+0,` bally \ 's big kitchen ',' 3645 las vegas blvd. s ',` las vegas ',702/739 -4111,buffets,424,` michael \ 's ( las vegas ) ',' 3595 las vegas blvd. s. ',` las vegas ',702-737-7111,continental,664,0@424#1@130
+0,` bugsy \ 's diner ',' 3555 las vegas blvd. s ',` las vegas ',702/733 -3111,` coffee shops/diners ',431,` michael \ 's ( las vegas ) ',' 3595 las vegas blvd. s. ',` las vegas ',702-737-7111,continental,664,0@431#1@130
+0,` bertolini \ 's ',' 3570 las vegas blvd. s ',` las vegas ',702/735 -4663,italian,427,` tre visi ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7331,italian,674,0@427#1@140
+0,` circus circus ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,buffets,437,` tre visi ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7331,italian,674,0@437#1@140
+0,` margarita \ 's mexican cantina ',' 3120 las vegas blvd. s ',` las vegas ',702/794 -8200,mexican,444,` tre visi ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7331,italian,674,0@444#1@140
+0,` ralph \ 's diner ',' 3000 las vegas blvd. s ',` las vegas ',702/732 -6330,` coffee shops/diners ',448,` tre visi ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7331,italian,674,0@448#1@140
+0,mikado,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,asian,446,` tre visi ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7331,italian,674,0@446#1@140
+0,` steak house ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,` steak houses ',72,` tre visi ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7331,italian,674,0@72#1@140
+0,` coyote cafe ',' 3799 las vegas blvd. s ',` las vegas ',702/891 -7349,southwestern,68,` tre visi ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7331,italian,674,0@68#1@140
+0,` bally \ 's big kitchen ',' 3645 las vegas blvd. s ',` las vegas ',702/739 -4111,buffets,424,` tre visi ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7331,italian,674,0@424#1@140
+0,` bertolini \ 's ',' 3570 las vegas blvd. s ',` las vegas ',702/735 -4663,italian,427,` palace court ',' 3570 las vegas blvd. s. ',` las vegas ',702-731-7110,` french ( new ) ',70,0@427#1@288
+0,` circus circus ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,buffets,437,` palace court ',' 3570 las vegas blvd. s. ',` las vegas ',702-731-7110,` french ( new ) ',70,0@437#1@288
+0,` margarita \ 's mexican cantina ',' 3120 las vegas blvd. s ',` las vegas ',702/794 -8200,mexican,444,` palace court ',' 3570 las vegas blvd. s. ',` las vegas ',702-731-7110,` french ( new ) ',70,0@444#1@288
+0,bistro,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,continental,429,` palace court ',' 3570 las vegas blvd. s. ',` las vegas ',702-731-7110,` french ( new ) ',70,0@429#1@288
+0,` cafe roma ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,` coffee shops/diners ',433,` palace court ',' 3570 las vegas blvd. s. ',` las vegas ',702-731-7110,` french ( new ) ',70,0@433#1@288
+1,` palace court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,continental,70,` palace court ',' 3570 las vegas blvd. s. ',` las vegas ',702-731-7110,` french ( new ) ',70,0@70#1@288
+0,` bertolini \ 's ',' 3570 las vegas blvd. s ',` las vegas ',702/735 -4663,italian,427,` steak house the ',' 2880 las vegas blvd. s. ',` las vegas ',702-734-0410,steakhouses,72,0@427#1@290
+0,` the bacchanal ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7525,` only in las vegas ',449,` steak house the ',' 2880 las vegas blvd. s. ',` las vegas ',702-734-0410,steakhouses,72,0@449#1@290
+0,` circus circus ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,buffets,437,` steak house the ',' 2880 las vegas blvd. s. ',` las vegas ',702-734-0410,steakhouses,72,0@437#1@290
+0,` margarita \ 's mexican cantina ',' 3120 las vegas blvd. s ',` las vegas ',702/794 -8200,mexican,444,` steak house the ',' 2880 las vegas blvd. s. ',` las vegas ',702-734-0410,steakhouses,72,0@444#1@290
+0,` ralph \ 's diner ',' 3000 las vegas blvd. s ',` las vegas ',702/732 -6330,` coffee shops/diners ',448,` steak house the ',' 2880 las vegas blvd. s. ',` las vegas ',702-734-0410,steakhouses,72,0@448#1@290
+0,mikado,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,asian,446,` steak house the ',' 2880 las vegas blvd. s. ',` las vegas ',702-734-0410,steakhouses,72,0@446#1@290
+0,bistro,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,continental,429,` steak house the ',' 2880 las vegas blvd. s. ',` las vegas ',702-734-0410,steakhouses,72,0@429#1@290
+0,'em press court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7888,asian,438,` steak house the ',' 2880 las vegas blvd. s. ',` las vegas ',702-734-0410,steakhouses,72,0@438#1@290
+0,` chin \ 's ',' 3200 las vegas blvd. s ',` las vegas ',702/733 -8899,asian,67,` steak house the ',' 2880 las vegas blvd. s. ',` las vegas ',702-734-0410,steakhouses,72,0@67#1@290
+0,` cafe roma ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,` coffee shops/diners ',433,` steak house the ',' 2880 las vegas blvd. s. ',` las vegas ',702-734-0410,steakhouses,72,0@433#1@290
+1,` steak house ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,` steak houses ',72,` steak house the ',' 2880 las vegas blvd. s. ',` las vegas ',702-734-0410,steakhouses,72,0@72#1@290
+0,` coyote cafe ',' 3799 las vegas blvd. s ',` las vegas ',702/891 -7349,southwestern,68,` steak house the ',' 2880 las vegas blvd. s. ',` las vegas ',702-734-0410,steakhouses,72,0@68#1@290
+0,` bally \ 's big kitchen ',' 3645 las vegas blvd. s ',` las vegas ',702/739 -4111,buffets,424,` steak house the ',' 2880 las vegas blvd. s. ',` las vegas ',702-734-0410,steakhouses,72,0@424#1@290
+0,` bugsy \ 's diner ',' 3555 las vegas blvd. s ',` las vegas ',702/733 -3111,` coffee shops/diners ',431,` steak house the ',' 2880 las vegas blvd. s. ',` las vegas ',702-734-0410,steakhouses,72,0@431#1@290
+0,` bertolini \ 's ',' 3570 las vegas blvd. s ',` las vegas ',702/735 -4663,italian,427,` madame ching \ 's ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7111,asian,662,0@427#1@128
+0,` the bacchanal ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7525,` only in las vegas ',449,` madame ching \ 's ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7111,asian,662,0@449#1@128
+0,` circus circus ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,buffets,437,` madame ching \ 's ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7111,asian,662,0@437#1@128
+0,mikado,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,asian,446,` madame ching \ 's ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7111,asian,662,0@446#1@128
+0,'em press court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7888,asian,438,` madame ching \ 's ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7111,asian,662,0@438#1@128
+0,` chin \ 's ',' 3200 las vegas blvd. s ',` las vegas ',702/733 -8899,asian,67,` madame ching \ 's ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7111,asian,662,0@67#1@128
+0,` cafe roma ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,` coffee shops/diners ',433,` madame ching \ 's ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7111,asian,662,0@433#1@128
+0,` bertolini \ 's ',' 3570 las vegas blvd. s ',` las vegas ',702/735 -4663,italian,427,` chin \ 's ',' 3200 las vegas blvd. s. ',` las vegas ',702-733-8899,chinese,67,0@427#1@285
+0,` circus circus ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,buffets,437,` chin \ 's ',' 3200 las vegas blvd. s. ',` las vegas ',702-733-8899,chinese,67,0@437#1@285
+0,` ralph \ 's diner ',' 3000 las vegas blvd. s ',` las vegas ',702/732 -6330,` coffee shops/diners ',448,` chin \ 's ',' 3200 las vegas blvd. s. ',` las vegas ',702-733-8899,chinese,67,0@448#1@285
+0,mikado,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,asian,446,` chin \ 's ',' 3200 las vegas blvd. s. ',` las vegas ',702-733-8899,chinese,67,0@446#1@285
+0,'em press court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7888,asian,438,` chin \ 's ',' 3200 las vegas blvd. s. ',` las vegas ',702-733-8899,chinese,67,0@438#1@285
+1,` chin \ 's ',' 3200 las vegas blvd. s ',` las vegas ',702/733 -8899,asian,67,` chin \ 's ',' 3200 las vegas blvd. s. ',` las vegas ',702-733-8899,chinese,67,0@67#1@285
+0,` cafe roma ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,` coffee shops/diners ',433,` chin \ 's ',' 3200 las vegas blvd. s. ',` las vegas ',702-733-8899,chinese,67,0@433#1@285
+0,` coyote cafe ',' 3799 las vegas blvd. s ',` las vegas ',702/891 -7349,southwestern,68,` chin \ 's ',' 3200 las vegas blvd. s. ',` las vegas ',702-733-8899,chinese,67,0@68#1@285
+0,` bally \ 's big kitchen ',' 3645 las vegas blvd. s ',` las vegas ',702/739 -4111,buffets,424,` chin \ 's ',' 3200 las vegas blvd. s. ',` las vegas ',702-733-8899,chinese,67,0@424#1@285
+0,` bugsy \ 's diner ',' 3555 las vegas blvd. s ',` las vegas ',702/733 -3111,` coffee shops/diners ',431,` chin \ 's ',' 3200 las vegas blvd. s. ',` las vegas ',702-733-8899,chinese,67,0@431#1@285
+0,maykadeh,' 470 green st. ',` san francisco ',415/362 -8286,` greek and middle eastern ',495,` greenwood \ 's ',' 1087 green st. ',roswell,770-992-5383,southern/soul,693,0@495#1@159
+0,dawat,' 210 e. 58th st. ',` new york ',212/355 -7555,asian,32,petrossian,' 182 w. 58th st. ',` new york city ',212-245-2214,russian,52,0@32#1@270
+0,` dix et sept ',' 181 w. 10th st. ',` new york ',212/645 -8023,french,228,petrossian,' 182 w. 58th st. ',` new york city ',212-245-2214,russian,52,0@230#1@270
+1,petrossian,' 182 w. 58th st. ',` new york ',212/245 -2214,french,52,petrossian,' 182 w. 58th st. ',` new york city ',212-245-2214,russian,52,0@52#1@270
+0,march,' 405 e. 58th st. ',` new york ',212/754 -6272,american,46,petrossian,' 182 w. 58th st. ',` new york city ',212-245-2214,russian,52,0@46#1@270
+0,felidia,' 243 e. 58th st. ',` new york ',212/758 -1479,italian,33,petrossian,' 182 w. 58th st. ',` new york city ',212-245-2214,russian,52,0@33#1@270
+0,` virgil \ 's ',' 152 w. 44th st. ',` new york ',' 212 / 921-9494 ',american,66,petrossian,' 182 w. 58th st. ',` new york city ',212-245-2214,russian,52,0@66#1@270
+0,` manhattan ocean club ','57 w. 58th st. ',` new york ',' 212 / 371-7777 ',seafood,45,petrossian,' 182 w. 58th st. ',` new york city ',212-245-2214,russian,52,0@45#1@270
+0,` planet hollywood ',' 140 w. 57th st. ',` new york ',212/333 -7827,american,328,petrossian,' 182 w. 58th st. ',` new york city ',212-245-2214,russian,52,0@329#1@270
+0,` osteria al droge ',' 142 w. 44th st. ',` new york ',212/944 -3643,italian,317,petrossian,' 182 w. 58th st. ',` new york city ',212-245-2214,russian,52,0@318#1@270
+0,` jean lafitte ','68 w. 58th st. ',` new york ',212/751 -2323,french,272,petrossian,' 182 w. 58th st. ',` new york city ',212-245-2214,russian,52,0@273#1@270
+0,` the bacchanal ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7525,` only in las vegas ',449,` buccaneer bay club ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7350,continental,657,0@449#1@123
+0,` margarita \ 's mexican cantina ',' 3120 las vegas blvd. s ',` las vegas ',702/794 -8200,mexican,444,` buccaneer bay club ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7350,continental,657,0@444#1@123
+0,mikado,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,asian,446,` buccaneer bay club ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7350,continental,657,0@446#1@123
+0,bistro,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,continental,429,` buccaneer bay club ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7350,continental,657,0@429#1@123
+0,'em press court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7888,asian,438,` buccaneer bay club ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7350,continental,657,0@438#1@123
+0,` chin \ 's ',' 3200 las vegas blvd. s ',` las vegas ',702/733 -8899,asian,67,` buccaneer bay club ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7350,continental,657,0@67#1@123
+0,` palace court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,continental,70,` buccaneer bay club ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7350,continental,657,0@70#1@123
+0,` the bacchanal ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7525,` only in las vegas ',449,'em eril \ 's new orleans fish house ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7374,seafood,659,0@449#1@125
+0,` circus circus ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,buffets,437,'em eril \ 's new orleans fish house ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7374,seafood,659,0@437#1@125
+0,` margarita \ 's mexican cantina ',' 3120 las vegas blvd. s ',` las vegas ',702/794 -8200,mexican,444,'em eril \ 's new orleans fish house ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7374,seafood,659,0@444#1@125
+0,mikado,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,asian,446,'em eril \ 's new orleans fish house ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7374,seafood,659,0@446#1@125
+0,bistro,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,continental,429,'em eril \ 's new orleans fish house ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7374,seafood,659,0@429#1@125
+0,'em press court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7888,asian,438,'em eril \ 's new orleans fish house ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7374,seafood,659,0@438#1@125
+0,` chin \ 's ',' 3200 las vegas blvd. s ',` las vegas ',702/733 -8899,asian,67,'em eril \ 's new orleans fish house ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7374,seafood,659,0@67#1@125
+0,` cafe roma ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,` coffee shops/diners ',433,'em eril \ 's new orleans fish house ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7374,seafood,659,0@433#1@125
+0,` steak house ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,` steak houses ',72,'em eril \ 's new orleans fish house ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7374,seafood,659,0@72#1@125
+0,` palace court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,continental,70,'em eril \ 's new orleans fish house ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7374,seafood,659,0@70#1@125
+0,` bugsy \ 's diner ',' 3555 las vegas blvd. s ',` las vegas ',702/733 -3111,` coffee shops/diners ',431,'em eril \ 's new orleans fish house ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7374,seafood,659,0@431#1@125
+0,` the bacchanal ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7525,` only in las vegas ',449,` coyote cafe ( las vegas ) ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7349,southwestern,68,0@449#1@286
+0,mikado,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,asian,446,` coyote cafe ( las vegas ) ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7349,southwestern,68,0@446#1@286
+0,bistro,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,continental,429,` coyote cafe ( las vegas ) ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7349,southwestern,68,0@429#1@286
+0,'em press court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7888,asian,438,` coyote cafe ( las vegas ) ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7349,southwestern,68,0@438#1@286
+0,` chin \ 's ',' 3200 las vegas blvd. s ',` las vegas ',702/733 -8899,asian,67,` coyote cafe ( las vegas ) ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7349,southwestern,68,0@67#1@286
+0,` cafe roma ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,` coffee shops/diners ',433,` coyote cafe ( las vegas ) ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7349,southwestern,68,0@433#1@286
+0,` steak house ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,` steak houses ',72,` coyote cafe ( las vegas ) ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7349,southwestern,68,0@72#1@286
+0,` bally \ 's big kitchen ',' 3645 las vegas blvd. s ',` las vegas ',702/739 -4111,buffets,424,` coyote cafe ( las vegas ) ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7349,southwestern,68,0@424#1@286
+0,` palace court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,continental,70,` coyote cafe ( las vegas ) ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7349,southwestern,68,0@70#1@286
+0,` the bacchanal ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7525,` only in las vegas ',449,` spago ( las vegas ) ',' 3500 las vegas blvd. s. ',` las vegas ',702-369-6300,californian,670,0@449#1@136
+0,` ralph \ 's diner ',' 3000 las vegas blvd. s ',` las vegas ',702/732 -6330,` coffee shops/diners ',448,` spago ( las vegas ) ',' 3500 las vegas blvd. s. ',` las vegas ',702-369-6300,californian,670,0@448#1@136
+0,mikado,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,asian,446,` spago ( las vegas ) ',' 3500 las vegas blvd. s. ',` las vegas ',702-369-6300,californian,670,0@446#1@136
+0,'em press court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7888,asian,438,` spago ( las vegas ) ',' 3500 las vegas blvd. s. ',` las vegas ',702-369-6300,californian,670,0@438#1@136
+0,` cafe roma ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,` coffee shops/diners ',433,` spago ( las vegas ) ',' 3500 las vegas blvd. s. ',` las vegas ',702-369-6300,californian,670,0@433#1@136
+0,` steak house ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,` steak houses ',72,` spago ( las vegas ) ',' 3500 las vegas blvd. s. ',` las vegas ',702-369-6300,californian,670,0@72#1@136
+0,posto,' 14928 ventura blvd. ',` sherman oaks ',818/784 -4400,italian,156,` art \ 's deli ',' 12224 ventura blvd. ',` studio city ',818-762-1221,delis,1,0@159#1@219
+0,` cafe bizou ',' 14016 ventura blvd. ',` sherman oaks ',818/788 -3536,french,3,` art \ 's deli ',' 12224 ventura blvd. ',` studio city ',818-762-1221,delis,1,0@3#1@219
+1,` art \ 's delicatessen ',' 12224 ventura blvd. ',` studio city ',818/762 -1221,american,1,` art \ 's deli ',' 12224 ventura blvd. ',` studio city ',818-762-1221,delis,1,0@1#1@219
+0,posto,' 14928 ventura blvd. ',` sherman oaks ',818/784 -4400,italian,156,` pinot bistro ',' 12969 ventura blvd. ',` studio city ',818-990-0500,` french bistro ',18,0@159#1@236
+0,` art \ 's delicatessen ',' 12224 ventura blvd. ',` studio city ',818/762 -1221,american,1,` pinot bistro ',' 12969 ventura blvd. ',` studio city ',818-990-0500,` french bistro ',18,0@1#1@236
+0,` antonio \ 's ',' 3700 w. flamingo ',` las vegas ',702/252 -7737,italian,423,` buzio \ 's in the rio ',' 3700 w. flamingo rd. ',` las vegas ',702-252-7697,seafood,658,0@423#1@124
+0,` carnival world ',' 3700 w. flamingo rd. ',` las vegas ',702/252 -7777,buffets,435,` buzio \ 's in the rio ',' 3700 w. flamingo rd. ',` las vegas ',702-252-7697,seafood,658,0@435#1@124
+0,` cafe michelle ',' 1350 e. flamingo rd. ',` las vegas ',702/735 -8686,american,432,` buzio \ 's in the rio ',' 3700 w. flamingo rd. ',` las vegas ',702-252-7697,seafood,658,0@432#1@124
+0,` bamboo garden ',' 4850 flamingo rd. ',` las vegas ',702/871 -3262,asian,425,` buzio \ 's in the rio ',' 3700 w. flamingo rd. ',` las vegas ',702-252-7697,seafood,658,0@425#1@124
+0,` viva mercado \ 's ',' 6182 w. flamingo rd. ',` las vegas ',702/871 -8826,mexican,451,` buzio \ 's in the rio ',' 3700 w. flamingo rd. ',` las vegas ',702-252-7697,seafood,658,0@451#1@124
+0,` antonio \ 's ',' 3700 w. flamingo ',` las vegas ',702/252 -7737,italian,423,` fiore rotisserie & grille ',' 3700 w. flamingo rd. ',` las vegas ',702-252-7702,italian,660,0@423#1@126
+0,` carnival world ',' 3700 w. flamingo rd. ',` las vegas ',702/252 -7777,buffets,435,` fiore rotisserie & grille ',' 3700 w. flamingo rd. ',` las vegas ',702-252-7702,italian,660,0@435#1@126
+0,tillerman,' 2245 e. flamingo rd. ',` las vegas ',702/731 -4036,seafood,73,` fiore rotisserie & grille ',' 3700 w. flamingo rd. ',` las vegas ',702-252-7702,italian,660,0@73#1@126
+0,` antonio \ 's ',' 3700 w. flamingo ',` las vegas ',702/252 -7737,italian,423,` don antonio \ 's ',' 1136 westwood blvd. ',westwood,310-209-1422,italian,550,0@423#1@16
+0,` ruth \ 's chris ',' 148 w. 51st st. ',` new york ',212/245 -9600,american,338,` le bernardin ',' 155 w. 51st st. ',` new york city ',212-489-1515,seafood,41,0@338#1@259
+1,` le bernardin ',' 155 w. 51st st. ',` new york ',212/489 -1515,french,41,` le bernardin ',' 155 w. 51st st. ',` new york city ',212-489-1515,seafood,41,0@41#1@259
+0,cite,' 120 w. 51st st. ',` new york ',212/956 -7100,french,220,` le bernardin ',' 155 w. 51st st. ',` new york city ',212-489-1515,seafood,41,0@222#1@259
+0,` le jardin ','25 cleveland pl . near spring st. ',` new york ',212/343 -9599,french,288,` le bernardin ',' 155 w. 51st st. ',` new york city ',212-489-1515,seafood,41,0@289#1@259
+0,palio,' 151 w. 51st . st. ',` new york ',212/245 -4850,italian,320,` le bernardin ',' 155 w. 51st st. ',` new york city ',212-489-1515,seafood,41,0@321#1@259
+0,` tommy tang \ 's ',' 7313 melrose ave. ',` los angeles ',213/937 -5733,asian,167,` le chardonnay ( los angeles ) ',' 8284 melrose ave. ',` los angeles ',213-655-8880,` french bistro ',12,0@170#1@230
+0,patina,' 5955 melrose ave. ',` los angeles ',213/467 -1108,californian,16,` le chardonnay ( los angeles ) ',' 8284 melrose ave. ',` los angeles ',213-655-8880,` french bistro ',12,0@16#1@230
+1,` le chardonnay ',' 8284 melrose ave. ',` los angeles ',213/655 -8880,french,12,` le chardonnay ( los angeles ) ',' 8284 melrose ave. ',` los angeles ',213-655-8880,` french bistro ',12,0@12#1@230
+0,` morton \ 's ',' 8764 melrose ave. ',` los angeles ',310/276 -5205,american,148,` le chardonnay ( los angeles ) ',' 8284 melrose ave. ',` los angeles ',213-655-8880,` french bistro ',12,0@151#1@230
+0,` circus circus ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,buffets,437,` morton \ 's of chicago ( las vegas ) ',' 3200 las vegas blvd. s. ',` las vegas ',702-893-0703,steakhouses,667,0@437#1@133
+0,mikado,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,asian,446,` morton \ 's of chicago ( las vegas ) ',' 3200 las vegas blvd. s. ',` las vegas ',702-893-0703,steakhouses,667,0@446#1@133
+0,bistro,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,continental,429,` morton \ 's of chicago ( las vegas ) ',' 3200 las vegas blvd. s. ',` las vegas ',702-893-0703,steakhouses,667,0@429#1@133
+0,` chin \ 's ',' 3200 las vegas blvd. s ',` las vegas ',702/733 -8899,asian,67,` morton \ 's of chicago ( las vegas ) ',' 3200 las vegas blvd. s. ',` las vegas ',702-893-0703,steakhouses,667,0@67#1@133
+0,` cafe roma ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,` coffee shops/diners ',433,` morton \ 's of chicago ( las vegas ) ',' 3200 las vegas blvd. s. ',` las vegas ',702-893-0703,steakhouses,667,0@433#1@133
+0,` steak house ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,` steak houses ',72,` morton \ 's of chicago ( las vegas ) ',' 3200 las vegas blvd. s. ',` las vegas ',702-893-0703,steakhouses,667,0@72#1@133
+0,` coyote cafe ',' 3799 las vegas blvd. s ',` las vegas ',702/891 -7349,southwestern,68,` morton \ 's of chicago ( las vegas ) ',' 3200 las vegas blvd. s. ',` las vegas ',702-893-0703,steakhouses,667,0@68#1@133
+0,` bally \ 's big kitchen ',' 3645 las vegas blvd. s ',` las vegas ',702/739 -4111,buffets,424,` morton \ 's of chicago ( las vegas ) ',' 3200 las vegas blvd. s. ',` las vegas ',702-893-0703,steakhouses,667,0@424#1@133
+0,` bugsy \ 's diner ',' 3555 las vegas blvd. s ',` las vegas ',702/733 -3111,` coffee shops/diners ',431,` morton \ 's of chicago ( las vegas ) ',' 3200 las vegas blvd. s. ',` las vegas ',702-893-0703,steakhouses,667,0@431#1@133
+0,` arnie morton \ 's of chicago ',' 435 s. la cienega blv . ',` los angeles ',310/246 -1501,american,0,` morton \ 's of chicago ( las vegas ) ',' 3200 las vegas blvd. s. ',` las vegas ',702-893-0703,steakhouses,667,0@0#1@133
+0,` l \ ` orangerie ',' 903 n. la cienega blvd. ',` los angeles ',310/652 -9770,french,11,matsuhisa,' 129 n. la cienega blvd. ',` beverly hills ',310-659-9639,seafood,14,0@11#1@232
+1,matsuhisa,' 129 n. la cienega blvd. ',` beverly hills ',310/659 -9639,asian,14,matsuhisa,' 129 n. la cienega blvd. ',` beverly hills ',310-659-9639,seafood,14,0@14#1@232
+0,` l \ ` orangerie ',' 903 n. la cienega blvd. ',` los angeles ',310/652 -9770,french,11,` arnie morton \ 's of chicago ',' 435 s. la cienega blvd. ',` los angeles ',310-246-1501,steakhouses,0,0@11#1@218
+1,` arnie morton \ 's of chicago ',' 435 s. la cienega blv . ',` los angeles ',310/246 -1501,american,0,` arnie morton \ 's of chicago ',' 435 s. la cienega blvd. ',` los angeles ',310-246-1501,steakhouses,0,0@0#1@218
+1,` l \ ` orangerie ',' 903 n. la cienega blvd. ',` los angeles ',310/652 -9770,french,11,` l \ ` orangerie ',' 903 n. la cienega blvd. ',` w. hollywood ',310-652-9770,` french ( classic ) ',11,0@11#1@229
+0,vong,' 200 e. 54th st. ',` new york ',212/486 -9592,american,373,` second street grill ',' 200 e. fremont st. ',` las vegas ',702-385-6277,` pacific rim ',71,0@373#1@289
+0,` binion \ 's coffee shop ',' 128 fremont st. ',` las vegas ',702/382 -1600,` coffee shops/diners ',428,` second street grill ',' 200 e. fremont st. ',` las vegas ',702-385-6277,` pacific rim ',71,0@428#1@289
+0,` golden nugget hotel ',' 129 e. fremont st. ',` las vegas ',702/385 -7111,buffets,440,` second street grill ',' 200 e. fremont st. ',` las vegas ',702-385-6277,` pacific rim ',71,0@440#1@289
+0,vong,' 200 e. 54th st. ',` new york ',212/486 -9592,american,373,` jo jo ',' 160 e. 64th st. ',` new york city ',212-223-5656,` french bistro ',38,0@373#1@256
+0,vong,' 200 e. 54th st. ',` new york ',212/486 -9592,american,373,` wollensky \ 's grill ',' 205 e. 49th st. ',` new york city ',212-753-0444,steakhouses,653,0@373#1@119
+0,march,' 405 e. 58th st. ',` new york ',212/754 -6272,american,46,` wollensky \ 's grill ',' 205 e. 49th st. ',` new york city ',212-753-0444,steakhouses,653,0@46#1@119
+0,` la reserve ',' 4 w. 49th st. ',` new york ',212/247 -2993,french,281,` wollensky \ 's grill ',' 205 e. 49th st. ',` new york city ',212-753-0444,steakhouses,653,0@282#1@119
+0,` pen & pencil ',' 205 e. 45th st. ',` new york ',212/682 -8660,american,325,` wollensky \ 's grill ',' 205 e. 49th st. ',` new york city ',212-753-0444,steakhouses,653,0@326#1@119
+1,` dining room ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,international,90,` ritz-carlton dining room ( buckhead ) ',' 3434 peachtree rd. ne ',atlanta,404-237-2700,` american ( new ) ',90,0@90#1@308
+0,` dante \ 's down the hatch buckhead ',' 3380 peachtree rd. ',atlanta,404/266 -1600,continental,393,` ritz-carlton dining room ( buckhead ) ',' 3434 peachtree rd. ne ',atlanta,404-237-2700,` american ( new ) ',90,0@393#1@308
+0,tomtom,' 3393 peachtree rd. ',atlanta,404/264 -1163,continental,422,` ritz-carlton dining room ( buckhead ) ',' 3434 peachtree rd. ne ',atlanta,404-237-2700,` american ( new ) ',90,0@422#1@308
+0,palisades,' 1829 peachtree rd. ',atlanta,404/350 -6755,continental,410,` ritz-carlton dining room ( buckhead ) ',' 3434 peachtree rd. ne ',atlanta,404-237-2700,` american ( new ) ',90,0@410#1@308
+0,` dining room ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,international,90,` georgia grille ',' 2290 peachtree rd. ',atlanta,404-352-3517,southwestern,81,0@90#1@299
+0,tomtom,' 3393 peachtree rd. ',atlanta,404/264 -1163,continental,422,` georgia grille ',' 2290 peachtree rd. ',atlanta,404-352-3517,southwestern,81,0@422#1@299
+0,` cafe ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,` ext 6108 international ',89,` georgia grille ',' 2290 peachtree rd. ',atlanta,404-352-3517,southwestern,81,0@89#1@299
+1,` georgia grille ',' 2290 peachtree rd. . peachtree square shopping center ',atlanta,404/352 -3517,american,81,` georgia grille ',' 2290 peachtree rd. ',atlanta,404-352-3517,southwestern,81,0@81#1@299
+0,` dante \ 's down the hatch buckhead ',' 3380 peachtree rd. ',atlanta,404/266 -1600,continental,393,` brasserie le coze ',' 3393 peachtree rd. ',atlanta,404-266-1440,` french bistro ',77,0@393#1@295
+0,` cafe ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,` ext 6108 international ',89,` brasserie le coze ',' 3393 peachtree rd. ',atlanta,404-266-1440,` french bistro ',77,0@89#1@295
+1,` brasserie le coze ',' 3393 peachtree rd. . lenox square mall near neiman marcus ',atlanta,404/266 -1440,french,77,` brasserie le coze ',' 3393 peachtree rd. ',atlanta,404-266-1440,` french bistro ',77,0@77#1@295
+0,helmand,' 430 broadway ',` san francisco ',415/362 -0641,` greek and middle eastern ',479,` la caridad ',' 2199 broadway ',` new york city ',212-874-2780,cuban,622,0@479#1@88
+0,helmand,' 430 broadway ',` san francisco ',415/362 -0641,` greek and middle eastern ',479,` gray \ 's papaya ',' 2090 broadway ',` new york city ',212-799-0243,` hot dogs ',614,0@479#1@80
+0,helmand,' 430 broadway ',` san francisco ',415/362 -0641,` greek and middle eastern ',479,` carmine \ 's ',' 2450 broadway ',` new york city ',212-362-2200,italian,28,0@479#1@246
+0,` bone \ 's ',' 3130 piedmont road ',atlanta,404/237 -2663,american,76,` carmine \ 's ',' 2450 broadway ',` new york city ',212-362-2200,italian,28,0@76#1@246
+0,` camille \ 's ',' 1186 n. highland ave. ',atlanta,404/872 -7203,italian,388,` carmine \ 's ',' 2450 broadway ',` new york city ',212-362-2200,italian,28,0@388#1@246
+0,` des alpes ',' 732 broadway ',` san francisco ',415/788 -9900,french,468,` carmine \ 's ',' 2450 broadway ',` new york city ',212-362-2200,italian,28,0@468#1@246
+0,helmand,' 430 broadway ',` san francisco ',415/362 -0641,` greek and middle eastern ',479,` peter luger steak house ',' 178 broadway ',brooklyn,718-387-7400,steakhouses,637,0@479#1@103
+0,` steak house ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,` steak houses ',72,` peter luger steak house ',' 178 broadway ',brooklyn,718-387-7400,steakhouses,637,0@72#1@103
+0,` des alpes ',' 732 broadway ',` san francisco ',415/788 -9900,french,468,` peter luger steak house ',' 178 broadway ',brooklyn,718-387-7400,steakhouses,637,0@468#1@103
+0,helmand,' 430 broadway ',` san francisco ',415/362 -0641,` greek and middle eastern ',479,` pho hoa ',' 642 broadway ',chinatown,213-626-5530,vietnamese,585,0@479#1@51
+0,` des alpes ',' 732 broadway ',` san francisco ',415/788 -9900,french,468,` pho hoa ',' 642 broadway ',chinatown,213-626-5530,vietnamese,585,0@468#1@51
+0,` ralph \ 's diner ',' 3000 las vegas blvd. s ',` las vegas ',702/732 -6330,` coffee shops/diners ',448,` monte carlo ',' 3145 las vegas blvd. s. ',` las vegas ',702-733-4524,` french ( new ) ',665,0@448#1@131
+0,mikado,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,asian,446,` monte carlo ',' 3145 las vegas blvd. s. ',` las vegas ',702-733-4524,` french ( new ) ',665,0@446#1@131
+0,'em press court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7888,asian,438,` monte carlo ',' 3145 las vegas blvd. s. ',` las vegas ',702-733-4524,` french ( new ) ',665,0@438#1@131
+0,` palace court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,continental,70,` monte carlo ',' 3145 las vegas blvd. s. ',` las vegas ',702-733-4524,` french ( new ) ',665,0@70#1@131
+0,` bugsy \ 's diner ',' 3555 las vegas blvd. s ',` las vegas ',702/733 -3111,` coffee shops/diners ',431,` monte carlo ',' 3145 las vegas blvd. s. ',` las vegas ',702-733-4524,` french ( new ) ',665,0@431#1@131
+0,` yoyo tsumami bistro ',' 1611 post st. ',` san francisco ',415/922 -7788,french,530,postrio,' 545 post st. ',` san francisco ',415-776-7825,californian,109,0@530#1@327
+0,sanppo,' 1702 post st. ',` san francisco ',415/346 -3486,asian,510,postrio,' 545 post st. ',` san francisco ',415-776-7825,californian,109,0@510#1@327
+0,` yoyo tsumami bistro ',' 1611 post st. ',` san francisco ',415/922 -7788,french,530,mifune,' 1737 post st. ',` san francisco ',415-922-0337,japanese,107,0@530#1@325
+0,postrio,' 545 post st. ',` san francisco ',415/776 -7825,american,109,mifune,' 1737 post st. ',` san francisco ',415-922-0337,japanese,107,0@109#1@325
+0,` cafe fes ',' 246 w. 4th st. at charles st. ',` new york ',212/924 -7653,mediterranean,205,` cafe flore ',' 2298 market st. ',` san francisco ',415-621-8579,californian,722,0@207#1@187
+0,` zuni cafe & grill ',' 1658 market st. ',` san francisco ',415/552 -2522,mediterranean,532,` cafe flore ',' 2298 market st. ',` san francisco ',415-621-8579,californian,722,0@532#1@187
+0,` cafe pierre ',' 2 e. 61st st. ',` new york ',212/940 -8185,french,203,` cafe flore ',' 2298 market st. ',` san francisco ',415-621-8579,californian,722,0@205#1@187
+0,2223,' 2223 market st. ',` san francisco ',415/431 -0692,american,453,` cafe flore ',' 2298 market st. ',` san francisco ',415-621-8579,californian,722,0@453#1@187
+0,carta,' 1772 market st. ',` san francisco ',415/863 -3516,american,465,` cafe flore ',' 2298 market st. ',` san francisco ',415-621-8579,californian,722,0@465#1@187
+1,` masa \ 's ',' 648 bush st. ',` san francisco ',415/989 -7154,french,106,` masa \ 's ',' 648 bush st. ',` san francisco ',415-989-7154,` french ( new ) ',106,0@106#1@324
+0,` matthew \ 's ',' 1030 3rd ave. at 61st st. ',` new york ',212/838 -4343,american,305,` masa \ 's ',' 648 bush st. ',` san francisco ',415-989-7154,` french ( new ) ',106,0@306#1@324
+0,` masa \ 's ',' 648 bush st. ',` san francisco ',415/989 -7154,french,106,` teresa \ 's ','80 montague st. ',queens,718-520-2910,polish,647,0@106#1@113
+0,` teresa \ 's ',' 103 1st ave. between 6th and 7th sts . ',` new york ',212/228 -0604,` east european ',358,` teresa \ 's ','80 montague st. ',queens,718-520-2910,polish,647,0@358#1@113
+0,` masa \ 's ',' 648 bush st. ',` san francisco ',415/989 -7154,french,106,` kelly \ 's on trinity ',' 333 bush st. ',` san francisco ',415-362-4454,californian,733,0@106#1@198
+0,` masa \ 's ',' 648 bush st. ',` san francisco ',415/989 -7154,french,106,` martha \ 's ',' 22nd street grill 25 22nd ',` st. hermosa beach ',310-376-7786,american,575,0@106#1@41
+1,` mesa grill ',' 102 5th ave. between 15th and 16th sts . ',` new york ',212/807 -7400,american,47,` mesa grill ',' 102 fifth ave. ',` new york city ',212-807-7400,southwestern,47,0@47#1@265
+0,` sea grill ','19 w. 49th st. ',` new york ',212/332 -7610,seafood,345,` mesa grill ',' 102 fifth ave. ',` new york city ',212-807-7400,southwestern,47,0@345#1@265
+0,` inca grill ',' 492 broome st. near w. broadway ',` new york ',212/966 -3371,` latin american ',268,` mesa grill ',' 102 fifth ave. ',` new york city ',212-807-7400,southwestern,47,0@269#1@265
+0,triangolo,' 345 e. 83rd st. ',` new york ',212/472 -4488,italian,363,` cafe lalo ',' 201 w. 83rd st. ',` new york city ',212-496-6031,coffeehouses,26,0@363#1@244
+1,` cafe lalo ',' 201 w. 83rd st. ',` new york ',212/496 -6031,` coffee bar ',26,` cafe lalo ',' 201 w. 83rd st. ',` new york city ',212-496-6031,coffeehouses,26,0@26#1@244
+1,` nikolai \ 's roof ',' 255 courtland st. at harris st. ',atlanta,404/221 -6362,continental,87,` nikolai \ 's roof ',' 255 courtland st. ',atlanta,404-221-6362,continental,87,0@87#1@305
+0,faz,' 161 sutter st. ',` san francisco ',415/362 -0404,` greek and middle eastern ',469,` fleur de lys ',' 777 sutter st. ',` san francisco ',415-673-7779,` french ( new ) ',100,0@469#1@318
+0,` fleur de jour ',' 348 e. 62nd st. ',` new york ',212/355 -2020,` coffee bar ',245,` fleur de lys ',' 777 sutter st. ',` san francisco ',415-673-7779,` french ( new ) ',100,0@247#1@318
+0,` veni vidi vici ','41 14th st. ',atlanta,404/875 -8424,italian,93,` bobby & june \ 's kountry kitchen ',' 375 14th st. ',atlanta,404-876-3872,southern/soul,680,0@93#1@146
+0,manora,' 3226 mission st. ',` san francisco ',415/861 -6224,asian,494,boulevard,' 1 mission st. ',` san francisco ',415-543-6084,` american ( new ) ',96,0@494#1@314
+0,manora,' 3226 mission st. ',` san francisco ',415/861 -6224,asian,494,shiro,' 1505 mission st. s. ',pasadena,818-799-4774,` pacific new wave ',594,0@494#1@60
+0,boulevard,' 1 mission st. ',` san francisco ',415/543 -6084,american,96,shiro,' 1505 mission st. s. ',pasadena,818-799-4774,` pacific new wave ',594,0@96#1@60
+0,manora,' 3226 mission st. ',` san francisco ',415/861 -6224,asian,494,` la taqueria ',' 2889 mission st. ',` san francisco ',415-285-7117,mexican,736,0@494#1@201
+0,` canter \ 's ',' 419 n. fairfax ave. ',` los angeles ',213/651 -2030 .,american,122,` carey \ 's ',' 1021 cobb pkwy . se ',marietta,770-422-8042,hamburgers,685,0@125#1@151
+0,` hong kong villa ',' 2332 clement st. ',` san francisco ',415/752 -8833,asian,481,` alain rondelli ',' 126 clement st. ',` san francisco ',415-387-0408,` french ( new ) ',94,0@481#1@312
+0,` hong kong villa ',' 2332 clement st. ',` san francisco ',415/752 -8833,asian,481,` bill \ 's place ',' 2315 clement st. ',` san francisco ',415-221-5262,hamburgers,721,0@481#1@186
+0,` alain rondelli ',' 126 clement st. ',` san francisco ',415/387 -0408,french,94,` bill \ 's place ',' 2315 clement st. ',` san francisco ',415-221-5262,hamburgers,721,0@94#1@186
+0,` le soleil ',' 133 clement st. ',` san francisco ',415/668 -4848,asian,492,` bill \ 's place ',' 2315 clement st. ',` san francisco ',415-221-5262,hamburgers,721,0@492#1@186
+0,` mary mac \ 's tea room ',' 224 ponce de leon ave. ',atlanta,404/876 -1800,southern,86,` java jive ',' 790 ponce de leon ave. ',atlanta,404-876-6161,` coffee shops ',698,0@86#1@164
+1,` mary mac \ 's tea room ',' 224 ponce de leon ave. ',atlanta,404/876 -1800,southern,86,` mary mac \ 's tea room ',' 224 ponce de leon ave. ',atlanta,404-876-1800,southern/soul,86,0@86#1@304
+1,valentino,' 3115 pico blvd. ',` santa monica ',310/829 -4313,italian,21,valentino,' 3115 pico blvd. ',` santa monica ',310-829-4313,italian,21,0@21#1@239
+0,lulu,' 816 folsom st. ',` san francisco ',415/495 -5775,mediterranean,105,` hamburger mary \ 's ',' 1582 folsom st. ',` san francisco ',415-626-1985,hamburgers,732,0@105#1@197
+1,lulu,' 816 folsom st. ',` san francisco ',415/495 -5775,mediterranean,105,` lulu restaurant-bis-cafe ',' 816 folsom st. ',` san francisco ',415-495-5775,mediterranean,105,0@105#1@323
+0,` broadway deli ',' 3rd st. promenade ',` santa monica ',310/451 -0616,american,117,` benita \ 's frites ',' 1433 third st. promenade ',` santa monica ',310-458-2889,` fast food ',538,0@120#1@4
+0,` pano \ 's and paul \ 's ',' 1232 w. paces ferry rd. ',atlanta,404/261 -3662,international,88,canoe,' 4199 paces ferry rd. ',atlanta,770-432-2663,` american ( new ) ',684,0@88#1@150
+0,` hedgerose heights inn ',' 490 e. paces ferry rd. ',atlanta,404/233 -7673,international,82,canoe,' 4199 paces ferry rd. ',atlanta,770-432-2663,` american ( new ) ',684,0@82#1@150
+0,` pano \ 's and paul \ 's ',' 1232 w. paces ferry rd. ',atlanta,404/261 -3662,international,88,' 103 west ',' 103 w. paces ferry rd. ',atlanta,404-233-5993,continental,675,0@88#1@141
+1,` pano \ 's and paul \ 's ',' 1232 w. paces ferry rd. ',atlanta,404/261 -3662,international,88,` pano \ 's & paul \ 's ',' 1232 w. paces ferry rd. ',atlanta,404-261-3662,` american ( new ) ',88,0@88#1@306
+0,` hedgerose heights inn ',' 490 e. paces ferry rd. ',atlanta,404/233 -7673,international,82,` pano \ 's & paul \ 's ',' 1232 w. paces ferry rd. ',atlanta,404-261-3662,` american ( new ) ',88,0@82#1@306
+0,` pano \ 's and paul \ 's ',' 1232 w. paces ferry rd. ',atlanta,404/261 -3662,international,88,riviera,' 519 e. paces ferry rd. ',atlanta,404-262-7112,mediterranean,712,0@88#1@177
+0,` beesley \ 's of buckhead ',' 260 e. paces ferry road ',atlanta,404/264 -1334,continental,384,riviera,' 519 e. paces ferry rd. ',atlanta,404-262-7112,mediterranean,712,0@384#1@177
+0,` pano \ 's and paul \ 's ',' 1232 w. paces ferry rd. ',atlanta,404/261 -3662,international,88,` hedgerose heights inn the ',' 490 e. paces ferry rd. ne ',atlanta,404-233-7673,continental,82,0@88#1@300
+0,` hedgerose heights inn ',' 490 e. paces ferry rd. ',atlanta,404/233 -7673,international,82,chops,'70 w. paces ferry rd. ',atlanta,404-262-2675,steakhouses,687,0@82#1@153
+1,` ritz-carlton restaurant and dining room ',' 600 stockton st. ',` san francisco ',415/296 -7465,american,110,` ritz-carlton dining room ( san francisco ) ',' 600 stockton st. ',` san francisco ',415-296-7465,` french ( new ) ',110,0@110#1@328
+0,` ritz-carlton restaurant and dining room ',' 600 stockton st. ',` san francisco ',415/296 -7465,american,110,` campton place ',' 340 stockton st. ',` san francisco ',415-955-5555,` american ( new ) ',98,0@110#1@316
+1,` campton place ',' 340 stockton st. ',` san francisco ',415/955 -5555,american,98,` campton place ',' 340 stockton st. ',` san francisco ',415-955-5555,` american ( new ) ',98,0@98#1@316
+0,` moose \ 's ',' 1652 stockton st. ',` san francisco ',415/989 -7800,mediterranean,498,` campton place ',' 340 stockton st. ',` san francisco ',415-955-5555,` american ( new ) ',98,0@498#1@316
+0,` fleur de jour ',' 348 e. 62nd st. ',` new york ',212/355 -2020,` coffee bar ',245,arcadia,'21 e. 62nd st. ',` new york city ',212-223-2900,` american ( new ) ',603,0@247#1@69
+0,` union square cafe ','21 e. 16th st. ',` new york ',212/243 -4020,american,65,arcadia,'21 e. 62nd st. ',` new york city ',212-223-2900,` american ( new ) ',603,0@65#1@69
+0,bolo,'23 e. 22nd st. ',` new york ',212/228 -2200,mediterranean,191,arcadia,'21 e. 62nd st. ',` new york city ',212-223-2900,` american ( new ) ',603,0@112#1@69
+0,'21 club ','21 w. 52nd st. ',` new york ',212/582 -7200,american,23,arcadia,'21 e. 62nd st. ',` new york city ',212-223-2900,` american ( new ) ',603,0@23#1@69
+0,` jimmy \ 's ',' 201 moreno dr. ',` los angeles ',310/552 -2394,continental,142,` tommy \ 's ',' 2575 beverly blvd. ',la,213-389-9060,hamburgers,598,0@145#1@64
+0,` hard rock cafe ',' 8600 beverly blvd. ',` los angeles ',310/276 -7605,american,137,` tommy \ 's ',' 2575 beverly blvd. ',la,213-389-9060,hamburgers,598,0@140#1@64
+0,` le colonial ',' 8783 beverly blvd. ',` los angeles ',310/289 -0660,asian,144,` tommy \ 's ',' 2575 beverly blvd. ',la,213-389-9060,hamburgers,598,0@147#1@64
+0,swingers,' 8020 beverly blvd. ',` los angeles ',213/653 -5858,american,164,` tommy \ 's ',' 2575 beverly blvd. ',la,213-389-9060,hamburgers,598,0@167#1@64
+0,petrossian,' 182 w. 58th st. ',` new york ',212/245 -2214,french,52,` virgil \ 's real bbq ',' 152 w. 44th st. ',` new york city ',212-921-9494,bbq,66,0@52#1@284
+0,` island spice ',' 402 w. 44th st. ',` new york ',212/765 -1737,` tel caribbean ',37,` virgil \ 's real bbq ',' 152 w. 44th st. ',` new york city ',212-921-9494,bbq,66,0@37#1@284
+0,` le marais ',' 150 w. 46th st. ',` new york ',212/869 -0900,american,290,` virgil \ 's real bbq ',' 152 w. 44th st. ',` new york city ',212-921-9494,bbq,66,0@291#1@284
+0,orso,' 322 w. 46th st. ',` new york ',212/489 -7212,italian,316,` virgil \ 's real bbq ',' 152 w. 44th st. ',` new york city ',212-921-9494,bbq,66,0@317#1@284
+0,` jewel of india ','15 w. 44th st. ',` new york ',212/869 -5544,asian,273,` virgil \ 's real bbq ',' 152 w. 44th st. ',` new york city ',212-921-9494,bbq,66,0@274#1@284
+0,aqua,' 252 california st. ',` san francisco ',415/956 -9662,seafood,95,'em erald garden restaurant ',' 1550 california st. ',` san francisco ',415-673-1155,vietnamese,730,0@95#1@195
+1,aqua,' 252 california st. ',` san francisco ',415/956 -9662,seafood,95,aqua,' 252 california st. ',` san francisco ',415-956-9662,` american ( new ) ',95,0@95#1@313
+0,` tadich grill ',' 240 california st. ',` san francisco ',415/391 -2373,seafood,519,aqua,' 252 california st. ',` san francisco ',415-956-9662,` american ( new ) ',95,0@519#1@313
+0,` steak house ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,` steak houses ',72,` steakhouse the ',' 128 e. fremont st. ',` las vegas ',702-382-1600,steakhouses,671,0@72#1@137
+0,` second street grille ',' 200 e. fremont st. ',` las vegas ',702/385 -3232,seafood,71,` steakhouse the ',' 128 e. fremont st. ',` las vegas ',702-382-1600,steakhouses,671,0@71#1@137
+0,` lillie langtry \ 's ',' 129 e. fremont st. ',` las vegas ',702/385 -7111,asian,442,` steakhouse the ',' 128 e. fremont st. ',` las vegas ',702-382-1600,steakhouses,671,0@442#1@137
+0,` sarabeth \ 's kitchen ',' 423 amsterdam ave. between 80th and 81st sts . ',` new york ',212/496 -6280,american,344,` sarabeth \ 's ',' 1295 madison ave. ',` new york city ',212-410-7335,american,640,0@344#1@106
+1,` river cafe ',' 1 water st. at the east river ',brooklyn,718/522 -5200,american,56,` river cafe ',' 1 water st. ',brooklyn,718-522-5200,` american ( new ) ',56,0@56#1@274
+1,` union square cafe ','21 e. 16th st. ',` new york ',212/243 -4020,american,65,` union square cafe ','21 e. 16th st. ',` new york city ',212-243-4020,` american ( new ) ',65,0@65#1@283
+0,` taste of new orleans ',' 889 w. peachtree st. ',atlanta,404/874 -5535,southern,421,` alon \ 's at the terrace ',' 659 peachtree st. ',atlanta,404-724-0444,sandwiches,676,0@421#1@142
+0,` restaurant ritz-carlton atlanta ',' 181 peachtree st. ',atlanta,404/659 -0400,continental,91,` alon \ 's at the terrace ',' 659 peachtree st. ',atlanta,404-724-0444,sandwiches,676,0@91#1@142
+0,` taste of new orleans ',' 889 w. peachtree st. ',atlanta,404/874 -5535,southern,421,` ritz-carlton cafe ( atlanta ) ',' 181 peachtree st. ',atlanta,404-659-0400,` american ( new ) ',711,0@421#1@330
+0,` restaurant ritz-carlton atlanta ',' 181 peachtree st. ',atlanta,404/659 -0400,continental,91,` ritz-carlton cafe ( atlanta ) ',' 181 peachtree st. ',atlanta,404-659-0400,` american ( new ) ',711,0@91#1@330
+0,palisades,' 1829 peachtree rd. ',atlanta,404/350 -6755,continental,410,` ritz-carlton cafe ( atlanta ) ',' 181 peachtree st. ',atlanta,404-659-0400,` american ( new ) ',711,0@410#1@330
+0,` french quarter food shop ',' 923 peachtree st. at 8th st. ',atlanta,404/875 -2489,southern,396,` ritz-carlton cafe ( atlanta ) ',' 181 peachtree st. ',atlanta,404-659-0400,` american ( new ) ',711,0@396#1@330
+0,joss,' 9255 sunset blvd. ',` los angeles ',310/276 -1886,asian,143,` duke \ 's ',' 8909 sunset blvd. ',` w. hollywood ',310-652-3100,` coffee shops ',551,0@146#1@17
+0,` bone \ 's ',' 3130 piedmont road ',atlanta,404/237 -2663,american,76,` duke \ 's ',' 8909 sunset blvd. ',` w. hollywood ',310-652-3100,` coffee shops ',551,0@76#1@17
+0,fenix,' 8358 sunset blvd. west ',hollywood,213/848 -6677,american,7,` duke \ 's ',' 8909 sunset blvd. ',` w. hollywood ',310-652-3100,` coffee shops ',551,0@7#1@17
+0,` rose pistola ',' 532 columbus ave. ',` san francisco ',415/399 -0499,italian,111,` caffe greco ',' 423 columbus ave. ',` san francisco ',415-397-6261,continental,723,0@111#1@188
+1,` rose pistola ',' 532 columbus ave. ',` san francisco ',415/399 -0499,italian,111,` rose pistola ',' 532 columbus ave. ',` san francisco ',415-399-0499,italian,111,0@111#1@329
+0,` bone \ 's ',' 3130 piedmont road ',atlanta,404/237 -2663,american,76,soto,' 3330 piedmont rd. ',atlanta,404-233-2005,japanese,714,0@76#1@179
+0,` l \ ` absinthe ',' 227 e. 67th st. ',` new york ',212/794 -4950,french,277,` cafe des artistes ',' 1 w. 67th st. ',` new york city ',212-877-3500,` french ( classic ) ',27,0@278#1@245
+0,` lincoln tavern ','51 w. 64th st. ',` new york ',212/721 -8271,american,294,` cafe des artistes ',' 1 w. 67th st. ',` new york city ',212-877-3500,` french ( classic ) ',27,0@295#1@245
+0,` alley \ 's end ',' 311 w. 17th st. ',` new york ',212/627 -8899,american,178,` cafe des artistes ',' 1 w. 67th st. ',` new york city ',212-877-3500,` french ( classic ) ',27,0@181#1@245
+0,` carnival world ',' 3700 w. flamingo rd. ',` las vegas ',702/252 -7777,buffets,435,'till erman the ',' 2245 e. flamingo rd. ',` las vegas ',702-731-4036,steakhouses,73,0@435#1@291
+0,` bamboo garden ',' 4850 flamingo rd. ',` las vegas ',702/871 -3262,asian,425,'till erman the ',' 2245 e. flamingo rd. ',` las vegas ',702-731-4036,steakhouses,73,0@425#1@291
+0,` mandarin court ',' 1510 e. flamingo rd. ',` las vegas ',702/737 -1234,asian,443,'till erman the ',' 2245 e. flamingo rd. ',` las vegas ',702-731-4036,steakhouses,73,0@443#1@291
+0,` viva mercado \ 's ',' 6182 w. flamingo rd. ',` las vegas ',702/871 -8826,mexican,451,'till erman the ',' 2245 e. flamingo rd. ',` las vegas ',702-731-4036,steakhouses,73,0@451#1@291
+0,` cafe bianco ',' 1486 2nd ave. between 77th and 78th sts . ',` new york ',212/988 -2655,` coffee bar ',199,` cafe blanc ',' 9777 little santa monica blvd. ',` beverly hills ',310-888-0108,` pacific new wave ',546,0@201#1@12
+0,` the palm ',' 9001 santa monica blvd. ',` los angeles ',310/550 -8811,american,15,` cafe blanc ',' 9777 little santa monica blvd. ',` beverly hills ',310-888-0108,` pacific new wave ',546,0@15#1@12
+0,dive !,' 10250 santa monica blvd. ',` los angeles ',310/788 -,` dive american ',128,` cafe blanc ',' 9777 little santa monica blvd. ',` beverly hills ',310-888-0108,` pacific new wave ',546,0@131#1@12
+1,` smith & wollensky ',' 201 e. 49th st. ',` new york ',212/753 -1530,american,62,` smith & wollensky ',' 797 third ave. ',` new york city ',212-753-1530,steakhouses,62,0@62#1@280
+0,` border grill ',' 4th st. ',` los angeles ',310/451 -1655,mexican,116,` roosevelt tamale parlor ',' 2817 24th st. ',` san francisco ',415-550-9213,mexican,742,0@119#1@207
+0,` border grill ',' 4th st. ',` los angeles ',310/451 -1655,mexican,116,` water grill ',' 544 s. grand ave. ',` los angeles ',213-891-0900,seafood,600,0@119#1@66
+0,` border grill ',' 4th st. ',` los angeles ',310/451 -1655,mexican,116,` island spice ',' 402 w. 44th st. ',` new york city ',212-765-1737,caribbean,37,0@119#1@255
+0,` virgil \ 's ',' 152 w. 44th st. ',` new york ',' 212 / 921-9494 ',american,66,` island spice ',' 402 w. 44th st. ',` new york city ',212-765-1737,caribbean,37,0@66#1@255
+0,orso,' 322 w. 46th st. ',` new york ',212/489 -7212,italian,316,` island spice ',' 402 w. 44th st. ',` new york city ',212-765-1737,caribbean,37,0@317#1@255
+0,` jewel of india ','15 w. 44th st. ',` new york ',212/869 -5544,asian,273,` island spice ',' 402 w. 44th st. ',` new york city ',212-765-1737,caribbean,37,0@274#1@255
+0,` border grill ',' 4th st. ',` los angeles ',310/451 -1655,mexican,116,` veni vidi vici ','41 14th st. ',atlanta,404-875-8424,italian,93,0@119#1@311
+0,` vivande porta via ',' 2125 fillmore st. ',` san francisco ',415/346 -4430,italian,524,` plumpjack cafe ',' 3127 fillmore st. ',` san francisco ',415-563-4755,` american ( new ) ',108,0@524#1@326
+0,` cafe adriano ',' 3347 fillmore st. ',` san francisco ',415/474 -4180,italian,461,` plumpjack cafe ',' 3127 fillmore st. ',` san francisco ',415-563-4755,` american ( new ) ',108,0@461#1@326
+0,oritalia,' 1915 fillmore st. ',` san francisco ',415/346 -1333,italian,501,` plumpjack cafe ',' 3127 fillmore st. ',` san francisco ',415-563-4755,` american ( new ) ',108,0@501#1@326
+1,pisces,'95 ave. a at 6th st. ',` new york ',212/260 -6660,seafood,54,pisces,'95 ave. a ',` new york city ',212-260-6660,seafood,54,0@54#1@272
+1,granita,' 23725 w. malibu rd. ',malibu,310/456 -0488,californian,8,granita,' 23725 w. malibu rd. ',malibu,310-456-0488,californian,8,0@8#1@226
+0,` camille \ 's ',' 1186 n. highland ave. ',atlanta,404/872 -7203,italian,388,` uncle bill \ 's pancake house ',' 1305 highland ave. ',` manhattan beach ',310-545-5177,diners,599,0@388#1@65
+0,` indigo coastal grill ',' 1397 n. highland ave. ',atlanta,404/876 -0676,caribbean,84,` uncle bill \ 's pancake house ',' 1305 highland ave. ',` manhattan beach ',310-545-5177,diners,599,0@84#1@65
+0,` r.j. \ 's uptown kitchen & wine bar ',' 870 n. highland ave. ',atlanta,404/875 -7775,american,413,` uncle bill \ 's pancake house ',' 1305 highland ave. ',` manhattan beach ',310-545-5177,diners,599,0@413#1@65
+0,` camille \ 's ',' 1186 n. highland ave. ',atlanta,404/872 -7203,italian,388,` indigo coastal grill ',' 1397 n. highland ave. ',atlanta,404-876-0676,eclectic,84,0@388#1@302
+0,` mambo restaurante cubano ',' 1402 n. highland ave. ',atlanta,404/874 -2626,caribbean,406,` indigo coastal grill ',' 1397 n. highland ave. ',atlanta,404-876-0676,eclectic,84,0@406#1@302
+0,bistango,' 1100 peachtree st. ',atlanta,404/724 -0901,mediterranean,386,` morton \ 's of chicago ( atlanta ) ',' 303 peachtree st. ne ',atlanta,404-577-4366,steakhouses,704,0@386#1@170
+0,` restaurant ritz-carlton atlanta ',' 181 peachtree st. ',atlanta,404/659 -0400,continental,91,` morton \ 's of chicago ( atlanta ) ',' 303 peachtree st. ne ',atlanta,404-577-4366,steakhouses,704,0@91#1@170
+0,` le chantilly ',' 106 e. 57th st. ',` new york ',212/751 -2931,french,285,yama,' 122 e. 17th st. ',` new york city ',212-475-0969,japanese,654,0@286#1@120
+0,` alley \ 's end ',' 311 w. 17th st. ',` new york ',212/627 -8899,american,178,yama,' 122 e. 17th st. ',` new york city ',212-475-0969,japanese,654,0@181#1@120
+0,` gotham bar & grill ','12 e. 12th st. ',` new york ',212/620 -4020,american,35,yama,' 122 e. 17th st. ',` new york city ',212-475-0969,japanese,654,0@35#1@120
+1,` restaurant katsu ',' 1972 n. hillhurst ave. ',` los angeles ',213/665 -1891,asian,10,katsu,' 1972 hillhurst ave. ',` los feliz ',213-665-1891,japanese,10,0@10#1@228
+0,` la folie ',' 2316 polk st. ',` san francisco ',415/776 -5577,french,104,` swan oyster depot ',' 1517 polk st. ',` san francisco ',415-673-1101,seafood,746,0@104#1@211
+1,` la folie ',' 2316 polk st. ',` san francisco ',415/776 -5577,french,104,` la folie ',' 2316 polk st. ',` san francisco ',415-776-5577,` french ( new ) ',104,0@104#1@322
+0,` california culinary academy ',' 625 polk st. ',` san francisco ',415/771 -3500,french,463,` la folie ',' 2316 polk st. ',` san francisco ',415-776-5577,` french ( new ) ',104,0@463#1@322
+0,` mon kee seafood restaurant ',' 679 n. spring st. ',` los angeles ',213/628 -6717,asian,147,` lombardi \ 's ','32 spring st. ',` new york city ',212-941-7994,pizza,625,0@150#1@91
+0,` the palm ',' 9001 santa monica blvd. ',` los angeles ',310/550 -8811,american,15,` la cachette ',' 10506 little santa monica blvd. ',` century city ',310-470-4992,` french ( new ) ',568,0@15#1@34
+1,` the palm ',' 9001 santa monica blvd. ',` los angeles ',310/550 -8811,american,15,` palm the ( los angeles ) ',' 9001 santa monica blvd. ',` w. hollywood ',310-550-8811,steakhouses,15,0@15#1@233
+0,` the palm ',' 9001 santa monica blvd. ',` los angeles ',310/550 -8811,american,15,jiraffe,' 502 santa monica blvd ',` santa monica ',310-917-6671,californian,558,0@15#1@24
+0,dive !,' 10250 santa monica blvd. ',` los angeles ',310/788 -,` dive american ',128,jiraffe,' 502 santa monica blvd ',` santa monica ',310-917-6671,californian,558,0@131#1@24
+0,` le perigord ',' 405 e. 52nd st. ',` new york ',212/755 -6244,french,291,` four seasons ','99 e. 52nd st. ',` new york city ',212-754-9494,` american ( new ) ',34,0@292#1@252
+1,fenix,' 8358 sunset blvd. west ',hollywood,213/848 -6677,american,7,` fenix at the argyle ',' 8358 sunset blvd. ',` w. hollywood ',213-848-6677,` french ( new ) ',7,0@7#1@225
+0,` kabuto sushi ',' 5116 geary blvd. ',` san francisco ',415/752 -5652,asian,486,` khan toke thai house ',' 5937 geary blvd. ',` san francisco ',415-668-6654,thai,103,0@486#1@321
+0,` hong kong flower lounge ',' 5322 geary blvd. ',` san francisco ',415/668 -8998,asian,480,` khan toke thai house ',' 5937 geary blvd. ',` san francisco ',415-668-6654,thai,103,0@480#1@321
+0,` ton kiang ',' 3148 geary blvd. ',` san francisco ',415/752 -4440,asian,522,` khan toke thai house ',' 5937 geary blvd. ',` san francisco ',415-668-6654,thai,103,0@522#1@321
+0,` des alpes ',' 732 broadway ',` san francisco ',415/788 -9900,french,468,montrachet,' 239 w. broadway ',` new york city ',212-219-2777,` french bistro ',49,0@468#1@267
+1,montrachet,' 239 w. broadway between walker and white sts . ',` new york ',' 212 / 219-2777 ',french,49,montrachet,' 239 w. broadway ',` new york city ',212-219-2777,` french bistro ',49,0@49#1@267
+0,` cafe adriano ',' 3347 fillmore st. ',` san francisco ',415/474 -4180,italian,461,` trio cafe ',' 1870 fillmore st. ',` san francisco ',415-563-2248,american,749,0@461#1@214
+0,` plumpjack cafe ',' 3201 fillmore st. ',` san francisco ',415/563 -4755,mediterranean,108,` trio cafe ',' 1870 fillmore st. ',` san francisco ',415-563-2248,american,749,0@108#1@214
+0,` shun lee west ','43 w. 65th st. ',` new york ',212/371 -8844,asian,60,` john \ 's pizzeria ','48 w. 65th st. ',` new york city ',212-721-7001,pizza,618,0@60#1@84
+0,ferrier,'29 e. 65th st. ',` new york ',212/772 -9000,french,238,` john \ 's pizzeria ','48 w. 65th st. ',` new york city ',212-721-7001,pizza,618,0@240#1@84
+0,` rex il ristorante ',' 617 s. olive st. ',` los angeles ',213/627 -2300,italian,19,` bernard \ 's ',' 515 s. olive st. ',` los angeles ',213-612-1580,continental,539,0@19#1@5
+1,` rex il ristorante ',' 617 s. olive st. ',` los angeles ',213/627 -2300,italian,19,` rex il ristorante ',' 617 s. olive st. ',` los angeles ',213-627-2300,` nuova cucina italian ',19,0@19#1@237
+0,` cafe pierre ',' 2 e. 61st st. ',` new york ',212/940 -8185,french,203,aureole,'34 e. 61st st. ',` new york city ',212-319-1660,` american ( new ) ',25,0@205#1@243
+0,` gianni \ 's ','15 fulton st. ',` new york ',212/608 -7300,seafood,255,` patsy \ 's pizza ','19 old fulton st. ',brooklyn,718-858-4300,pizza,636,0@257#1@102
+0,` hard rock cafe ',' 8600 beverly blvd. ',` los angeles ',310/276 -7605,american,137,` jan \ 's family restaurant ',' 8424 beverly blvd. ',la,213-651-2866,` coffee shops ',557,0@140#1@23
+0,` california pizza kitchen ',' 207 s. beverly dr. ',` los angeles ',310/275 -1101,californian,121,` ruth \ 's chris steak house ( los angeles ) ',' 224 s. beverly dr. ',` beverly hills ',310-859-8744,steakhouses,593,0@124#1@59
+0,` nate \ ` n \ ' al \ 's ',' 414 n. beverly dr. ',` los angeles ',310/274 -0101,american,149,` ruth \ 's chris steak house ( los angeles ) ',' 224 s. beverly dr. ',` beverly hills ',310-859-8744,steakhouses,593,0@152#1@59
+0,` california culinary academy ',' 625 polk st. ',` san francisco ',415/771 -3500,french,463,` mario \ 's bohemian cigar store cafe ',' 2209 polk st. ',` san francisco ',415-776-8226,italian,737,0@463#1@202
+0,` california culinary academy ',' 625 polk st. ',` san francisco ',415/771 -3500,french,463,` wa-ha-ka oaxaca mexican grill ',' 2141 polk st. ',` san francisco ',415-775-1055,mexican,752,0@463#1@217
+0,feast,' 2411 w. sahara ave. ',` las vegas ',702/367 -2411,buffets,439,` mayflower cuisinier ',' 4750 w. sahara ave. ',` las vegas ',702-870-8432,chinese,663,0@439#1@129
+0,` golden steer ',' 308 w. sahara ave. ',` las vegas ',702/384 -4470,` steak houses ',441,` mayflower cuisinier ',' 4750 w. sahara ave. ',` las vegas ',702-870-8432,chinese,663,0@441#1@129
+0,orleans,' 11705 national blvd. ',` los angeles ',310/479 -4187,cajun,152,` indo cafe ',' 10428 1/2 national blvd. ',la,310-815-1290,indonesian,556,0@155#1@22
+0,betelnut,' 2030 union st. ',` san francisco ',415/929 -8855,asian,456,` doidge \ 's ',' 2217 union st. ',` san francisco ',415-921-2149,american,726,0@456#1@191
+1,` philippe \ 's the original ',' 1001 n. alameda st. ',` los angeles ',213/628 -3781,american,17,` philippe the original ',' 1001 n. alameda st. ',chinatown,213-628-3781,cafeterias,17,0@17#1@235
+0,` mavalli palace ','46 e. 29th st. ',` new york ',212/679 -5535,asian,306,` gramercy tavern ','42 e. 20th st. ',` new york city ',212-477-0777,` american ( new ) ',36,0@307#1@254
+0,` annie \ 's thai castle ',' 3195 roswell rd. ',atlanta,404/264 -9546,asian,381,` cafe sunflower ',' 5975 roswell rd. ',atlanta,404-256-1675,` health food ',683,0@381#1@149
+0,` annie \ 's thai castle ',' 3195 roswell rd. ',atlanta,404/264 -9546,asian,381,chopstix,' 4279 roswell rd. ',atlanta,404-255-4868,chinese,688,0@381#1@154
+0,` annie \ 's thai castle ',' 3195 roswell rd. ',atlanta,404/264 -9546,asian,381,` la fonda latina ',' 4427 roswell rd. ',atlanta,404-303-8201,spanish,701,0@381#1@167
+1,` buckhead diner ',' 3073 piedmont road ',atlanta,404/262 -3336,american,78,` buckhead diner ',' 3073 piedmont rd. ',atlanta,404-262-3336,` american ( new ) ',78,0@78#1@296
+1,` hotel bel-air ',' 701 stone canyon rd. ',` bel air ',310/472 -1211,californian,2,` bel-air hotel ',' 701 stone canyon rd. ',` bel air ',310-472-1211,californian,2,0@2#1@220
+0,` bistro roti ',' 155 steuart st. ',` san francisco ',415/495 -6500,french,457,` bistro the ','56 e. andrews dr. nw ',atlanta,404-231-5733,` french bistro ',679,0@457#1@145
+0,` binion \ 's coffee shop ',' 128 fremont st. ',` las vegas ',702/382 -1600,` coffee shops/diners ',428,` hugo \ 's cellar ',' 202 e. fremont st. ',` las vegas ',702-385-4011,continental,661,0@428#1@127
+0,` lillie langtry \ 's ',' 129 e. fremont st. ',` las vegas ',702/385 -7111,asian,442,` hugo \ 's cellar ',' 202 e. fremont st. ',` las vegas ',702-385-4011,continental,661,0@442#1@127
+0,` binion \ 's coffee shop ',' 128 fremont st. ',` las vegas ',702/382 -1600,` coffee shops/diners ',428,` stefano \ 's ',' 129 fremont st. ',` las vegas ',702-385-7111,italian,672,0@428#1@138
+1,picholine,'35 w. 64th st. ',` new york ',212/724 -8585,mediterranean,53,picholine,'35 w. 64th st. ',` new york city ',212-724-8585,mediterranean,53,0@53#1@271
+0,` le madri ',' 168 w. 18th st. ',` new york ',212/727 -8022,italian,289,` san francisco bbq ',' 1328 18th st. ',` san francisco ',415-431-8956,thai,744,0@290#1@209
+1,` uncle nick \ 's ',' 747 9th ave. between 50th and 51st sts . ',` new york ',212/315 -1726,mediterranean,64,` uncle nick \ 's ',' 747 ninth ave. ',` new york city ',212-245-7992,greek,64,0@64#1@282
+0,swingers,' 8020 beverly blvd. ',` los angeles ',213/653 -5858,american,164,` koo koo roo ',' 8393 w. beverly blvd. ',la,213-655-9045,chicken,567,0@167#1@33
+1,` gotham bar & grill ','12 e. 12th st. ',` new york ',212/620 -4020,american,35,` gotham bar & grill ','12 e. 12th st. ',` new york city ',212-620-4020,` american ( new ) ',35,0@35#1@253
+0,' 9 jones street ',' 9 jones st. ',` new york ',212/989 -1220,american,173,` dottie \ 's true blue cafe ',' 522 jones st. ',` san francisco ',415-885-2767,diners,727,0@176#1@192
+1,` hawthorne lane ','22 hawthorne st. ',` san francisco ',415/777 -9779,american,102,` hawthorne lane ','22 hawthorne st. ',` san francisco ',415-777-9779,californian,102,0@102#1@320
+0,` gabriela \ 's ',' 685 amsterdam ave. at 93rd st. ',` new york ',212/961 -0574,mexican,253,` monsoon ( ny ) ',' 435 amsterdam ave. ',` new york city ',212-580-8686,thai,629,0@255#1@95
+1,` grill on the alley ',' 9560 dayton way ',` los angeles ',310/276 -0615,american,9,` grill the ',' 9560 dayton way ',` beverly hills ',310-276-0615,` american ( traditional ) ',9,0@9#1@227
+0,` katia \ 's ',' 600 5th ave. ',` san francisco ',415/668 -9292,'',487,` sylvia \ 's ',' 328 lenox ave. ',` new york city ',212-996-0660,southern/soul,644,0@487#1@110
+1,` locanda veneta ',' 3rd st. ',` los angeles ',310/274 -1893,italian,13,` locanda veneta ',' 8638 w. third st. ',` los angeles ',310-274-1893,italian,13,0@13#1@231
+0,` lanza restaurant ',' 168 1st ave. between 10th and 11th sts . ',` new york ',212/674 -7014,italian,282,` thailand restaurant ',' 106 bayard st. ',` new york city ',212-349-3132,thai,649,0@283#1@115
+0,otabe,'68 e. 56th st. ',` new york ',212/223 -7575,asian,318,darbar,'44 w. 56th st. ',` new york city ',212-432-7227,indian,609,0@319#1@75
+1,campanile,' 624 s. la brea ave. ',` los angeles ',213/938 -1447,american,4,campanile,' 624 s. la brea ave. ',` los angeles ',213-938-1447,californian,4,0@4#1@222
+1,` carnegie deli ',' 854 7th ave. between 54th and 55th sts . ',` new york ',212/757 -2245,delicatessen,29,` carnegie deli ',' 854 seventh ave. ',` new york city ',212-757-2245,delis,29,0@29#1@247
+0,bizou,' 598 fourth st. ',` san francisco ',415/543 -2222,french,459,` cucina di pesce ','87 e. fourth st. ',` new york city ',212-260-6800,seafood,608,0@459#1@74
+0,palisades,' 1829 peachtree rd. ',atlanta,404/350 -6755,continental,410,` ritz-carlton restaurant ',' 181 peachtree st. ',atlanta,404-659-0400,` french ( classic ) ',91,0@410#1@309
+1,` restaurant ritz-carlton atlanta ',' 181 peachtree st. ',atlanta,404/659 -0400,continental,91,` ritz-carlton restaurant ',' 181 peachtree st. ',atlanta,404-659-0400,` french ( classic ) ',91,0@91#1@309
+0,palisades,' 1829 peachtree rd. ',atlanta,404/350 -6755,continental,410,` georgia grille ',' 2290 peachtree rd. ',atlanta,404-352-3517,southwestern,81,0@410#1@299
+0,toulouse,' b peachtree rd. ',atlanta,404/351 -9533,french,92,` georgia grille ',' 2290 peachtree rd. ',atlanta,404-352-3517,southwestern,81,0@92#1@299
+0,palisades,' 1829 peachtree rd. ',atlanta,404/350 -6755,continental,410,` white house restaurant ',' 3172 peachtree rd. ne ',atlanta,404-237-7601,diners,719,0@410#1@184
+0,palisades,' 1829 peachtree rd. ',atlanta,404/350 -6755,continental,410,` la grotta ',' 2637 peachtree rd. ne ',atlanta,404-231-1368,italian,85,0@410#1@303
+0,` bugsy \ 's diner ',' 3555 las vegas blvd. s ',` las vegas ',702/733 -3111,` coffee shops/diners ',431,moongate,' 3400 las vegas blvd. s. ',` las vegas ',702-791-7352,chinese,666,0@431#1@132
+0,` circus circus ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,buffets,437,moongate,' 3400 las vegas blvd. s. ',` las vegas ',702-791-7352,chinese,666,0@437#1@132
+0,mikado,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,asian,446,moongate,' 3400 las vegas blvd. s. ',` las vegas ',702-791-7352,chinese,666,0@446#1@132
+0,` bugsy \ 's diner ',' 3555 las vegas blvd. s ',` las vegas ',702/733 -3111,` coffee shops/diners ',431,` sterling brunch ',' 3645 las vegas blvd. s. ',` las vegas ',702-739-4651,eclectic,673,0@431#1@139
+0,'em press court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7888,asian,438,` sterling brunch ',' 3645 las vegas blvd. s. ',` las vegas ',702-739-4651,eclectic,673,0@438#1@139
+0,` palace court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,continental,70,` sterling brunch ',' 3645 las vegas blvd. s. ',` las vegas ',702-739-4651,eclectic,673,0@70#1@139
+0,` bugsy \ 's diner ',' 3555 las vegas blvd. s ',` las vegas ',702/733 -3111,` coffee shops/diners ',431,` coyote cafe ( las vegas ) ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7349,southwestern,68,0@431#1@286
+0,` circus circus ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,buffets,437,` coyote cafe ( las vegas ) ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7349,southwestern,68,0@437#1@286
+0,` bertolini \ 's ',' 3570 las vegas blvd. s ',` las vegas ',702/735 -4663,italian,427,` coyote cafe ( las vegas ) ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7349,southwestern,68,0@427#1@286
+1,` coyote cafe ',' 3799 las vegas blvd. s ',` las vegas ',702/891 -7349,southwestern,68,` coyote cafe ( las vegas ) ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7349,southwestern,68,0@68#1@286
+0,` ralph \ 's diner ',' 3000 las vegas blvd. s ',` las vegas ',702/732 -6330,` coffee shops/diners ',448,` coyote cafe ( las vegas ) ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7349,southwestern,68,0@448#1@286
+0,` margarita \ 's mexican cantina ',' 3120 las vegas blvd. s ',` las vegas ',702/794 -8200,mexican,444,` coyote cafe ( las vegas ) ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7349,southwestern,68,0@444#1@286
+0,` bugsy \ 's diner ',' 3555 las vegas blvd. s ',` las vegas ',702/733 -3111,` coffee shops/diners ',431,` spago ( las vegas ) ',' 3500 las vegas blvd. s. ',` las vegas ',702-369-6300,californian,670,0@431#1@136
+0,` bertolini \ 's ',' 3570 las vegas blvd. s ',` las vegas ',702/735 -4663,italian,427,` spago ( las vegas ) ',' 3500 las vegas blvd. s. ',` las vegas ',702-369-6300,californian,670,0@427#1@136
+0,bistro,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,continental,429,` spago ( las vegas ) ',' 3500 las vegas blvd. s. ',` las vegas ',702-369-6300,californian,670,0@429#1@136
+0,` margarita \ 's mexican cantina ',' 3120 las vegas blvd. s ',` las vegas ',702/794 -8200,mexican,444,` spago ( las vegas ) ',' 3500 las vegas blvd. s. ',` las vegas ',702-369-6300,californian,670,0@444#1@136
+0,` bally \ 's big kitchen ',' 3645 las vegas blvd. s ',` las vegas ',702/739 -4111,buffets,424,` spago ( las vegas ) ',' 3500 las vegas blvd. s. ',` las vegas ',702-369-6300,californian,670,0@424#1@136
+0,` carmine \ 's ',' 2450 broadway between 90th and 91st sts . ',` new york ',212/362 -2200,italian,28,` carey \ 's ',' 1021 cobb pkwy . se ',marietta,770-422-8042,hamburgers,685,0@28#1@151
+0,` lincoln tavern ','51 w. 64th st. ',` new york ',212/721 -8271,american,294,picholine,'35 w. 64th st. ',` new york city ',212-724-8585,mediterranean,53,0@295#1@271
+0,march,' 405 e. 58th st. ',` new york ',212/754 -6272,american,46,felidia,' 243 e. 58th st. ',` new york city ',212-758-1479,italian,33,0@46#1@251
+0,vong,' 200 e. 54th st. ',` new york ',212/486 -9592,american,373,felidia,' 243 e. 58th st. ',` new york city ',212-758-1479,italian,33,0@373#1@251
+0,'em press court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7888,asian,438,` palace court ',' 3570 las vegas blvd. s. ',` las vegas ',702-731-7110,` french ( new ) ',70,0@438#1@288
+0,` the bacchanal ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7525,` only in las vegas ',449,` palace court ',' 3570 las vegas blvd. s. ',` las vegas ',702-731-7110,` french ( new ) ',70,0@449#1@288
+0,` bally \ 's big kitchen ',' 3645 las vegas blvd. s ',` las vegas ',702/739 -4111,buffets,424,` palace court ',' 3570 las vegas blvd. s. ',` las vegas ',702-731-7110,` french ( new ) ',70,0@424#1@288
+0,vong,' 200 e. 54th st. ',` new york ',212/486 -9592,american,373,` silver skillet the ',' 200 14th st. nw ',atlanta,404-874-1388,` coffee shops ',713,0@373#1@178
+0,vong,' 200 e. 54th st. ',` new york ',212/486 -9592,american,373,` lespinasse ( new york city ) ',' 2 e. 55th st. ',` new york city ',212-339-6719,asian,43,0@373#1@261
+0,` tang pavillion ','65 w. 55th st. ',` new york ',212/956 -6888,asian,356,` lespinasse ( new york city ) ',' 2 e. 55th st. ',` new york city ',212-339-6719,asian,43,0@356#1@261
+0,bruno,' 240 e. 58th st. ',` new york ',212/688 -4190,italian,195,` lespinasse ( new york city ) ',' 2 e. 55th st. ',` new york city ',212-339-6719,asian,43,0@197#1@261
+0,` pen & pencil ',' 205 e. 45th st. ',` new york ',212/682 -8660,american,325,` lespinasse ( new york city ) ',' 2 e. 55th st. ',` new york city ',212-339-6719,asian,43,0@326#1@261
+0,` steak house ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,` steak houses ',72,` buccaneer bay club ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7350,continental,657,0@72#1@123
+0,` circus circus ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,buffets,437,` buccaneer bay club ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7350,continental,657,0@437#1@123
+0,` bertolini \ 's ',' 3570 las vegas blvd. s ',` las vegas ',702/735 -4663,italian,427,` buccaneer bay club ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7350,continental,657,0@427#1@123
+0,` ralph \ 's diner ',' 3000 las vegas blvd. s ',` las vegas ',702/732 -6330,` coffee shops/diners ',448,` buccaneer bay club ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7350,continental,657,0@448#1@123
+0,` steak house ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,` steak houses ',72,` madame ching \ 's ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7111,asian,662,0@72#1@128
+0,` coyote cafe ',' 3799 las vegas blvd. s ',` las vegas ',702/891 -7349,southwestern,68,` madame ching \ 's ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7111,asian,662,0@68#1@128
+0,` palace court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,continental,70,` madame ching \ 's ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7111,asian,662,0@70#1@128
+0,` margarita \ 's mexican cantina ',' 3120 las vegas blvd. s ',` las vegas ',702/794 -8200,mexican,444,` madame ching \ 's ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7111,asian,662,0@444#1@128
+0,` bally \ 's big kitchen ',' 3645 las vegas blvd. s ',` las vegas ',702/739 -4111,buffets,424,` madame ching \ 's ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7111,asian,662,0@424#1@128
+0,` steak house ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,` steak houses ',72,` chin \ 's ',' 3200 las vegas blvd. s. ',` las vegas ',702-733-8899,chinese,67,0@72#1@285
+0,` margarita \ 's mexican cantina ',' 3120 las vegas blvd. s ',` las vegas ',702/794 -8200,mexican,444,` chin \ 's ',' 3200 las vegas blvd. s. ',` las vegas ',702-733-8899,chinese,67,0@444#1@285
+0,` drai \ 's ',' 730 n. la cienega blvd. ',` los angeles ',310/358 -8585,french,130,matsuhisa,' 129 n. la cienega blvd. ',` beverly hills ',310-659-9639,seafood,14,0@133#1@232
+0,` drai \ 's ',' 730 n. la cienega blvd. ',` los angeles ',310/358 -8585,french,130,` duke \ 's ',' 8909 sunset blvd. ',` w. hollywood ',310-652-3100,` coffee shops ',551,0@133#1@17
+0,` drai \ 's ',' 730 n. la cienega blvd. ',` los angeles ',310/358 -8585,french,130,` arnie morton \ 's of chicago ',' 435 s. la cienega blvd. ',` los angeles ',310-246-1501,steakhouses,0,0@133#1@218
+0,matsuhisa,' 129 n. la cienega blvd. ',` beverly hills ',310/659 -9639,asian,14,` arnie morton \ 's of chicago ',' 435 s. la cienega blvd. ',` los angeles ',310-246-1501,steakhouses,0,0@14#1@218
+0,lutece,' 249 e. 50th st. ',` new york ',212/752 -2225,french,44,dawat,' 210 e. 58th st. ',` new york city ',212-355-7555,indian,32,0@44#1@250
+0,bruno,' 240 e. 58th st. ',` new york ',212/688 -4190,italian,195,dawat,' 210 e. 58th st. ',` new york city ',212-355-7555,indian,32,0@197#1@250
+0,felidia,' 243 e. 58th st. ',` new york ',212/758 -1479,italian,33,dawat,' 210 e. 58th st. ',` new york city ',212-355-7555,indian,32,0@33#1@250
+0,` circus circus ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,buffets,437,` monte carlo ',' 3145 las vegas blvd. s. ',` las vegas ',702-733-4524,` french ( new ) ',665,0@437#1@131
+0,` bertolini \ 's ',' 3570 las vegas blvd. s ',` las vegas ',702/735 -4663,italian,427,` monte carlo ',' 3145 las vegas blvd. s. ',` las vegas ',702-733-4524,` french ( new ) ',665,0@427#1@131
+0,` coyote cafe ',' 3799 las vegas blvd. s ',` las vegas ',702/891 -7349,southwestern,68,` monte carlo ',' 3145 las vegas blvd. s. ',` las vegas ',702-733-4524,` french ( new ) ',665,0@68#1@131
+0,` the bacchanal ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7525,` only in las vegas ',449,` monte carlo ',' 3145 las vegas blvd. s. ',` las vegas ',702-733-4524,` french ( new ) ',665,0@449#1@131
+0,` chin \ 's ',' 3200 las vegas blvd. s ',` las vegas ',702/733 -8899,asian,67,` monte carlo ',' 3145 las vegas blvd. s. ',` las vegas ',702-733-4524,` french ( new ) ',665,0@67#1@131
+0,` bally \ 's big kitchen ',' 3645 las vegas blvd. s ',` las vegas ',702/739 -4111,buffets,424,` monte carlo ',' 3145 las vegas blvd. s. ',` las vegas ',702-733-4524,` french ( new ) ',665,0@424#1@131
+0,` restaurant ritz-carlton atlanta ',' 181 peachtree st. ',atlanta,404/659 -0400,continental,91,frijoleros,' 1031 peachtree st. ne ',atlanta,404-892-8226,tex-mex,692,0@91#1@158
+0,bistango,' 1100 peachtree st. ',atlanta,404/724 -0901,mediterranean,386,frijoleros,' 1031 peachtree st. ne ',atlanta,404-892-8226,tex-mex,692,0@386#1@158
+0,` art \ 's delicatessen ',' 12224 ventura blvd. ',` studio city ',818/762 -1221,american,1,` rubin \ 's red hots ',' 15322 ventura blvd. ',encino,818-905-6515,` hot dogs ',590,0@1#1@56
+0,` cafe bizou ',' 14016 ventura blvd. ',` sherman oaks ',818/788 -3536,french,3,` rubin \ 's red hots ',' 15322 ventura blvd. ',encino,818-905-6515,` hot dogs ',590,0@3#1@56
+0,` tommy tang \ 's ',' 7313 melrose ave. ',` los angeles ',213/937 -5733,asian,167,` johnny rockets ( la ) ',' 7507 melrose ave. ',la,213-651-3361,american,564,0@170#1@30
+0,dawat,' 210 e. 58th st. ',` new york ',212/355 -7555,asian,32,march,' 405 e. 58th st. ',` new york city ',212-754-6272,` american ( new ) ',46,0@32#1@264
+0,` tse yang ','34 e. 51st st. ',` new york ',212/688 -5447,asian,366,aureole,'34 e. 61st st. ',` new york city ',212-319-1660,` american ( new ) ',25,0@366#1@243
+0,` parioli romanissimo ','24 e. 81st st. ',` new york ',212/288 -2391,italian,322,aureole,'34 e. 61st st. ',` new york city ',212-319-1660,` american ( new ) ',25,0@323#1@243
+1,aureole,'34 e. 61st st. ',` new york ',' 212 / 319-1660 ',american,25,aureole,'34 e. 61st st. ',` new york city ',212-319-1660,` american ( new ) ',25,0@25#1@243
+0,` tse yang ','34 e. 51st st. ',` new york ',212/688 -5447,asian,366,sushisay,'38 e. 51st st. ',` new york city ',212-755-1780,japanese,643,0@366#1@109
+1,postrio,' 545 post st. ',` san francisco ',415/776 -7825,american,109,postrio,' 545 post st. ',` san francisco ',415-776-7825,californian,109,0@109#1@327
+0,` mifune japan center kintetsu building ',' 1737 post st. ',` san francisco ',415/922 -0337,asian,107,postrio,' 545 post st. ',` san francisco ',415-776-7825,californian,109,0@107#1@327
+0,` dix et sept ',' 181 w. 10th st. ',` new york ',212/645 -8023,french,228,` cafe des artistes ',' 1 w. 67th st. ',` new york city ',212-877-3500,` french ( classic ) ',27,0@230#1@245
+0,` hard rock cafe ',' 221 w. 57th st. ',` new york ',212/489 -6565,american,261,` cafe des artistes ',' 1 w. 67th st. ',` new york city ',212-877-3500,` french ( classic ) ',27,0@263#1@245
+0,` planet hollywood ',' 140 w. 57th st. ',` new york ',212/333 -7827,american,328,` cafe des artistes ',' 1 w. 67th st. ',` new york city ',212-877-3500,` french ( classic ) ',27,0@329#1@245
+0,` tavola calda ',' 7371 melrose ave. ',` los angeles ',213/658 -6340,italian,165,citrus,' 6703 melrose ave. ',` los angeles ',213-857-0034,californian,6,0@168#1@224
+0,` tavola calda ',' 7371 melrose ave. ',` los angeles ',213/658 -6340,italian,165,patina,' 5955 melrose ave. ',` los angeles ',213-467-1108,californian,16,0@168#1@234
+0,` tavola calda ',' 7371 melrose ave. ',` los angeles ',213/658 -6340,italian,165,` le chardonnay ( los angeles ) ',' 8284 melrose ave. ',` los angeles ',213-655-8880,` french bistro ',12,0@168#1@230
+1,` chez michel ',' 804 northpoint ',` san francisco ',415/775 -7036,french,99,` chez michel ',' 804 north point st. ',` san francisco ',415-775-7036,californian,99,0@99#1@317
+0,` le madri ',' 168 w. 18th st. ',` new york ',212/727 -8022,italian,289,petrossian,' 182 w. 58th st. ',` new york city ',212-245-2214,russian,52,0@290#1@270
+0,` post house ','28 e. 63rd st. ',` new york ',212/935 -2888,american,331,` park avenue cafe ( new york city ) ',' 100 e. 63rd st. ',` new york city ',212-644-1900,` american ( new ) ',51,0@332#1@269
+1,` park avenue cafe ',' 100 e. 63rd st. ',` new york ',212/644 -1900,american,51,` park avenue cafe ( new york city ) ',' 100 e. 63rd st. ',` new york city ',212-644-1900,` american ( new ) ',51,0@51#1@269
+1,delectables,' 1 margaret mitchell sq. ',atlanta,404/681 -2909,american,80,delectables,' 1 margaret mitchell sq. ',atlanta,404-681-2909,cafeterias,80,0@80#1@298
+0,` moose \ 's ',' 1652 stockton st. ',` san francisco ',415/989 -7800,mediterranean,498,` ritz-carlton dining room ( san francisco ) ',' 600 stockton st. ',` san francisco ',415-296-7465,` french ( new ) ',110,0@498#1@328
+0,` golden nugget hotel ',' 129 e. fremont st. ',` las vegas ',702/385 -7111,buffets,440,` stefano \ 's ',' 129 fremont st. ',` las vegas ',702-385-7111,italian,672,0@440#1@138
+0,` lillie langtry \ 's ',' 129 e. fremont st. ',` las vegas ',702/385 -7111,asian,442,` stefano \ 's ',' 129 fremont st. ',` las vegas ',702-385-7111,italian,672,0@442#1@138
+0,` golden nugget hotel ',' 129 e. fremont st. ',` las vegas ',702/385 -7111,buffets,440,` steakhouse the ',' 128 e. fremont st. ',` las vegas ',702-382-1600,steakhouses,671,0@440#1@137
+0,` south park cafe ',' 108 south park ',` san francisco ',415/495 -7275,french,512,` ocean park cafe ',' 3117 ocean park blvd. ',` santa monica ',310-452-5728,american,581,0@512#1@47
+0,` duane park cafe ',' 157 duane st. between w. broadway and hudson st. ',` new york ',212/732 -5555,american,230,` ocean park cafe ',' 3117 ocean park blvd. ',` santa monica ',310-452-5728,american,581,0@232#1@47
+0,bistro,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,continental,429,` tre visi ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7331,italian,674,0@429#1@140
+0,` the bacchanal ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7525,` only in las vegas ',449,` tre visi ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7331,italian,674,0@449#1@140
+0,` chin \ 's ',' 3200 las vegas blvd. s ',` las vegas ',702/733 -8899,asian,67,` tre visi ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7331,italian,674,0@67#1@140
+0,` cafe roma ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,` coffee shops/diners ',433,` tre visi ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7331,italian,674,0@433#1@140
+0,` dining room ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,international,90,toulouse,' 293-b peachtree rd. ',atlanta,404-351-9533,` french ( new ) ',92,0@90#1@310
+0,` morton \ 's ',' 8764 melrose ave. ',` los angeles ',310/276 -5205,american,148,` mo better meatty meat ',' 7261 melrose ave. ',la,213-935-5280,hamburgers,579,0@151#1@45
+0,` morton \ 's ',' 8764 melrose ave. ',` los angeles ',310/276 -5205,american,148,` sweet lady jane ',' 8360 melrose ave. ',la,213-653-7145,desserts,596,0@151#1@62
+0,` le chardonnay ',' 8284 melrose ave. ',` los angeles ',213/655 -8880,french,12,` sweet lady jane ',' 8360 melrose ave. ',la,213-653-7145,desserts,596,0@12#1@62
+0,` coco pazzo ','23 e. 74th st. ',` new york ',212/794 -0205,italian,221,daniel,'20 e. 76th st. ',` new york city ',212-288-0033,` french ( new ) ',31,0@223#1@249
+1,daniel,'20 e. 76th st. ',` new york ',212/288 -0033,french,31,daniel,'20 e. 76th st. ',` new york city ',212-288-0033,` french ( new ) ',31,0@31#1@249
+0,` union square cafe ','21 e. 16th st. ',` new york ',212/243 -4020,american,65,daniel,'20 e. 76th st. ',` new york city ',212-288-0033,` french ( new ) ',31,0@65#1@249
+1,` chinois on main ',' 2709 main st. ',` santa monica ',310/392 -9025,french,5,` chinois on main ',' 2709 main st. ',` santa monica ',310-392-9025,` pacific new wave ',5,0@5#1@223
+0,daniel,'20 e. 76th st. ',` new york ',212/288 -0033,french,31,` union square cafe ','21 e. 16th st. ',` new york city ',212-243-4020,` american ( new ) ',65,0@31#1@283
+0,matsuhisa,' 129 n. la cienega blvd. ',` beverly hills ',310/659 -9639,asian,14,` l \ ` orangerie ',' 903 n. la cienega blvd. ',` w. hollywood ',310-652-9770,` french ( classic ) ',11,0@14#1@229
+0,` cafe ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,` ext 6108 international ',89,` original pancake house ( at ) ',' 4330 peachtree rd. ',atlanta,404-237-4116,american,708,0@89#1@174
+0,` dante \ 's down the hatch buckhead ',' 3380 peachtree rd. ',atlanta,404/266 -1600,continental,393,` original pancake house ( at ) ',' 4330 peachtree rd. ',atlanta,404-237-4116,american,708,0@393#1@174
+0,` cafe ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,` ext 6108 international ',89,` ritz-carlton dining room ( buckhead ) ',' 3434 peachtree rd. ne ',atlanta,404-237-2700,` american ( new ) ',90,0@89#1@308
+1,` tavern on the green ',` in central park at 67th st. ',` new york ',212/873 -3200,american,63,` tavern on the green ',` central park west ',` new york city ',212-873-3200,` american ( new ) ',63,0@63#1@281
+0,` le central ',' 453 bush st. ',` san francisco ',415/391 -2233,french,491,` kelly \ 's on trinity ',' 333 bush st. ',` san francisco ',415-362-4454,californian,733,0@491#1@198
+0,` le central ',' 453 bush st. ',` san francisco ',415/391 -2233,french,491,` masa \ 's ',' 648 bush st. ',` san francisco ',415-989-7154,` french ( new ) ',106,0@491#1@324
+0,` jimmy \ 's ',' 201 moreno dr. ',` los angeles ',310/552 -2394,continental,142,` joe \ 's ',' 1023 abbot kinney blvd. ',venice,310-399-5811,` american ( new ) ',560,0@145#1@26
+0,` coyote cafe ',' 3799 las vegas blvd. s ',` las vegas ',702/891 -7349,southwestern,68,'em eril \ 's new orleans fish house ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7374,seafood,659,0@68#1@125
+1,` khan toke thai house ',' 5937 geary blvd. ',` san francisco ',415/668 -6654,asian,103,` khan toke thai house ',' 5937 geary blvd. ',` san francisco ',415-668-6654,thai,103,0@103#1@321
+0,` straits cafe ',' 3300 geary blvd. ',` san francisco ',415/668 -1783,asian,517,` khan toke thai house ',' 5937 geary blvd. ',` san francisco ',415-668-6654,thai,103,0@517#1@321
+0,sanppo,' 1702 post st. ',` san francisco ',415/346 -3486,asian,510,mifune,' 1737 post st. ',` san francisco ',415-922-0337,japanese,107,0@510#1@325
+0,boulevard,' 1 mission st. ',` san francisco ',415/543 -6084,american,96,` la taqueria ',' 2889 mission st. ',` san francisco ',415-285-7117,mexican,736,0@96#1@201
+0,` r.j. \ 's uptown kitchen & wine bar ',' 870 n. highland ave. ',atlanta,404/875 -7775,american,413,` indigo coastal grill ',' 1397 n. highland ave. ',atlanta,404-876-0676,eclectic,84,0@413#1@302
+0,` border grill ',' 4th st. ',` los angeles ',310/451 -1655,mexican,116,` bobby & june \ 's kountry kitchen ',' 375 14th st. ',atlanta,404-876-3872,southern/soul,680,0@119#1@146
+0,` border grill ',' 4th st. ',` los angeles ',310/451 -1655,mexican,116,` tu lan ',' 8 sixth st. ',` san francisco ',415-626-0927,vietnamese,750,0@119#1@215
+0,barbetta,' 321 w. 46th st. ',` new york ',212/246 -9171,italian,186,` sparks steak house ',' 210 e. 46th st. ',` new york city ',212-687-4855,steakhouses,641,0@189#1@107
+0,chiam,' 160 e. 48th st. ',` new york ',212/371 -2323,asian,218,` sparks steak house ',' 210 e. 46th st. ',` new york city ',212-687-4855,steakhouses,641,0@220#1@107
+0,` lattanzi ristorante ',' 361 w. 46th st. ',` new york ',212/315 -0980,italian,283,` sparks steak house ',' 210 e. 46th st. ',` new york city ',212-687-4855,steakhouses,641,0@284#1@107
+1,` manhattan ocean club ','57 w. 58th st. ',` new york ',' 212 / 371-7777 ',seafood,45,` manhattan ocean club ','57 w. 58th st. ',` new york city ',212-371-7777,seafood,45,0@45#1@263
+0,petrossian,' 182 w. 58th st. ',` new york ',212/245 -2214,french,52,` manhattan ocean club ','57 w. 58th st. ',` new york city ',212-371-7777,seafood,45,0@52#1@263
+0,vida,' 1930 north hillhurst ave. ',` los feliz ',213/660 -4446,american,170,katsu,' 1972 hillhurst ave. ',` los feliz ',213-665-1891,japanese,10,0@173#1@228
+0,` judson grill ',' 152 w. 52nd st. ',` new york ',212/582 -5252,american,276,` virgil \ 's real bbq ',' 152 w. 44th st. ',` new york city ',212-921-9494,bbq,66,0@277#1@284
+1,` virgil \ 's ',' 152 w. 44th st. ',` new york ',' 212 / 921-9494 ',american,66,` virgil \ 's real bbq ',' 152 w. 44th st. ',` new york city ',212-921-9494,bbq,66,0@66#1@284
+0,` osteria al droge ',' 142 w. 44th st. ',` new york ',212/944 -3643,italian,317,` virgil \ 's real bbq ',' 152 w. 44th st. ',` new york city ',212-921-9494,bbq,66,0@318#1@284
+0,` judson grill ',' 152 w. 52nd st. ',` new york ',212/582 -5252,american,276,` la grenouille ',' 3 e. 52nd st. ',` new york city ',212-752-1495,` french ( classic ) ',623,0@277#1@89
+0,` jewel of india ','15 w. 44th st. ',` new york ',212/869 -5544,asian,273,aquavit,'13 w. 54th st. ',` new york city ',212-307-7311,scandinavian,24,0@274#1@242
+0,ipanema,'13 w. 46th st. ',` new york ',212/730 -5848,` latin american ',271,aquavit,'13 w. 54th st. ',` new york city ',212-307-7311,scandinavian,24,0@272#1@242
+0,` san pietro ','18 e. 54th st. ',` new york ',212/753 -9015,italian,342,aquavit,'13 w. 54th st. ',` new york city ',212-307-7311,scandinavian,24,0@342#1@242
+0,` jewel of india ','15 w. 44th st. ',` new york ',212/869 -5544,asian,273,` rose of india ',' 308 e. sixth st. ',` new york city ',212-533-5011,indian,638,0@274#1@104
+1,` veni vidi vici ','41 14th st. ',atlanta,404/875 -8424,italian,93,` veni vidi vici ','41 14th st. ',atlanta,404-875-8424,italian,93,0@93#1@311
+0,` the bacchanal ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7525,` only in las vegas ',449,` morton \ 's of chicago ( las vegas ) ',' 3200 las vegas blvd. s. ',` las vegas ',702-893-0703,steakhouses,667,0@449#1@133
+0,` margarita \ 's mexican cantina ',' 3120 las vegas blvd. s ',` las vegas ',702/794 -8200,mexican,444,` morton \ 's of chicago ( las vegas ) ',' 3200 las vegas blvd. s. ',` las vegas ',702-893-0703,steakhouses,667,0@444#1@133
+0,chiam,' 160 e. 48th st. ',` new york ',212/371 -2323,asian,218,` jo jo ',' 160 e. 64th st. ',` new york city ',212-223-5656,` french bistro ',38,0@220#1@256
+0,` cafe michelle ',' 1350 e. flamingo rd. ',` las vegas ',702/735 -8686,american,432,` fiore rotisserie & grille ',' 3700 w. flamingo rd. ',` las vegas ',702-252-7702,italian,660,0@432#1@126
+1,` four seasons grill room ','99 e. 52nd st. ',` new york ',212/754 -9494,american,34,` four seasons ','99 e. 52nd st. ',` new york city ',212-754-9494,` american ( new ) ',34,0@34#1@252
+0,` one market ',' 1 market st. ',` san francisco ',415/777 -5577,american,500,` cafe flore ',' 2298 market st. ',` san francisco ',415-621-8579,californian,722,0@500#1@187
+0,` cafe bizou ',' 14016 ventura blvd. ',` sherman oaks ',818/788 -3536,french,3,` mulberry st. ',' 17040 ventura blvd. ',encino,818-906-8881,pizza,580,0@3#1@46
+0,` palace court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,continental,70,` steak house the ',' 2880 las vegas blvd. s. ',` las vegas ',702-734-0410,steakhouses,72,0@70#1@290
+0,toulouse,' b peachtree rd. ',atlanta,404/351 -9533,french,92,` brasserie le coze ',' 3393 peachtree rd. ',atlanta,404-266-1440,` french bistro ',77,0@92#1@295
+0,` margarita \ 's mexican cantina ',' 3120 las vegas blvd. s ',` las vegas ',702/794 -8200,mexican,444,` michael \ 's ( las vegas ) ',' 3595 las vegas blvd. s. ',` las vegas ',702-737-7111,continental,664,0@444#1@130
+0,` caffe bondi ristorante ',' 7 w. 20th st. ',` new york ',212/691 -8136,italian,212,` gramercy tavern ','42 e. 20th st. ',` new york city ',212-477-0777,` american ( new ) ',36,0@214#1@254
+0,campanile,' 624 s. la brea ave. ',` los angeles ',213/938 -1447,american,4,` pink \ 's famous chili dogs ',' 709 n. la brea ave. ',la,213-931-4223,` hot dogs ',586,0@4#1@52
+0,` pano \ 's and paul \ 's ',' 1232 w. paces ferry rd. ',atlanta,404/261 -3662,international,88,chops,'70 w. paces ferry rd. ',atlanta,404-262-2675,steakhouses,687,0@88#1@153
+1,` alain rondelli ',' 126 clement st. ',` san francisco ',415/387 -0408,french,94,` alain rondelli ',' 126 clement st. ',` san francisco ',415-387-0408,` french ( new ) ',94,0@94#1@312
+1,` pinot bistro ',' 12969 ventura blvd. ',` los angeles ',818/990 -0500,french,18,` pinot bistro ',' 12969 ventura blvd. ',` studio city ',818-990-0500,` french bistro ',18,0@18#1@236
+0,` pinot bistro ',' 12969 ventura blvd. ',` los angeles ',818/990 -0500,french,18,` art \ 's deli ',' 12224 ventura blvd. ',` studio city ',818-762-1221,delis,1,0@18#1@219
+1,` sign of the dove ',' 1110 3rd ave. at 65th st. ',` new york ',212/861 -8080,american,61,` sign of the dove ',' 1110 third ave. ',` new york city ',212-861-8080,` american ( new ) ',61,0@61#1@279
+0,` perry \ 's ',' 1944 union st. ',` san francisco ',415/922 -9022,american,506,` doidge \ 's ',' 2217 union st. ',` san francisco ',415-921-2149,american,726,0@506#1@191
+0,` popover cafe ',' 551 amsterdam ave. between 86th and 87th sts . ',` new york ',212/595 -8555,american,330,` river cafe ',' 1 water st. ',brooklyn,718-522-5200,` american ( new ) ',56,0@331#1@274
+0,` vivande porta via ',' 2125 fillmore st. ',` san francisco ',415/346 -4430,italian,524,` trio cafe ',' 1870 fillmore st. ',` san francisco ',415-563-2248,american,749,0@524#1@214
+0,` dante \ 's down the hatch buckhead ',' 3380 peachtree rd. ',atlanta,404/266 -1600,continental,393,nava,' 3060 peachtree rd. ',atlanta,404-240-1984,southwestern,706,0@393#1@172
+0,` luna si ',' 1931 peachtree rd. ',atlanta,404/355 -5993,continental,405,abruzzi,' 2355 peachtree rd. ne ',atlanta,404-261-8186,italian,74,0@405#1@292
+0,` la folie ',' 2316 polk st. ',` san francisco ',415/776 -5577,french,104,` wa-ha-ka oaxaca mexican grill ',' 2141 polk st. ',` san francisco ',415-775-1055,mexican,752,0@104#1@217
+0,` la folie ',' 2316 polk st. ',` san francisco ',415/776 -5577,french,104,` mario \ 's bohemian cigar store cafe ',' 2209 polk st. ',` san francisco ',415-776-8226,italian,737,0@104#1@202
+0,` osteria al droge ',' 142 w. 44th st. ',` new york ',212/944 -3643,italian,317,` island spice ',' 402 w. 44th st. ',` new york city ',212-765-1737,caribbean,37,0@318#1@255
+0,` la reserve ',' 4 w. 49th st. ',` new york ',212/247 -2993,french,281,` island spice ',' 402 w. 44th st. ',` new york city ',212-765-1737,caribbean,37,0@282#1@255
+0,` l \ ` osteria del forno ',' 519 columbus ave. ',` san francisco ',415/982 -1124,italian,490,` caffe greco ',' 423 columbus ave. ',` san francisco ',415-397-6261,continental,723,0@490#1@188
+0,` l \ ` osteria del forno ',' 519 columbus ave. ',` san francisco ',415/982 -1124,italian,490,` rose pistola ',' 532 columbus ave. ',` san francisco ',415-399-0499,italian,111,0@490#1@329
+0,` china grill ','60 w. 53rd st. ',` new york ',212/333 -7788,american,219,` mesa grill ',' 102 fifth ave. ',` new york city ',212-807-7400,southwestern,47,0@221#1@265
+0,` joe allen ',' 326 w. 46th st. ',` new york ',212/581 -6464,american,275,` cassell \ 's ',' 3266 w. sixth st. ',la,213-480-8668,hamburgers,547,0@276#1@13
+0,` rj \ 's the rib joint ',' 252 n. beverly dr. ',` los angeles ',310/274 -7427,american,158,` ruth \ 's chris steak house ( los angeles ) ',' 224 s. beverly dr. ',` beverly hills ',310-859-8744,steakhouses,593,0@161#1@59
+0,` bistro roti ',' 155 steuart st. ',` san francisco ',415/495 -6500,french,457,` bistro 45 ','45 s. mentor ave. ',pasadena,818-795-2478,californian,540,0@457#1@6
+0,aquavit,'13 w. 54th st. ',` new york ',212/307 -7311,continental,24,` la caravelle ','33 w. 55th st. ',` new york city ',212-586-4252,` french ( classic ) ',39,0@24#1@257
+0,tomtom,' 3393 peachtree rd. ',atlanta,404/264 -1163,continental,422,` brookhaven cafe ',' 4274 peachtree rd. ',atlanta,404-231-5907,vegetarian,682,0@422#1@148
+0,swingers,' 8020 beverly blvd. ',` los angeles ',213/653 -5858,american,164,` jan \ 's family restaurant ',' 8424 beverly blvd. ',la,213-651-2866,` coffee shops ',557,0@167#1@23
+0,` smith & wollensky ',' 201 e. 49th st. ',` new york ',212/753 -1530,american,62,` wollensky \ 's grill ',' 205 e. 49th st. ',` new york city ',212-753-0444,steakhouses,653,0@62#1@119
+0,remi,' 3rd st. promenade ',` santa monica ',310/393 -6545,italian,159,` benita \ 's frites ',' 1433 third st. promenade ',` santa monica ',310-458-2889,` fast food ',538,0@162#1@4
+0,tillerman,' 2245 e. flamingo rd. ',` las vegas ',702/731 -4036,seafood,73,` buzio \ 's in the rio ',' 3700 w. flamingo rd. ',` las vegas ',702-252-7697,seafood,658,0@73#1@124
+0,` hayes street grill ',' 320 hayes st. ',` san francisco ',415/863 -5545,seafood,478,` second street grill ',' 200 e. fremont st. ',` las vegas ',702-385-6277,` pacific rim ',71,0@478#1@289
+0,` california culinary academy ',' 625 polk st. ',` san francisco ',415/771 -3500,french,463,` swan oyster depot ',' 1517 polk st. ',` san francisco ',415-673-1101,seafood,746,0@463#1@211
+0,sfuzzi,'58 w. 65th st. ',` new york ',212/873 -3700,american,348,` john \ 's pizzeria ','48 w. 65th st. ',` new york city ',212-721-7001,pizza,618,0@348#1@84
+1,` bone \ 's ',' 3130 piedmont road ',atlanta,404/237 -2663,american,76,` bone \ 's restaurant ',' 3130 piedmont rd. ne ',atlanta,404-237-2663,steakhouses,76,0@76#1@294
+1,` les celebrites ',' 160 central park s ',` new york ',212/484 -5113,french,42,` les celebrites ',' 155 w. 58th st. ',` new york city ',212-484-5113,` french ( classic ) ',42,0@42#1@260
+0,felidia,' 243 e. 58th st. ',` new york ',212/758 -1479,italian,33,` les celebrites ',' 155 w. 58th st. ',` new york city ',212-484-5113,` french ( classic ) ',42,0@33#1@260
+0,venetian,' 3713 w. sahara ave. ',` las vegas ',702/876 -4190,italian,450,` mayflower cuisinier ',' 4750 w. sahara ave. ',` las vegas ',702-870-8432,chinese,663,0@450#1@129
+0,` corrado cafe ',' 1013 3rd ave. between 60th and 61st sts . ',` new york ',212/753 -5100,` coffee bar ',223,` indo cafe ',' 10428 1/2 national blvd. ',la,310-815-1290,indonesian,556,0@225#1@22
+1,chanterelle,' 2 harrison st. near hudson st. ',` new york ',212/966 -6960,american,30,chanterelle,' 2 harrison st. ',` new york city ',212-966-6960,` french ( new ) ',30,0@30#1@248
+0,lespinasse,' 2 e. 55th st. ',` new york ',212/339 -6719,american,43,menchanko-tei,'39 w. 55th st. ',` new york city ',212-247-1585,japanese,627,0@43#1@93
+1,` mi cocina ','57 jane st. off hudson st. ',` new york ',212/627 -8273,mexican,48,` mi cocina ','57 jane st. ',` new york city ',212-627-8273,mexican,48,0@48#1@266
+0,` french quarter food shop ',' 923 peachtree st. at 8th st. ',atlanta,404/875 -2489,southern,396,` alon \ 's at the terrace ',' 659 peachtree st. ',atlanta,404-724-0444,sandwiches,676,0@396#1@142
+0,` capp \ 's corner ',' 1600 powell st. ',` san francisco ',415/989 -2589,italian,464,` carey \ 's corner ',' 1215 powers ferry rd. ',marietta,770-933-0909,hamburgers,686,0@464#1@152
+0,zarzuela,' 2000 hyde st. ',` san francisco ',415/346 -0800,` mexican/latin american/spanish ',531,zarela,' 953 second ave. ',` new york city ',212-644-6740,mexican,655,0@531#1@121
+0,` hard rock cafe ',' 8600 beverly blvd. ',` los angeles ',310/276 -7605,american,137,` koo koo roo ',' 8393 w. beverly blvd. ',la,213-655-9045,chicken,567,0@140#1@33
+0,` masa \ 's ',' 648 bush st. ',` san francisco ',415/989 -7154,french,106,` cha cha cha \ 's ',' 1805 haight st. ',` san francisco ',415-386-5758,caribbean,725,0@106#1@190
+0,` jean lafitte ','68 w. 58th st. ',` new york ',212/751 -2323,french,272,` la cote basque ','60 w. 55th st. ',` new york city ',212-688-6525,` french ( classic ) ',40,0@273#1@258
+0,` la caravelle ','33 w. 55th st. ',` new york ',212/586 -4252,french,39,` la cote basque ','60 w. 55th st. ',` new york city ',212-688-6525,` french ( classic ) ',40,0@39#1@258
+0,` cafe bianco ',' 1486 2nd ave. between 77th and 78th sts . ',` new york ',212/988 -2655,` coffee bar ',199,` cafe bizou ',' 14016 ventura blvd. ',` sherman oaks ',818-788-3536,` french bistro ',3,0@201#1@221
+0,` jack sprat \ 's grill ',' 10668 w. pico blvd. ',` los angeles ',310/837 -6662,` health food ',140,` john o \ ` groats ',' 10516 w. pico blvd. ',` west la ',310-204-0692,` coffee shops ',561,0@143#1@27
+0,citrus,' 6703 melrose ave. ',` los angeles ',213/857 -0034,californian,6,` le chardonnay ( los angeles ) ',' 8284 melrose ave. ',` los angeles ',213-655-8880,` french bistro ',12,0@6#1@230
+0,eclipse,' 8800 melrose ave. ',` los angeles ',310/724 -5959,californian,132,` le chardonnay ( los angeles ) ',' 8284 melrose ave. ',` los angeles ',213-655-8880,` french bistro ',12,0@135#1@230
+0,citrus,' 6703 melrose ave. ',` los angeles ',213/857 -0034,californian,6,` sweet lady jane ',' 8360 melrose ave. ',la,213-653-7145,desserts,596,0@6#1@62
+0,` tommy tang \ 's ',' 7313 melrose ave. ',` los angeles ',213/937 -5733,asian,167,` sweet lady jane ',' 8360 melrose ave. ',la,213-653-7145,desserts,596,0@170#1@62
+0,patina,' 5955 melrose ave. ',` los angeles ',213/467 -1108,californian,16,` sweet lady jane ',' 8360 melrose ave. ',la,213-653-7145,desserts,596,0@16#1@62
+1,` yujean kang \ 's gourmet chinese cuisine ','67 n. raymond ave. ',` los angeles ',818/585 -0855,asian,22,` yujean kang \ 's ','67 n. raymond ave. ',pasadena,818-585-0855,chinese,22,0@22#1@240
+0,oritalia,' 1915 fillmore st. ',` san francisco ',415/346 -1333,italian,501,` trio cafe ',' 1870 fillmore st. ',` san francisco ',415-563-2248,american,749,0@501#1@214
+1,` jo jo ',' 160 e. 64th st. ',` new york ',212/223 -5656,american,38,` jo jo ',' 160 e. 64th st. ',` new york city ',212-223-5656,` french bistro ',38,0@38#1@256
+0,` monkey bar ','60 e. 54th st. ',` new york ',212/838 -2600,american,308,` jo jo ',' 160 e. 64th st. ',` new york city ',212-223-5656,` french bistro ',38,0@309#1@256
+0,` palace court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,continental,70,` michael \ 's ( las vegas ) ',' 3595 las vegas blvd. s. ',` las vegas ',702-737-7111,continental,664,0@70#1@130
+0,` circus circus ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,buffets,437,` michael \ 's ( las vegas ) ',' 3595 las vegas blvd. s. ',` las vegas ',702-737-7111,continental,664,0@437#1@130
+0,` cafe roma ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,` coffee shops/diners ',433,` michael \ 's ( las vegas ) ',' 3595 las vegas blvd. s. ',` las vegas ',702-737-7111,continental,664,0@433#1@130
+0,` the bacchanal ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7525,` only in las vegas ',449,` michael \ 's ( las vegas ) ',' 3595 las vegas blvd. s. ',` las vegas ',702-737-7111,continental,664,0@449#1@130
+0,` palace court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,continental,70,` chin \ 's ',' 3200 las vegas blvd. s. ',` las vegas ',702-733-8899,chinese,67,0@70#1@285
+0,bistro,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,continental,429,` chin \ 's ',' 3200 las vegas blvd. s. ',` las vegas ',702-733-8899,chinese,67,0@429#1@285
+0,` the bacchanal ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7525,` only in las vegas ',449,` chin \ 's ',' 3200 las vegas blvd. s. ',` las vegas ',702-733-8899,chinese,67,0@449#1@285
+0,` palace court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,continental,70,` morton \ 's of chicago ( las vegas ) ',' 3200 las vegas blvd. s. ',` las vegas ',702-893-0703,steakhouses,667,0@70#1@133
+0,` ralph \ 's diner ',' 3000 las vegas blvd. s ',` las vegas ',702/732 -6330,` coffee shops/diners ',448,` morton \ 's of chicago ( las vegas ) ',' 3200 las vegas blvd. s. ',` las vegas ',702-893-0703,steakhouses,667,0@448#1@133
+0,` bertolini \ 's ',' 3570 las vegas blvd. s ',` las vegas ',702/735 -4663,italian,427,` morton \ 's of chicago ( las vegas ) ',' 3200 las vegas blvd. s. ',` las vegas ',702-893-0703,steakhouses,667,0@427#1@133
+0,'em press court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7888,asian,438,` morton \ 's of chicago ( las vegas ) ',' 3200 las vegas blvd. s. ',` las vegas ',702-893-0703,steakhouses,667,0@438#1@133
+0,` palace court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,continental,70,` tre visi ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7331,italian,674,0@70#1@140
+0,` bugsy \ 's diner ',' 3555 las vegas blvd. s ',` las vegas ',702/733 -3111,` coffee shops/diners ',431,` tre visi ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7331,italian,674,0@431#1@140
+0,'em press court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7888,asian,438,` tre visi ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7331,italian,674,0@438#1@140
+0,` palace court ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,continental,70,` spago ( las vegas ) ',' 3500 las vegas blvd. s. ',` las vegas ',702-369-6300,californian,670,0@70#1@136
+0,` coyote cafe ',' 3799 las vegas blvd. s ',` las vegas ',702/891 -7349,southwestern,68,` spago ( las vegas ) ',' 3500 las vegas blvd. s. ',` las vegas ',702-369-6300,californian,670,0@68#1@136
+0,` circus circus ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,buffets,437,` spago ( las vegas ) ',' 3500 las vegas blvd. s. ',` las vegas ',702-369-6300,californian,670,0@437#1@136
+0,` chin \ 's ',' 3200 las vegas blvd. s ',` las vegas ',702/733 -8899,asian,67,` spago ( las vegas ) ',' 3500 las vegas blvd. s. ',` las vegas ',702-369-6300,californian,670,0@67#1@136
+0,` beesley \ 's of buckhead ',' 260 e. paces ferry road ',atlanta,404/264 -1334,continental,384,` hedgerose heights inn the ',' 490 e. paces ferry rd. ne ',atlanta,404-233-7673,continental,82,0@384#1@300
+1,` hedgerose heights inn ',' 490 e. paces ferry rd. ',atlanta,404/233 -7673,international,82,` hedgerose heights inn the ',' 490 e. paces ferry rd. ne ',atlanta,404-233-7673,continental,82,0@82#1@300
+0,` bone \ 's ',' 3130 piedmont road ',atlanta,404/237 -2663,american,76,` joe \ 's ',' 1023 abbot kinney blvd. ',venice,310-399-5811,` american ( new ) ',560,0@76#1@26
+0,` le colonial ',' 8783 beverly blvd. ',` los angeles ',310/289 -0660,asian,144,` jan \ 's family restaurant ',' 8424 beverly blvd. ',la,213-651-2866,` coffee shops ',557,0@147#1@23
+0,` le colonial ',' 8783 beverly blvd. ',` los angeles ',310/289 -0660,asian,144,` koo koo roo ',' 8393 w. beverly blvd. ',la,213-655-9045,chicken,567,0@147#1@33
+1,` heera of india ',' 595 piedmont ave. rio shopping mall ',atlanta,404/876 -4408,asian,83,` heera of india ',' 595 piedmont ave. ',atlanta,404-876-4408,indian,83,0@83#1@301
+0,ciboulette,' 1529 piedmont ave. ',atlanta,404/874 -7600,french,79,` heera of india ',' 595 piedmont ave. ',atlanta,404-876-4408,indian,83,0@79#1@301
+0,` dining room ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,international,90,` brookhaven cafe ',' 4274 peachtree rd. ',atlanta,404-231-5907,vegetarian,682,0@90#1@148
+0,toulouse,' b peachtree rd. ',atlanta,404/351 -9533,french,92,` brookhaven cafe ',' 4274 peachtree rd. ',atlanta,404-231-5907,vegetarian,682,0@92#1@148
+0,` dining room ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,international,90,` brasserie le coze ',' 3393 peachtree rd. ',atlanta,404-266-1440,` french bistro ',77,0@90#1@295
+0,` luna si ',' 1931 peachtree rd. ',atlanta,404/355 -5993,continental,405,` brasserie le coze ',' 3393 peachtree rd. ',atlanta,404-266-1440,` french bistro ',77,0@405#1@295
+0,palisades,' 1829 peachtree rd. ',atlanta,404/350 -6755,continental,410,` brasserie le coze ',' 3393 peachtree rd. ',atlanta,404-266-1440,` french bistro ',77,0@410#1@295
+0,tomtom,' 3393 peachtree rd. ',atlanta,404/264 -1163,continental,422,` brasserie le coze ',' 3393 peachtree rd. ',atlanta,404-266-1440,` french bistro ',77,0@422#1@295
+0,bruno,' 240 e. 58th st. ',` new york ',212/688 -4190,italian,195,felidia,' 243 e. 58th st. ',` new york city ',212-758-1479,italian,33,0@197#1@251
+0,dawat,' 210 e. 58th st. ',` new york ',212/355 -7555,asian,32,felidia,' 243 e. 58th st. ',` new york city ',212-758-1479,italian,33,0@32#1@251
+0,lutece,' 249 e. 50th st. ',` new york ',212/752 -2225,french,44,felidia,' 243 e. 58th st. ',` new york city ',212-758-1479,italian,33,0@44#1@251
+0,bruno,' 240 e. 58th st. ',` new york ',212/688 -4190,italian,195,petrossian,' 182 w. 58th st. ',` new york city ',212-245-2214,russian,52,0@197#1@270
+0,` border grill ',' 4th st. ',` los angeles ',310/451 -1655,mexican,116,` jackson diner ',' 37-03 74th st. ',queens,718-672-1232,indian,616,0@119#1@82
+0,` coyote cafe ',' 3799 las vegas blvd. s ',` las vegas ',702/891 -7349,southwestern,68,` palace court ',' 3570 las vegas blvd. s. ',` las vegas ',702-731-7110,` french ( new ) ',70,0@68#1@288
+0,` bugsy \ 's diner ',' 3555 las vegas blvd. s ',` las vegas ',702/733 -3111,` coffee shops/diners ',431,` palace court ',' 3570 las vegas blvd. s. ',` las vegas ',702-731-7110,` french ( new ) ',70,0@431#1@288
+0,` ralph \ 's diner ',' 3000 las vegas blvd. s ',` las vegas ',702/732 -6330,` coffee shops/diners ',448,` palace court ',' 3570 las vegas blvd. s. ',` las vegas ',702-731-7110,` french ( new ) ',70,0@448#1@288
+0,` steak house ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,` steak houses ',72,` palace court ',' 3570 las vegas blvd. s. ',` las vegas ',702-731-7110,` french ( new ) ',70,0@72#1@288
+0,` chin \ 's ',' 3200 las vegas blvd. s ',` las vegas ',702/733 -8899,asian,67,` palace court ',' 3570 las vegas blvd. s. ',` las vegas ',702-731-7110,` french ( new ) ',70,0@67#1@288
+0,mikado,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,asian,446,` palace court ',' 3570 las vegas blvd. s. ',` las vegas ',702-731-7110,` french ( new ) ',70,0@446#1@288
+0,` coyote cafe ',' 3799 las vegas blvd. s ',` las vegas ',702/891 -7349,southwestern,68,` sterling brunch ',' 3645 las vegas blvd. s. ',` las vegas ',702-739-4651,eclectic,673,0@68#1@139
+0,` cafe roma ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,` coffee shops/diners ',433,` sterling brunch ',' 3645 las vegas blvd. s. ',` las vegas ',702-739-4651,eclectic,673,0@433#1@139
+0,` coyote cafe ',' 3799 las vegas blvd. s ',` las vegas ',702/891 -7349,southwestern,68,` buccaneer bay club ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7350,continental,657,0@68#1@123
+0,` bugsy \ 's diner ',' 3555 las vegas blvd. s ',` las vegas ',702/733 -3111,` coffee shops/diners ',431,` buccaneer bay club ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7350,continental,657,0@431#1@123
+0,` cafe roma ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,` coffee shops/diners ',433,` buccaneer bay club ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7350,continental,657,0@433#1@123
+0,` bally \ 's big kitchen ',' 3645 las vegas blvd. s ',` las vegas ',702/739 -4111,buffets,424,` buccaneer bay club ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7350,continental,657,0@424#1@123
+0,` jack sprat \ 's grill ',' 10668 w. pico blvd. ',` los angeles ',310/837 -6662,` health food ',140,` apple pan the ',' 10801 w. pico blvd. ',` west la ',310-475-3585,american,534,0@143#1@0
+0,` jack sprat \ 's grill ',' 10668 w. pico blvd. ',` los angeles ',310/837 -6662,` health food ',140,` main course the ',' 10509 w. pico blvd. ',` rancho park ',310-475-7564,american,573,0@143#1@39
+0,` le perigord ',' 405 e. 52nd st. ',` new york ',212/755 -6244,french,291,` la grenouille ',' 3 e. 52nd st. ',` new york city ',212-752-1495,` french ( classic ) ',623,0@292#1@89
+0,` ben benson \ 's ',' 123 w. 52nd st. ',` new york ',212/581 -8888,american,187,` la grenouille ',' 3 e. 52nd st. ',` new york city ',212-752-1495,` french ( classic ) ',623,0@190#1@89
+0,` les celebrites ',' 160 central park s ',` new york ',212/484 -5113,french,42,` san domenico ',' 240 central park s. ',` new york city ',212-265-5959,italian,57,0@42#1@275
+1,` san domenico ',' 240 central park s ',` new york ',212/265 -5959,italian,57,` san domenico ',' 240 central park s. ',` new york city ',212-265-5959,italian,57,0@57#1@275
+0,` cafe botanica ',' 160 central park s ',` new york ',212/484 -5120,french,200,` san domenico ',' 240 central park s. ',` new york city ',212-265-5959,italian,57,0@202#1@275
+0,` bugsy \ 's diner ',' 3555 las vegas blvd. s ',` las vegas ',702/733 -3111,` coffee shops/diners ',431,` madame ching \ 's ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7111,asian,662,0@431#1@128
+0,` ralph \ 's diner ',' 3000 las vegas blvd. s ',` las vegas ',702/732 -6330,` coffee shops/diners ',448,` madame ching \ 's ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7111,asian,662,0@448#1@128
+0,bistro,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,continental,429,` madame ching \ 's ',' 3300 las vegas blvd. s. ',` las vegas ',702-894-7111,asian,662,0@429#1@128
+0,dive !,' 10250 santa monica blvd. ',` los angeles ',310/788 -,` dive american ',128,` palm the ( los angeles ) ',' 9001 santa monica blvd. ',` w. hollywood ',310-550-8811,steakhouses,15,0@131#1@233
+0,dive !,' 10250 santa monica blvd. ',` los angeles ',310/788 -,` dive american ',128,` la cachette ',' 10506 little santa monica blvd. ',` century city ',310-470-4992,` french ( new ) ',568,0@131#1@34
+0,dive !,' 10250 santa monica blvd. ',` los angeles ',310/788 -,` dive american ',128,` belvedere the ',' 9882 little santa monica blvd. ',` beverly hills ',310-788-2306,` pacific new wave ',537,0@131#1@3
+0,` the palm ',' 9001 santa monica blvd. ',` los angeles ',310/550 -8811,american,15,` belvedere the ',' 9882 little santa monica blvd. ',` beverly hills ',310-788-2306,` pacific new wave ',537,0@15#1@3
+0,` luna si ',' 1931 peachtree rd. ',atlanta,404/355 -5993,continental,405,nava,' 3060 peachtree rd. ',atlanta,404-240-1984,southwestern,706,0@405#1@172
+0,` luna si ',' 1931 peachtree rd. ',atlanta,404/355 -5993,continental,405,` ritz-carlton cafe ( atlanta ) ',' 181 peachtree st. ',atlanta,404-659-0400,` american ( new ) ',711,0@405#1@330
+0,bistango,' 1100 peachtree st. ',atlanta,404/724 -0901,mediterranean,386,` ritz-carlton cafe ( atlanta ) ',' 181 peachtree st. ',atlanta,404-659-0400,` american ( new ) ',711,0@386#1@330
+0,` luna si ',' 1931 peachtree rd. ',atlanta,404/355 -5993,continental,405,` ritz-carlton dining room ( buckhead ) ',' 3434 peachtree rd. ne ',atlanta,404-237-2700,` american ( new ) ',90,0@405#1@308
+0,toulouse,' b peachtree rd. ',atlanta,404/351 -9533,french,92,` ritz-carlton dining room ( buckhead ) ',' 3434 peachtree rd. ne ',atlanta,404-237-2700,` american ( new ) ',90,0@92#1@308
+0,` luna si ',' 1931 peachtree rd. ',atlanta,404/355 -5993,continental,405,` georgia grille ',' 2290 peachtree rd. ',atlanta,404-352-3517,southwestern,81,0@405#1@299
+0,` dante \ 's down the hatch buckhead ',' 3380 peachtree rd. ',atlanta,404/266 -1600,continental,393,` georgia grille ',' 2290 peachtree rd. ',atlanta,404-352-3517,southwestern,81,0@393#1@299
+0,` ralph \ 's diner ',' 3000 las vegas blvd. s ',` las vegas ',702/732 -6330,` coffee shops/diners ',448,'em eril \ 's new orleans fish house ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7374,seafood,659,0@448#1@125
+0,` bertolini \ 's ',' 3570 las vegas blvd. s ',` las vegas ',702/735 -4663,italian,427,'em eril \ 's new orleans fish house ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7374,seafood,659,0@427#1@125
+0,` bally \ 's big kitchen ',' 3645 las vegas blvd. s ',` las vegas ',702/739 -4111,buffets,424,'em eril \ 's new orleans fish house ',' 3799 las vegas blvd. s. ',` las vegas ',702-891-7374,seafood,659,0@424#1@125
+1,` indigo coastal grill ',' 1397 n. highland ave. ',atlanta,404/876 -0676,caribbean,84,` indigo coastal grill ',' 1397 n. highland ave. ',atlanta,404-876-0676,eclectic,84,0@84#1@302
+0,oceana,'55 e. 54th st. ',` new york ',212/759 -5941,seafood,50,aquavit,'13 w. 54th st. ',` new york city ',212-307-7311,scandinavian,24,0@50#1@242
+0,oceana,'55 e. 54th st. ',` new york ',212/759 -5941,seafood,50,` shun lee palace ',' 155 e. 55th st. ',` new york city ',212-371-8844,chinese,60,0@50#1@278
+0,` pen & pencil ',' 205 e. 45th st. ',` new york ',212/682 -8660,american,325,` shun lee palace ',' 155 e. 55th st. ',` new york city ',212-371-8844,chinese,60,0@326#1@278
+1,abruzzi,' 2355 peachtree rd. . peachtree battle shopping center ',atlanta,404/261 -8186,italian,74,abruzzi,' 2355 peachtree rd. ne ',atlanta,404-261-8186,italian,74,0@74#1@292
+0,` cafe ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,` ext 6108 international ',89,abruzzi,' 2355 peachtree rd. ne ',atlanta,404-261-8186,italian,74,0@89#1@292
+0,tomtom,' 3393 peachtree rd. ',atlanta,404/264 -1163,continental,422,abruzzi,' 2355 peachtree rd. ne ',atlanta,404-261-8186,italian,74,0@422#1@292
+0,` mandarin court ',' 1510 e. flamingo rd. ',` las vegas ',702/737 -1234,asian,443,` fiore rotisserie & grille ',' 3700 w. flamingo rd. ',` las vegas ',702-252-7702,italian,660,0@443#1@126
+0,` viva mercado \ 's ',' 6182 w. flamingo rd. ',` las vegas ',702/871 -8826,mexican,451,` fiore rotisserie & grille ',' 3700 w. flamingo rd. ',` las vegas ',702-252-7702,italian,660,0@451#1@126
+0,` bamboo garden ',' 4850 flamingo rd. ',` las vegas ',702/871 -3262,asian,425,` fiore rotisserie & grille ',' 3700 w. flamingo rd. ',` las vegas ',702-252-7702,italian,660,0@425#1@126
+0,` mandarin court ',' 1510 e. flamingo rd. ',` las vegas ',702/737 -1234,asian,443,` buzio \ 's in the rio ',' 3700 w. flamingo rd. ',` las vegas ',702-252-7697,seafood,658,0@443#1@124
+0,` steak house ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,` steak houses ',72,moongate,' 3400 las vegas blvd. s. ',` las vegas ',702-791-7352,chinese,666,0@72#1@132
+0,` steak house ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,` steak houses ',72,` monte carlo ',' 3145 las vegas blvd. s. ',` las vegas ',702-733-4524,` french ( new ) ',665,0@72#1@131
+0,bistro,' 3400 las vegas blvd. s ',` las vegas ',702/791 -7111,continental,429,` monte carlo ',' 3145 las vegas blvd. s. ',` las vegas ',702-733-4524,` french ( new ) ',665,0@429#1@131
+0,` cafe roma ',' 3570 las vegas blvd. s ',` las vegas ',702/731 -7547,` coffee shops/diners ',433,` monte carlo ',' 3145 las vegas blvd. s. ',` las vegas ',702-733-4524,` french ( new ) ',665,0@433#1@131
+0,` margarita \ 's mexican cantina ',' 3120 las vegas blvd. s ',` las vegas ',702/794 -8200,mexican,444,` monte carlo ',' 3145 las vegas blvd. s. ',` las vegas ',702-733-4524,` french ( new ) ',665,0@444#1@131
+0,` steak house ',' 2880 las vegas blvd. s ',` las vegas ',702/734 -0410,` steak houses ',72,` sparks steak house ',' 210 e. 46th st. ',` new york city ',212-687-4855,steakhouses,641,0@72#1@107
+0,` pen & pencil ',' 205 e. 45th st. ',` new york ',212/682 -8660,american,325,` sparks steak house ',' 210 e. 46th st. ',` new york city ',212-687-4855,steakhouses,641,0@326#1@107
+0,` joe allen ',' 326 w. 46th st. ',` new york ',212/581 -6464,american,275,` sparks steak house ',' 210 e. 46th st. ',` new york city ',212-687-4855,steakhouses,641,0@276#1@107
+0,` lillie langtry \ 's ',' 129 e. fremont st. ',` las vegas ',702/385 -7111,asian,442,` second street grill ',' 200 e. fremont st. ',` las vegas ',702-385-6277,` pacific rim ',71,0@442#1@289
+1,` second street grille ',' 200 e. fremont st. ',` las vegas ',702/385 -3232,seafood,71,` second street grill ',' 200 e. fremont st. ',` las vegas ',702-385-6277,` pacific rim ',71,0@71#1@289
+0,palisades,' 1829 peachtree rd. ',atlanta,404/350 -6755,continental,410,toulouse,' 293-b peachtree rd. ',atlanta,404-351-9533,` french ( new ) ',92,0@410#1@310
+0,` dante \ 's down the hatch buckhead ',' 3380 peachtree rd. ',atlanta,404/266 -1600,continental,393,toulouse,' 293-b peachtree rd. ',atlanta,404-351-9533,` french ( new ) ',92,0@393#1@310
+0,` schatzi on main ',' 3110 main st. ',` los angeles ',310/399 -4800,continental,162,` chinois on main ',' 2709 main st. ',` santa monica ',310-392-9025,` pacific new wave ',5,0@165#1@223
+1,` island spice ',' 402 w. 44th st. ',` new york ',212/765 -1737,` tel caribbean ',37,` island spice ',' 402 w. 44th st. ',` new york city ',212-765-1737,caribbean,37,0@37#1@255
+0,` le dome ',' 8720 sunset blvd. ',` los angeles ',310/659 -6919,french,145,` spago ( los angeles ) ',' 8795 sunset blvd. ',` w. hollywood ',310-652-4025,californian,20,0@148#1@238
+0,joss,' 9255 sunset blvd. ',` los angeles ',310/276 -1886,asian,143,` spago ( los angeles ) ',' 8795 sunset blvd. ',` w. hollywood ',310-652-4025,californian,20,0@146#1@238
+0,fenix,' 8358 sunset blvd. west ',hollywood,213/848 -6677,american,7,` spago ( los angeles ) ',' 8795 sunset blvd. ',` w. hollywood ',310-652-4025,californian,20,0@7#1@238
+0,` le dome ',' 8720 sunset blvd. ',` los angeles ',310/659 -6919,french,145,` fenix at the argyle ',' 8358 sunset blvd. ',` w. hollywood ',213-848-6677,` french ( new ) ',7,0@148#1@225
+0,joss,' 9255 sunset blvd. ',` los angeles ',310/276 -1886,asian,143,` fenix at the argyle ',' 8358 sunset blvd. ',` w. hollywood ',213-848-6677,` french ( new ) ',7,0@146#1@225
+0,` le dome ',' 8720 sunset blvd. ',` los angeles ',310/659 -6919,french,145,` duke \ 's ',' 8909 sunset blvd. ',` w. hollywood ',310-652-3100,` coffee shops ',551,0@148#1@17
+0,` mambo restaurante cubano ',' 1402 n. highland ave. ',atlanta,404/874 -2626,caribbean,406,` uncle bill \ 's pancake house ',' 1305 highland ave. ',` manhattan beach ',310-545-5177,diners,599,0@406#1@65
+0,` hedgerose heights inn ',' 490 e. paces ferry rd. ',atlanta,404/233 -7673,international,82,' 103 west ',' 103 w. paces ferry rd. ',atlanta,404-233-5993,continental,675,0@82#1@141
+0,` hedgerose heights inn ',' 490 e. paces ferry rd. ',atlanta,404/233 -7673,international,82,riviera,' 519 e. paces ferry rd. ',atlanta,404-262-7112,mediterranean,712,0@82#1@177
+0,manora,' 3226 mission st. ',` san francisco ',415/861 -6224,asian,494,` dusit thai ',' 3221 mission st. ',` san francisco ',415-826-4639,thai,728,0@494#1@193
+0,boulevard,' 1 mission st. ',` san francisco ',415/543 -6084,american,96,` dusit thai ',' 3221 mission st. ',` san francisco ',415-826-4639,thai,728,0@96#1@193
+0,` ca \ ` brea ',' 346 s. la brea ave. ',` los angeles ',213/938 -2863,italian,118,` pink \ 's famous chili dogs ',' 709 n. la brea ave. ',la,213-931-4223,` hot dogs ',586,0@121#1@52
+0,` ca \ ` brea ',' 346 s. la brea ave. ',` los angeles ',213/938 -2863,italian,118,campanile,' 624 s. la brea ave. ',` los angeles ',213-938-1447,californian,4,0@121#1@222
+0,` tommy tang \ 's ',' 7313 melrose ave. ',` los angeles ',213/937 -5733,asian,167,citrus,' 6703 melrose ave. ',` los angeles ',213-857-0034,californian,6,0@170#1@224
+0,patina,' 5955 melrose ave. ',` los angeles ',213/467 -1108,californian,16,citrus,' 6703 melrose ave. ',` los angeles ',213-857-0034,californian,6,0@16#1@224
+0,` tommy tang \ 's ',' 7313 melrose ave. ',` los angeles ',213/937 -5733,asian,167,` tommy \ 's ',' 2575 beverly blvd. ',la,213-389-9060,hamburgers,598,0@170#1@64
+0,` ed debevic \ 's ',' 134 n. la cienega ',` los angeles ',310/659 -1952,american,133,matsuhisa,' 129 n. la cienega blvd. ',` beverly hills ',310-659-9639,seafood,14,0@136#1@232
+0,` cafe michelle ',' 1350 e. flamingo rd. ',` las vegas ',702/735 -8686,american,432,'till erman the ',' 2245 e. flamingo rd. ',` las vegas ',702-731-4036,steakhouses,73,0@432#1@291
+1,tillerman,' 2245 e. flamingo rd. ',` las vegas ',702/731 -4036,seafood,73,'till erman the ',' 2245 e. flamingo rd. ',` las vegas ',702-731-4036,steakhouses,73,0@73#1@291
+0,` dante \ 's down the hatch buckhead ',' 3380 peachtree rd. ',atlanta,404/266 -1600,continental,393,` palm the ( atlanta ) ',' 3391 peachtree rd. ne ',atlanta,404-814-1955,steakhouses,709,0@393#1@175
+0,` cafe ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,` ext 6108 international ',89,` palm the ( atlanta ) ',' 3391 peachtree rd. ne ',atlanta,404-814-1955,steakhouses,709,0@89#1@175
+1,` la caravelle ','33 w. 55th st. ',` new york ',212/586 -4252,french,39,` la caravelle ','33 w. 55th st. ',` new york city ',212-586-4252,` french ( classic ) ',39,0@39#1@257
+0,` tang pavillion ','65 w. 55th st. ',` new york ',212/956 -6888,asian,356,` la caravelle ','33 w. 55th st. ',` new york city ',212-586-4252,` french ( classic ) ',39,0@356#1@257
+0,` shun lee west ','43 w. 65th st. ',` new york ',212/371 -8844,asian,60,` la caravelle ','33 w. 55th st. ',` new york city ',212-586-4252,` french ( classic ) ',39,0@60#1@257
+0,` la caravelle ','33 w. 55th st. ',` new york ',212/586 -4252,french,39,` lespinasse ( new york city ) ',' 2 e. 55th st. ',` new york city ',212-339-6719,asian,43,0@39#1@261
+0,dawat,' 210 e. 58th st. ',` new york ',212/355 -7555,asian,32,` lespinasse ( new york city ) ',' 2 e. 55th st. ',` new york city ',212-339-6719,asian,43,0@32#1@261
+1,` second avenue deli ',' 156 2nd ave. at 10th st. ',` new york ',212/677 -0606,delicatessen,58,` second avenue deli ',' 156 second ave. ',` new york city ',212-677-0606,delis,58,0@58#1@276
+0,` il fornaio cucina italiana ',' 301 n. beverly dr. ',` los angeles ',310/550 -8330,italian,139,` ruth \ 's chris steak house ( los angeles ) ',' 224 s. beverly dr. ',` beverly hills ',310-859-8744,steakhouses,593,0@142#1@59
+0,bistango,' 1100 peachtree st. ',atlanta,404/724 -0901,mediterranean,386,` alon \ 's at the terrace ',' 659 peachtree st. ',atlanta,404-724-0444,sandwiches,676,0@386#1@142
+1,bacchanalia,' 3125 piedmont rd. . near peachtree rd. ',atlanta,404/365 -0410,international,75,bacchanalia,' 3125 piedmont rd. ',atlanta,404-365-0410,californian,75,0@75#1@293
+0,dawat,' 210 e. 58th st. ',` new york ',212/355 -7555,asian,32,` les celebrites ',' 155 w. 58th st. ',` new york city ',212-484-5113,` french ( classic ) ',42,0@32#1@260
+0,march,' 405 e. 58th st. ',` new york ',212/754 -6272,american,46,` les celebrites ',' 155 w. 58th st. ',` new york city ',212-484-5113,` french ( classic ) ',42,0@46#1@260
+0,` le bernardin ',' 155 w. 51st st. ',` new york ',212/489 -1515,french,41,` les celebrites ',' 155 w. 58th st. ',` new york city ',212-484-5113,` french ( classic ) ',42,0@41#1@260
+0,` jean lafitte ','68 w. 58th st. ',` new york ',212/751 -2323,french,272,` les celebrites ',' 155 w. 58th st. ',` new york city ',212-484-5113,` french ( classic ) ',42,0@273#1@260
+0,march,' 405 e. 58th st. ',` new york ',212/754 -6272,american,46,dawat,' 210 e. 58th st. ',` new york city ',212-355-7555,indian,32,0@46#1@250
+0,` chin \ 's ',' 3200 las vegas blvd. s ',` las vegas ',702/733 -8899,asian,67,` cha cha cha \ 's ',' 1805 haight st. ',` san francisco ',415-386-5758,caribbean,725,0@67#1@190
+0,` cha cha cha ',' 656 n. virgil ave. ',` los angeles ',213/664 -7723,caribbean,124,` cha cha cha \ 's ',' 1805 haight st. ',` san francisco ',415-386-5758,caribbean,725,0@127#1@190
+0,` arnie morton \ 's of chicago ',' 435 s. la cienega blv . ',` los angeles ',310/246 -1501,american,0,` morton \ 's of chicago ( atlanta ) ',' 303 peachtree st. ne ',atlanta,404-577-4366,steakhouses,704,0@0#1@170
+0,` second street grille ',' 200 e. fremont st. ',` las vegas ',702/385 -3232,seafood,71,` stefano \ 's ',' 129 fremont st. ',` las vegas ',702-385-7111,italian,672,0@71#1@138
+0,` second street grille ',' 200 e. fremont st. ',` las vegas ',702/385 -3232,seafood,71,` hugo \ 's cellar ',' 202 e. fremont st. ',` las vegas ',702-385-4011,continental,661,0@71#1@127
+0,` golden nugget hotel ',' 129 e. fremont st. ',` las vegas ',702/385 -7111,buffets,440,` hugo \ 's cellar ',' 202 e. fremont st. ',` las vegas ',702-385-4011,continental,661,0@440#1@127
+0,` cafe bizou ',' 14016 ventura blvd. ',` sherman oaks ',818/788 -3536,french,3,` pinot bistro ',' 12969 ventura blvd. ',` studio city ',818-990-0500,` french bistro ',18,0@3#1@236
+1,` cafe des artistes ',' 1 w. 67th st. ',` new york ',212/877 -3500,continental,27,` cafe des artistes ',' 1 w. 67th st. ',` new york city ',212-877-3500,` french ( classic ) ',27,0@27#1@245
+1,` mifune japan center kintetsu building ',' 1737 post st. ',` san francisco ',415/922 -0337,asian,107,mifune,' 1737 post st. ',` san francisco ',415-922-0337,japanese,107,0@107#1@325
+0,` pacific pan pacific hotel ',' 500 post st. ',` san francisco ',415/929 -2087,french,502,mifune,' 1737 post st. ',` san francisco ',415-922-0337,japanese,107,0@502#1@325
+0,` cafe ritz-carlton buckhead ',' 3434 peachtree rd. ',atlanta,404/237 -2700,` ext 6108 international ',89,` white house restaurant ',' 3172 peachtree rd. ne ',atlanta,404-237-7601,diners,719,0@89#1@184
+0,bizou,' 598 fourth st. ',` san francisco ',415/543 -2222,french,459,fringale,' 570 fourth st. ',` san francisco ',415-543-0573,` french bistro ',101,0@459#1@319
+1,fringale,' 570 4th st. ',` san francisco ',415/543 -0573,french,101,fringale,' 570 fourth st. ',` san francisco ',415-543-0573,` french bistro ',101,0@101#1@319
+0,bizou,' 598 fourth st. ',` san francisco ',415/543 -2222,french,459,` corner bistro ',' 331 w. fourth st. ',` new york city ',212-242-9502,hamburgers,606,0@459#1@72
+0,posto,' 14928 ventura blvd. ',` sherman oaks ',818/784 -4400,italian,156,` mulberry st. ',' 17040 ventura blvd. ',encino,818-906-8881,pizza,580,0@159#1@46
+0,` monkey bar ','60 e. 54th st. ',` new york ',212/838 -2600,american,308,` la cote basque ','60 w. 55th st. ',` new york city ',212-688-6525,` french ( classic ) ',40,0@309#1@258
+0,abbey,' 163 ponce de leon ave. ',atlanta,404/876 -8532,international,379,` mary mac \ 's tea room ',' 224 ponce de leon ave. ',atlanta,404-876-1800,southern/soul,86,0@379#1@304
+0,abbey,' 163 ponce de leon ave. ',atlanta,404/876 -8532,international,379,` java jive ',' 790 ponce de leon ave. ',atlanta,404-876-6161,` coffee shops ',698,0@379#1@164
+0,pamplemousse,' 400 e. sahara ave. ',` las vegas ',702/733 -2066,continental,447,` mayflower cuisinier ',' 4750 w. sahara ave. ',` las vegas ',702-870-8432,chinese,663,0@447#1@129
+0,aureole,'34 e. 61st st. ',` new york ',' 212 / 319-1660 ',american,25,sushisay,'38 e. 51st st. ',` new york city ',212-755-1780,japanese,643,0@25#1@109
+1,` fleur de lys ',' 777 sutter st. ',` san francisco ',415/673 -7779,french,100,` fleur de lys ',' 777 sutter st. ',` san francisco ',415-673-7779,` french ( new ) ',100,0@100#1@318
+1,ciboulette,' 1529 piedmont ave. ',atlanta,404/874 -7600,french,79,` ciboulette restaurant ',' 1529 piedmont ave. ',atlanta,404-874-7600,` french ( new ) ',79,0@79#1@297
+0,` rose pistola ',' 532 columbus ave. ',` san francisco ',415/399 -0499,italian,111,` campo santo ',' 240 columbus ave. ',` san francisco ',415-433-9623,mexican,724,0@111#1@189
+0,` art \ 's delicatessen ',' 12224 ventura blvd. ',` studio city ',818/762 -1221,american,1,` sushi nozawa ',' 11288 ventura blvd. ',` studio city ',818-508-7017,japanese,595,0@1#1@61
+1,boulevard,' 1 mission st. ',` san francisco ',415/543 -6084,american,96,boulevard,' 1 mission st. ',` san francisco ',415-543-6084,` american ( new ) ',96,0@96#1@314
+0,` center stage plaza hotel ',' 1 main st. ',` las vegas ',702/386 -2512,american,436,boulevard,' 1 mission st. ',` san francisco ',415-543-6084,` american ( new ) ',96,0@436#1@314
+0,` campton place ',' 340 stockton st. ',` san francisco ',415/955 -5555,american,98,` ritz-carlton dining room ( san francisco ) ',' 600 stockton st. ',` san francisco ',415-296-7465,` french ( new ) ',110,0@98#1@328
+0,` le colonial ',' 149 e. 57th st. ',` new york ',' 212 / 752-0808 ',asian,286,yama,' 122 e. 17th st. ',` new york city ',212-475-0969,japanese,654,0@287#1@120
+1,` carmine \ 's ',' 2450 broadway between 90th and 91st sts . ',` new york ',212/362 -2200,italian,28,` carmine \ 's ',' 2450 broadway ',` new york city ',212-362-2200,italian,28,0@28#1@246
+0,` des alpes ',' 732 broadway ',` san francisco ',415/788 -9900,french,468,` gray \ 's papaya ',' 2090 broadway ',` new york city ',212-799-0243,` hot dogs ',614,0@468#1@80
+0,` des alpes ',' 732 broadway ',` san francisco ',415/788 -9900,french,468,` la caridad ',' 2199 broadway ',` new york city ',212-874-2780,cuban,622,0@468#1@88
+0,` le soleil ',' 133 clement st. ',` san francisco ',415/668 -4848,asian,492,` alain rondelli ',' 126 clement st. ',` san francisco ',415-387-0408,` french ( new ) ',94,0@492#1@312
+1,` gramercy tavern ','42 e. 20th st. between park ave. s and broadway ',` new york ',212/477 -0777,american,36,` gramercy tavern ','42 e. 20th st. ',` new york city ',212-477-0777,` american ( new ) ',36,0@36#1@254
+0,` binion \ 's coffee shop ',' 128 fremont st. ',` las vegas ',702/382 -1600,` coffee shops/diners ',428,` steakhouse the ',' 128 e. fremont st. ',` las vegas ',702-382-1600,steakhouses,671,0@428#1@137
+0,helmand,' 430 broadway ',` san francisco ',415/362 -0641,` greek and middle eastern ',479,montrachet,' 239 w. broadway ',` new york city ',212-219-2777,` french bistro ',49,0@479#1@267
+0,` moose \ 's ',' 1652 stockton st. ',` san francisco ',415/989 -7800,mediterranean,498,` rae \ 's ',' 2901 pico blvd. ',` santa monica ',310-828-7937,diners,589,0@498#1@55
+0,` teresa \ 's ',' 103 1st ave. between 6th and 7th sts . ',` new york ',212/228 -0604,` east european ',358,` masa \ 's ',' 648 bush st. ',` san francisco ',415-989-7154,` french ( new ) ',106,0@358#1@324
+0,` pacific pan pacific hotel ',' 500 post st. ',` san francisco ',415/929 -2087,french,502,postrio,' 545 post st. ',` san francisco ',415-776-7825,californian,109,0@502#1@327
+0,` jewel of india ','15 w. 44th st. ',` new york ',212/869 -5544,asian,273,picholine,'35 w. 64th st. ',` new york city ',212-724-8585,mediterranean,53,0@274#1@271
+0,` pacific dining car ',' 6th st. ',` los angeles ',213/483 -6000,american,153,` tu lan ',' 8 sixth st. ',` san francisco ',415-626-0927,vietnamese,750,0@156#1@215
+0,` tadich grill ',' 240 california st. ',` san francisco ',415/391 -2373,seafood,519,'em erald garden restaurant ',' 1550 california st. ',` san francisco ',415-673-1155,vietnamese,730,0@519#1@195
+0,` ben benson \ 's ',' 123 w. 52nd st. ',` new york ',212/581 -8888,american,187,'21 club ','21 w. 52nd st. ',` new york city ',212-582-7200,` american ( new ) ',23,0@190#1@241
+0,'21 club ','21 w. 52nd st. ',` new york ',212/582 -7200,american,23,` four seasons ','99 e. 52nd st. ',` new york city ',212-754-9494,` american ( new ) ',34,0@23#1@252
+0,` canter \ 's ',' 419 n. fairfax ave. ',` los angeles ',213/651 -2030 .,american,122,` mani \ 's bakery & espresso bar ',' 519 s. fairfax ave. ',la,213-938-8800,desserts,574,0@125#1@40
+0,follonico,' 6 w. 24th st. ',` new york ',212/691 -6359,italian,247,` roosevelt tamale parlor ',' 2817 24th st. ',` san francisco ',415-550-9213,mexican,742,0@249#1@207
+1,` plumpjack cafe ',' 3201 fillmore st. ',` san francisco ',415/563 -4755,mediterranean,108,` plumpjack cafe ',' 3127 fillmore st. ',` san francisco ',415-563-4755,` american ( new ) ',108,0@108#1@326
+0,` drai \ 's ',' 730 n. la cienega blvd. ',` los angeles ',310/358 -8585,french,130,` l \ ` orangerie ',' 903 n. la cienega blvd. ',` w. hollywood ',310-652-9770,` french ( classic ) ',11,0@133#1@229
+0,` mary mac \ 's tea room ',' 224 ponce de leon ave. ',atlanta,404/876 -1800,southern,86,eats,' 600 ponce de leon ave. ',atlanta,404-888-9149,italian,690,0@86#1@156

@@ -27,7 +27,7 @@ def generateDataset(dataset_dir,source1,source2,pairs_ids,lprefix,rprefix):
     dataset = pd.merge(pdata,source2_df,how='inner',left_on='id2',right_on=rprefix+'id')
     dataset[lprefix+'id'] = dataset[lprefix+'id'].astype(str)
     dataset[rprefix+'id'] = dataset[rprefix+'id'].astype(str)
-    dataset['id'] = dataset[lprefix+'id']+"#"+dataset[rprefix+'id']
+    dataset['id'] = "0@"+dataset[lprefix+'id']+"#"+"1@"+dataset[rprefix+'id']
     dataset = dataset.drop(['id1','id2',lprefix+'id',rprefix+'id'],axis=1)
     return dataset
 
